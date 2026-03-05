@@ -1,0 +1,1512 @@
+[
+    {
+        "gdc_semantic_anchor": "race",
+        "count": 11,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "race"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Race"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Ethnicity_Self_Identify"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Race"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Region.of.Origin"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Race"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Ethnicity_mod"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "race"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "age_at_diagnosis",
+        "count": 10,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "age"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Age"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Age"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Age"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "age"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Age.in.Month"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Age in Months at Time of Tissue Procurement"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Age"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Age"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "age"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "days_to_birth",
+        "count": 10,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "age"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Age"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Age"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Age"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "age"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Age.in.Month"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Age in Months at Time of Tissue Procurement"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Age"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Age"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "age"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "age_at_index",
+        "count": 10,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "age"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Age"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Age"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Age"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "age"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Age.in.Month"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Age in Months at Time of Tissue Procurement"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Age"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Age"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "age"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "gender",
+        "count": 10,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "sex"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "gender"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Gender"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "gender"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ethnicity",
+        "count": 9,
+        "aligned_columns": [
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Ethnicity_Self_Identify"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Ethnicity"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Ethnicity_mod"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "ethnicity"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "ethnicity_self_identify"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_pathologic_stage",
+        "count": 8,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_stage_pathological"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Stage_Pathological"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "tumor_Stage-Pathological"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_stage"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Tumor.Stage"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Stage"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_pathologic_stage",
+        "count": 8,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_stage_pathological"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Stage_Pathological"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "tumor_Stage-Pathological"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_stage"
+            },
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Tumor.Stage"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Stage"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "site_of_resection_or_biopsy",
+        "count": 7,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_site"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Site"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Site"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_original"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_curated"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Anatomic site of Tumor Specimen"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "tumor_site_curated"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tissue_or_organ_of_origin",
+        "count": 7,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_site"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Site"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Site"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_original"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_curated"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Site of Disease"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "tumor_site_curated"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tobacco_smoking_status",
+        "count": 7,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tobacco_smoking_history"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Smoking.Status"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Smoking.History"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "smoking_history"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Smoking.History"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Smoking.History_modified"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "smoking_history"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "country_of_birth",
+        "count": 6,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "participant_country"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Country"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Country.of.Origin"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "country"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Country.of.Origin"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "country_of_origin"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "primary_diagnosis",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "histology_diagnosis"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Histologic_Type"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Histologic_type"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "histologic_type"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Histological Subtype"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "country_of_residence_at_enrollment",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "participant_country"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Country"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "country"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Country.of.Origin"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "country_of_origin"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_pathologic_n",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_regional_lymph_nodes_pn"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Path_Stage_Reg_Lymph_Nodes_pN"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Reg_Lymph_Nodes-pN"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "patho_staging_pn"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "PN"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_pathologic_n",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_regional_lymph_nodes_pn"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Path_Stage_Reg_Lymph_Nodes_pN"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Reg_Lymph_Nodes-pN"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "patho_staging_pn"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "PN"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_pathologic_t",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_primary_tumor_pt"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Path_Stage_Primary_Tumor_pT"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Primary_Tumor-pT"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "patho_staging_pt"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "PT"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_pathologic_t",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_primary_tumor_pt"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Path_Stage_Primary_Tumor_pT"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Primary_Tumor-pT"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "patho_staging_pt"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "PT"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "bmi",
+        "count": 5,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "bmi"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "BMI"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "BMI"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "BMI"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "bmi"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_focality",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_focality"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Focality"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Focality"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_focality"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_largest_dimension_diameter",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_size_cm"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_size_cm"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "greatest_tumor_dimension",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_size_cm"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_size_cm"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_width_measurement",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_size_cm"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_size_cm"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_length_measurement",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_size_cm"
+            },
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_Size_cm"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_size_cm"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tissue_type",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor/Normal"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Proteomics_Tumor_Normal"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Type"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Type"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "primary_site",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Tumor_Site"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_original"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_site_curated"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Site of Disease"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_grade",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source10",
+                "table": "Clark",
+                "column": "Grade"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Histologic_Grade_FIGO"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "histologic_grade"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Tumor Grade"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "figo_stage",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "FIGO_stage"
+            },
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Tumor Stage (Pathological) Ovary FIGO Staging System"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Stage"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "environmental_tobacco_smoke_exposure",
+        "count": 4,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Secondhand.Smoke"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "smoking_second_hand"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Secondhand.Smoke"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "secondhand_smoke_exposure"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_clinical_m",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "clinical_staging_distant_metastasis_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Clin_Stage_Dist_Mets-cM"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "clinic_staging_dist_metas"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_clinical_m",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "clinical_staging_distant_metastasis_cm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Clin_Stage_Dist_Mets-cM"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "clinic_staging_dist_metas"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "vital_status",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "vital_status"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Vital.Status"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "vital_status"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "cigarettes_per_day",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Cigarettes.per.Day"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "num_smoke_per_day"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Cigarettes.per.Day"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "pack_years_smoked",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Pack.Years.Smoked"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "num_pack_years_sm"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Pack.Years.Smoked"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "secondhand_smoke_as_child",
+        "count": 3,
+        "aligned_columns": [
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "smoking_second_hand"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Secondhand.Smoke"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "secondhand_smoke_exposure"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "necrosis_present",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "tumor_necrosis"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "tumor_necrosis"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "lymphatic_invasion_present",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "lymph_vascular_invasion"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Lymphatic_Invasion"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "vascular_invasion_present",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "lymph_vascular_invasion"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Vascular_Invasion"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "perineural_invasion_present",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "perineural_invasion"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Perineural_Invasion"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_pathologic_m",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_distant_metastasis_pm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Dist_Mets-pM"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_pathologic_m",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "pathologic_staging_distant_metastasis_pm"
+            },
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Path_Stage_Dist_Mets-pM"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "alcohol_intensity",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "alcohol_consumption"
+            },
+            {
+                "source_id": "source13",
+                "table": "Huang",
+                "column": "alcohol_consum"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "lost_to_followup",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "is_this_patient_lost_to_follow_up"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "lost_to_follow_up"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "cause_of_death",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source9",
+                "table": "Cao",
+                "column": "cause_of_death"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "cause_of_death"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "tumor_purity",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source11",
+                "table": "Dou",
+                "column": "Tumor_purity"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "TumorPurity"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "ajcc_clinical_stage",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Stage"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "uicc_clinical_stage",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Stage"
+            },
+            {
+                "source_id": "source16",
+                "table": "Satpathy",
+                "column": "Stage"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "height",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Height.cm"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "height"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "weight",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source12",
+                "table": "Gillette",
+                "column": "Weight.kg"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "weight"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "time_between_clamping_and_freezing",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Ischemia.Time.in.Minutes"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Ischemia Time for Tumor Tissue"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "time_between_excision_and_freezing",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source14",
+                "table": "Krug",
+                "column": "Ischemia.Time.in.Minutes"
+            },
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Ischemia Time for Tumor Tissue"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "biospecimen_anatomic_site",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Anatomic site of Tumor Specimen"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "Subsite"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "biospecimen_laterality",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Anatomic Lateral Position of Tumor Specimen"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "tumor_laterality"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "laterality",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source15",
+                "table": "McDermott",
+                "column": "Anatomic Lateral Position of Tumor Specimen"
+            },
+            {
+                "source_id": "source18",
+                "table": "Wang",
+                "column": "tumor_laterality"
+            }
+        ]
+    },
+    {
+        "gdc_semantic_anchor": "msi_status",
+        "count": 2,
+        "aligned_columns": [
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "MSI_PCR_Result"
+            },
+            {
+                "source_id": "source17",
+                "table": "Vasaikar",
+                "column": "MSmutectFishercall"
+            }
+        ]
+    }
+]

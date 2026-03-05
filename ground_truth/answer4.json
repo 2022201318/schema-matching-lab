@@ -1,0 +1,52 @@
+{
+  "matches": [
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "musician",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "musicianID"
+    },
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "birthDate",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "birthDate"
+    },
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "familyNameLabel",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "familyName"
+    },
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "givenNameLabel",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "forename"
+    },
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "numberOfChildren",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "NChildren"
+    },
+    {
+      "source_id": "source7",
+      "source_table": "Artist_Encyclopedia",
+      "source_column": "websiteLabel",
+      "target_id": "source8",
+      "target_table": "Performer_Registry",
+      "target_column": "webpage"
+    }
+  ]
+}
