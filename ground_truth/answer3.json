@@ -1,0 +1,124 @@
+{
+  "matches": [
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "AgencyID",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_gncd"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "FirstName",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_frstnm"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "NetWorth",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_ntwrth"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "Employer",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_mplr"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "NumberCreditCards",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_nmbrcrdtcrds"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "LastName",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_lstnm"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "AddressLine2",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_ddrssln2"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "MaritalStatus",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_mrtlstts"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "Gender",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_gndr"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "Phone",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_phn"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "NumberChildren",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_nmbrchldrn"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "Age",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_g"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "City",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_ct"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "Country",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_cntr"
+    },
+    {
+      "source_id": "source5",
+      "source_table": "Consumer_Profiles",
+      "source_column": "NumberCars",
+      "target_id": "source6",
+      "target_table": "Marketing_Leads",
+      "target_column": "prospect_nmbrcrs"
+    }
+  ]
+}

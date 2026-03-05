@@ -1,0 +1,6 @@
+{
+  "datasource_id": "source4",
+  "scope": "Financial Management & Audit Logs",
+  "description": "Internal organizational records focusing on fiscal tracking, branch-level IDs, and project auditing, with field labels encoded for data consistency.",
+  "status": "Operational Metadata"
+}

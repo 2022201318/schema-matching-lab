@@ -1,0 +1,132 @@
+{
+  "matches": [
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_test_type",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_tst_tp"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "doc_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_dc_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "curated_by",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_crtd_b"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_tax_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_tx_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_strain",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_strn"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "src_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_src_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "description",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_dscrptn"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "cell_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_cll_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "src_assay_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_src_ss_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "chembl_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_chmbl_d"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_subcellular_fraction",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_sbclllr_frctn"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "tid",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_td"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_organism",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_rgnsm"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "assay_cell_type",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_ss_cll_tp"
+    },
+    {
+      "source_id": "source1",
+      "source_table": "Biological_Entries",
+      "source_column": "variant_id",
+      "target_id": "source2",
+      "target_table": "Lab_Registry",
+      "target_column": "assays_vrnt_d"
+    }
+  ]
+}

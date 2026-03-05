@@ -1,0 +1,62 @@
+{
+    "assays_ss_d": {
+        "type": "integer"
+    },
+    "assays_ss_tst_tp": {
+        "type": "varchar(20)"
+    },
+    "assays_dc_d": {
+        "type": "integer"
+    },
+    "assays_crtd_b": {
+        "type": "varchar(32)"
+    },
+    "assays_ss_tx_d": {
+        "type": "bigint unsigned"
+    },
+    "assays_ss_strn": {
+        "type": "varchar(200)"
+    },
+    "assays_src_d": {
+        "type": "smallint"
+    },
+    "assays_dscrptn": {
+        "type": "varchar(400)"
+    },
+    "assays_cll_d": {
+        "type": "integer"
+    },
+    "assays_src_ss_d": {
+        "type": "varchar(50)"
+    },
+    "assays_chmbl_d": {
+        "type": "varchar(20)"
+    },
+    "assays_ss_sbclllr_frctn": {
+        "type": "varchar(100)"
+    },
+    "assays_td": {
+        "type": "integer"
+    },
+    "assays_ss_rgnsm": {
+        "type": "varchar(250)"
+    },
+    "assays_ss_cll_tp": {
+        "type": "varchar(100)"
+    },
+    "assays_vrnt_d": {
+        "type": "integer unsigned"
+    },
+    "assays_rltnshp_tp": {
+        "type": "varchar(1)"
+    },
+    "assays_cnfdnc_scr": {
+        "type": "smallint unsigned"
+    },
+    "assays_b_frmt": {
+        "type": "varchar(11)"
+    },
+    "assays_tss_d": {
+        "type": "integer"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "datasource_id": "source2",
+  "scope": "Laboratory Analytical Logs",
+  "description": "An automated diagnostic export containing laboratory registration IDs and measurement metrics, utilizing internal codification for field labels.",
+  "status": "Raw Operational Data"
+}

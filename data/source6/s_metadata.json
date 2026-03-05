@@ -1,0 +1,6 @@
+{
+  "datasource_id": "source6",
+  "scope": "Outbound Marketing Analytics",
+  "description": "A list of potential prospects exported for campaign management. It uses heavily abbreviated field names optimized for legacy marketing software systems.",
+  "status": "Derived Lead List"
+}

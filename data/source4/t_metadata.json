@@ -1,0 +1,131 @@
+{
+    "miller2_fsclr": {
+        "type": "text"
+    },
+    "miller2_prgrmmngprcss(nw)": {
+        "type": "text"
+    },
+    "miller2_stts": {
+        "type": "text"
+    },
+    "miller2_rgnstnclss": {
+        "type": "text"
+    },
+    "miller2_sctrnm": {
+        "type": "text"
+    },
+    "miller2_prjctnmbr": {
+        "type": "text"
+    },
+    "miller2_clmtchngdpttn(mrkr)": {
+        "type": "int"
+    },
+    "miller2_rgnstnd": {
+        "type": "text"
+    },
+    "miller2_rgnstnnm": {
+        "type": "text"
+    },
+    "miller2_dsrtfctn(mrkr)": {
+        "type": "int"
+    },
+    "miller2_bltrld(ntrntnlmrkr)": {
+        "type": "int"
+    },
+    "miller2_dvsnnm": {
+        "type": "text"
+    },
+    "miller2_mntspnt": {
+        "type": "real"
+    },
+    "miller2_sctrprcnt": {
+        "type": "real"
+    },
+    "miller2_sctnnm": {
+        "type": "text"
+    },
+    "miller2_prjctbrwsrcntrd": {
+        "type": "text"
+    },
+    "miller2_ctstlfrdvlpmnt(mrkr)": {
+        "type": "int"
+    },
+    "miller2_cntnntnm": {
+        "type": "text"
+    },
+    "miller2_cntrrgnnm": {
+        "type": "text"
+    },
+    "miller2_sctnd": {
+        "type": "text"
+    },
+    "miller2_ndgnssss(mrkr)": {
+        "type": "int"
+    },
+    "miller2_thsss(mrkr)": {
+        "type": "int"
+    },
+    "miller2_sctrd": {
+        "type": "int"
+    },
+    "miller2_brnchd": {
+        "type": "text"
+    },
+    "miller2_cdbsnssdlvrmdl(ld)": {
+        "type": "text"
+    },
+    "miller2_chldrnsss(mrkr)": {
+        "type": "int"
+    },
+    "miller2_dsbltsss(mrkr)": {
+        "type": "int"
+    },
+    "miller2_rgnstntp": {
+        "type": "text"
+    },
+    "miller2_bdvrst(mrkr)": {
+        "type": "int"
+    },
+    "miller2_cntrrgnprcnt": {
+        "type": "real"
+    },
+    "miller2_ntdmnt(prjct-lvlbdgt)": {
+        "type": "real"
+    },
+    "miller2_cfl(mrkr)": {
+        "type": "int"
+    },
+    "miller2_rgnlprgrm(mrkr)": {
+        "type": "int"
+    },
+    "miller2_fstcprcnt": {
+        "type": "real"
+    },
+    "miller2_prtcptrdvlpmntndgdgvrnnc": {
+        "type": "int"
+    },
+    "miller2_clmtchngmtgtn(mrkr)": {
+        "type": "int"
+    },
+    "miller2_trddvlpmnt(mrkr)": {
+        "type": "int"
+    },
+    "miller2_rbnsss(mrkr)": {
+        "type": "int"
+    },
+    "miller2_knwldgfrdvlpmnt(mrkr)": {
+        "type": "int"
+    },
+    "miller2_gndrqlt(mrkr)": {
+        "type": "int"
+    },
+    "miller2_rgnstnsb-clss": {
+        "type": "text"
+    },
+    "miller2_cntnntd": {
+        "type": "int"
+    },
+    "miller2_cntrrgnd": {
+        "type": "text"
+    }
+}
