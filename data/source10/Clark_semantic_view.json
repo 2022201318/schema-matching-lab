@@ -1,0 +1,150 @@
+{
+    "table_name": "Clark.csv",
+    "description": "The Clark.csv table contains patient data with columns for Case_ID, Tumor/Normal status, Gender, Age, BMI, Race, Ethnicity, Tumor_Site, Tumor_Site_Other, Tumor_Size_cm, Tumor_Focality, Histologic_Type, Grade, Tumor_Stage_Pathological, Path_Stage_Primary_Tumor, and Path_Stage_Reg_Lymph_Nodes.",
+    "columns": [
+        {
+            "column_name": "Case_ID",
+            "data_type": "str",
+            "samples": [
+                "C3L-00004",
+                "C3L-00010",
+                "C3L-00011"
+            ]
+        },
+        {
+            "column_name": "Tumor/Normal",
+            "data_type": "str",
+            "samples": [
+                "TN",
+                "TN",
+                "TN"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "Male",
+                "Male",
+                "Female"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "str",
+            "samples": [
+                "72",
+                "30",
+                "63"
+            ]
+        },
+        {
+            "column_name": "BMI",
+            "data_type": "float64",
+            "samples": [
+                "22.8",
+                "34.15",
+                "27.47"
+            ]
+        },
+        {
+            "column_name": "Race",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "White"
+            ]
+        },
+        {
+            "column_name": "Ethnicity_Self_Identify",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "White"
+            ]
+        },
+        {
+            "column_name": "Tumor_Site",
+            "data_type": "str",
+            "samples": [
+                "Lower pole",
+                "Upper pole",
+                "Lower pole"
+            ]
+        },
+        {
+            "column_name": "Tumor_Site_Other",
+            "data_type": "str",
+            "samples": [
+                "mid-inferior",
+                "posterior central",
+                "HILAR"
+            ]
+        },
+        {
+            "column_name": "Tumor_Size_cm",
+            "data_type": "float64",
+            "samples": [
+                "12.0",
+                "6.5",
+                "12.0"
+            ]
+        },
+        {
+            "column_name": "Tumor_Focality",
+            "data_type": "str",
+            "samples": [
+                "Unifocal",
+                "Unifocal",
+                "Unifocal"
+            ]
+        },
+        {
+            "column_name": "Histologic_Type",
+            "data_type": "str",
+            "samples": [
+                "Clear cell renal cell carcinoma",
+                "Clear cell renal cell carcinoma",
+                "Clear cell renal cell carcinoma"
+            ]
+        },
+        {
+            "column_name": "Grade",
+            "data_type": "str",
+            "samples": [
+                "G3",
+                "G3",
+                "G4"
+            ]
+        },
+        {
+            "column_name": "Tumor_Stage_Pathological",
+            "data_type": "str",
+            "samples": [
+                "Stage III",
+                "Stage I",
+                "Stage IV"
+            ]
+        },
+        {
+            "column_name": "Path_Stage_Primary_Tumor_pT",
+            "data_type": "str",
+            "samples": [
+                "pT3",
+                "pT1b",
+                "pT3a"
+            ]
+        },
+        {
+            "column_name": "Path_Stage_Reg_Lymph_Nodes_pN",
+            "data_type": "str",
+            "samples": [
+                "pNX",
+                "pN0",
+                "pNX"
+            ]
+        }
+    ]
+}

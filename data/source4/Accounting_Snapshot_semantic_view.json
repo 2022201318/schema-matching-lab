@@ -1,0 +1,393 @@
+{
+    "table_name": "Accounting_Snapshot.csv",
+    "description": "The `Accounting_Snapshot.csv` table contains financial and project-related data for various international organizations, with columns such as fiscal year, programming pattern, status, region class, project number, and budget details. Each row represents a specific project or financial snapshot, including information on funding sources, development goals, and geographical regions.",
+    "columns": [
+        {
+            "column_name": "miller2_fsclr",
+            "data_type": "str",
+            "samples": [
+                "2009/2010",
+                "2009/2010",
+                "2009/2010"
+            ]
+        },
+        {
+            "column_name": "miller2_prgrmmngprcss(nw)",
+            "data_type": "str",
+            "samples": [
+                "Uncoded: Pre-APP",
+                "Uncoded: Pre-APP",
+                "Uncoded: Pre-APP"
+            ]
+        },
+        {
+            "column_name": "miller2_stts",
+            "data_type": "str",
+            "samples": [
+                "Closed",
+                "Closed",
+                "Closed"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnstnclss",
+            "data_type": "str",
+            "samples": [
+                "Multilateral",
+                "Multilateral",
+                "Multilateral"
+            ]
+        },
+        {
+            "column_name": "miller2_sctrnm",
+            "data_type": "str",
+            "samples": [
+                "Multilateral trade negotiations",
+                "Sectors not specified",
+                "Medical services"
+            ]
+        },
+        {
+            "column_name": "miller2_prjctnmbr",
+            "data_type": "str",
+            "samples": [
+                "M013170001",
+                "M013170001",
+                "M013170001"
+            ]
+        },
+        {
+            "column_name": "miller2_clmtchngdpttn(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnstnd",
+            "data_type": "str",
+            "samples": [
+                "1005967",
+                "1005967",
+                "1005967"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnstnnm",
+            "data_type": "str",
+            "samples": [
+                "IAEA - International Atomic Energy Agency Technical Cooperation Fund",
+                "IAEA - International Atomic Energy Agency Technical Cooperation Fund",
+                "IAEA - International Atomic Energy Agency Technical Cooperation Fund"
+            ]
+        },
+        {
+            "column_name": "miller2_dsrtfctn(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_bltrld(ntrntnlmrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_dvsnnm",
+            "data_type": "str",
+            "samples": [
+                "MID International Organizations",
+                "MID International Organizations",
+                "MID International Organizations"
+            ]
+        },
+        {
+            "column_name": "miller2_mntspnt",
+            "data_type": "float64",
+            "samples": [
+                "75768.0",
+                "273306.0",
+                "210969.6"
+            ]
+        },
+        {
+            "column_name": "miller2_sctrprcnt",
+            "data_type": "float64",
+            "samples": [
+                "0.14",
+                "0.505",
+                "0.268"
+            ]
+        },
+        {
+            "column_name": "miller2_sctnnm",
+            "data_type": "str",
+            "samples": [
+                "MIO United Nations",
+                "MIO United Nations",
+                "MIO United Nations"
+            ]
+        },
+        {
+            "column_name": "miller2_prjctbrwsrcntrd",
+            "data_type": "str",
+            "samples": [
+                "X3",
+                "X3",
+                "X4"
+            ]
+        },
+        {
+            "column_name": "miller2_ctstlfrdvlpmnt(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "miller2_cntnntnm",
+            "data_type": "str",
+            "samples": [
+                "Asia",
+                "Asia",
+                "Europe"
+            ]
+        },
+        {
+            "column_name": "miller2_cntrrgnnm",
+            "data_type": "str",
+            "samples": [
+                "Asia MC",
+                "Asia MC",
+                "Europe MC"
+            ]
+        },
+        {
+            "column_name": "miller2_sctnd",
+            "data_type": "str",
+            "samples": [
+                "S5602",
+                "S5602",
+                "S5602"
+            ]
+        },
+        {
+            "column_name": "miller2_ndgnssss(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_thsss(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_sctrd",
+            "data_type": "int64",
+            "samples": [
+                "33140",
+                "99810",
+                "12191"
+            ]
+        },
+        {
+            "column_name": "miller2_brnchd",
+            "data_type": "str",
+            "samples": [
+                "B5100",
+                "B5100",
+                "B5100"
+            ]
+        },
+        {
+            "column_name": "miller2_cdbsnssdlvrmdl(ld)",
+            "data_type": "str",
+            "samples": [
+                "Core Funding",
+                "Core Funding",
+                "Core Funding"
+            ]
+        },
+        {
+            "column_name": "miller2_chldrnsss(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_dsbltsss(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnstntp",
+            "data_type": "str",
+            "samples": [
+                "Foreign Non-Profit Making",
+                "Foreign Non-Profit Making",
+                "Foreign Non-Profit Making"
+            ]
+        },
+        {
+            "column_name": "miller2_bdvrst(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_cntrrgnprcnt",
+            "data_type": "float64",
+            "samples": [
+                "0.22",
+                "0.22",
+                "0.32"
+            ]
+        },
+        {
+            "column_name": "miller2_ntdmnt(prjct-lvlbdgt)",
+            "data_type": "float64",
+            "samples": [
+                "2460000.0",
+                "2460000.0",
+                "2460000.0"
+            ]
+        },
+        {
+            "column_name": "miller2_cfl(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnlprgrm(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_fstcprcnt",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "miller2_prtcptrdvlpmntndgdgvrnnc",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "miller2_clmtchngmtgtn(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_trddvlpmnt(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_rbnsss(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_knwldgfrdvlpmnt(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "miller2_gndrqlt(mrkr)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "miller2_rgnstnsb-clss",
+            "data_type": "str",
+            "samples": [
+                "UNITED NATIONS",
+                "UNITED NATIONS",
+                "UNITED NATIONS"
+            ]
+        },
+        {
+            "column_name": "miller2_cntnntd",
+            "data_type": "int64",
+            "samples": [
+                "3",
+                "3",
+                "5"
+            ]
+        },
+        {
+            "column_name": "miller2_cntrrgnd",
+            "data_type": "str",
+            "samples": [
+                "X3",
+                "X3",
+                "X4"
+            ]
+        }
+    ]
+}

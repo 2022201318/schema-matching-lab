@@ -1,0 +1,1617 @@
+{
+    "table_name": "Dou.csv",
+    "description": "The table \"Dou.csv\" contains detailed clinical, genomic, and proteomic data for endometrial cancer patients. It includes patient identifiers, demographic information, clinical characteristics, histopathological details, treatment status, genomic alterations, immune cell composition, pathway activities, and sequencing data identifiers.",
+    "columns": [
+        {
+            "column_name": "idx",
+            "data_type": "str",
+            "samples": [
+                "S001",
+                "S002",
+                "S003"
+            ]
+        },
+        {
+            "column_name": "Proteomics_Participant_ID",
+            "data_type": "str",
+            "samples": [
+                "C3L-00006",
+                "C3L-00008",
+                "C3L-00032"
+            ]
+        },
+        {
+            "column_name": "Case_excluded",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Proteomics_TMT_batch",
+            "data_type": "int64",
+            "samples": [
+                "2",
+                "4",
+                "1"
+            ]
+        },
+        {
+            "column_name": "Proteomics_TMT_plex",
+            "data_type": "int64",
+            "samples": [
+                "5",
+                "16",
+                "2"
+            ]
+        },
+        {
+            "column_name": "Proteomics_TMT_channel",
+            "data_type": "str",
+            "samples": [
+                "128N",
+                "130N",
+                "131"
+            ]
+        },
+        {
+            "column_name": "Proteomics_Parent_Sample_IDs",
+            "data_type": "str",
+            "samples": [
+                "C3L-00006-01",
+                "C3L-00008-01",
+                "C3L-00032-01"
+            ]
+        },
+        {
+            "column_name": "Proteomics_Aliquot_ID",
+            "data_type": "str",
+            "samples": [
+                "CPT0001460012",
+                "CPT0001300009",
+                "CPT0001420009"
+            ]
+        },
+        {
+            "column_name": "Proteomics_Tumor_Normal",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "Proteomics_OCT",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Country",
+            "data_type": "str",
+            "samples": [
+                "United States",
+                "United States",
+                "United States"
+            ]
+        },
+        {
+            "column_name": "Histologic_Grade_FIGO",
+            "data_type": "str",
+            "samples": [
+                "FIGO grade 1",
+                "FIGO grade 1",
+                "FIGO grade 2"
+            ]
+        },
+        {
+            "column_name": "Myometrial_invasion_Specify",
+            "data_type": "str",
+            "samples": [
+                "under 50 %",
+                "under 50 %",
+                "under 50 %"
+            ]
+        },
+        {
+            "column_name": "Histologic_type",
+            "data_type": "str",
+            "samples": [
+                "Endometrioid",
+                "Endometrioid",
+                "Endometrioid"
+            ]
+        },
+        {
+            "column_name": "Treatment_naive",
+            "data_type": "str",
+            "samples": [
+                "YES",
+                "YES",
+                "YES"
+            ]
+        },
+        {
+            "column_name": "Tumor_purity",
+            "data_type": "str",
+            "samples": [
+                "Normal",
+                "Normal",
+                "Normal"
+            ]
+        },
+        {
+            "column_name": "Path_Stage_Primary_Tumor-pT",
+            "data_type": "str",
+            "samples": [
+                "pT1a (FIGO IA)",
+                "pT1a (FIGO IA)",
+                "pT1a (FIGO IA)"
+            ]
+        },
+        {
+            "column_name": "Path_Stage_Reg_Lymph_Nodes-pN",
+            "data_type": "str",
+            "samples": [
+                "pN0",
+                "pNX",
+                "pN0"
+            ]
+        },
+        {
+            "column_name": "Clin_Stage_Dist_Mets-cM",
+            "data_type": "str",
+            "samples": [
+                "cM0",
+                "cM0",
+                "cM0"
+            ]
+        },
+        {
+            "column_name": "Path_Stage_Dist_Mets-pM",
+            "data_type": "str",
+            "samples": [
+                "Staging Incomplete",
+                "Staging Incomplete",
+                "Staging Incomplete"
+            ]
+        },
+        {
+            "column_name": "tumor_Stage-Pathological",
+            "data_type": "str",
+            "samples": [
+                "Stage I",
+                "Stage IV",
+                "Stage I"
+            ]
+        },
+        {
+            "column_name": "FIGO_stage",
+            "data_type": "str",
+            "samples": [
+                "IA",
+                "IA",
+                "IA"
+            ]
+        },
+        {
+            "column_name": "LVSI",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "BMI",
+            "data_type": "float64",
+            "samples": [
+                "38.88",
+                "39.76",
+                "51.19"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "float64",
+            "samples": [
+                "64.0",
+                "58.0",
+                "50.0"
+            ]
+        },
+        {
+            "column_name": "Diabetes",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Race",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "White"
+            ]
+        },
+        {
+            "column_name": "Ethnicity",
+            "data_type": "str",
+            "samples": [
+                "Not-Hispanic or Latino",
+                "Not-Hispanic or Latino",
+                "Not-Hispanic or Latino"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "Female",
+                "Female",
+                "Female"
+            ]
+        },
+        {
+            "column_name": "Tumor_Site",
+            "data_type": "str",
+            "samples": [
+                "Anterior endometrium",
+                "Posterior endometrium",
+                "Other, specify"
+            ]
+        },
+        {
+            "column_name": "Tumor_Site_Other",
+            "data_type": "str",
+            "samples": [
+                "Anterior and Posterior endometrium",
+                "Anterior and Posterior endometrium",
+                "Anterior  and Posterior endometrium"
+            ]
+        },
+        {
+            "column_name": "Tumor_Focality",
+            "data_type": "str",
+            "samples": [
+                "Unifocal",
+                "Unifocal",
+                "Unifocal"
+            ]
+        },
+        {
+            "column_name": "Tumor_Size_cm",
+            "data_type": "float64",
+            "samples": [
+                "2.9",
+                "3.5",
+                "4.5"
+            ]
+        },
+        {
+            "column_name": "Estrogen_Receptor",
+            "data_type": "str",
+            "samples": [
+                "Cannot be determined",
+                "Cannot be determined",
+                "Cannot be determined"
+            ]
+        },
+        {
+            "column_name": "Estrogen_Receptor_%",
+            "data_type": "float64",
+            "samples": [
+                "75.0",
+                "-1.0",
+                "5.0"
+            ]
+        },
+        {
+            "column_name": "Progesterone_Receptor",
+            "data_type": "str",
+            "samples": [
+                "Cannot be determined",
+                "Cannot be determined",
+                "Cannot be determined"
+            ]
+        },
+        {
+            "column_name": "Progesterone_Receptor_%",
+            "data_type": "float64",
+            "samples": [
+                "5.0",
+                "-1.0",
+                "30.0"
+            ]
+        },
+        {
+            "column_name": "MLH1",
+            "data_type": "str",
+            "samples": [
+                "Intact nuclear expression",
+                "Intact nuclear expression",
+                "Intact nuclear expression"
+            ]
+        },
+        {
+            "column_name": "MLH2",
+            "data_type": "str",
+            "samples": [
+                "Intact nuclear expression",
+                "Intact nuclear expression",
+                "Intact nuclear expression"
+            ]
+        },
+        {
+            "column_name": "MSH6",
+            "data_type": "str",
+            "samples": [
+                "Loss of nuclear expression",
+                "Intact nuclear expression",
+                "Intact nuclear expression"
+            ]
+        },
+        {
+            "column_name": "PMS2",
+            "data_type": "str",
+            "samples": [
+                "Intact nuclear expression",
+                "Loss of nuclear expression",
+                "Intact nuclear expression"
+            ]
+        },
+        {
+            "column_name": "p53",
+            "data_type": "str",
+            "samples": [
+                "Cannot be determined",
+                "Cannot be determined",
+                "Cannot be determined"
+            ]
+        },
+        {
+            "column_name": "Other_IHC_specify",
+            "data_type": "str",
+            "samples": [
+                "CD10 is negative. CD56 and Synaptophysin stains highlight the neuroendocrine component, while chromogranin stain is largely negative.",
+                "P16 and BCL2 positive",
+                "Vimentin Negative HNF 1 Beta Negative WT 1 Focally positive"
+            ]
+        },
+        {
+            "column_name": "MLH1_Promoter_Hypermethylation",
+            "data_type": "str",
+            "samples": [
+                "Cannot be determined",
+                "Cannot be determined",
+                "Cannot be determined"
+            ]
+        },
+        {
+            "column_name": "Num_full_term_pregnancies",
+            "data_type": "str",
+            "samples": [
+                "1",
+                "1",
+                "4 or more"
+            ]
+        },
+        {
+            "column_name": "EPIC_Bcells",
+            "data_type": "float64",
+            "samples": [
+                "0.004595748",
+                "0.005666428",
+                "0.006418323"
+            ]
+        },
+        {
+            "column_name": "EPIC_CAFs",
+            "data_type": "float64",
+            "samples": [
+                "0.045125791",
+                "0.056677626",
+                "0.067375618"
+            ]
+        },
+        {
+            "column_name": "EPIC_CD4_Tcells",
+            "data_type": "float64",
+            "samples": [
+                "0.075643165",
+                "0.100222966",
+                "0.127155905"
+            ]
+        },
+        {
+            "column_name": "EPIC_CD8_Tcells",
+            "data_type": "float64",
+            "samples": [
+                "0.034381469",
+                "0.041562969",
+                "0.031354942"
+            ]
+        },
+        {
+            "column_name": "EPIC_Endothelial",
+            "data_type": "float64",
+            "samples": [
+                "0.047247678",
+                "0.056081262",
+                "0.050682921"
+            ]
+        },
+        {
+            "column_name": "EPIC_Macrophages",
+            "data_type": "float64",
+            "samples": [
+                "0.002878929",
+                "0.001627258",
+                "0.004971567"
+            ]
+        },
+        {
+            "column_name": "EPIC_NKcells",
+            "data_type": "float64",
+            "samples": [
+                "6.39e-10",
+                "4.15e-09",
+                "2.1e-10"
+            ]
+        },
+        {
+            "column_name": "EPIC_otherCells",
+            "data_type": "float64",
+            "samples": [
+                "0.79012722",
+                "0.738161488",
+                "0.712040724"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_B _cells _naive",
+            "data_type": "float64",
+            "samples": [
+                "0.010443511",
+                "0.004411131",
+                "0.039852399"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_B _cells _memory",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Plasma _cells",
+            "data_type": "float64",
+            "samples": [
+                "0.017867521",
+                "0.00176099",
+                "0.050305497"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _CD8",
+            "data_type": "float64",
+            "samples": [
+                "0.036816257",
+                "0.002130758",
+                "0.043745478"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _CD4 _naive",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _CD4 _memory _resting",
+            "data_type": "float64",
+            "samples": [
+                "0.088247615",
+                "0.026435753",
+                "0.217047308"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _CD4 _memory _activated",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _follicular _helper",
+            "data_type": "float64",
+            "samples": [
+                "0.035408717",
+                "0.014944149",
+                "0.001314347"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _regulatory _(Tregs)",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_T _cells _gamma _delta",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_NK _cells _resting",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.018425297"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_NK _cells _activated",
+            "data_type": "float64",
+            "samples": [
+                "0.020942068",
+                "0.004934448",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Monocytes",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.00385161",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Macrophages _M0",
+            "data_type": "float64",
+            "samples": [
+                "0.024896194",
+                "0.016040522",
+                "0.122233997"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Macrophages _M1",
+            "data_type": "float64",
+            "samples": [
+                "0.047057934",
+                "0.00394293",
+                "0.020499422"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Macrophages _M2",
+            "data_type": "float64",
+            "samples": [
+                "0.072523873",
+                "0.027211297",
+                "0.049193367"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Dendritic _cells _resting",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.010407182",
+                "0.021836951"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Dendritic _cells _activated",
+            "data_type": "float64",
+            "samples": [
+                "0.00612096",
+                "0.007160341",
+                "0.039683645"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Mast _cells _resting",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Mast _cells _activated",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.015087431",
+                "0.033824616"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Eosinophils",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.011681456",
+                "0.027104312"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Neutrophils",
+            "data_type": "float64",
+            "samples": [
+                "0.00967535",
+                "0.0",
+                "0.094933366"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT_Absolute _score",
+            "data_type": "float64",
+            "samples": [
+                "0.37",
+                "0.15",
+                "0.78"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE_StromalScore",
+            "data_type": "float64",
+            "samples": [
+                "2821.088429",
+                "2714.248104",
+                "3856.501277"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE_ImmuneScore",
+            "data_type": "float64",
+            "samples": [
+                "4885.608881",
+                "3632.199987",
+                "6602.912323"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE_ESTIMATEScore",
+            "data_type": "float64",
+            "samples": [
+                "7706.69731",
+                "6346.448091",
+                "10459.4136"
+            ]
+        },
+        {
+            "column_name": "Stemness_score",
+            "data_type": "float64",
+            "samples": [
+                "0.767043727",
+                "0.752796065",
+                "0.570730195"
+            ]
+        },
+        {
+            "column_name": "ER_ESR1",
+            "data_type": "float64",
+            "samples": [
+                "0.769",
+                "-0.302",
+                "-0.1"
+            ]
+        },
+        {
+            "column_name": "PR_PGR",
+            "data_type": "float64",
+            "samples": [
+                "0.253",
+                "-0.0242",
+                "0.0767"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_EGFR",
+            "data_type": "float64",
+            "samples": [
+                "-1.17",
+                "0.17",
+                "-0.02"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_Hypoxia",
+            "data_type": "float64",
+            "samples": [
+                "0.09",
+                "-0.32",
+                "0.24"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_JAK.STAT",
+            "data_type": "float64",
+            "samples": [
+                "0.93",
+                "-0.91",
+                "0.4"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_MAPK",
+            "data_type": "float64",
+            "samples": [
+                "-0.7",
+                "0.65",
+                "-0.25"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_NFkB",
+            "data_type": "float64",
+            "samples": [
+                "0.04",
+                "-0.54",
+                "1.25"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_PI3K",
+            "data_type": "float64",
+            "samples": [
+                "1.67",
+                "2.41",
+                "0.16"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_TGFb",
+            "data_type": "float64",
+            "samples": [
+                "-0.75",
+                "-0.87",
+                "-0.61"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_TNFa",
+            "data_type": "float64",
+            "samples": [
+                "-0.01",
+                "-0.07",
+                "1.63"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_Trail",
+            "data_type": "float64",
+            "samples": [
+                "-1.09",
+                "-1.6",
+                "1.67"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_VEGF",
+            "data_type": "float64",
+            "samples": [
+                "1.14",
+                "2.14",
+                "-0.9"
+            ]
+        },
+        {
+            "column_name": "Pathway_activity_p53",
+            "data_type": "float64",
+            "samples": [
+                "-0.67",
+                "-0.53",
+                "0.43"
+            ]
+        },
+        {
+            "column_name": "TP53_ATM",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP53_CHEK2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP53_MDM4",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP53_RPS6KA3",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP53_TP53",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP53_pathway",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_AKT1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_AKT2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_AKT3",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_DEPDC5",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_DEPTOR",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_INPP4B",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_MAPKAP1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_MLST8",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_MTOR",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_NPRL2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_NPRL3",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PDK1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PIK3CA",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PIK3CB",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PIK3R1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PIK3R2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PPP2R1A",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_PTEN",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_RHEB",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_RICTOR",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_RPS6",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_RPS6KB1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_RPTOR",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_STK11",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_TSC1",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_TSC2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PI3K_pathway",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "HRD_BRCA1",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "HRD_BRCA2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "HRD_BRCA1_or_BRCA2",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CNV_DEL",
+            "data_type": "float64",
+            "samples": [
+                "1.43e-05",
+                "9.31e-06",
+                "5.93e-05"
+            ]
+        },
+        {
+            "column_name": "CNV_AMP",
+            "data_type": "float64",
+            "samples": [
+                "0.038877665",
+                "1.17e-05",
+                "0.000243818"
+            ]
+        },
+        {
+            "column_name": "CNV_class",
+            "data_type": "str",
+            "samples": [
+                "CNV_LOW",
+                "CNV_LOW",
+                "CNV_LOW"
+            ]
+        },
+        {
+            "column_name": "CNV_idx",
+            "data_type": "float64",
+            "samples": [
+                "1.292639933",
+                "0.118480401",
+                "0.174427719"
+            ]
+        },
+        {
+            "column_name": "CNV_1q_DEL",
+            "data_type": "float64",
+            "samples": [
+                "-0.016886191",
+                "0.0",
+                "-0.001375124"
+            ]
+        },
+        {
+            "column_name": "CNV_3q_DEL",
+            "data_type": "float64",
+            "samples": [
+                "-0.023339852",
+                "-0.002698584",
+                "-0.003122768"
+            ]
+        },
+        {
+            "column_name": "CNV_4q_DEL",
+            "data_type": "float64",
+            "samples": [
+                "-0.023494917",
+                "-0.01112554",
+                "-0.005361581"
+            ]
+        },
+        {
+            "column_name": "CNV_1q_AMP",
+            "data_type": "float64",
+            "samples": [
+                "0.005761569",
+                "0.000978501",
+                "0.003805798"
+            ]
+        },
+        {
+            "column_name": "CNV_3q_AMP",
+            "data_type": "float64",
+            "samples": [
+                "0.009796749",
+                "0.0",
+                "0.003557554"
+            ]
+        },
+        {
+            "column_name": "CNV_4q_AMP",
+            "data_type": "float64",
+            "samples": [
+                "0.014250962",
+                "0.0",
+                "0.002393507"
+            ]
+        },
+        {
+            "column_name": "Purity_Immune",
+            "data_type": "float64",
+            "samples": [
+                "0.060494906",
+                "0.082629765",
+                "0.260963289"
+            ]
+        },
+        {
+            "column_name": "Purity_Cancer",
+            "data_type": "float64",
+            "samples": [
+                "0.730880164",
+                "0.715223373",
+                "0.365434419"
+            ]
+        },
+        {
+            "column_name": "Purity_Stroma",
+            "data_type": "float64",
+            "samples": [
+                "0.208624931",
+                "0.202146861",
+                "0.373602292"
+            ]
+        },
+        {
+            "column_name": "MSI_status",
+            "data_type": "str",
+            "samples": [
+                "MSI-H",
+                "MSI-H",
+                "MSS"
+            ]
+        },
+        {
+            "column_name": "POLE_subtype",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "JAK1_MS_INDEL",
+            "data_type": "str",
+            "samples": [
+                "WT",
+                "WT",
+                "WT"
+            ]
+        },
+        {
+            "column_name": "JAK1_Mutation",
+            "data_type": "str",
+            "samples": [
+                "WT",
+                "WT",
+                "WT"
+            ]
+        },
+        {
+            "column_name": "Log2_variant_per_Mbp",
+            "data_type": "float64",
+            "samples": [
+                "5.090218957",
+                "3.941606385",
+                "1.142367912"
+            ]
+        },
+        {
+            "column_name": "Log2_SNP_per_Mbp",
+            "data_type": "float64",
+            "samples": [
+                "5.014858245",
+                "3.451287679",
+                "0.970671335"
+            ]
+        },
+        {
+            "column_name": "Log2_INDEL_per_Mbp",
+            "data_type": "float64",
+            "samples": [
+                "1.450879273",
+                "2.440219926",
+                "0.319245674"
+            ]
+        },
+        {
+            "column_name": "Log2_variant_total",
+            "data_type": "float64",
+            "samples": [
+                "10.06204614",
+                "8.861086906",
+                "5.321928095"
+            ]
+        },
+        {
+            "column_name": "Log2_SNP_total",
+            "data_type": "float64",
+            "samples": [
+                "9.984418459",
+                "8.330916878",
+                "5.0"
+            ]
+        },
+        {
+            "column_name": "Log2_INDEL_total",
+            "data_type": "float64",
+            "samples": [
+                "5.832890014",
+                "7.169925001",
+                "3.169925001"
+            ]
+        },
+        {
+            "column_name": "Genomics_subtype",
+            "data_type": "str",
+            "samples": [
+                "MSI-H",
+                "MSI-H",
+                "CNV_low"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_C>A",
+            "data_type": "float64",
+            "samples": [
+                "8.300395257",
+                "14.64174455",
+                "16.12903226"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_C>G",
+            "data_type": "float64",
+            "samples": [
+                "1.482213439",
+                "2.803738318",
+                "3.225806452"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_C>T",
+            "data_type": "float64",
+            "samples": [
+                "72.52964427",
+                "64.48598131",
+                "70.96774194"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_T>C",
+            "data_type": "float64",
+            "samples": [
+                "14.42687747",
+                "15.26479751",
+                "3.225806452"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_T>A",
+            "data_type": "float64",
+            "samples": [
+                "1.383399209",
+                "0.934579439",
+                "3.225806452"
+            ]
+        },
+        {
+            "column_name": "Mutation_signature_T>G",
+            "data_type": "float64",
+            "samples": [
+                "1.877470356",
+                "1.869158879",
+                "3.225806452"
+            ]
+        },
+        {
+            "column_name": "WXS_normal_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Blood_normal",
+                "Blood_normal",
+                "Blood_normal"
+            ]
+        },
+        {
+            "column_name": "WXS_normal_filename",
+            "data_type": "str",
+            "samples": [
+                "92b5e534-6cb0-43eb-8147-ce7d18526f5e_gdc_realn.bam",
+                "243bfb3c-d06b-4de5-a6c3-7fa7e2c5fb74_gdc_realn.bam",
+                "97e153c1-7be4-4d7b-9d30-9545b56e6ddb_gdc_realn.bam"
+            ]
+        },
+        {
+            "column_name": "WXS_normal_UUID",
+            "data_type": "str",
+            "samples": [
+                "53dbb4d6-ce9d-4145-a33a-0c4d67e655df",
+                "90257622-6bcc-43e7-a04f-f7397975d038",
+                "75a4369c-5247-427d-aabc-3157d08f2d8f"
+            ]
+        },
+        {
+            "column_name": "WXS_tumor_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "WXS_tumor_filename",
+            "data_type": "str",
+            "samples": [
+                "d9975c5f-288d-417d-bdb3-f490d9a36401_gdc_realn.bam",
+                "f6924a26-a14f-45a3-b4bd-7a4592d34065_gdc_realn.bam",
+                "9de43644-2816-4fac-8e1e-b49b18b2707b_gdc_realn.bam"
+            ]
+        },
+        {
+            "column_name": "WXS_tumor_UUID",
+            "data_type": "str",
+            "samples": [
+                "96c07fe5-d530-4c9b-92ce-49408feacb2c",
+                "4501f315-bf8f-4611-821a-797ef180e25b",
+                "0ec56b8f-f64a-401e-be41-d873fa31776b"
+            ]
+        },
+        {
+            "column_name": "WGS_normal_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Blood_normal",
+                "Blood_normal",
+                "Blood_normal"
+            ]
+        },
+        {
+            "column_name": "WGS_normal_UUID",
+            "data_type": "str",
+            "samples": [
+                "9f29ebe1-de5d-47a8-a54d-d1e8441409c6",
+                "846bf455-89b4-4840-b113-e529ffa13277",
+                "a16b07d8-46c1-4fd9-8204-4f866aacfbec"
+            ]
+        },
+        {
+            "column_name": "WGS_tumor_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "WGS_tumor_UUID",
+            "data_type": "str",
+            "samples": [
+                "457f2c4d-ddf3-416e-bb50-b112eede02d5",
+                "1c0e0f84-4caf-4493-9b2f-8f5f9ef9231b",
+                "b93693c0-b88d-43d6-9b8b-97c8269982cc"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R1_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R1_filename",
+            "data_type": "str",
+            "samples": [
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_TAGCTT_S17_L005_R1_001.fastq.gz",
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_GGCTAC_S22_L007_R1_001.fastq.gz",
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_GTCCGC_S18_L005_R1_001.fastq.gz"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R1_UUID",
+            "data_type": "str",
+            "samples": [
+                "8a1efc47-1c29-417f-a425-cdbd09565dcb",
+                "555725e8-cba5-4676-9b0a-80100cbf9f47",
+                "9ae968f3-691d-4db3-9977-1ab3e5af9085"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R2_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R2_filename",
+            "data_type": "str",
+            "samples": [
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_TAGCTT_S17_L005_R2_001.fastq.gz",
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_GGCTAC_S22_L007_R2_001.fastq.gz",
+                "170802_UNC31-K00269_0072_AHK3GVBBXX_GTCCGC_S18_L005_R2_001.fastq.gz"
+            ]
+        },
+        {
+            "column_name": "RNAseq_R2_UUID",
+            "data_type": "str",
+            "samples": [
+                "8c3fe9b7-7acd-4867-8d9c-a8e5d1516eda",
+                "15235b12-b67a-4678-acc4-ed03d642bd5e",
+                "423b6b09-02aa-4f47-9241-f75c1dad1161"
+            ]
+        },
+        {
+            "column_name": "miRNAseq_sample_type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "Tumor",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "miRNAseq_UUID",
+            "data_type": "str",
+            "samples": [
+                "37bcba98-1094-459e-83ae-c23a602416fb",
+                "492b50d8-ec35-46e7-a65d-06512aaee394",
+                "1794ff56-db2d-4d1a-8758-cab7fe3d98c1"
+            ]
+        },
+        {
+            "column_name": "Methylation_available",
+            "data_type": "str",
+            "samples": [
+                "YES",
+                "YES",
+                "YES"
+            ]
+        },
+        {
+            "column_name": "Methylation_quality",
+            "data_type": "str",
+            "samples": [
+                "PASS",
+                "PASS",
+                "PASS"
+            ]
+        }
+    ]
+}

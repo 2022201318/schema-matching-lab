@@ -1,0 +1,20 @@
+{
+    "AgencyID": "Unique identifier for the agency managing the consumer profile.",
+    "FirstName": "First name of the consumer.",
+    "NetWorth": "Financial net worth of the consumer.",
+    "Employer": "Name of the consumer's employer.",
+    "NumberCreditCards": "Number of credit cards the consumer possesses.",
+    "LastName": "Last name of the consumer.",
+    "AddressLine2": "Secondary address line, typically for apartment or suite numbers.",
+    "MaritalStatus": "Marital status of the consumer (W=widowed, U=unmarried, S=separated).",
+    "Gender": "Gender of the consumer.",
+    "Phone": "Phone number of the consumer.",
+    "NumberChildren": "Number of children in the household.",
+    "Age": "Age of the consumer.",
+    "City": "City of residence.",
+    "Country": "Country of residence.",
+    "NumberCars": "Number of cars owned.",
+    "MiddleInitial": "Middle initial of the consumer.",
+    "AddressLine1": "Primary address line of the consumer.",
+    "PostalCode": "Postal code of the consumer's address."
+}

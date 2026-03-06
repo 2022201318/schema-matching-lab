@@ -1,0 +1,605 @@
+{
+    "table_name": "Gillette.csv",
+    "description": "The Gillette.csv table contains 68 columns with various data types including strings, integers, and floating-point numbers, detailing participant information, smoking history, clinical data, and genetic mutations from lung cancer samples.",
+    "columns": [
+        {
+            "column_name": "Sample.ID",
+            "data_type": "str",
+            "samples": [
+                "C3N.01799",
+                "C3N.01799.N",
+                "C3L.01890"
+            ]
+        },
+        {
+            "column_name": "Participant",
+            "data_type": "str",
+            "samples": [
+                "C3N-01799",
+                "C3N-01799",
+                "C3L-01890"
+            ]
+        },
+        {
+            "column_name": "Experiment",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "Channel",
+            "data_type": "str",
+            "samples": [
+                "126",
+                "127N",
+                "127C"
+            ]
+        },
+        {
+            "column_name": "Type",
+            "data_type": "str",
+            "samples": [
+                "Tumor",
+                "NAT",
+                "Tumor"
+            ]
+        },
+        {
+            "column_name": "Aliquot",
+            "data_type": "str",
+            "samples": [
+                "CPT0089340003",
+                "CPT0089360003",
+                "CPT0092930003"
+            ]
+        },
+        {
+            "column_name": "Smoking.Status",
+            "data_type": "str",
+            "samples": [
+                "smoker",
+                "smoker",
+                "smoker"
+            ]
+        },
+        {
+            "column_name": "Stage",
+            "data_type": "str",
+            "samples": [
+                "2A",
+                "1A",
+                "1A"
+            ]
+        },
+        {
+            "column_name": "Region.of.Origin",
+            "data_type": "str",
+            "samples": [
+                "western",
+                "western",
+                "western"
+            ]
+        },
+        {
+            "column_name": "Country.of.Origin",
+            "data_type": "str",
+            "samples": [
+                "usa",
+                "usa",
+                "usa"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "float64",
+            "samples": [
+                "81.0",
+                "81.0",
+                "58.0"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "male",
+                "male",
+                "female"
+            ]
+        },
+        {
+            "column_name": "Ethnicity",
+            "data_type": "str",
+            "samples": [
+                "caucasian",
+                "caucasian",
+                "caucasian"
+            ]
+        },
+        {
+            "column_name": "Height.cm",
+            "data_type": "float64",
+            "samples": [
+                "173.0",
+                "173.0",
+                "153.0"
+            ]
+        },
+        {
+            "column_name": "Weight.kg",
+            "data_type": "float64",
+            "samples": [
+                "82.0",
+                "82.0",
+                "52.9"
+            ]
+        },
+        {
+            "column_name": "BMI",
+            "data_type": "float64",
+            "samples": [
+                "27.37",
+                "27.37",
+                "22.6"
+            ]
+        },
+        {
+            "column_name": "Cigarettes.per.Day",
+            "data_type": "float64",
+            "samples": [
+                "5.0",
+                "5.0",
+                "20.0"
+            ]
+        },
+        {
+            "column_name": "Pack.Years.Smoked",
+            "data_type": "float64",
+            "samples": [
+                "0.3",
+                "5.0",
+                "33.0"
+            ]
+        },
+        {
+            "column_name": "Smoking.History",
+            "data_type": "str",
+            "samples": [
+                "Current reformed smoker within past 15 years",
+                "Current reformed smoker within past 15 years",
+                "Current smoker: Includes daily and non-daily smokers"
+            ]
+        },
+        {
+            "column_name": "Secondhand.Smoke",
+            "data_type": "str",
+            "samples": [
+                "No or minimal exposure to secondhand smoke",
+                "Exposure to secondhand smoke history not available",
+                "Exposure to secondhand smoke history not available"
+            ]
+        },
+        {
+            "column_name": "Smoking.Score.WGS",
+            "data_type": "float64",
+            "samples": [
+                "0.006697",
+                "1.913e-05",
+                "0.7368"
+            ]
+        },
+        {
+            "column_name": "Smoking.Signature.Fraction.WGS",
+            "data_type": "float64",
+            "samples": [
+                "0.0632336734586634",
+                "2.95231298354718e-49",
+                "0.600542692210943"
+            ]
+        },
+        {
+            "column_name": "Dominant.Signature.WGS.notSmoking.50perc",
+            "data_type": "str",
+            "samples": [
+                "Signature5: unknown aetiology",
+                "Signature5: unknown aetiology",
+                "Signature5: unknown aetiology"
+            ]
+        },
+        {
+            "column_name": "Dominant.Signature.Fraction.WGS.notSmoking",
+            "data_type": "float64",
+            "samples": [
+                "0.7",
+                "0.58",
+                "0.54"
+            ]
+        },
+        {
+            "column_name": "DNP.GG.to.TT.or.CC.to.AA.Count.WGS",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "84.0"
+            ]
+        },
+        {
+            "column_name": "NMF.consensus",
+            "data_type": "str",
+            "samples": [
+                "C4",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "column_name": "NMF.cluster.membership",
+            "data_type": "float64",
+            "samples": [
+                "0.455",
+                "0.633",
+                "0.428"
+            ]
+        },
+        {
+            "column_name": "mRNA.Expression.Subtype.TCGA",
+            "data_type": "str",
+            "samples": [
+                "Terminal Respiratory Unit",
+                "Terminal Respiratory Unit",
+                "Proximal-inflammatory"
+            ]
+        },
+        {
+            "column_name": "mRNA.stemness.index",
+            "data_type": "float64",
+            "samples": [
+                "0.515138548607387",
+                "0.210294569969448",
+                "0.572553954118675"
+            ]
+        },
+        {
+            "column_name": "CIMP.status",
+            "data_type": "str",
+            "samples": [
+                "CIMP-1",
+                "CIMP-2",
+                "CIMP+"
+            ]
+        },
+        {
+            "column_name": "Tumor.Purity.byESTIMATE.RNAseq",
+            "data_type": "float64",
+            "samples": [
+                "0.522233472003348",
+                "0.674321767412326",
+                "0.451350156519539"
+            ]
+        },
+        {
+            "column_name": "TSNet Purity",
+            "data_type": "float64",
+            "samples": [
+                "0.51806364",
+                "0.3331987674",
+                "0.8404215913"
+            ]
+        },
+        {
+            "column_name": "ESTIMATEScore",
+            "data_type": "float64",
+            "samples": [
+                "7397.344097",
+                "7992.280245",
+                "5021.928025"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE ImmuneScore",
+            "data_type": "float64",
+            "samples": [
+                "5317.602599",
+                "5088.189817",
+                "2955.666928"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE StromalScore",
+            "data_type": "float64",
+            "samples": [
+                "2079.741498",
+                "2904.090428",
+                "2066.261097"
+            ]
+        },
+        {
+            "column_name": "QC.status",
+            "data_type": "str",
+            "samples": [
+                "QC.pass",
+                "QC.pass",
+                "QC.pass"
+            ]
+        },
+        {
+            "column_name": "TP53.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "KRAS.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "STK11.mutation",
+            "data_type": "str",
+            "samples": [
+                "Splice_Site",
+                "Nonsense_Mutation",
+                "Nonsense_Mutation"
+            ]
+        },
+        {
+            "column_name": "EGFR.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "In_Frame_Del"
+            ]
+        },
+        {
+            "column_name": "KEAP1.mutation",
+            "data_type": "str",
+            "samples": [
+                "Nonsense_Mutation",
+                "Missense_Mutation",
+                "Frame_Shift_Del"
+            ]
+        },
+        {
+            "column_name": "RB1.mutation",
+            "data_type": "str",
+            "samples": [
+                "Splice_Site",
+                "Nonsense_Mutation",
+                "Nonsense_Mutation"
+            ]
+        },
+        {
+            "column_name": "BRAF.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "ARAF.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "ERBB2.mutation",
+            "data_type": "str",
+            "samples": [
+                "In_Frame_Ins"
+            ]
+        },
+        {
+            "column_name": "TP53.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KRAS.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "STK11.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "EGFR.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KEAP1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "RB1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "BRAF.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ARAF.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ERBB2.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Total.Mutation.Count.WGS",
+            "data_type": "float64",
+            "samples": [
+                "942.0",
+                "626.0",
+                "10869.0"
+            ]
+        },
+        {
+            "column_name": "Mutation.Count.ExcludingINDELs.WGS",
+            "data_type": "float64",
+            "samples": [
+                "866.0",
+                "573.0",
+                "10330.0"
+            ]
+        },
+        {
+            "column_name": "Total.DNP.Count.WGS",
+            "data_type": "float64",
+            "samples": [
+                "4.0",
+                "5.0",
+                "140.0"
+            ]
+        },
+        {
+            "column_name": "Number.somatic.mutations",
+            "data_type": "float64",
+            "samples": [
+                "40.0",
+                "1.0",
+                "19.0"
+            ]
+        },
+        {
+            "column_name": "Mutation.Signature.Activity.W1.COSMIC5",
+            "data_type": "float64",
+            "samples": [
+                "18.7525339832456",
+                "10.000455662806",
+                "23.8757552480287"
+            ]
+        },
+        {
+            "column_name": "Mutation.Signature.Activity.W2.COSMIC4",
+            "data_type": "float64",
+            "samples": [
+                "4.65134828635598",
+                "5.56699991961722",
+                "200.36882203033"
+            ]
+        },
+        {
+            "column_name": "Mutation.Signature.Activity.W3.COSMIC2",
+            "data_type": "float64",
+            "samples": [
+                "26.9240183376674",
+                "1.95912695162606",
+                "214.450903416284"
+            ]
+        },
+        {
+            "column_name": "ALK.fusion",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ROS1.fusion",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "RET.fusion",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Putative.driver.mutation",
+            "data_type": "str",
+            "samples": [
+                "ALK-Fusion",
+                "ALK-Fusion",
+                "ALK-Fusion"
+            ]
+        },
+        {
+            "column_name": "Methylation.QC",
+            "data_type": "str",
+            "samples": [
+                "pass",
+                "pass",
+                "pass"
+            ]
+        },
+        {
+            "column_name": "Dominant.Histological.Subtype",
+            "data_type": "str",
+            "samples": [
+                "acinar",
+                "acinar",
+                "micropapillary"
+            ]
+        }
+    ]
+}

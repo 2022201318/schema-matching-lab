@@ -1,0 +1,123 @@
+{
+    "table_name": "Artist_Encyclopedia.csv",
+    "description": "The Artist_Encyclopedia.csv table contains musician profiles with Wikidata identifiers, birth dates, names, number of children, websites, residences, ethnicities, religions, start of activity dates, Twitter and Genius names, and record labels.",
+    "columns": [
+        {
+            "column_name": "musician",
+            "data_type": "str",
+            "samples": [
+                "http://www.wikidata.org/entity/Q6096",
+                "http://www.wikidata.org/entity/Q5977",
+                "http://www.wikidata.org/entity/Q8349"
+            ]
+        },
+        {
+            "column_name": "birthDate",
+            "data_type": "str",
+            "samples": [
+                "1971-10-20T00:00:00Z",
+                "1936-09-07T00:00:00Z",
+                "1959-10-23T00:00:00Z"
+            ]
+        },
+        {
+            "column_name": "familyNameLabel",
+            "data_type": "str",
+            "samples": [
+                "Broadus",
+                "Holley",
+                "Yankovic"
+            ]
+        },
+        {
+            "column_name": "givenNameLabel",
+            "data_type": "str",
+            "samples": [
+                "Cordozar",
+                "Hardin",
+                "Alfred"
+            ]
+        },
+        {
+            "column_name": "numberOfChildren",
+            "data_type": "float64",
+            "samples": [
+                "4.0",
+                "1.0",
+                "6.0"
+            ]
+        },
+        {
+            "column_name": "websiteLabel",
+            "data_type": "str",
+            "samples": [
+                "http://snoopdogg.com/",
+                "http://www.buddyholly.com",
+                "http://weirdal.com/"
+            ]
+        },
+        {
+            "column_name": "residenceLabel",
+            "data_type": "str",
+            "samples": [
+                "Del Mar",
+                "Los Angeles",
+                "Las Vegas"
+            ]
+        },
+        {
+            "column_name": "ethnicityLabel",
+            "data_type": "str",
+            "samples": [
+                "African Americans",
+                "African Americans",
+                "African Americans"
+            ]
+        },
+        {
+            "column_name": "religionLabel",
+            "data_type": "str",
+            "samples": [
+                "Islam",
+                "Baptists",
+                "Christianity"
+            ]
+        },
+        {
+            "column_name": "activityStart",
+            "data_type": "str",
+            "samples": [
+                "1991-01-01T00:00:00Z",
+                "1952-01-01T00:00:00Z",
+                "1976-01-01T00:00:00Z"
+            ]
+        },
+        {
+            "column_name": "twitterNameLabel",
+            "data_type": "str",
+            "samples": [
+                "snoopdogg",
+                "alyankovic",
+                "tomdelonge"
+            ]
+        },
+        {
+            "column_name": "geniusNameLabel",
+            "data_type": "str",
+            "samples": [
+                "Snoop-dogg",
+                "Buddy-holly",
+                "Weird-al-yankovic"
+            ]
+        },
+        {
+            "column_name": "recordLabelLabel",
+            "data_type": "str",
+            "samples": [
+                "Death Row Records",
+                "Brunswick",
+                "Volcano Entertainment"
+            ]
+        }
+    ]
+}

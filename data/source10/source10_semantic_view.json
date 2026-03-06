@@ -1,0 +1,26 @@
+{
+    "description": "The data source \"source10\" contains clinical characteristics of patients from the study \"Integrated Proteogenomic Characterization of Clear Cell Renal Cell Carcinoma\" by Clark, D.J. et al. The dataset, available at the provided URL, includes patient demographics, tumor details, and pathological staging information. The data is structured in a CSV file named \"Clark.csv\" with columns detailing case ID, tumor/normal status, gender, age, BMI, race, ethnicity, tumor site, size, focality, histologic type, grade, and pathological stage.",
+    "schema_inventory": [
+        {
+            "table_name": "Clark.csv",
+            "columns": [
+                "Case_ID",
+                "Tumor/Normal",
+                "Gender",
+                "Age",
+                "BMI",
+                "Race",
+                "Ethnicity_Self_Identify",
+                "Tumor_Site",
+                "Tumor_Site_Other",
+                "Tumor_Size_cm",
+                "Tumor_Focality",
+                "Histologic_Type",
+                "Grade",
+                "Tumor_Stage_Pathological",
+                "Path_Stage_Primary_Tumor_pT",
+                "Path_Stage_Reg_Lymph_Nodes_pN"
+            ]
+        }
+    ]
+}

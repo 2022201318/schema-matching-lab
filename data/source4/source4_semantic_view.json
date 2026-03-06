@@ -1,0 +1,53 @@
+{
+    "description": "Internal organizational records focusing on fiscal tracking, branch-level IDs, and project auditing, with field labels encoded for data consistency.",
+    "schema_inventory": [
+        {
+            "table_name": "Accounting_Snapshot.csv",
+            "columns": [
+                "miller2_fsclr",
+                "miller2_prgrmmngprcss(nw)",
+                "miller2_stts",
+                "miller2_rgnstnclss",
+                "miller2_sctrnm",
+                "miller2_prjctnmbr",
+                "miller2_clmtchngdpttn(mrkr)",
+                "miller2_rgnstnd",
+                "miller2_rgnstnnm",
+                "miller2_dsrtfctn(mrkr)",
+                "miller2_bltrld(ntrntnlmrkr)",
+                "miller2_dvsnnm",
+                "miller2_mntspnt",
+                "miller2_sctrprcnt",
+                "miller2_sctnnm",
+                "miller2_prjctbrwsrcntrd",
+                "miller2_ctstlfrdvlpmnt(mrkr)",
+                "miller2_cntnntnm",
+                "miller2_cntrrgnnm",
+                "miller2_sctnd",
+                "miller2_ndgnssss(mrkr)",
+                "miller2_thsss(mrkr)",
+                "miller2_sctrd",
+                "miller2_brnchd",
+                "miller2_cdbsnssdlvrmdl(ld)",
+                "miller2_chldrnsss(mrkr)",
+                "miller2_dsbltsss(mrkr)",
+                "miller2_rgnstntp",
+                "miller2_bdvrst(mrkr)",
+                "miller2_cntrrgnprcnt",
+                "miller2_ntdmnt(prjct-lvlbdgt)",
+                "miller2_cfl(mrkr)",
+                "miller2_rgnlprgrm(mrkr)",
+                "miller2_fstcprcnt",
+                "miller2_prtcptrdvlpmntndgdgvrnnc",
+                "miller2_clmtchngmtgtn(mrkr)",
+                "miller2_trddvlpmnt(mrkr)",
+                "miller2_rbnsss(mrkr)",
+                "miller2_knwldgfrdvlpmnt(mrkr)",
+                "miller2_gndrqlt(mrkr)",
+                "miller2_rgnstnsb-clss",
+                "miller2_cntnntd",
+                "miller2_cntrrgnd"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "table_name": "Consumer_Profiles.csv",
+    "description": "The Consumer_Profiles.csv table contains personal and financial details of consumers, including unique AgencyID, names, net worth, employer, number of credit cards, marital status, gender, phone number, number of children, age, address, country, number of cars, middle initial, and postal code. Numeric fields are stored as strings or floats.",
+    "columns": [
+        {
+            "column_name": "AgencyID",
+            "data_type": "str",
+            "samples": [
+                "PEL0",
+                "LED1",
+                "lat2"
+            ]
+        },
+        {
+            "column_name": "FirstName",
+            "data_type": "str",
+            "samples": [
+                "Netti",
+                "TRUDY",
+                "ireland"
+            ]
+        },
+        {
+            "column_name": "NetWorth",
+            "data_type": "float64",
+            "samples": [
+                "1058868.0",
+                "1988185.0",
+                "3673128.0"
+            ]
+        },
+        {
+            "column_name": "Employer",
+            "data_type": "str",
+            "samples": [
+                "Brink's",
+                "Air Products & Chemicals",
+                "Oshkosh"
+            ]
+        },
+        {
+            "column_name": "NumberCreditCards",
+            "data_type": "float64",
+            "samples": [
+                "6.0",
+                "6.0",
+                "3.0"
+            ]
+        },
+        {
+            "column_name": "LastName",
+            "data_type": "str",
+            "samples": [
+                "PELLAND",
+                "LEDUC",
+                "latif"
+            ]
+        },
+        {
+            "column_name": "AddressLine2",
+            "data_type": "str",
+            "samples": [
+                "APT. 624",
+                "Apt. 619",
+                "Apt. 290"
+            ]
+        },
+        {
+            "column_name": "MaritalStatus",
+            "data_type": "str",
+            "samples": [
+                "W",
+                "U",
+                "S"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "f",
+                "F",
+                "f"
+            ]
+        },
+        {
+            "column_name": "Phone",
+            "data_type": "str",
+            "samples": [
+                "1-712-522-6088",
+                "1-626-426-4298",
+                "1-524-787-8784"
+            ]
+        },
+        {
+            "column_name": "NumberChildren",
+            "data_type": "float64",
+            "samples": [
+                "3.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "float64",
+            "samples": [
+                "20.0",
+                "3.0",
+                "77.0"
+            ]
+        },
+        {
+            "column_name": "City",
+            "data_type": "str",
+            "samples": [
+                "Fairbanks",
+                "Quebec",
+                "Henderson"
+            ]
+        },
+        {
+            "column_name": "Country",
+            "data_type": "str",
+            "samples": [
+                "United States of America",
+                "United States of America",
+                "United States of America"
+            ]
+        },
+        {
+            "column_name": "NumberCars",
+            "data_type": "float64",
+            "samples": [
+                "5.0",
+                "2.0",
+                "2.0"
+            ]
+        },
+        {
+            "column_name": "MiddleInitial",
+            "data_type": "str",
+            "samples": [
+                "M",
+                "Z",
+                "R"
+            ]
+        },
+        {
+            "column_name": "AddressLine1",
+            "data_type": "str",
+            "samples": [
+                "21847 olympia street",
+                "245 congress court",
+                "6517 frailing west"
+            ]
+        },
+        {
+            "column_name": "PostalCode",
+            "data_type": "str",
+            "samples": [
+                "T6b 1i1",
+                "77281",
+                "91355"
+            ]
+        }
+    ]
+}

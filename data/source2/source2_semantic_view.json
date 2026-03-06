@@ -1,0 +1,30 @@
+{
+    "description": "An automated diagnostic export containing laboratory registration IDs and measurement metrics, utilizing internal codification for field labels.",
+    "schema_inventory": [
+        {
+            "table_name": "Lab_Registry.csv",
+            "columns": [
+                "assays_ss_d",
+                "assays_ss_tst_tp",
+                "assays_dc_d",
+                "assays_crtd_b",
+                "assays_ss_tx_d",
+                "assays_ss_strn",
+                "assays_src_d",
+                "assays_dscrptn",
+                "assays_cll_d",
+                "assays_src_ss_d",
+                "assays_chmbl_d",
+                "assays_ss_sbclllr_frctn",
+                "assays_td",
+                "assays_ss_rgnsm",
+                "assays_ss_cll_tp",
+                "assays_vrnt_d",
+                "assays_rltnshp_tp",
+                "assays_cnfdnc_scr",
+                "assays_b_frmt",
+                "assays_tss_d"
+            ]
+        }
+    ]
+}

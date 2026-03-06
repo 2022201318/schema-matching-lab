@@ -1,0 +1,29 @@
+{
+    "description": "A list of potential prospects exported for campaign management. It uses heavily abbreviated field names optimized for legacy marketing software systems.",
+    "schema_inventory": [
+        {
+            "table_name": "Marketing_Leads.csv",
+            "columns": [
+                "prospect_gncd",
+                "prospect_frstnm",
+                "prospect_ntwrth",
+                "prospect_mplr",
+                "prospect_nmbrcrdtcrds",
+                "prospect_lstnm",
+                "prospect_ddrssln2",
+                "prospect_mrtlstts",
+                "prospect_gndr",
+                "prospect_phn",
+                "prospect_nmbrchldrn",
+                "prospect_g",
+                "prospect_ct",
+                "prospect_cntr",
+                "prospect_nmbrcrs",
+                "prospect_stt",
+                "prospect_ncm",
+                "prospect_crdtrtng",
+                "prospect_wnrrntflg"
+            ]
+        }
+    ]
+}

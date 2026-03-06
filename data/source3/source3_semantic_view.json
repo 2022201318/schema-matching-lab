@@ -1,0 +1,53 @@
+{
+    "description": "A public dataset tracking international aid projects, funding allocations, and thematic markers related to socio-economic development goals.",
+    "schema_inventory": [
+        {
+            "table_name": "Project_Registry.csv",
+            "columns": [
+                "Fiscal year",
+                "Programming process (new)",
+                "Status",
+                "Organisation class",
+                "Sector name",
+                "Project number",
+                "Climate change adaptation (marker)",
+                "Organisation ID",
+                "Organisation name",
+                "Desertification (marker)",
+                "Bilateral aid (international marker)",
+                "Division name",
+                "Amount spent",
+                "Sector percent",
+                "Section name",
+                "Project Browser country ID",
+                "ICT as a tool for development (marker)",
+                "Continent name",
+                "CountryRegion name",
+                "Section ID",
+                "Indigenous issues (marker)",
+                "Youth issues (marker)",
+                "Sector ID",
+                "Branch ID",
+                "CIDA business delivery model (old)",
+                "Children issues (marker)",
+                "Disability issues (marker)",
+                "Organisation type",
+                "Biodiversity (marker)",
+                "CountryRegion percent",
+                "Untied amount(Project-level budget)",
+                "CFLI (marker)",
+                "Regional program (marker)",
+                "FSTC percent",
+                "Participatory development and good governance",
+                "Maximum CIDA contribution (project-level)",
+                "Branch name",
+                "Division ID",
+                "Fund centre ID",
+                "Fund centre name",
+                "IRTC percent",
+                "PBA type",
+                "Enviromental sustainability (marker)"
+            ]
+        }
+    ]
+}

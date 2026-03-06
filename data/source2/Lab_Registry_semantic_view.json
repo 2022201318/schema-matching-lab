@@ -1,0 +1,176 @@
+{
+    "table_name": "Lab_Registry.csv",
+    "description": "The Lab_Registry.csv table contains records of laboratory assays, including assay identifiers (`assays_ss_d`, `assays_dc_d`), types (`assays_ss_tst_tp`), creation details (`assays_crtd_b`), chemical identifiers (`assays_chmbl_d`), cell fractions (`assays_ss_sbclllr_frctn`), regions (`assays_ss_rgnsm`), cell types (`assays_ss_cll_tp`), relationships (`assays_rltnshp_tp`), and various measurements such as concentrations (`assays_ss_tx_d`), distribution levels (`assays_cll_d`), and test substance doses (`assays_tss_d`). Confidence scores (`assays_cnfdnc_scr`) and format types (`assays_b_frmt`) are also recorded.",
+    "columns": [
+        {
+            "column_name": "assays_ss_d",
+            "data_type": "int64",
+            "samples": [
+                "7524",
+                "7525",
+                "7526"
+            ]
+        },
+        {
+            "column_name": "assays_ss_tst_tp",
+            "data_type": "str",
+            "samples": [
+                "In vivo",
+                "In vivo",
+                "In vivo"
+            ]
+        },
+        {
+            "column_name": "assays_dc_d",
+            "data_type": "int64",
+            "samples": [
+                "9866",
+                "9866",
+                "9866"
+            ]
+        },
+        {
+            "column_name": "assays_crtd_b",
+            "data_type": "str",
+            "samples": [
+                "Intermediate",
+                "Intermediate",
+                "Intermediate"
+            ]
+        },
+        {
+            "column_name": "assays_ss_tx_d",
+            "data_type": "float64",
+            "samples": [
+                "10116.0",
+                "10116.0",
+                "10116.0"
+            ]
+        },
+        {
+            "column_name": "assays_ss_strn",
+            "data_type": "str",
+            "samples": [
+                "Sprague-Dawley"
+            ]
+        },
+        {
+            "column_name": "assays_src_d",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "assays_dscrptn",
+            "data_type": "str",
+            "samples": [
+                "Biodistribution in normal rat kidney in the presence of 0.005 M Gd/0.01 M lig at 2 hr",
+                "Biodistribution in normal rat kidney in the presence of 0.01 M Gd/0.05 M lig",
+                "Biodistribution in normal rat kidney in the presence of NAC Gd 0.01 M lig at 2 hr"
+            ]
+        },
+        {
+            "column_name": "assays_cll_d",
+            "data_type": "float64",
+            "samples": [
+                "401.0",
+                "401.0",
+                "401.0"
+            ]
+        },
+        {
+            "column_name": "assays_src_ss_d",
+            "data_type": "float64",
+            "samples": []
+        },
+        {
+            "column_name": "assays_chmbl_d",
+            "data_type": "str",
+            "samples": [
+                "CHEMBL618647",
+                "CHEMBL618648",
+                "CHEMBL618649"
+            ]
+        },
+        {
+            "column_name": "assays_ss_sbclllr_frctn",
+            "data_type": "str",
+            "samples": [
+                "Microsomes",
+                "Microsomes",
+                "Microsomes"
+            ]
+        },
+        {
+            "column_name": "assays_td",
+            "data_type": "int64",
+            "samples": [
+                "50597",
+                "50597",
+                "50597"
+            ]
+        },
+        {
+            "column_name": "assays_ss_rgnsm",
+            "data_type": "str",
+            "samples": [
+                "Rattus norvegicus",
+                "Rattus norvegicus",
+                "Rattus norvegicus"
+            ]
+        },
+        {
+            "column_name": "assays_ss_cll_tp",
+            "data_type": "str",
+            "samples": [
+                "Hepatocyte",
+                "Hepatocyte",
+                "Hepatocyte"
+            ]
+        },
+        {
+            "column_name": "assays_vrnt_d",
+            "data_type": "float64",
+            "samples": []
+        },
+        {
+            "column_name": "assays_rltnshp_tp",
+            "data_type": "str",
+            "samples": [
+                "N",
+                "N",
+                "N"
+            ]
+        },
+        {
+            "column_name": "assays_cnfdnc_scr",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "assays_b_frmt",
+            "data_type": "str",
+            "samples": [
+                "BAO_0000218",
+                "BAO_0000218",
+                "BAO_0000218"
+            ]
+        },
+        {
+            "column_name": "assays_tss_d",
+            "data_type": "float64",
+            "samples": [
+                "2113.0",
+                "2113.0",
+                "2113.0"
+            ]
+        }
+    ]
+}

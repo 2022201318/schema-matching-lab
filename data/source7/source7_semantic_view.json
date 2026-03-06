@@ -1,0 +1,23 @@
+{
+    "description": "A rich biographical knowledge base covering classical and contemporary musicians, featuring formal ontological labels for personal attributes.",
+    "schema_inventory": [
+        {
+            "table_name": "Artist_Encyclopedia.csv",
+            "columns": [
+                "musician",
+                "birthDate",
+                "familyNameLabel",
+                "givenNameLabel",
+                "numberOfChildren",
+                "websiteLabel",
+                "residenceLabel",
+                "ethnicityLabel",
+                "religionLabel",
+                "activityStart",
+                "twitterNameLabel",
+                "geniusNameLabel",
+                "recordLabelLabel"
+            ]
+        }
+    ]
+}

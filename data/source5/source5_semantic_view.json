@@ -1,0 +1,28 @@
+{
+    "description": "A high-fidelity demographic database containing detailed consumer profiles, residential addresses, and financial standing indicators for market segmentation.",
+    "schema_inventory": [
+        {
+            "table_name": "Consumer_Profiles.csv",
+            "columns": [
+                "AgencyID",
+                "FirstName",
+                "NetWorth",
+                "Employer",
+                "NumberCreditCards",
+                "LastName",
+                "AddressLine2",
+                "MaritalStatus",
+                "Gender",
+                "Phone",
+                "NumberChildren",
+                "Age",
+                "City",
+                "Country",
+                "NumberCars",
+                "MiddleInitial",
+                "AddressLine1",
+                "PostalCode"
+            ]
+        }
+    ]
+}

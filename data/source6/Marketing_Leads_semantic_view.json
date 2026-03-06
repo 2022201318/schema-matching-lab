@@ -1,0 +1,177 @@
+{
+    "table_name": "Marketing_Leads.csv",
+    "description": "The Marketing_Leads.csv table contains marketing prospects with identifiers, personal details, financial metrics, and contact information. Columns include unique codes, names, network worth, employer, credit card count, address lines, marital status, gender, phone numbers, children count, age, city, country, courses, state, income, credit rating, and rental flag.",
+    "columns": [
+        {
+            "column_name": "prospect_gncd",
+            "data_type": "str",
+            "samples": [
+                "Iok7501",
+                "tia7502",
+                "AOI7503"
+            ]
+        },
+        {
+            "column_name": "prospect_frstnm",
+            "data_type": "str",
+            "samples": [
+                "wbwsqgtaa",
+                "QGJWCPAPZMWHYHZTNOYSSOQBI",
+                "BHGXDDPUMBESLQMNEPREPTZNNKM"
+            ]
+        },
+        {
+            "column_name": "prospect_ntwrth",
+            "data_type": "float64",
+            "samples": [
+                "321776.0",
+                "2292324.0",
+                "969707.0"
+            ]
+        },
+        {
+            "column_name": "prospect_mplr",
+            "data_type": "str",
+            "samples": [
+                "FM Global",
+                "MGIC Investment",
+                "Ross Stores"
+            ]
+        },
+        {
+            "column_name": "prospect_nmbrcrdtcrds",
+            "data_type": "float64",
+            "samples": [
+                "2.0",
+                "2.0",
+                "9.0"
+            ]
+        },
+        {
+            "column_name": "prospect_lstnm",
+            "data_type": "str",
+            "samples": [
+                "Iokwiqojocjanndatkdzgymym",
+                "tiabxgseasiibxakctfzhfwotp",
+                "AOIWIWTIHIXOJ"
+            ]
+        },
+        {
+            "column_name": "prospect_ddrssln2",
+            "data_type": "str",
+            "samples": [
+                "GKOIKEZZMQTPQUQZLSAUUMVBDPAXTWNWSXTYJYQ",
+                "ocmgcvnexhqhgoyrwpkgaopthdvandlzaaleqccjpjkbirtcqvorobgskhtlgndvn",
+                "Cdrxeolwrrxmwmhgexvcstvzz"
+            ]
+        },
+        {
+            "column_name": "prospect_mrtlstts",
+            "data_type": "str",
+            "samples": [
+                "U",
+                "S",
+                "M"
+            ]
+        },
+        {
+            "column_name": "prospect_gndr",
+            "data_type": "str",
+            "samples": [
+                "M",
+                "m",
+                "F"
+            ]
+        },
+        {
+            "column_name": "prospect_phn",
+            "data_type": "str",
+            "samples": [
+                "1-637-119-9996",
+                "1-560-405-0048",
+                "1-261-306-5079"
+            ]
+        },
+        {
+            "column_name": "prospect_nmbrchldrn",
+            "data_type": "float64",
+            "samples": [
+                "4.0",
+                "5.0",
+                "5.0"
+            ]
+        },
+        {
+            "column_name": "prospect_g",
+            "data_type": "float64",
+            "samples": [
+                "7.0",
+                "48.0",
+                "14.0"
+            ]
+        },
+        {
+            "column_name": "prospect_ct",
+            "data_type": "str",
+            "samples": [
+                "Baltimore",
+                "Kitchener",
+                "Saint John"
+            ]
+        },
+        {
+            "column_name": "prospect_cntr",
+            "data_type": "str",
+            "samples": [
+                "United States of America",
+                "Canada",
+                "United States of America"
+            ]
+        },
+        {
+            "column_name": "prospect_nmbrcrs",
+            "data_type": "float64",
+            "samples": [
+                "3.0",
+                "4.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "prospect_stt",
+            "data_type": "str",
+            "samples": [
+                "MO",
+                "TX",
+                "CT"
+            ]
+        },
+        {
+            "column_name": "prospect_ncm",
+            "data_type": "float64",
+            "samples": [
+                "94490.0",
+                "7037.0",
+                "419269.0"
+            ]
+        },
+        {
+            "column_name": "prospect_crdtrtng",
+            "data_type": "float64",
+            "samples": [
+                "580.0",
+                "683.0",
+                "411.0"
+            ]
+        },
+        {
+            "column_name": "prospect_wnrrntflg",
+            "data_type": "str",
+            "samples": [
+                "U",
+                "R",
+                "O"
+            ]
+        }
+    ]
+}

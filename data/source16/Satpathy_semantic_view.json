@@ -1,0 +1,744 @@
+{
+    "table_name": "Satpathy.csv",
+    "description": "The Satpathy.csv table contains patient data with columns for sample IDs, participant identifiers, experiment numbers, channel types, tissue types, smoking histories, clinical stages, demographic information, pathology assessments, and various mutation statuses. It also includes molecular and genetic alteration data, immune scores, and purity metrics.",
+    "columns": [
+        {
+            "column_name": "Sample.ID",
+            "data_type": "str",
+            "samples": [
+                "C3L.00081.N",
+                "C3L.00081",
+                "C3L.00415.N"
+            ]
+        },
+        {
+            "column_name": "Participant",
+            "data_type": "str",
+            "samples": [
+                "C3L-00081",
+                "C3L-00081",
+                "C3L-00415"
+            ]
+        },
+        {
+            "column_name": "Experiment",
+            "data_type": "int64",
+            "samples": [
+                "3",
+                "3",
+                "16"
+            ]
+        },
+        {
+            "column_name": "Channel",
+            "data_type": "str",
+            "samples": [
+                "129N",
+                "128C",
+                "131N"
+            ]
+        },
+        {
+            "column_name": "Type",
+            "data_type": "str",
+            "samples": [
+                "NAT",
+                "Tumor",
+                "NAT"
+            ]
+        },
+        {
+            "column_name": "Smoking.History",
+            "data_type": "str",
+            "samples": [
+                "Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime",
+                "Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime",
+                "Current reformed smoker within past 15 years"
+            ]
+        },
+        {
+            "column_name": "Smoking.History_modified",
+            "data_type": "str",
+            "samples": [
+                "Non-Smoker",
+                "Non-Smoker",
+                "Reformed Smoker"
+            ]
+        },
+        {
+            "column_name": "Stage",
+            "data_type": "str",
+            "samples": [
+                "IIA",
+                "IIA",
+                "IIA"
+            ]
+        },
+        {
+            "column_name": "Stage_mod",
+            "data_type": "str",
+            "samples": [
+                "II",
+                "II",
+                "II"
+            ]
+        },
+        {
+            "column_name": "Country.of.Origin",
+            "data_type": "str",
+            "samples": [
+                "usa",
+                "usa",
+                "usa"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "int64",
+            "samples": [
+                "61",
+                "61",
+                "64"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "female",
+                "female",
+                "female"
+            ]
+        },
+        {
+            "column_name": "Ethnicity",
+            "data_type": "str",
+            "samples": [
+                "caucasian",
+                "caucasian",
+                "caucasian"
+            ]
+        },
+        {
+            "column_name": "Ethnicity_mod",
+            "data_type": "str",
+            "samples": [
+                "caucasian",
+                "Caucasian",
+                "Caucasian"
+            ]
+        },
+        {
+            "column_name": "Pathology.based.histology.assessment",
+            "data_type": "str",
+            "samples": [
+                "classical SqCC",
+                "MD SqCC with focal basaloid features",
+                "classical SqCC"
+            ]
+        },
+        {
+            "column_name": "Cigarettes.per.Day",
+            "data_type": "str",
+            "samples": [
+                "20",
+                "20",
+                "20"
+            ]
+        },
+        {
+            "column_name": "Pack.Years.Smoked",
+            "data_type": "float64",
+            "samples": [
+                "35.0",
+                "35.0",
+                "40.0"
+            ]
+        },
+        {
+            "column_name": "Secondhand.Smoke",
+            "data_type": "str",
+            "samples": [
+                "Exposure to secondhand smoke history not available",
+                "Exposure to secondhand smoke history not available",
+                "Exposure to secondhand smoke history not available"
+            ]
+        },
+        {
+            "column_name": "CIMP.status.meth",
+            "data_type": "str",
+            "samples": [
+                "CIMP-high",
+                "CIMP-intermediate",
+                "CIMP-high"
+            ]
+        },
+        {
+            "column_name": "QC.status",
+            "data_type": "str",
+            "samples": [
+                "QC.pass",
+                "QC.pass",
+                "QC.pass"
+            ]
+        },
+        {
+            "column_name": "TP53.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "PTEN.mutation",
+            "data_type": "str",
+            "samples": [
+                "In_Frame_Del",
+                "Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "CDKN2A.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "KMT2D.mutation",
+            "data_type": "str",
+            "samples": [
+                "Nonsense_Mutation",
+                "Missense_Mutation",
+                "Frame_Shift_Del"
+            ]
+        },
+        {
+            "column_name": "NFE2L2.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "ARID1A.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "CUL3.mutation",
+            "data_type": "str",
+            "samples": [
+                "Nonsense_Mutation",
+                "Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "BRCA2.mutation",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Del",
+                "Frame_Shift_Ins",
+                "Frame_Shift_Ins"
+            ]
+        },
+        {
+            "column_name": "KEAP1.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "SUZ12.mutation",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Del",
+                "Missense_Mutation",
+                "Splice_Site"
+            ]
+        },
+        {
+            "column_name": "NF1.mutation",
+            "data_type": "str",
+            "samples": [
+                "Nonsense_Mutation",
+                "Frame_Shift_Del;Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.mutation",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "NOTCH1.mutation",
+            "data_type": "str",
+            "samples": [
+                "Splice_Site",
+                "Nonsense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "TP53.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "PTEN.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "CDKN2A.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KMT2D.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "NFE2L2.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ARID1A.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "CUL3.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "BRCA2.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KEAP1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "SUZ12.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "NF1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "NOTCH1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "CUL3.NFE2L2.KEAP1.mutation.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KAT6A.cna.wes",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "2.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "SOX2.cna.wes",
+            "data_type": "float64",
+            "samples": [
+                "2.0",
+                "2.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "TP63.cna.wes",
+            "data_type": "float64",
+            "samples": [
+                "2.0",
+                "2.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "FGFR1.cna.wes",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CDKN2A.cna.wes",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "CDKN2A.pathway.alteration",
+            "data_type": "str",
+            "samples": [
+                "CCND1_amp",
+                "CDKN2A_del|CCND1_amp",
+                "CCND1_amp"
+            ]
+        },
+        {
+            "column_name": "CDKN2A.pathway.alteration.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.pathway.alteration",
+            "data_type": "str",
+            "samples": [
+                "PIK3CA_amp",
+                "PIK3CA_amp",
+                "PIK3CA_amp"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.pathway.alteration.status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "FGFR3.TACC3.fusion.rna",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "TCGA.RNA.cluster",
+            "data_type": "str",
+            "samples": [
+                "Classical",
+                "Basal",
+                "Classical"
+            ]
+        },
+        {
+            "column_name": "NMF.subtype",
+            "data_type": "str",
+            "samples": [
+                "Classical",
+                "Basal inclusive",
+                "Classical"
+            ]
+        },
+        {
+            "column_name": "NMF.subtype.core",
+            "data_type": "str",
+            "samples": [
+                "Classical",
+                "Basal inclusive",
+                "Classical"
+            ]
+        },
+        {
+            "column_name": "NMF.subtype.membership.score",
+            "data_type": "float64",
+            "samples": [
+                "0.663",
+                "0.759",
+                "0.682"
+            ]
+        },
+        {
+            "column_name": "CIN.wes",
+            "data_type": "float64",
+            "samples": [
+                "5.760979799",
+                "2.46041786",
+                "4.764818591"
+            ]
+        },
+        {
+            "column_name": "Smoking.Signature.Fraction.wes",
+            "data_type": "float64",
+            "samples": [
+                "0.724414506",
+                "0.745628087",
+                "0.584548833"
+            ]
+        },
+        {
+            "column_name": "Smoking.Signature.Count.wes",
+            "data_type": "float64",
+            "samples": [
+                "224.5123161",
+                "117.0636102",
+                "110.2986024"
+            ]
+        },
+        {
+            "column_name": "Total.Mutation.Count.wes",
+            "data_type": "float64",
+            "samples": [
+                "330.0",
+                "165.0",
+                "203.0"
+            ]
+        },
+        {
+            "column_name": "Mutation.Count.ExcludingINDELs.wes",
+            "data_type": "float64",
+            "samples": [
+                "328.0",
+                "164.0",
+                "200.0"
+            ]
+        },
+        {
+            "column_name": "DNP.Count.wes",
+            "data_type": "float64",
+            "samples": [
+                "5.0",
+                "0.0",
+                "2.0"
+            ]
+        },
+        {
+            "column_name": "DNP.Count.GG.to.TT.or.CC.to.AA.wes",
+            "data_type": "float64",
+            "samples": [
+                "2.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "Smoking.score.wes",
+            "data_type": "float64",
+            "samples": [
+                "0.9982",
+                "0.8809",
+                "0.7959"
+            ]
+        },
+        {
+            "column_name": "Smoking.Score.Category.wes",
+            "data_type": "str",
+            "samples": [
+                "Strong_evidence",
+                "Strong_evidence",
+                "Strong_evidence"
+            ]
+        },
+        {
+            "column_name": "Mutation.Count.Excluding.Silent.wes",
+            "data_type": "float64",
+            "samples": [
+                "272.0",
+                "140.0",
+                "184.0"
+            ]
+        },
+        {
+            "column_name": "Total.Mutation.Count.per.Mb.wes",
+            "data_type": "float64",
+            "samples": [
+                "11.330145",
+                "5.459931",
+                "7.290427"
+            ]
+        },
+        {
+            "column_name": "TCGA pan-can immune clustering",
+            "data_type": "str",
+            "samples": [
+                "Inflammatory",
+                "Lymphocyte depleted",
+                "Inflammatory"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.StromalScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "2639.267606",
+                "1977.164185",
+                "3142.667264"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.ImmuneScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "4990.694721",
+                "1850.506227",
+                "5471.937274"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.TumorPurity.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.393054874",
+                "0.376362315",
+                "0.346155216"
+            ]
+        },
+        {
+            "column_name": "TSNet.Purity.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.113597396",
+                "0.781920044",
+                "0.12483901"
+            ]
+        },
+        {
+            "column_name": "ImmuneCluster.rna",
+            "data_type": "str",
+            "samples": [
+                "NAT-enriched",
+                "Warm Tumor",
+                "NAT-enriched"
+            ]
+        },
+        {
+            "column_name": "xCell.ImmuneScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.2745",
+                "0.0834",
+                "0.2831"
+            ]
+        },
+        {
+            "column_name": "xCell.StromaScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.3206",
+                "0.0061",
+                "0.2626"
+            ]
+        },
+        {
+            "column_name": "xCell.MicroenvironmentScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.5951",
+                "0.0895",
+                "0.5457"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT.AbsoluteScore.rna",
+            "data_type": "float64",
+            "samples": [
+                "0.792101095",
+                "0.371967892",
+                "0.997112001"
+            ]
+        }
+    ]
+}

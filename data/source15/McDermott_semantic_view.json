@@ -1,0 +1,204 @@
+{
+    "table_name": "McDermott.csv",
+    "description": "The McDermott.csv table contains patient data for ovarian cancer cases, including identifiers, demographic information, tumor characteristics, and medical history. It features columns for CPTAC Case ID, tumor and normal tissue analyzed, age, gender, race, ethnicity, disease site, histological subtype, and various medical history indicators, with data types primarily string and float.",
+    "columns": [
+        {
+            "column_name": "CPTAC Case ID",
+            "data_type": "str",
+            "samples": [
+                "01OV007",
+                "01OV008",
+                "01OV010"
+            ]
+        },
+        {
+            "column_name": "Tumor analyzed",
+            "data_type": "str",
+            "samples": [
+                "C01OV007",
+                "C01OV017",
+                "C01OV018"
+            ]
+        },
+        {
+            "column_name": "Normal FT analyzed",
+            "data_type": "str",
+            "samples": [
+                "N01OV007",
+                "N01OV008",
+                "N01OV010"
+            ]
+        },
+        {
+            "column_name": "Age in Months at Time of Tissue Procurement",
+            "data_type": "float64",
+            "samples": [
+                "820.0",
+                "665.0",
+                "625.0"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "Female",
+                "Female",
+                "Female"
+            ]
+        },
+        {
+            "column_name": "Race",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "Black or African American"
+            ]
+        },
+        {
+            "column_name": "Ethnicity",
+            "data_type": "str",
+            "samples": [
+                "Not Hispanic or Latino",
+                "Not Hispanic or Latino",
+                "Unknown"
+            ]
+        },
+        {
+            "column_name": "Jewish Religion/Heritage",
+            "data_type": "str",
+            "samples": [
+                "Unknown",
+                "Not Jewish",
+                "Unknown"
+            ]
+        },
+        {
+            "column_name": "Site of Disease",
+            "data_type": "str",
+            "samples": [
+                "Peritoneum",
+                "Fallopian tube",
+                "Fallopian tube"
+            ]
+        },
+        {
+            "column_name": "Anatomic site of Tumor Specimen",
+            "data_type": "str",
+            "samples": [
+                "Omentum",
+                "Ovary",
+                "Ovary"
+            ]
+        },
+        {
+            "column_name": "Anatomic Lateral Position of Tumor Specimen",
+            "data_type": "str",
+            "samples": [
+                "Not applicable",
+                "Right",
+                "Right"
+            ]
+        },
+        {
+            "column_name": "Histological Subtype",
+            "data_type": "str",
+            "samples": [
+                "Serous Adenocarcinoma",
+                "Serous Adenocarcinoma",
+                "Serous Adenocarcinoma"
+            ]
+        },
+        {
+            "column_name": "Method of Initial Pathologic Diagnosis",
+            "data_type": "str",
+            "samples": [
+                "Tumor resection",
+                "Tumor resection",
+                "Tumor resection"
+            ]
+        },
+        {
+            "column_name": "Tumor Stage (Pathological) Ovary FIGO Staging System",
+            "data_type": "str",
+            "samples": [
+                "IV",
+                "IIIC",
+                "IIIC"
+            ]
+        },
+        {
+            "column_name": "Tumor Grade",
+            "data_type": "str",
+            "samples": [
+                "G3",
+                "G3",
+                "G3"
+            ]
+        },
+        {
+            "column_name": "Tumor Residual Disease (for the max diameter of the largest remaining tumor nodule)",
+            "data_type": "str",
+            "samples": [
+                "1-10 mm",
+                "11-20 mm",
+                "greater than 20 mm"
+            ]
+        },
+        {
+            "column_name": "History of Other Malignancy?",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "History of Systemic Chemotherapy?",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "History or Radiation Therapy for Any Prior Malignancy That Involves Treatment to the Abdomen or Pelvis?",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "History of Hormonal Therapy for Cancer within the Last Five Years?",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "History of Neo-Adjuvant Treatment to Tumor Specimen Submitted for CPTAC",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Ischemia Time for Tumor Tissue",
+            "data_type": "float64",
+            "samples": [
+                "3.0",
+                "7.0",
+                "7.0"
+            ]
+        }
+    ]
+}

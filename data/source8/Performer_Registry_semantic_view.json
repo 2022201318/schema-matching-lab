@@ -1,0 +1,123 @@
+{
+    "table_name": "Performer_Registry.csv",
+    "description": "The Performer_Registry.csv table contains musician details including unique Wikidata IDs, names, gender, birth dates, cities, and family information. It also includes parents' names, spouse, number of children, musical kind, and personal webpages.",
+    "columns": [
+        {
+            "column_name": "musicianID",
+            "data_type": "str",
+            "samples": [
+                "http://www.wikidata.org/entity/Q6096",
+                "http://www.wikidata.org/entity/Q5977",
+                "http://www.wikidata.org/entity/Q8349"
+            ]
+        },
+        {
+            "column_name": "musicianName",
+            "data_type": "str",
+            "samples": [
+                "Bigg Snoop Dogg",
+                "00085469927 IPI",
+                "Al Yankovic"
+            ]
+        },
+        {
+            "column_name": "genderType",
+            "data_type": "str",
+            "samples": [
+                "m",
+                "m",
+                "m"
+            ]
+        },
+        {
+            "column_name": "birthDate",
+            "data_type": "str",
+            "samples": [
+                "1971-10-20T00:00:00Z",
+                "1936-09-07T00:00:00Z",
+                "1959-10-23T00:00:00Z"
+            ]
+        },
+        {
+            "column_name": "city",
+            "data_type": "str",
+            "samples": [
+                "Long Beach",
+                "Lubbock",
+                "Downey"
+            ]
+        },
+        {
+            "column_name": "familyName",
+            "data_type": "str",
+            "samples": [
+                "Broadus",
+                "Holley",
+                "Yankovic"
+            ]
+        },
+        {
+            "column_name": "forename",
+            "data_type": "str",
+            "samples": [
+                "Cordozar",
+                "Hardin",
+                "Alfred"
+            ]
+        },
+        {
+            "column_name": "fatherName",
+            "data_type": "str",
+            "samples": [
+                "Nick Louis Yankovic",
+                "Billy Garland",
+                "Scott Alexander Young"
+            ]
+        },
+        {
+            "column_name": "motherName",
+            "data_type": "str",
+            "samples": [
+                "Mary Yankovic",
+                "Afeni Shakur",
+                "Mattie Della"
+            ]
+        },
+        {
+            "column_name": "spouse",
+            "data_type": "str",
+            "samples": [
+                "Maria Elena Holly",
+                "Suzanne Yankovic",
+                "Lil Hardin Armstrong"
+            ]
+        },
+        {
+            "column_name": "NChildren",
+            "data_type": "float64",
+            "samples": [
+                "4.0",
+                "1.0",
+                "6.0"
+            ]
+        },
+        {
+            "column_name": "kind",
+            "data_type": "str",
+            "samples": [
+                "African-American music",
+                "rock and roll",
+                "humor"
+            ]
+        },
+        {
+            "column_name": "webpage",
+            "data_type": "str",
+            "samples": [
+                "http://snoopdogg.com/",
+                "http://www.buddyholly.com",
+                "http://weirdal.com/"
+            ]
+        }
+    ]
+}

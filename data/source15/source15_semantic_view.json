@@ -1,0 +1,32 @@
+{
+    "description": "The data source, \"source15,\" contains clinical data from patients with ovarian high-grade serous carcinoma (HGSC) as detailed in a proteogenomic study by McDermott et al. The dataset, accessible via an Excel sheet named \"BaselineClinicalData,\" includes patient demographics, tumor characteristics, and treatment histories. This information is stored in a table named \"McDermott.csv,\" which covers 21 columns such as CPTAC Case ID, tumor and normal tissue analysis details, patient age, gender, race, and various clinical parameters related to disease staging and treatment.",
+    "schema_inventory": [
+        {
+            "table_name": "McDermott.csv",
+            "columns": [
+                "CPTAC Case ID",
+                "Tumor analyzed",
+                "Normal FT analyzed",
+                "Age in Months at Time of Tissue Procurement",
+                "Gender",
+                "Race",
+                "Ethnicity",
+                "Jewish Religion/Heritage",
+                "Site of Disease",
+                "Anatomic site of Tumor Specimen",
+                "Anatomic Lateral Position of Tumor Specimen",
+                "Histological Subtype",
+                "Method of Initial Pathologic Diagnosis",
+                "Tumor Stage (Pathological) Ovary FIGO Staging System",
+                "Tumor Grade",
+                "Tumor Residual Disease (for the max diameter of the largest remaining tumor nodule)",
+                "History of Other Malignancy?",
+                "History of Systemic Chemotherapy?",
+                "History or Radiation Therapy for Any Prior Malignancy That Involves Treatment to the Abdomen or Pelvis?",
+                "History of Hormonal Therapy for Cancer within the Last Five Years?",
+                "History of Neo-Adjuvant Treatment to Tumor Specimen Submitted for CPTAC",
+                "Ischemia Time for Tumor Tissue"
+            ]
+        }
+    ]
+}

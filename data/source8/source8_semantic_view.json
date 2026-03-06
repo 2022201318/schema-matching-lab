@@ -1,0 +1,23 @@
+{
+    "description": "An operational registry for managing performance metadata and artist contact information, utilizing concise naming conventions for database efficiency.",
+    "schema_inventory": [
+        {
+            "table_name": "Performer_Registry.csv",
+            "columns": [
+                "musicianID",
+                "musicianName",
+                "genderType",
+                "birthDate",
+                "city",
+                "familyName",
+                "forename",
+                "fatherName",
+                "motherName",
+                "spouse",
+                "NChildren",
+                "kind",
+                "webpage"
+            ]
+        }
+    ]
+}

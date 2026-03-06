@@ -1,0 +1,165 @@
+{
+    "table_name": "Biological_Entries.csv",
+    "description": "The `Biological_Entries.csv` table contains assay details including unique identifiers, test types, document IDs, curators, taxonomic IDs, strains, source IDs, chemical IDs, subcellular fractions, organisms, cell types, tissues, and descriptions of various biological assays conducted in vitro or in vivo.",
+    "columns": [
+        {
+            "column_name": "assay_id",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "column_name": "assay_test_type",
+            "data_type": "str",
+            "samples": [
+                "In vivo",
+                "In vivo",
+                "In vivo"
+            ]
+        },
+        {
+            "column_name": "doc_id",
+            "data_type": "int64",
+            "samples": [
+                "11087",
+                "684",
+                "15453"
+            ]
+        },
+        {
+            "column_name": "curated_by",
+            "data_type": "str",
+            "samples": [
+                "Autocuration",
+                "Autocuration",
+                "Autocuration"
+            ]
+        },
+        {
+            "column_name": "assay_tax_id",
+            "data_type": "float64",
+            "samples": [
+                "9913.0",
+                "9606.0",
+                "9606.0"
+            ]
+        },
+        {
+            "column_name": "assay_strain",
+            "data_type": "str",
+            "samples": [
+                "beagle",
+                "beagle",
+                "beagle"
+            ]
+        },
+        {
+            "column_name": "src_id",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "description",
+            "data_type": "str",
+            "samples": [
+                "The compound was tested for the in vitro inhibition of platelet 12-lipoxygenase at a concentration of 30 uM",
+                "Compound was evaluated for its ability to mobilize calcium in 1321NI cells",
+                "Binding affinity against A2 adenosine receptor in bovine striatal membranes using [3H]CGS-21680"
+            ]
+        },
+        {
+            "column_name": "cell_id",
+            "data_type": "float64",
+            "samples": [
+                "163.0",
+                "163.0",
+                "163.0"
+            ]
+        },
+        {
+            "column_name": "src_assay_id",
+            "data_type": "float64",
+            "samples": []
+        },
+        {
+            "column_name": "chembl_id",
+            "data_type": "str",
+            "samples": [
+                "CHEMBL615117",
+                "CHEMBL615118",
+                "CHEMBL615119"
+            ]
+        },
+        {
+            "column_name": "assay_subcellular_fraction",
+            "data_type": "str",
+            "samples": [
+                "Membranes",
+                "Microsomes",
+                "Microsomes"
+            ]
+        },
+        {
+            "column_name": "tid",
+            "data_type": "int64",
+            "samples": [
+                "12052",
+                "22226",
+                "22226"
+            ]
+        },
+        {
+            "column_name": "assay_organism",
+            "data_type": "str",
+            "samples": [
+                "Bos taurus",
+                "Homo sapiens",
+                "Homo sapiens"
+            ]
+        },
+        {
+            "column_name": "assay_cell_type",
+            "data_type": "str",
+            "samples": [
+                "143B",
+                "143B",
+                "143B"
+            ]
+        },
+        {
+            "column_name": "variant_id",
+            "data_type": "float64",
+            "samples": []
+        },
+        {
+            "column_name": "assay_type",
+            "data_type": "str",
+            "samples": [
+                "B",
+                "F",
+                "B"
+            ]
+        },
+        {
+            "column_name": "assay_category",
+            "data_type": "float64",
+            "samples": []
+        },
+        {
+            "column_name": "assay_tissue",
+            "data_type": "str",
+            "samples": [
+                "Liver",
+                "Liver",
+                "Liver"
+            ]
+        }
+    ]
+}

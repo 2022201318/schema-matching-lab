@@ -1,0 +1,47 @@
+{
+    "description": "The data source, identified as \"source13,\" originates from a study by Huang et al., focusing on proteogenomic analysis of HPV-negative head and neck squamous cell carcinoma. The dataset, available at the provided URL, includes a comprehensive table named \"Huang.csv\" detailing patient demographics, clinical characteristics, tumor specifics, and molecular markers. This rich metadata supports insights into the biology and treatment of the disease.",
+    "schema_inventory": [
+        {
+            "table_name": "Huang.csv",
+            "columns": [
+                "case_id",
+                "age",
+                "gender",
+                "country",
+                "smoking_history",
+                "smoke_age_start",
+                "smoke_age_stop",
+                "num_smoke_per_day",
+                "num_pack_years_sm",
+                "smoking_second_hand",
+                "smoking_inferred",
+                "alcohol_consum",
+                "num_yrs_alc_con",
+                "tumor_site_original",
+                "tumor_site_curated",
+                "tumor_focality",
+                "tumor_size_cm",
+                "histologic_type",
+                "histologic_grade",
+                "tumor_necrosis",
+                "patho_staging_pt",
+                "patho_staging_pn",
+                "clinic_staging_dist_metas",
+                "tumor_stage",
+                "P16",
+                "HPV_inference",
+                "NAT_pathology_review",
+                "tumor_pathology_review",
+                "ESTIMATE_stromal_score",
+                "ESTIMATE_immune_score",
+                "CD3_IHC_count",
+                "stemness_score",
+                "mutation_count",
+                "neoAntigen_count",
+                "chr_instability_idx",
+                "integrated_subtype",
+                "transcriptomic_subtype"
+            ]
+        }
+    ]
+}

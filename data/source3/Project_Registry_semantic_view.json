@@ -1,0 +1,393 @@
+{
+    "table_name": "Project_Registry.csv",
+    "description": "The Project_Registry.csv table contains information about various projects, including the fiscal year they were registered in, the programming process, project status, organization details such as class and type, sector and continent names, project spending amounts, and various markers indicating the presence or absence of specific themes or types of aid. Each project is associated with a unique project number, section, and branch ID, along with detailed division and fund center information.",
+    "columns": [
+        {
+            "column_name": "Fiscal year",
+            "data_type": "str",
+            "samples": [
+                "2009/2010",
+                "2009/2010",
+                "2009/2010"
+            ]
+        },
+        {
+            "column_name": "Programming process (new)",
+            "data_type": "str",
+            "samples": [
+                "Uncoded: Pre-APP",
+                "Uncoded: Pre-APP",
+                "Uncoded: Pre-APP"
+            ]
+        },
+        {
+            "column_name": "Status",
+            "data_type": "str",
+            "samples": [
+                "Closed",
+                "Closed",
+                "Closed"
+            ]
+        },
+        {
+            "column_name": "Organisation class",
+            "data_type": "str",
+            "samples": [
+                "Individual",
+                "Individual",
+                "Individual"
+            ]
+        },
+        {
+            "column_name": "Sector name",
+            "data_type": "str",
+            "samples": [
+                "Democratic participation and civil society",
+                "Informal/semi-formal financial intermediaries",
+                "Privatization"
+            ]
+        },
+        {
+            "column_name": "Project number",
+            "data_type": "str",
+            "samples": [
+                "A017716001",
+                "A017716001",
+                "A017716001"
+            ]
+        },
+        {
+            "column_name": "Climate change adaptation (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Organisation ID",
+            "data_type": "str",
+            "samples": [
+                "Information not available",
+                "Information not available",
+                "Information not available"
+            ]
+        },
+        {
+            "column_name": "Organisation name",
+            "data_type": "str",
+            "samples": [
+                "Information not available",
+                "Information not available",
+                "Information not available"
+            ]
+        },
+        {
+            "column_name": "Desertification (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Bilateral aid (international marker)",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "Division name",
+            "data_type": "str",
+            "samples": [
+                "OAD Asia Programming",
+                "OAD Asia Programming",
+                "OAD Asia Programming"
+            ]
+        },
+        {
+            "column_name": "Amount spent",
+            "data_type": "float64",
+            "samples": [
+                "3932.842",
+                "5899.263000000001",
+                "9832.105"
+            ]
+        },
+        {
+            "column_name": "Sector percent",
+            "data_type": "float64",
+            "samples": [
+                "0.2",
+                "0.3",
+                "0.5"
+            ]
+        },
+        {
+            "column_name": "Section name",
+            "data_type": "str",
+            "samples": [
+                "Bangladesh Section",
+                "Bangladesh Section",
+                "Bangladesh Section"
+            ]
+        },
+        {
+            "column_name": "Project Browser country ID",
+            "data_type": "str",
+            "samples": [
+                "BD",
+                "BD",
+                "BD"
+            ]
+        },
+        {
+            "column_name": "ICT as a tool for development (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Continent name",
+            "data_type": "str",
+            "samples": [
+                "Asia",
+                "Asia",
+                "Asia"
+            ]
+        },
+        {
+            "column_name": "CountryRegion name",
+            "data_type": "str",
+            "samples": [
+                "Bangladesh",
+                "Bangladesh",
+                "Bangladesh"
+            ]
+        },
+        {
+            "column_name": "Section ID",
+            "data_type": "str",
+            "samples": [
+                "S4122",
+                "S4122",
+                "S4122"
+            ]
+        },
+        {
+            "column_name": "Indigenous issues (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Youth issues (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Sector ID",
+            "data_type": "int64",
+            "samples": [
+                "15150",
+                "24040",
+                "25020"
+            ]
+        },
+        {
+            "column_name": "Branch ID",
+            "data_type": "str",
+            "samples": [
+                "B4100",
+                "B4100",
+                "B4100"
+            ]
+        },
+        {
+            "column_name": "CIDA business delivery model (old)",
+            "data_type": "str",
+            "samples": [
+                "Directive",
+                "Directive",
+                "Directive"
+            ]
+        },
+        {
+            "column_name": "Children issues (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Disability issues (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Organisation type",
+            "data_type": "str",
+            "samples": [
+                "Canadian Profit Making",
+                "Canadian Profit Making",
+                "Canadian Profit Making"
+            ]
+        },
+        {
+            "column_name": "Biodiversity (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "CountryRegion percent",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "Untied amount(Project-level budget)",
+            "data_type": "float64",
+            "samples": [
+                "8500267.65",
+                "8500267.65",
+                "8500267.65"
+            ]
+        },
+        {
+            "column_name": "CFLI (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Regional program (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "FSTC percent",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "Participatory development and good governance",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Maximum CIDA contribution (project-level)",
+            "data_type": "float64",
+            "samples": [
+                "8500267.65",
+                "8500267.65",
+                "8500267.65"
+            ]
+        },
+        {
+            "column_name": "Branch name",
+            "data_type": "str",
+            "samples": [
+                "OGM Asia Pacific",
+                "OGM Asia Pacific",
+                "OGM Asia Pacific"
+            ]
+        },
+        {
+            "column_name": "Division ID",
+            "data_type": "str",
+            "samples": [
+                "D4100",
+                "D4100",
+                "D4100"
+            ]
+        },
+        {
+            "column_name": "Fund centre ID",
+            "data_type": "int64",
+            "samples": [
+                "4122",
+                "4122",
+                "4122"
+            ]
+        },
+        {
+            "column_name": "Fund centre name",
+            "data_type": "str",
+            "samples": [
+                "Bangladesh",
+                "Bangladesh",
+                "Bangladesh"
+            ]
+        },
+        {
+            "column_name": "IRTC percent",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PBA type",
+            "data_type": "str",
+            "samples": [
+                "Not PBA",
+                "Not PBA",
+                "Not PBA"
+            ]
+        },
+        {
+            "column_name": "Enviromental sustainability (marker)",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        }
+    ]
+}

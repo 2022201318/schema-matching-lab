@@ -1,0 +1,411 @@
+{
+    "table_name": "Vasaikar.csv",
+    "description": "The Vasaikar.csv table contains clinical and molecular data for colorectal cancer samples, including identifiers, demographic information, tumor characteristics, genetic mutations, and various scores related to tumor biology and immune response.",
+    "columns": [
+        {
+            "column_name": "SampleID",
+            "data_type": "str",
+            "samples": [
+                "01CO001",
+                "01CO005",
+                "01CO006"
+            ]
+        },
+        {
+            "column_name": "Clinical",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "Mutation",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "CNV",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "miRNA-seq",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "mRNA-seq",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "Label-free Proteome",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "TMT Proteome",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "TMT Proteome (Normal)",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "TMT Phosphoproteome",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "TMT Phosphoproteome (Normal)",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "Age",
+            "data_type": "float64",
+            "samples": [
+                "729.0",
+                "838.0",
+                "904.0"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "Male",
+                "Female",
+                "Female"
+            ]
+        },
+        {
+            "column_name": "Mucinous",
+            "data_type": "str",
+            "samples": [
+                "Mucinous",
+                "Not Mucinous",
+                "Mucinous"
+            ]
+        },
+        {
+            "column_name": "Subsite",
+            "data_type": "str",
+            "samples": [
+                "Sigmoid Colon",
+                "Sigmoid Colon",
+                "Ascending Colon"
+            ]
+        },
+        {
+            "column_name": "PT",
+            "data_type": "str",
+            "samples": [
+                "T4a",
+                "T3",
+                "T4a"
+            ]
+        },
+        {
+            "column_name": "PN",
+            "data_type": "str",
+            "samples": [
+                "N2b",
+                "N0",
+                "N2b"
+            ]
+        },
+        {
+            "column_name": "Stage",
+            "data_type": "str",
+            "samples": [
+                "Stage III",
+                "Stage II",
+                "Stage III"
+            ]
+        },
+        {
+            "column_name": "CEA",
+            "data_type": "float64",
+            "samples": [
+                "4.9",
+                "1.0",
+                "3.6"
+            ]
+        },
+        {
+            "column_name": "Vascular_Invasion",
+            "data_type": "str",
+            "samples": [
+                "Yes",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Lymphatic_Invasion",
+            "data_type": "str",
+            "samples": [
+                "Yes",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Perineural_Invasion",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Synchronous_Tumors",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "Polyps_History",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Polyps_Present",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "column_name": "Vital.Status",
+            "data_type": "str",
+            "samples": [
+                "Living",
+                "Deceased",
+                "Living"
+            ]
+        },
+        {
+            "column_name": "Tumor.Status",
+            "data_type": "str",
+            "samples": [
+                "Tumor free",
+                "Tumor free",
+                "With tumor"
+            ]
+        },
+        {
+            "column_name": "POLE_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "MSH2_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "MSH6_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PMS2_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "KRAS_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "NRAS_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "BRAF_mutation",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "mutation_rate",
+            "data_type": "float64",
+            "samples": [
+                "3.33333333333333",
+                "5.9",
+                "3.16666666666667"
+            ]
+        },
+        {
+            "column_name": "Hypermutation_status",
+            "data_type": "str",
+            "samples": [
+                "nonhyper",
+                "nonhyper",
+                "nonhyper"
+            ]
+        },
+        {
+            "column_name": "MSI_PCR_Result",
+            "data_type": "str",
+            "samples": [
+                "MSS",
+                "MSI-high",
+                "MSS"
+            ]
+        },
+        {
+            "column_name": "MSmutectFishercall",
+            "data_type": "str",
+            "samples": [
+                "MSS",
+                "MSS",
+                "MSS"
+            ]
+        },
+        {
+            "column_name": "CMS",
+            "data_type": "str",
+            "samples": [
+                "CMS3",
+                "CMS2",
+                "CMS3"
+            ]
+        },
+        {
+            "column_name": "ProS",
+            "data_type": "str",
+            "samples": [
+                "C",
+                "E",
+                "C"
+            ]
+        },
+        {
+            "column_name": "UMS",
+            "data_type": "str",
+            "samples": [
+                "CIN",
+                "CIN",
+                "CIN"
+            ]
+        },
+        {
+            "column_name": "StromalScore",
+            "data_type": "float64",
+            "samples": [
+                "-368.880599",
+                "-1102.297876",
+                "466.174616"
+            ]
+        },
+        {
+            "column_name": "ImmuneScore",
+            "data_type": "float64",
+            "samples": [
+                "573.3158586",
+                "-427.026762",
+                "1542.023347"
+            ]
+        },
+        {
+            "column_name": "ESTIMATEScore",
+            "data_type": "float64",
+            "samples": [
+                "204.4352597",
+                "-1529.324638",
+                "2008.197963"
+            ]
+        },
+        {
+            "column_name": "TumorPurity",
+            "data_type": "float64",
+            "samples": [
+                "0.805074113",
+                "0.928479028",
+                "0.621792179"
+            ]
+        }
+    ]
+}

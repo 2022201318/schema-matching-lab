@@ -1,0 +1,492 @@
+{
+    "table_name": "Krug.csv",
+    "description": "The Krug.csv table contains genomic and clinical data for various samples, including identifiers, tumor characteristics, proteogenomic statuses, mutation types, and mutation statuses for key genes. It includes columns for sample IDs, tumor stage, ischemia time, PAM50 and NMF cluster classifications, and various scores related to tumor purity and immune/stromal activity.",
+    "columns": [
+        {
+            "column_name": "Sample.ID",
+            "data_type": "str",
+            "samples": [
+                "CPT000814",
+                "CPT001846",
+                "X01BR001"
+            ]
+        },
+        {
+            "column_name": "Sample.IDs",
+            "data_type": "str",
+            "samples": [
+                "CPT000814",
+                "CPT001846",
+                "X01BR001"
+            ]
+        },
+        {
+            "column_name": "TMT.Plex",
+            "data_type": "str",
+            "samples": [
+                "13",
+                "12",
+                "2"
+            ]
+        },
+        {
+            "column_name": "TMT.Channel",
+            "data_type": "str",
+            "samples": [
+                "127C",
+                "128C",
+                "129N"
+            ]
+        },
+        {
+            "column_name": "Tumor.Stage",
+            "data_type": "str",
+            "samples": [
+                "Stage IIA",
+                "Stage III",
+                "Stage IIB"
+            ]
+        },
+        {
+            "column_name": "Ischemia.Time.in.Minutes",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "PAM50",
+            "data_type": "str",
+            "samples": [
+                "Basal",
+                "Basal",
+                "Basal"
+            ]
+        },
+        {
+            "column_name": "NMF.Cluster",
+            "data_type": "str",
+            "samples": [
+                "Basal-I",
+                "Basal-I",
+                "Basal-I"
+            ]
+        },
+        {
+            "column_name": "NMF.Cluster.Membership.Score",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.672",
+                "0.782"
+            ]
+        },
+        {
+            "column_name": "Age.in.Month",
+            "data_type": "str",
+            "samples": [
+                "unknown",
+                "unknown",
+                "660"
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "str",
+            "samples": [
+                "unknown",
+                "unknown",
+                "female"
+            ]
+        },
+        {
+            "column_name": "Ethnicity",
+            "data_type": "str",
+            "samples": [
+                "black.or.african.american",
+                "white",
+                "black.or.african.american"
+            ]
+        },
+        {
+            "column_name": "ER.Updated.Clinical.Status",
+            "data_type": "str",
+            "samples": [
+                "negative",
+                "negative",
+                "negative"
+            ]
+        },
+        {
+            "column_name": "PR.Clinical.Status",
+            "data_type": "str",
+            "samples": [
+                "negative",
+                "negative",
+                "negative"
+            ]
+        },
+        {
+            "column_name": "ERBB2.Updated.Clinical.Status",
+            "data_type": "str",
+            "samples": [
+                "unknown",
+                "unknown",
+                "negative"
+            ]
+        },
+        {
+            "column_name": "TNBC.Updated.Clinical.Status",
+            "data_type": "str",
+            "samples": [
+                "positive",
+                "positive",
+                "positive"
+            ]
+        },
+        {
+            "column_name": "ERBB2.Proteogenomic.Status",
+            "data_type": "str",
+            "samples": [
+                "negative",
+                "negative",
+                "negative"
+            ]
+        },
+        {
+            "column_name": "TOP2A.Proteogenomic.Status",
+            "data_type": "str",
+            "samples": [
+                "negative",
+                "negative",
+                "negative"
+            ]
+        },
+        {
+            "column_name": "ERBB2.Gene.Amplified",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "TOP2A.Gene.Amplified",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.TumorPurity",
+            "data_type": "float64",
+            "samples": [
+                "0.819666",
+                "0.631766",
+                "0.822598"
+            ]
+        },
+        {
+            "column_name": "CIBERSORT.Absolute.Score",
+            "data_type": "float64",
+            "samples": [
+                "0.565019",
+                "0.785537",
+                "0.45449"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.Immune.Score",
+            "data_type": "float64",
+            "samples": [
+                "846.350897",
+                "1425.391899",
+                "475.804314"
+            ]
+        },
+        {
+            "column_name": "xCell.Immune.Score",
+            "data_type": "float64",
+            "samples": [
+                "0.0414",
+                "0.0766",
+                "0.0103"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE.Stromal.Score",
+            "data_type": "float64",
+            "samples": [
+                "-812.409581",
+                "495.60375",
+                "-476.863678"
+            ]
+        },
+        {
+            "column_name": "xCell.Stromal.Score",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "0.0236",
+                "0.0088"
+            ]
+        },
+        {
+            "column_name": "CD3.TILS.Status",
+            "data_type": "str",
+            "samples": [
+                "not performed",
+                "not performed",
+                "not performed"
+            ]
+        },
+        {
+            "column_name": "CD3.TILS.Counts",
+            "data_type": "str",
+            "samples": [
+                "not performed",
+                "not performed",
+                "not performed"
+            ]
+        },
+        {
+            "column_name": "Number.of.non.synonymous.Mutations",
+            "data_type": "int64",
+            "samples": [
+                "92",
+                "80",
+                "79"
+            ]
+        },
+        {
+            "column_name": "APOBEC.Signature",
+            "data_type": "str",
+            "samples": [
+                "N",
+                "N",
+                "N"
+            ]
+        },
+        {
+            "column_name": "Chromosome.INstability.index.CIN.",
+            "data_type": "float64",
+            "samples": [
+                "2.2719461",
+                "0.826617402",
+                "1.137608521"
+            ]
+        },
+        {
+            "column_name": "Stemness.Score",
+            "data_type": "float64",
+            "samples": [
+                "0.798050042",
+                "0.59210011",
+                "0.839482756"
+            ]
+        },
+        {
+            "column_name": "TP53.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Del",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "In_Frame_Del",
+                "In_Frame_Del"
+            ]
+        },
+        {
+            "column_name": "PTEN.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Del",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "MAP3K1.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "In_Frame_Del",
+                "Missense_Mutation",
+                "Frame_Shift_Ins"
+            ]
+        },
+        {
+            "column_name": "AKT1.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "GATA3.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Ins",
+                "Missense_Mutation",
+                "Frame_Shift_Ins"
+            ]
+        },
+        {
+            "column_name": "CBFB.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Splice_Site",
+                "Splice_Site"
+            ]
+        },
+        {
+            "column_name": "KMT2C.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation;Nonsense_Mutation",
+                "Frame_Shift_Ins",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "SF3B1.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Missense_Mutation",
+                "In_Frame_Del"
+            ]
+        },
+        {
+            "column_name": "ARID1A.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Frame_Shift_Ins",
+                "Missense_Mutation;Intron",
+                "Frame_Shift_Del"
+            ]
+        },
+        {
+            "column_name": "MLLT4.Mutation.Type",
+            "data_type": "str",
+            "samples": [
+                "Missense_Mutation",
+                "Frame_Shift_Ins",
+                "Missense_Mutation"
+            ]
+        },
+        {
+            "column_name": "TP53.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "1",
+                "1",
+                "1"
+            ]
+        },
+        {
+            "column_name": "PIK3CA.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "1",
+                "0"
+            ]
+        },
+        {
+            "column_name": "PTEN.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "MAP3K1.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "AKT1.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "GATA3.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "CBFB.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "KMT2C.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "SF3B1.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "ARID1A.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "MLLT4.Mutation.Status",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        }
+    ]
+}

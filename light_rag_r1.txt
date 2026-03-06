@@ -1,0 +1,53 @@
+--- STEP 1 RESULT (Domains) ---
+ {
+  "domains": [
+    {
+      "name": "Clinical",
+      "sources": [
+        "source9",
+        "source10",
+        "source11",
+        "source12",
+        "source13",
+        "source14",
+        "source15",
+        "source16",
+        "source17",
+        "source18"
+      ],
+      "description": "Sources providing clinical, demographic, genomic, proteomic, and pathological data from biomedical and cancer research studies, supporting disease characterization and treatment research."
+    },
+    {
+      "name": "Financial",
+      "sources": [
+        "source3",
+        "source4"
+      ],
+      "description": "Sources focused on tracking financial records, organizational audits, international aid projects, funding allocations, and socio-economic development markers."
+    },
+    {
+      "name": "Diagnostic/Experimental",
+      "sources": [
+        "source1",
+        "source2"
+      ],
+      "description": "Sources containing systematic metadata and measurement metrics for biological and laboratory assays, including diagnostic exports using internal codification."
+    },
+    {
+      "name": "Market and Consumer Profiling",
+      "sources": [
+        "source5",
+        "source6"
+      ],
+      "description": "Sources offering detailed consumer demographic databases and lists of marketing prospects optimized for segmentation and campaign management."
+    },
+    {
+      "name": "Biographical and Performative Arts",
+      "sources": [
+        "source7",
+        "source8"
+      ],
+      "description": "Sources compiling comprehensive biographical and operational metadata on musicians and performing artists, including ontological attributes and contact registries."
+    }
+  ]
+}

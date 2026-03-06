@@ -1,0 +1,137 @@
+以下是基于知识图谱的全面分析，将所有表和数据源划分为不同的业务数据域（Data Domains）。对于每个领域，列出了相关的表和数据源，并简要说明了领域的核心业务含义。
+
+---
+
+## 1. 临床与分子诊断数据域（Clinical & Molecular Diagnostics Domain）
+
+**核心业务含义**：  
+该领域聚焦于收集和管理患者的临床特征、诊断记录、生物分子、基因组学、蛋白质组学等与疾病相关的详细医疗科学数据，支持基础医学研究、疾病分型和精准医学研究。
+
+**相关表和数据源**：
+
+- **Source9**
+  - 表名：Cao.csv  
+    说明：胰腺癌患者的临床和随访数据，包括人口学、病理、肿瘤特征等。
+
+- **Source10**
+  - 表名：Clark.csv  
+    说明：肾透明细胞癌（ccRCC）患者的临床特性、人口信息及病理分期。
+
+- **Source11**
+  - 表名：Dou（Dou.csv）  
+    说明：子宫内膜癌患者的临床、基因组、蛋白质组、免疫学、分型及治疗信息，是高集成的临床－分子研究数据源。
+
+- **Source13**
+  - 表名：Huang.csv  
+    说明：包括患者ID、人口统计、吸烟饮酒史、肿瘤特征和分子信息。
+
+- **Source14**
+  - 表名：Krug（Krug.csv）  
+    说明：乳腺癌样本的临床和分子信息，包括肿瘤特征、突变类型和分子分型。
+
+- **Source15**
+  - 表名：BaselineClinicalData（Excel表）  
+    说明：卵巢癌患者基线临床数据、肿瘤和治疗信息。
+  - 表名：McDermott.csv  
+    说明：卵巢癌患者临床和人口统计数据，含CPTAC案例ID、病史等。
+
+- **Source16**
+  - 表名：Satpathy（Satpathy.csv）  
+    说明：肺鳞癌患者的详细基因组、临床、分子、免疫相关信息与分型数据。
+
+- **Source17**
+  - 表名：Vasaikar（Vasaikar.csv）  
+    说明：结直肠癌临床和分子数据，包括人口统计、肿瘤特征、分型、分子和免疫特征。
+
+---
+
+## 2. 患者基本信息与人口统计数据域（Patient Demographics & Socioeconomics Domain）
+
+**核心业务含义**：  
+该领域主要处理与患者身份、基础人口数据、社会经济背景等相关的内容，便于患者追踪、健康管理、统计人口特征及后续多维度分析。
+
+**相关表和数据源**：
+
+- **Source5**
+  - 表名：Consumer_Profiles（Consumer_Profiles.csv）  
+    说明：消费者/患者的详细人口统计、住址、财务状况、信用信息、婚姻与家庭基本人口属性等，支持市场细分和人群画像。
+
+---
+
+## 3. 生物实验与实验注册数据域（Laboratory and Biological Assays Domain）
+
+**核心业务含义**：  
+该领域集中于管理生物实验、药物测试、实验批次和相关实验过程数据，是生命科学及药物开发的重要数据支撑。
+
+**相关表和数据源**：
+
+- **Source1**
+  - 表名：Biological_Entries（Biological_Entries.csv）  
+    说明：生物实验的系统性元数据，包括实验ID、化合物ID、细胞/组织/亚细胞分数、实验类型等。
+
+- **Source2**
+  - 表名：Lab_Registry（Lab_Registry.csv）  
+    说明：实验注册表，含各类化验编号、化学信息、测量类型、批次、分数和浓度数据。
+
+---
+
+## 4. 项目及财务管理数据域（Project & Financial Management Domain）
+
+**核心业务含义**：  
+聚焦于各类项目注册、国际组织财务与管理、项目属性标记及经费分配，可用于援助项目管理、资源配置和财务跟踪。
+
+**相关表和数据源**：
+
+- **Source3**
+  - 表名：Project_Registry（Project_Registry.csv）  
+    说明：记录国际项目注册、立项年度、机构名称与类型、组织参与信息、项目经费、参与国家区域比例与专题标签等。
+
+- **Source4**
+  - 表名：Accounting_Snapshot（Accounting_Snapshot.csv）  
+    说明：国际组织的财务和项目相关数据，含会计年度、项目状态、区域分类、业务模式和支出等。
+
+---
+
+## 5. 营销和潜在客户管理数据域（Marketing & Prospects Management Domain）
+
+**核心业务含义**：  
+以市场营销、潜在客户挖掘和管理为目标，涵盖对外营销线索的个人信息、经济状况和联系方式。
+
+**相关表和数据源**：
+
+- **Source6**
+  - 表名：Marketing_Leads（Marketing_Leads.csv）  
+    说明：营销线索表，包含唯一身份码、客户基本信息、财务指标、联系方式等，面向市场营销和业务推广活动。
+
+---
+
+## 6. 艺术与文艺人物知识数据域（Artistic and Biographical Knowledge Domain）
+
+**核心业务含义**：  
+存储艺术家和音乐人的百科资料、活动履历、家庭关系和作品信息。适用于文化数据挖掘和人文研究。
+
+**相关表和数据源**：
+
+- **Source7**
+  - 表名：Artist_Encyclopedia（Artist_Encyclopedia.csv）  
+    说明：音乐人百科档案，含第三方ID、生日、家庭、网页及宗教等。
+
+- **Source8**
+  - 表名：Performer_Registry（Performer_Registry.csv）  
+    说明：演艺人员注册档案，涉及家族关系、类型、网页和社交名片。
+
+---
+
+# 总结
+
+上述6大数据域涵盖了知识图谱中出现的全部表与数据源，具体为：
+
+- 临床与分子诊断数据域：Cao.csv、Clark.csv、Dou.csv、Huang.csv、Krug.csv、BaselineClinicalData、McDermott.csv、Satpathy.csv、Vasaikar.csv
+- 患者基本信息与人口统计数据域：Consumer_Profiles.csv
+- 生物实验与实验注册数据域：Biological_Entries.csv、Lab_Registry.csv
+- 项目及财务管理数据域：Project_Registry.csv、Accounting_Snapshot.csv
+- 营销和潜在客户管理数据域：Marketing_Leads.csv
+- 艺术与文艺人物知识数据域：Artist_Encyclopedia.csv、Performer_Registry.csv
+
+每个领域均有清晰的界定，彼此相对独立，支持多种业务和研究需求。
+

@@ -1,0 +1,357 @@
+{
+    "table_name": "Cao.csv",
+    "description": "Cao.csv contains patient data for pancreatic cancer studies, including case identifiers, inclusion criteria, demographic details, tumor characteristics, pathologic staging, and follow-up information. Columns cover diagnosis, age, sex, race, tumor specifics, staging, medical history, cellularity fractions, and survival status.",
+    "columns": [
+        {
+            "column_name": "case_id",
+            "data_type": "str",
+            "samples": [
+                "C3L-00102",
+                "C3L-00189",
+                "C3L-00277"
+            ]
+        },
+        {
+            "column_name": "tumor_included_for_the_study",
+            "data_type": "str",
+            "samples": [
+                "yes",
+                "yes",
+                "yes"
+            ]
+        },
+        {
+            "column_name": "normal_included_for_the_study",
+            "data_type": "str",
+            "samples": [
+                "yes",
+                "yes",
+                "yes"
+            ]
+        },
+        {
+            "column_name": "histology_diagnosis",
+            "data_type": "str",
+            "samples": [
+                "PDAC",
+                "PDAC",
+                "PDAC"
+            ]
+        },
+        {
+            "column_name": "age",
+            "data_type": "int64",
+            "samples": [
+                "42",
+                "68",
+                "69"
+            ]
+        },
+        {
+            "column_name": "sex",
+            "data_type": "str",
+            "samples": [
+                "Male",
+                "Female",
+                "Male"
+            ]
+        },
+        {
+            "column_name": "race",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "White"
+            ]
+        },
+        {
+            "column_name": "participant_country",
+            "data_type": "str",
+            "samples": [
+                "United States",
+                "Canada",
+                "Other"
+            ]
+        },
+        {
+            "column_name": "tumor_site",
+            "data_type": "str",
+            "samples": [
+                "head",
+                "head",
+                "tail"
+            ]
+        },
+        {
+            "column_name": "tumor_focality",
+            "data_type": "str",
+            "samples": [
+                "Unifocal",
+                "Unifocal",
+                "Unifocal"
+            ]
+        },
+        {
+            "column_name": "tumor_size_cm",
+            "data_type": "float64",
+            "samples": [
+                "3.0",
+                "2.7",
+                "5.0"
+            ]
+        },
+        {
+            "column_name": "tumor_necrosis",
+            "data_type": "str",
+            "samples": [
+                "Not identified",
+                "Not identified",
+                "Not identified"
+            ]
+        },
+        {
+            "column_name": "lymph_vascular_invasion",
+            "data_type": "str",
+            "samples": [
+                "Present",
+                "Not identified",
+                "Not identified"
+            ]
+        },
+        {
+            "column_name": "perineural_invasion",
+            "data_type": "str",
+            "samples": [
+                "Present",
+                "Present",
+                "Present"
+            ]
+        },
+        {
+            "column_name": "number_of_lymph_nodes_examined",
+            "data_type": "str",
+            "samples": [
+                "6",
+                "13",
+                "15"
+            ]
+        },
+        {
+            "column_name": "number_of_lymph_nodes_positive_for_tumor",
+            "data_type": "float64",
+            "samples": [
+                "5.0",
+                "2.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "pathologic_staging_regional_lymph_nodes_pn",
+            "data_type": "str",
+            "samples": [
+                "pN2",
+                "pN1",
+                "pN1"
+            ]
+        },
+        {
+            "column_name": "pathologic_staging_primary_tumor_pt",
+            "data_type": "str",
+            "samples": [
+                "pT2",
+                "pT2",
+                "pT3"
+            ]
+        },
+        {
+            "column_name": "pathologic_staging_distant_metastasis_pm",
+            "data_type": "str",
+            "samples": [
+                "pMX",
+                "pM0",
+                "pMX"
+            ]
+        },
+        {
+            "column_name": "clinical_staging_distant_metastasis_cm",
+            "data_type": "str",
+            "samples": [
+                "cM0",
+                "cM0",
+                "cMX"
+            ]
+        },
+        {
+            "column_name": "residual_tumor",
+            "data_type": "str",
+            "samples": [
+                "R0:  No residual tumor",
+                "R1:  Microscopic residual tumor",
+                "R2:  Macroscopic residual tumor"
+            ]
+        },
+        {
+            "column_name": "tumor_stage_pathological",
+            "data_type": "str",
+            "samples": [
+                "Stage III",
+                "Stage IIB",
+                "Stage IIB"
+            ]
+        },
+        {
+            "column_name": "additional_pathologic_findings",
+            "data_type": "str",
+            "samples": [
+                "None identified",
+                "Pancreatic intraepithelial neoplasia : Highest grade - PanIN-3",
+                "Other : Gastric GIST"
+            ]
+        },
+        {
+            "column_name": "bmi",
+            "data_type": "float64",
+            "samples": [
+                "26.93",
+                "34.28",
+                "24.0"
+            ]
+        },
+        {
+            "column_name": "alcohol_consumption",
+            "data_type": "str",
+            "samples": [
+                "Alcohol consumption history not available",
+                "Alcohol consumption equal to or less than 2 drinks per day for men and 1 drink or less per day for women",
+                "Alcohol consumption equal to or less than 2 drinks per day for men and 1 drink or less per day for women"
+            ]
+        },
+        {
+            "column_name": "tobacco_smoking_history",
+            "data_type": "str",
+            "samples": [
+                "Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime",
+                "Current reformed smoker, more than 15 years",
+                "Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime"
+            ]
+        },
+        {
+            "column_name": "medical_condition",
+            "data_type": "str",
+            "samples": [
+                "Hypertension|hyperlipidemia|Diabetes mellitus type II (NIDDM, adult onset diabetes)",
+                "Tachycardia|Hypertension|sleep apnea|cholecystectomy|jaundice|allergies|Hysterectomy|varicose veins|Bladder Repair|Ankle surgery|Two maternal aunts with pancreatic cancer",
+                "Diabetes mellitus type II (NIDDM, adult onset diabetes)|Hiatal Hernia|Gastric Reflux Disease, reflux esophagitis, heartburn, GERD|Diverticular Disease, diverticulitis|Pancreatic Cyst"
+            ]
+        },
+        {
+            "column_name": "Neoplastic_cellularity",
+            "data_type": "str",
+            "samples": [
+                "25",
+                "15;5;20",
+                "40"
+            ]
+        },
+        {
+            "column_name": "Acinar_fraction",
+            "data_type": "str",
+            "samples": [
+                "1",
+                "0;0;0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Islet_fraction",
+            "data_type": "str",
+            "samples": [
+                "2",
+                "1;3;2",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Stromal_fraction",
+            "data_type": "str",
+            "samples": [
+                "60",
+                "75;55;53",
+                "55"
+            ]
+        },
+        {
+            "column_name": "Non_neoplastic_duct",
+            "data_type": "str",
+            "samples": [
+                "1",
+                "2;1;0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Fat_fraction",
+            "data_type": "str",
+            "samples": [
+                "4",
+                "0;6;0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "Inflammation_fraction",
+            "data_type": "str",
+            "samples": [
+                "7",
+                "7;30;25",
+                "5"
+            ]
+        },
+        {
+            "column_name": "Muscle_fraction",
+            "data_type": "str",
+            "samples": [
+                "0",
+                "0;0;0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "follow_up_days",
+            "data_type": "float64",
+            "samples": [
+                "249.0",
+                "1035.0",
+                "610.0"
+            ]
+        },
+        {
+            "column_name": "vital_status",
+            "data_type": "str",
+            "samples": [
+                "Deceased",
+                "Deceased",
+                "Deceased"
+            ]
+        },
+        {
+            "column_name": "is_this_patient_lost_to_follow_up",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "cause_of_death",
+            "data_type": "str",
+            "samples": [
+                "pancreatic carcinoma",
+                "pancreatic carcinoma",
+                "pancreatic carcinoma"
+            ]
+        }
+    ]
+}

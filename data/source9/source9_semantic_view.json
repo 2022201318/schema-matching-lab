@@ -1,0 +1,49 @@
+{
+    "description": "The data source \"source9\" contains clinical data from the study \"Proteogenomic characterization of pancreatic ductal adenocarcinoma\" by Cao, L. et al. The dataset, accessible at https://ars.els-cdn.com/content/image/1-s2.0-S0092867421009971-mmc1.xlsx, includes patient information such as demographic details, medical history, tumor characteristics, and follow-up outcomes, stored in a table named \"Cao.csv\".",
+    "schema_inventory": [
+        {
+            "table_name": "Cao.csv",
+            "columns": [
+                "case_id",
+                "tumor_included_for_the_study",
+                "normal_included_for_the_study",
+                "histology_diagnosis",
+                "age",
+                "sex",
+                "race",
+                "participant_country",
+                "tumor_site",
+                "tumor_focality",
+                "tumor_size_cm",
+                "tumor_necrosis",
+                "lymph_vascular_invasion",
+                "perineural_invasion",
+                "number_of_lymph_nodes_examined",
+                "number_of_lymph_nodes_positive_for_tumor",
+                "pathologic_staging_regional_lymph_nodes_pn",
+                "pathologic_staging_primary_tumor_pt",
+                "pathologic_staging_distant_metastasis_pm",
+                "clinical_staging_distant_metastasis_cm",
+                "residual_tumor",
+                "tumor_stage_pathological",
+                "additional_pathologic_findings",
+                "bmi",
+                "alcohol_consumption",
+                "tobacco_smoking_history",
+                "medical_condition",
+                "Neoplastic_cellularity",
+                "Acinar_fraction",
+                "Islet_fraction",
+                "Stromal_fraction",
+                "Non_neoplastic_duct",
+                "Fat_fraction",
+                "Inflammation_fraction",
+                "Muscle_fraction",
+                "follow_up_days",
+                "vital_status",
+                "is_this_patient_lost_to_follow_up",
+                "cause_of_death"
+            ]
+        }
+    ]
+}

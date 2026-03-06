@@ -1,0 +1,256 @@
+{
+    "table_name": "Wang.csv",
+    "description": "Wang.csv contains patient data including identifiers (case_id), demographics (age, gender, height, weight, BMI, country of origin, race, ethnicity), health behaviors (smoking history, secondhand smoke exposure), medical details (tumor laterality, site, follow-up period, vital status, days to death, cause of death), and expert review outcomes (path review, details, exclusion status).",
+    "columns": [
+        {
+            "column_name": "case_id",
+            "data_type": "str",
+            "samples": [
+                "C3L-00104",
+                "C3L-00365",
+                "C3L-00674"
+            ]
+        },
+        {
+            "column_name": "age",
+            "data_type": "int64",
+            "samples": [
+                "58",
+                "59",
+                "45"
+            ]
+        },
+        {
+            "column_name": "gender",
+            "data_type": "str",
+            "samples": [
+                "Male",
+                "Female",
+                "Male"
+            ]
+        },
+        {
+            "column_name": "height",
+            "data_type": "float64",
+            "samples": [
+                "188.0",
+                "162.0",
+                "193.0"
+            ]
+        },
+        {
+            "column_name": "weight",
+            "data_type": "float64",
+            "samples": [
+                "115.0",
+                "54.0",
+                "102.0"
+            ]
+        },
+        {
+            "column_name": "bmi",
+            "data_type": "float64",
+            "samples": [
+                "32.54",
+                "20.61",
+                "27.44"
+            ]
+        },
+        {
+            "column_name": "country_of_origin",
+            "data_type": "str",
+            "samples": [
+                "United States",
+                "United States",
+                "Russia"
+            ]
+        },
+        {
+            "column_name": "race",
+            "data_type": "str",
+            "samples": [
+                "White",
+                "White",
+                "White"
+            ]
+        },
+        {
+            "column_name": "ethnicity",
+            "data_type": "str",
+            "samples": [
+                "Not-Hispanic or Latino",
+                "Not-Hispanic or Latino",
+                "Not-Hispanic or Latino"
+            ]
+        },
+        {
+            "column_name": "ethnicity_self_identify",
+            "data_type": "str",
+            "samples": [
+                "Caucasian",
+                "Caucasian",
+                "Caucasian"
+            ]
+        },
+        {
+            "column_name": "smoking_history",
+            "data_type": "str",
+            "samples": [
+                "Current reformed smoker within past 15 years",
+                "Current reformed smoker within past 15 years",
+                "Current smoker: Includes daily and non-daily smokers"
+            ]
+        },
+        {
+            "column_name": "secondhand_smoke_exposure",
+            "data_type": "str",
+            "samples": [
+                "Yes",
+                "Yes",
+                "Yes"
+            ]
+        },
+        {
+            "column_name": "tumor_laterality",
+            "data_type": "str",
+            "samples": [
+                "Left",
+                "Left",
+                "Right"
+            ]
+        },
+        {
+            "column_name": "tumor_site_curated",
+            "data_type": "str",
+            "samples": [
+                "Frontal Lobe",
+                "Parietal Lobe",
+                "Frontal Lobe"
+            ]
+        },
+        {
+            "column_name": "tumor_site_curation_notes",
+            "data_type": "str",
+            "samples": [
+                "Diagnostic pathology report",
+                "Diagnostic pathology report",
+                "MRI review"
+            ]
+        },
+        {
+            "column_name": "follow_up_period",
+            "data_type": "str",
+            "samples": [
+                "12 Months",
+                "12 Months",
+                "24 Months"
+            ]
+        },
+        {
+            "column_name": "vital_status",
+            "data_type": "str",
+            "samples": [
+                "Deceased",
+                "Deceased",
+                "Deceased"
+            ]
+        },
+        {
+            "column_name": "path_diag_to_last_contact_days",
+            "data_type": "float64",
+            "samples": [
+                "128.0",
+                "280.0",
+                "385.0"
+            ]
+        },
+        {
+            "column_name": "path_diag_to_death_days",
+            "data_type": "float64",
+            "samples": [
+                "129.0",
+                "322.0",
+                "478.0"
+            ]
+        },
+        {
+            "column_name": "cause_of_death",
+            "data_type": "str",
+            "samples": [
+                "GBM",
+                "GBM",
+                "GBM"
+            ]
+        },
+        {
+            "column_name": "lost_to_follow_up",
+            "data_type": "str",
+            "samples": [
+                "No",
+                "No",
+                "No"
+            ]
+        },
+        {
+            "column_name": "tumor_reoccur_after_treatment",
+            "data_type": "float64",
+            "samples": [
+                "0.0",
+                "1.0",
+                "0.0"
+            ]
+        },
+        {
+            "column_name": "path_diag_to_tumor_reoccur_days",
+            "data_type": "float64",
+            "samples": [
+                "245.0",
+                "235.0",
+                "525.0"
+            ]
+        },
+        {
+            "column_name": "expert_path_review",
+            "data_type": "str",
+            "samples": [
+                "PASS",
+                "FAIL",
+                "PASS"
+            ]
+        },
+        {
+            "column_name": "expert_path_review_num_segments",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "column_name": "expert_path_review_details",
+            "data_type": "str",
+            "samples": [
+                "C3L-00365-01(low tumor nuclei)",
+                "C3L-02642-03(low cellularity|high necrosis)",
+                "C3L-02705-71(low cellularity|low tumor nuclei), C3L-02705-72(low cellularity|low tumor nuclei), C3L-02705-75(low cellularity|low tumor nuclei)"
+            ]
+        },
+        {
+            "column_name": "excluded_in_downstream_analysis",
+            "data_type": "bool",
+            "samples": [
+                "False",
+                "False",
+                "False"
+            ]
+        },
+        {
+            "column_name": "exclusion_reason",
+            "data_type": "str",
+            "samples": [
+                "High necrosis affecting (phospho)protein expression"
+            ]
+        }
+    ]
+}

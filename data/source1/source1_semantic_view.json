@@ -1,0 +1,29 @@
+{
+    "description": "A centralized repository containing systematic metadata of biological assays, including taxonomic classifications and detailed experimental attributes.",
+    "schema_inventory": [
+        {
+            "table_name": "Biological_Entries.csv",
+            "columns": [
+                "assay_id",
+                "assay_test_type",
+                "doc_id",
+                "curated_by",
+                "assay_tax_id",
+                "assay_strain",
+                "src_id",
+                "description",
+                "cell_id",
+                "src_assay_id",
+                "chembl_id",
+                "assay_subcellular_fraction",
+                "tid",
+                "assay_organism",
+                "assay_cell_type",
+                "variant_id",
+                "assay_type",
+                "assay_category",
+                "assay_tissue"
+            ]
+        }
+    ]
+}

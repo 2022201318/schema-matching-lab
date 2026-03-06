@@ -1,0 +1,38 @@
+{
+    "description": "The data source \"source18\" contains clinical data from a study on human glioblastoma, as detailed in Wang et al.'s paper. The dataset, available at the provided URL, includes patient demographics, health metrics, and tumor characteristics. The data is structured in a single table named \"Wang.csv\" with columns covering patient identifiers, personal and medical history, tumor specifics, follow-up outcomes, and exclusion criteria for downstream analysis.",
+    "schema_inventory": [
+        {
+            "table_name": "Wang.csv",
+            "columns": [
+                "case_id",
+                "age",
+                "gender",
+                "height",
+                "weight",
+                "bmi",
+                "country_of_origin",
+                "race",
+                "ethnicity",
+                "ethnicity_self_identify",
+                "smoking_history",
+                "secondhand_smoke_exposure",
+                "tumor_laterality",
+                "tumor_site_curated",
+                "tumor_site_curation_notes",
+                "follow_up_period",
+                "vital_status",
+                "path_diag_to_last_contact_days",
+                "path_diag_to_death_days",
+                "cause_of_death",
+                "lost_to_follow_up",
+                "tumor_reoccur_after_treatment",
+                "path_diag_to_tumor_reoccur_days",
+                "expert_path_review",
+                "expert_path_review_num_segments",
+                "expert_path_review_details",
+                "excluded_in_downstream_analysis",
+                "exclusion_reason"
+            ]
+        }
+    ]
+}

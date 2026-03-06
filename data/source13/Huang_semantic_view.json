@@ -1,0 +1,339 @@
+{
+    "table_name": "Huang.csv",
+    "description": "The Huang.csv table contains patient data including case ID, demographic information, smoking and alcohol history, tumor characteristics, and molecular data. Columns cover age, gender, country, smoking details, alcohol consumption, tumor site, size, histology, staging, and various biomarker scores and counts.",
+    "columns": [
+        {
+            "column_name": "case_id",
+            "data_type": "str",
+            "samples": [
+                "C3L-00977",
+                "C3L-00987",
+                "C3L-00994"
+            ]
+        },
+        {
+            "column_name": "age",
+            "data_type": "int64",
+            "samples": [
+                "56",
+                "61",
+                "50"
+            ]
+        },
+        {
+            "column_name": "gender",
+            "data_type": "str",
+            "samples": [
+                "Male",
+                "Male",
+                "Male"
+            ]
+        },
+        {
+            "column_name": "country",
+            "data_type": "str",
+            "samples": [
+                "Russia",
+                "Ukraine",
+                "Ukraine"
+            ]
+        },
+        {
+            "column_name": "smoking_history",
+            "data_type": "str",
+            "samples": [
+                "Current reformed smoker, years unknown",
+                "Current smoker: Includes daily and non-daily smokers",
+                "Current reformed smoker within past 15 years"
+            ]
+        },
+        {
+            "column_name": "smoke_age_start",
+            "data_type": "str",
+            "samples": [
+                "18",
+                "16",
+                "25"
+            ]
+        },
+        {
+            "column_name": "smoke_age_stop",
+            "data_type": "str",
+            "samples": [
+                "50",
+                "56",
+                "27"
+            ]
+        },
+        {
+            "column_name": "num_smoke_per_day",
+            "data_type": "str",
+            "samples": [
+                "20",
+                "20",
+                "6"
+            ]
+        },
+        {
+            "column_name": "num_pack_years_sm",
+            "data_type": "float64",
+            "samples": [
+                "43.0",
+                "10.2",
+                "31.0"
+            ]
+        },
+        {
+            "column_name": "smoking_second_hand",
+            "data_type": "str",
+            "samples": [
+                "Yes",
+                "Yes",
+                "Exposure to secondhand smoke history not available"
+            ]
+        },
+        {
+            "column_name": "smoking_inferred",
+            "data_type": "str",
+            "samples": [
+                "strong_evidence",
+                "strong_evidence",
+                "strong_evidence"
+            ]
+        },
+        {
+            "column_name": "alcohol_consum",
+            "data_type": "str",
+            "samples": [
+                "Lifelong non-drinker",
+                "Consumed alcohol in the past, but currently a non-drinker",
+                "Alcohol consumption more than 2 drinks per day for men and more than 1 drink per day for women"
+            ]
+        },
+        {
+            "column_name": "num_yrs_alc_con",
+            "data_type": "str",
+            "samples": [
+                "30",
+                "32",
+                "31"
+            ]
+        },
+        {
+            "column_name": "tumor_site_original",
+            "data_type": "str",
+            "samples": [
+                "Floor of mouth",
+                "Tongue",
+                "Tongue"
+            ]
+        },
+        {
+            "column_name": "tumor_site_curated",
+            "data_type": "str",
+            "samples": [
+                "Oral cavity",
+                "Oral cavity",
+                "Oral cavity"
+            ]
+        },
+        {
+            "column_name": "tumor_focality",
+            "data_type": "str",
+            "samples": [
+                "Unifocal",
+                "Unifocal",
+                "Unifocal"
+            ]
+        },
+        {
+            "column_name": "tumor_size_cm",
+            "data_type": "float64",
+            "samples": [
+                "1.2",
+                "4.0",
+                "3.0"
+            ]
+        },
+        {
+            "column_name": "histologic_type",
+            "data_type": "str",
+            "samples": [
+                "Squamous cell carcinoma, conventional",
+                "Squamous cell carcinoma, conventional",
+                "Squamous cell carcinoma, conventional"
+            ]
+        },
+        {
+            "column_name": "histologic_grade",
+            "data_type": "str",
+            "samples": [
+                "G1 Well differentiated",
+                "G2 Moderately differentiated",
+                "G2 Moderately differentiated"
+            ]
+        },
+        {
+            "column_name": "tumor_necrosis",
+            "data_type": "str",
+            "samples": [
+                "Not identified",
+                "Present",
+                "Present"
+            ]
+        },
+        {
+            "column_name": "patho_staging_pt",
+            "data_type": "str",
+            "samples": [
+                "pT1",
+                "pT2",
+                "pT2"
+            ]
+        },
+        {
+            "column_name": "patho_staging_pn",
+            "data_type": "str",
+            "samples": [
+                "pN1",
+                "pN1",
+                "pN0"
+            ]
+        },
+        {
+            "column_name": "clinic_staging_dist_metas",
+            "data_type": "str",
+            "samples": [
+                "cM0",
+                "cM0",
+                "cM0"
+            ]
+        },
+        {
+            "column_name": "tumor_stage",
+            "data_type": "str",
+            "samples": [
+                "Stage III",
+                "Stage III",
+                "Stage II"
+            ]
+        },
+        {
+            "column_name": "P16",
+            "data_type": "str",
+            "samples": [
+                "Not Evaluated",
+                "Not Evaluated",
+                "Not Evaluated"
+            ]
+        },
+        {
+            "column_name": "HPV_inference",
+            "data_type": "str",
+            "samples": [
+                "NO",
+                "NO",
+                "NO"
+            ]
+        },
+        {
+            "column_name": "NAT_pathology_review",
+            "data_type": "str",
+            "samples": [
+                "Soft Tissue  No EPI%",
+                "Soft Tissue  No EPI;Normal No EPI%",
+                "Normal EPI 10%;Normal EPI 10%%"
+            ]
+        },
+        {
+            "column_name": "tumor_pathology_review",
+            "data_type": "str",
+            "samples": [
+                "SCC 80%",
+                "SCC 90%;SCC 90%;SCC 80%;SCC 70%",
+                "SCC 40%;SCC 70%;SCC 40%;SCC 75%"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE_stromal_score",
+            "data_type": "float64",
+            "samples": [
+                "6825.995755",
+                "5999.793467",
+                "8924.036564"
+            ]
+        },
+        {
+            "column_name": "ESTIMATE_immune_score",
+            "data_type": "float64",
+            "samples": [
+                "7989.115925",
+                "4772.409716",
+                "8176.233903"
+            ]
+        },
+        {
+            "column_name": "CD3_IHC_count",
+            "data_type": "float64",
+            "samples": [
+                "1.0",
+                "0.0",
+                "5.0"
+            ]
+        },
+        {
+            "column_name": "stemness_score",
+            "data_type": "float64",
+            "samples": [
+                "0.953243158",
+                "0.825329743",
+                "0.664581288"
+            ]
+        },
+        {
+            "column_name": "mutation_count",
+            "data_type": "int64",
+            "samples": [
+                "106",
+                "83",
+                "67"
+            ]
+        },
+        {
+            "column_name": "neoAntigen_count",
+            "data_type": "int64",
+            "samples": [
+                "0",
+                "0",
+                "0"
+            ]
+        },
+        {
+            "column_name": "chr_instability_idx",
+            "data_type": "float64",
+            "samples": [
+                "2.003653988054",
+                "5.20561174255834",
+                "1.68447466240021"
+            ]
+        },
+        {
+            "column_name": "integrated_subtype",
+            "data_type": "str",
+            "samples": [
+                "Basal",
+                "CIN",
+                "Immune"
+            ]
+        },
+        {
+            "column_name": "transcriptomic_subtype",
+            "data_type": "str",
+            "samples": [
+                "Mesenchymal",
+                "Classical",
+                "Mesenchymal"
+            ]
+        }
+    ]
+}

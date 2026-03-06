@@ -1,0 +1,613 @@
+{
+  "doc-3ddafb8a0ec36c3113a60c897b78f9b8": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-dca8f5837f53974e39f7ce555cbb7904",
+      "chunk-828605a99edfbf018aa7a398ad8051a1"
+    ],
+    "content_summary": "Data Source source1: A centralized repository containing systematic metadata of biological assays, including taxonomic classifications and detailed experimental attributes.\nTable 'Biological_Entries' in source1. Description: The `Biological_Entries.c...",
+    "content_length": 8399,
+    "created_at": "2026-03-05T16:20:49.396762+00:00",
+    "updated_at": "2026-03-05T16:21:42.739647+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002049_bab34484",
+    "metadata": {
+      "processing_start_time": 1772727649,
+      "processing_end_time": 1772727702
+    }
+  },
+  "doc-c7cb5ed9ab3955056c225b2ddcd5cf39": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-2c5ad9e0ec03b986f4f0692d9684c71a",
+      "chunk-88a7bb61ce72cbff2b4ffb686b219ab1",
+      "chunk-88da520905e987f9b2f78cd891623c3d"
+    ],
+    "content_summary": "Column 'assay_tissue' (Type: float64) belongs to table 'Biological_Entries' in source1. Semantic Meaning: Tissue in which the assay was performed.. Sample Values: []. Table Context: This table is about The `Biological_Entries.csv` table contains assa...",
+    "content_length": 8634,
+    "created_at": "2026-03-05T16:21:42.776716+00:00",
+    "updated_at": "2026-03-05T16:22:44.612875+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002142_062a6c80",
+    "metadata": {
+      "processing_start_time": 1772727702,
+      "processing_end_time": 1772727764
+    }
+  },
+  "doc-b6bf7b8c72d30089093210f6b323b7fc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-acd27381d5005e95a4c5c5bc59064cba",
+      "chunk-37f81cd27347e7d6f30979089bbfd1da"
+    ],
+    "content_summary": "Column 'assays_cnfdnc_scr' (Type: int64) belongs to table 'Lab_Registry' in source2. Semantic Meaning: Confidence score for assay results.. Sample Values: [1, 1, 1]. Table Context: This table is about The Lab_Registry.csv table contains records of la...",
+    "content_length": 9158,
+    "created_at": "2026-03-05T16:22:44.704678+00:00",
+    "updated_at": "2026-03-05T16:23:25.630065+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002244_07bd6f29",
+    "metadata": {
+      "processing_start_time": 1772727764,
+      "processing_end_time": 1772727805
+    }
+  },
+  "doc-f280e99b49d7db105fb418605643ff3b": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-736abcc443dfd3b0a519606744da4ac3",
+      "chunk-5fef3079c6f7d88c7ed28bebadfe010a"
+    ],
+    "content_summary": "Column 'Project Browser country ID' (Type: str) belongs to table 'Project_Registry' in source3. Semantic Meaning: Country identifier used in the project browser.. Sample Values: ['BD', 'BD', 'BD']. Table Context: This table is about The Project_Regis...",
+    "content_length": 8859,
+    "created_at": "2026-03-05T16:23:25.792033+00:00",
+    "updated_at": "2026-03-05T16:24:04.256064+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002325_89121404",
+    "metadata": {
+      "processing_start_time": 1772727805,
+      "processing_end_time": 1772727844
+    }
+  },
+  "doc-95962d95fe7016fc5fb7ee9dd519a6eb": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-bdba8451d4f5a906af7477fce139346a",
+      "chunk-c32ef325618ffd9c33ca1d5d61ae62a6"
+    ],
+    "content_summary": "Column 'Maximum CIDA contribution (project-level)' (Type: float64) belongs to table 'Project_Registry' in source3. Semantic Meaning: Maximum contribution by CIDA at project level.. Sample Values: [8500267.65, 8500267.65, 8500267.65]. Table Context: T...",
+    "content_length": 8893,
+    "created_at": "2026-03-05T16:24:04.402319+00:00",
+    "updated_at": "2026-03-05T16:24:43.406147+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002404_816e0fe3",
+    "metadata": {
+      "processing_start_time": 1772727844,
+      "processing_end_time": 1772727883
+    }
+  },
+  "doc-2c1fe1f5dc18d92cb2568247b2810f15": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-fd8abf54a603ac39031e0d7db6f6fb93",
+      "chunk-2e8e2307373012b799bbf056b9ba9b17"
+    ],
+    "content_summary": "Column 'miller2_bltrld(ntrntnlmrkr)' (Type: int64) belongs to table 'Accounting_Snapshot' in source4. Semantic Meaning: Uncertain due to ambiguous naming and samples.. Sample Values: [0, 0, 0]. Table Context: This table is about The `Accounting_Snaps...",
+    "content_length": 8715,
+    "created_at": "2026-03-05T16:24:43.561381+00:00",
+    "updated_at": "2026-03-05T16:25:50.716150+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002443_52f6a2d6",
+    "metadata": {
+      "processing_start_time": 1772727883,
+      "processing_end_time": 1772727950
+    }
+  },
+  "doc-f5fc9dbd7040e2cd7c87ed03b2424b6d": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-282368bb8ee9cd81f48aeaade0748adf",
+      "chunk-79fd9856ef831de8557b0764768a0f68"
+    ],
+    "content_summary": "Column 'miller2_ntdmnt(prjct-lvlbdgt)' (Type: float64) belongs to table 'Accounting_Snapshot' in source4. Semantic Meaning: Project-level budget amount.. Sample Values: [2460000.0, 2460000.0, 2460000.0]. Table Context: This table is about The `Accoun...",
+    "content_length": 8486,
+    "created_at": "2026-03-05T16:25:50.917344+00:00",
+    "updated_at": "2026-03-05T16:26:40.736460+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002550_9eefa044",
+    "metadata": {
+      "processing_start_time": 1772727950,
+      "processing_end_time": 1772728000
+    }
+  },
+  "doc-0659e222149247d9b44b317c8f95ac4f": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-27de68e3c72768a53ddf278e7969d56c",
+      "chunk-ca02bf7b45826229897b655b8c942417"
+    ],
+    "content_summary": "Column 'LastName' (Type: str) belongs to table 'Consumer_Profiles' in source5. Semantic Meaning: Last name of the consumer.. Sample Values: ['PELLAND', 'LEDUC', 'latif']. Table Context: This table is about The Consumer_Profiles.csv table contains per...",
+    "content_length": 7432,
+    "created_at": "2026-03-05T16:26:40.996179+00:00",
+    "updated_at": "2026-03-05T16:27:17.845080+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002640_f62a830b",
+    "metadata": {
+      "processing_start_time": 1772728001,
+      "processing_end_time": 1772728037
+    }
+  },
+  "doc-dfdfbca70c5c6cca03933c94a32c034f": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-6bff3c8d3d7d7c625dc401ebeb40cb41",
+      "chunk-08e909ce18da16d38d46110d00fc89cd"
+    ],
+    "content_summary": "Table 'Cao' in source9. Description: Cao.csv contains patient data for pancreatic cancer studies, including case identifiers, inclusion criteria, demographic details, tumor characteristics, pathologic staging, and follow-up information. Columns cover...",
+    "content_length": 8687,
+    "created_at": "2026-03-05T16:27:18.073505+00:00",
+    "updated_at": "2026-03-05T16:28:58.987104+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002718_f91a7137",
+    "metadata": {
+      "processing_start_time": 1772728038,
+      "processing_end_time": 1772728138
+    }
+  },
+  "doc-a0716538280c9371476180d0f6859276": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-2beb357fa5a76797d4b0c782f409f92d",
+      "chunk-b760a39815f7086df83145e31fd3ffde"
+    ],
+    "content_summary": "Column 'Tumor_purity' (Type: str) belongs to table 'Dou' in source11. Semantic Meaning: Purity level of the tumor sample.. Sample Values: ['Normal', 'Normal', 'Normal']. Table Context: This table is about The table \"Dou.csv\" contains detailed clinica...",
+    "content_length": 8641,
+    "created_at": "2026-03-05T16:28:59.252172+00:00",
+    "updated_at": "2026-03-05T16:30:05.487098+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_002859_81fd83e1",
+    "metadata": {
+      "processing_start_time": 1772728139,
+      "processing_end_time": 1772728205
+    }
+  },
+  "doc-d769b052259f30f491150873b1c68810": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-857f81d2d45d722252c342d0e4694e47",
+      "chunk-a3263295c60fbc037783c8dd0e5e76cb"
+    ],
+    "content_summary": "Column 'Progesterone_Receptor' (Type: str) belongs to table 'Dou' in source11. Semantic Meaning: Progesterone receptor status of the tumor tissue.. Sample Values: ['Cannot be determined', 'Cannot be determined', 'Cannot be determined']. Table Context...",
+    "content_length": 8999,
+    "created_at": "2026-03-05T16:30:05.798349+00:00",
+    "updated_at": "2026-03-05T16:30:57.487897+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003005_088222ec",
+    "metadata": {
+      "processing_start_time": 1772728205,
+      "processing_end_time": 1772728257
+    }
+  },
+  "doc-76c7c86ebbed15e94649183365c680da": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-24f35714c68df283b2468f649008c237",
+      "chunk-adcbda057228a765c985b8a2702091dd"
+    ],
+    "content_summary": "Column 'CIBERSORT_Plasma_cells' (Type: unknown) belongs to table 'Dou' in source11. Semantic Meaning: Proportion of plasma cells in the sample.. Sample Values: []. Table Context: This table is about The table \"Dou.csv\" contains detailed clinical, gen...",
+    "content_length": 8814,
+    "created_at": "2026-03-05T16:30:57.861751+00:00",
+    "updated_at": "2026-03-05T16:32:12.812757+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003057_2ef9bc5e",
+    "metadata": {
+      "processing_start_time": 1772728257,
+      "processing_end_time": 1772728332
+    }
+  },
+  "doc-b959fd75682b8aae30f4f1a74f30f5db": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-da5f54d091201831eed5dc1eada0e935",
+      "chunk-0b54920640bf6995dc3bd3e9887f8d46"
+    ],
+    "content_summary": "Column 'CIBERSORT_Absolute _score' (Type: float64) belongs to table 'Dou' in source11. Semantic Meaning: Absolute score indicating confidence of CIBERSORT analysis.. Sample Values: [0.37, 0.15, 0.78]. Table Context: This table is about The table \"Dou...",
+    "content_length": 8690,
+    "created_at": "2026-03-05T16:32:13.138458+00:00",
+    "updated_at": "2026-03-05T16:33:02.719104+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003213_ea7f9e13",
+    "metadata": {
+      "processing_start_time": 1772728333,
+      "processing_end_time": 1772728382
+    }
+  },
+  "doc-ada561720c6d74baf2dafb331164f858": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4d3596b6a77a0ece0573ed337ef79024",
+      "chunk-ed5ae31ac79b653078423b43c4e245c7"
+    ],
+    "content_summary": "Column 'TP53_MDM4' (Type: float64) belongs to table 'Dou' in source11. Semantic Meaning: Binary indicator for MDM4 interaction with TP53; 0.0 suggests no interaction.. Sample Values: [0.0, 0.0, 0.0]. Table Context: This table is about The table \"Dou....",
+    "content_length": 8765,
+    "created_at": "2026-03-05T16:33:03.065093+00:00",
+    "updated_at": "2026-03-05T16:33:46.612032+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003303_df174edd",
+    "metadata": {
+      "processing_start_time": 1772728383,
+      "processing_end_time": 1772728426
+    }
+  },
+  "doc-3b36d392825828776a484d2a9531adb1": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-c2e84471a059a7dff7207ed0ef259d07",
+      "chunk-a2cd218093bef17c1091c5126f8e41e4"
+    ],
+    "content_summary": "Column 'PI3K_PPP2R1A' (Type: float64) belongs to table 'Dou' in source11. Semantic Meaning: Binary status indicating presence or absence of PPP2R1A in PI3K pathway.. Sample Values: [1.0, 0.0, 0.0]. Table Context: This table is about The table \"Dou.cs...",
+    "content_length": 8637,
+    "created_at": "2026-03-05T16:33:47.340641+00:00",
+    "updated_at": "2026-03-05T16:34:33.616222+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003347_4b654678",
+    "metadata": {
+      "processing_start_time": 1772728427,
+      "processing_end_time": 1772728473
+    }
+  },
+  "doc-3412dc58916754f881f8db45d8b7d83d": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b3388edccd57724df3230cfa05fffa2c",
+      "chunk-3c78eb0e3d5c72a32a7747bd6ab63f82"
+    ],
+    "content_summary": "Column 'CNV_4q_DEL' (Type: float64) belongs to table 'Dou' in source11. Semantic Meaning: Copy number deletion on chromosome 4q, negative values indicate loss.. Sample Values: [-0.023494917, -0.01112554, -0.005361581]. Table Context: This table is ab...",
+    "content_length": 8894,
+    "created_at": "2026-03-05T16:34:34.020398+00:00",
+    "updated_at": "2026-03-05T16:35:18.037911+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003434_12867577",
+    "metadata": {
+      "processing_start_time": 1772728474,
+      "processing_end_time": 1772728518
+    }
+  },
+  "doc-84c7758ccf48a6f77e760c149456a84c": {
+    "status": "processed",
+    "chunks_count": 3,
+    "chunks_list": [
+      "chunk-7ee48b595729123c4853036066330647",
+      "chunk-00489ecdc719946b0090f03542b5c10e",
+      "chunk-664b0c4411a6ad6b10e473beb3ee85dd"
+    ],
+    "content_summary": "Column 'Mutation_signature_C>T' (Type: float64) belongs to table 'Dou' in source11. Semantic Meaning: Contribution of C>T mutation signature to the total mutations.. Sample Values: [72.52964427, 64.48598131, 70.96774194]. Table Context: This table is...",
+    "content_length": 9842,
+    "created_at": "2026-03-05T16:35:18.483904+00:00",
+    "updated_at": "2026-03-05T16:36:09.693892+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003518_dbbea496",
+    "metadata": {
+      "processing_start_time": 1772728518,
+      "processing_end_time": 1772728569
+    }
+  },
+  "doc-53472e92e8b9061516432ffdf20b3f77": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-0cd61bef6ee1abef8688692f3a4834ed",
+      "chunk-adcd97366449012240a80ddc05b0b583"
+    ],
+    "content_summary": "Column 'miRNAseq_sample_type' (Type: str) belongs to table 'Dou' in source11. Semantic Meaning: Sample type (e.g., Tumor) for miRNA sequencing.. Sample Values: ['Tumor', 'Tumor', 'Tumor']. Table Context: This table is about The table \"Dou.csv\" contai...",
+    "content_length": 8533,
+    "created_at": "2026-03-05T16:36:10.151724+00:00",
+    "updated_at": "2026-03-05T16:36:52.133561+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003610_1c44dd71",
+    "metadata": {
+      "processing_start_time": 1772728570,
+      "processing_end_time": 1772728612
+    }
+  },
+  "doc-1db1f0e2b176e53888bd81f63d56c28c": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-6bbc23d3be894eff4a30069ed1a12423",
+      "chunk-cdb41a71c0f0e5a90fa93018fb4caa04"
+    ],
+    "content_summary": "Column 'Weight.kg' (Type: float64) belongs to table 'Gillette' in source12. Semantic Meaning: Weight of the individual in kilograms.. Sample Values: [82.0, 82.0, 52.9]. Table Context: This table is about The Gillette.csv table contains 68 columns wit...",
+    "content_length": 9102,
+    "created_at": "2026-03-05T16:36:52.612512+00:00",
+    "updated_at": "2026-03-05T16:37:42.747011+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003652_08204970",
+    "metadata": {
+      "processing_start_time": 1772728612,
+      "processing_end_time": 1772728662
+    }
+  },
+  "doc-9d499bfe3e3b8fce014fda6973b01efc": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-4404096b3aee03f5c22c7a76821b3744",
+      "chunk-3e6ad285df8d890867af52f950af34b9"
+    ],
+    "content_summary": "Column 'ESTIMATE StromalScore' (Type: float64) belongs to table 'Gillette' in source12. Semantic Meaning: Score indicating stromal cell presence in tumor microenvironment.. Sample Values: [2079.741498, 2904.090428, 2066.261097]. Table Context: This t...",
+    "content_length": 8654,
+    "created_at": "2026-03-05T16:37:43.592095+00:00",
+    "updated_at": "2026-03-05T16:38:32.643207+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003743_692a1b95",
+    "metadata": {
+      "processing_start_time": 1772728663,
+      "processing_end_time": 1772728712
+    }
+  },
+  "doc-a498555f91086e88d25eb06a4259dc48": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-0101233c7d79a79e62287af84a713aa8",
+      "chunk-b6f4814710223833a8d121c6ef4e0062"
+    ],
+    "content_summary": "Column 'Total.Mutation.Count.WGS' (Type: float64) belongs to table 'Gillette' in source12. Semantic Meaning: Total count of mutations identified through whole-genome sequencing.. Sample Values: [942.0, 626.0]. Table Context: This table is about The G...",
+    "content_length": 8833,
+    "created_at": "2026-03-05T16:38:33.199699+00:00",
+    "updated_at": "2026-03-05T16:39:11.428319+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003833_7d21d0e4",
+    "metadata": {
+      "processing_start_time": 1772728713,
+      "processing_end_time": 1772728751
+    }
+  },
+  "doc-41e4df823e8af4d3a3b2e3cc57a346cd": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-8df9888a6650dd5a634058997f162ff7",
+      "chunk-6d6260145a5664c597a01867654d1057"
+    ],
+    "content_summary": "Column 'smoke_age_start' (Type: float64) belongs to table 'Huang' in source13. Semantic Meaning: Age at which the individual started smoking.. Sample Values: [18.0, 16.0, 25.0]. Table Context: This table is about The Huang.csv table contains patient ...",
+    "content_length": 8927,
+    "created_at": "2026-03-05T16:39:12.001932+00:00",
+    "updated_at": "2026-03-05T16:39:46.546379+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003911_cf4d2d1d",
+    "metadata": {
+      "processing_start_time": 1772728752,
+      "processing_end_time": 1772728786
+    }
+  },
+  "doc-50ebc52745ad0d7025746515061defdb": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-f9bd10a97fc76a11e28ba98811d1fc7b",
+      "chunk-1e7ae41af246957af34f5087e14ea643"
+    ],
+    "content_summary": "Column 'HPV_inference' (Type: str) belongs to table 'Huang' in source13. Semantic Meaning: Human Papillomavirus (HPV) status inference.. Sample Values: ['NO', 'NO', 'NO']. Table Context: This table is about The Huang.csv table contains patient data i...",
+    "content_length": 8900,
+    "created_at": "2026-03-05T16:39:47.188420+00:00",
+    "updated_at": "2026-03-05T16:40:39.521791+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_003947_45a2a110",
+    "metadata": {
+      "processing_start_time": 1772728787,
+      "processing_end_time": 1772728839
+    }
+  },
+  "doc-4a838ef10579339d2377e4fbbf000384": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-fff07d5eac375a12be6fe0bcd2c78c7e",
+      "chunk-a025248bf45f3103d190bbf4ca095c88"
+    ],
+    "content_summary": "Column 'NMF.Cluster' (Type: str) belongs to table 'Krug' in source14. Semantic Meaning: NMF clustering result indicating the cluster membership of the sample.. Sample Values: ['Basal-I', 'Basal-I', 'Basal-I']. Table Context: This table is about The K...",
+    "content_length": 8768,
+    "created_at": "2026-03-05T16:40:40.426050+00:00",
+    "updated_at": "2026-03-05T16:41:39.482725+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004040_7d1fc562",
+    "metadata": {
+      "processing_start_time": 1772728840,
+      "processing_end_time": 1772728899
+    }
+  },
+  "doc-e1b80a337222a900cd8ddf0c90cbc6aa": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-68d1d9cc8829de0ec6687e0061075d04",
+      "chunk-f5ff243f0c7e7fb8e8777df80abd4a0c"
+    ],
+    "content_summary": "Column 'CD3.TILS.Status' (Type: str) belongs to table 'Krug' in source14. Semantic Meaning: Status of CD3 positive Tumor Infiltrating Lymphocytes (TILS) test.. Sample Values: ['not performed', 'not performed', 'not performed']. Table Context: This ta...",
+    "content_length": 8684,
+    "created_at": "2026-03-05T16:41:40.137933+00:00",
+    "updated_at": "2026-03-05T16:42:24.863998+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004140_5663353e",
+    "metadata": {
+      "processing_start_time": 1772728900,
+      "processing_end_time": 1772728944
+    }
+  },
+  "doc-4fc3859ccc6e7373cc4e334a1e9a4014": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-afc60c8fb5be5af55f01ae2a737e75bb",
+      "chunk-148c6b24116addc6e9ab93a396f1661f"
+    ],
+    "content_summary": "Column 'MAP3K1.Mutation.Status' (Type: int64) belongs to table 'Krug' in source14. Semantic Meaning: Mutation status of MAP3K1 gene (1 indicates mutation present, 0 indicates absence).. Sample Values: [0, 0, 0]. Table Context: This table is about The...",
+    "content_length": 8954,
+    "created_at": "2026-03-05T16:42:25.522512+00:00",
+    "updated_at": "2026-03-05T16:43:23.063219+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004225_8caf9ae3",
+    "metadata": {
+      "processing_start_time": 1772728945,
+      "processing_end_time": 1772729003
+    }
+  },
+  "doc-4a9145272d5fdd8d201747c5bc9dfcb7": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-3fa646fc119c8724fcecc242040b2d40",
+      "chunk-876b64b5c5b7b09aae8f7d001b88f4bc"
+    ],
+    "content_summary": "Column 'Anatomic Lateral Position of Tumor Specimen' (Type: str) belongs to table 'McDermott' in source15. Semantic Meaning: Indicates the side of the tumor relative to the body midline.. Sample Values: ['Not applicable', 'Right', 'Right']. Table Con...",
+    "content_length": 9407,
+    "created_at": "2026-03-05T16:43:24.004351+00:00",
+    "updated_at": "2026-03-05T16:44:15.484938+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004324_b4aae3d9",
+    "metadata": {
+      "processing_start_time": 1772729004,
+      "processing_end_time": 1772729055
+    }
+  },
+  "doc-55bddb5ccc92f869e1cc3aceed11be91": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-5db073173fd1b09ea19ee5d045e88f11",
+      "chunk-6b8e261459dc13ed5098ac5bbfb10ff0"
+    ],
+    "content_summary": "Column 'Smoking.History_modified' (Type: str) belongs to table 'Satpathy' in source16. Semantic Meaning: Simplified smoking history of the participant.. Sample Values: ['Non-Smoker', 'Non-Smoker', 'Reformed Smoker']. Table Context: This table is abou...",
+    "content_length": 8639,
+    "created_at": "2026-03-05T16:44:16.167270+00:00",
+    "updated_at": "2026-03-05T16:44:54.516660+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004416_22e0f64d",
+    "metadata": {
+      "processing_start_time": 1772729056,
+      "processing_end_time": 1772729094
+    }
+  },
+  "doc-593e9a05534500a0e99b335fa911339c": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-e813945102bb5130dbaa96e639b30c34",
+      "chunk-119c894b1fa72e1f5528b5951aeb06f2"
+    ],
+    "content_summary": "Column 'CUL3.mutation' (Type: float64) belongs to table 'Satpathy' in source16. Semantic Meaning: Type of genetic mutation in CUL3 gene, e.g., Nonsense_Mutation, Missense_Mutation.. Sample Values: []. Table Context: This table is about The Satpathy.c...",
+    "content_length": 8465,
+    "created_at": "2026-03-05T16:44:55.263215+00:00",
+    "updated_at": "2026-03-05T16:45:35.736423+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004455_d6c25803",
+    "metadata": {
+      "processing_start_time": 1772729095,
+      "processing_end_time": 1772729135
+    }
+  },
+  "doc-e67a33e94502f154f483419c605113ad": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-b0ad505a81532e93cd263d3f3c1d6895",
+      "chunk-28532d7761357c30a1c3b6f066e6e1ce"
+    ],
+    "content_summary": "Column 'CUL3.NFE2L2.KEAP1.mutation.status' (Type: int64) belongs to table 'Satpathy' in source16. Semantic Meaning: Binary indicator for CUL3, NFE2L2, and KEAP1 gene mutation status.. Sample Values: [0, 1, 0]. Table Context: This table is about The S...",
+    "content_length": 8962,
+    "created_at": "2026-03-05T16:45:36.448566+00:00",
+    "updated_at": "2026-03-05T16:47:14.819435+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004536_b7a42ca5",
+    "metadata": {
+      "processing_start_time": 1772729136,
+      "processing_end_time": 1772729234
+    }
+  },
+  "doc-57497dea307b21ae1aeef2db9a1342d8": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-67bd24a38ff97fd9701a69bb3c75ee07",
+      "chunk-3c65990ee92834e893512b93a6715323"
+    ],
+    "content_summary": "Column 'DNP.Count.wes' (Type: float64) belongs to table 'Satpathy' in source16. Semantic Meaning: Count of specific double nucleotide polymorphisms.. Sample Values: [5.0, 0.0]. Table Context: This table is about The Satpathy.csv table contains patien...",
+    "content_length": 8775,
+    "created_at": "2026-03-05T16:47:15.574809+00:00",
+    "updated_at": "2026-03-05T16:47:48.175147+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004715_604b8191",
+    "metadata": {
+      "processing_start_time": 1772729235,
+      "processing_end_time": 1772729268
+    }
+  },
+  "doc-444d7cddf5341c3da1dd2b979f1cb574": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-1840260e8dfddde5af5b7a35b26aae16",
+      "chunk-b4365d4bd4ffa7f855fac886a31a7356"
+    ],
+    "content_summary": "Column 'Mutation' (Type: int64) belongs to table 'Vasaikar' in source17. Semantic Meaning: Denotes presence or absence of mutation in the sample.. Sample Values: [1, 1, 1]. Table Context: This table is about The Vasaikar.csv table contains clinical a...",
+    "content_length": 8282,
+    "created_at": "2026-03-05T16:47:48.985808+00:00",
+    "updated_at": "2026-03-05T16:48:58.669607+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004748_744eb15c",
+    "metadata": {
+      "processing_start_time": 1772729268,
+      "processing_end_time": 1772729338
+    }
+  },
+  "doc-8eeba6fc131d735f6a0cc2de92753e92": {
+    "status": "processed",
+    "chunks_count": 2,
+    "chunks_list": [
+      "chunk-09d7044a02d11065fb235d445e000795",
+      "chunk-6ac38b37ef5e340c3e0d63fe17d87f31"
+    ],
+    "content_summary": "Column 'Synchronous_Tumors' (Type: str) belongs to table 'Vasaikar' in source17. Semantic Meaning: Indicates if synchronous tumors are present (Yes) or absent (No).. Sample Values: ['No', 'No', 'Yes']. Table Context: This table is about The Vasaikar....",
+    "content_length": 8653,
+    "created_at": "2026-03-05T16:48:59.716667+00:00",
+    "updated_at": "2026-03-05T16:50:05.806374+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_004859_611eff94",
+    "metadata": {
+      "processing_start_time": 1772729339,
+      "processing_end_time": 1772729405
+    }
+  },
+  "doc-fd4ea08b60de290507ddce2779c8a885": {
+    "status": "failed",
+    "error_msg": "`Ethnicity`: LLM func: Task forcefully terminated due to execution timeout (>375s, actual: 11673.7s)",
+    "content_summary": "Column 'ESTIMATEScore' (Type: float64) belongs to table 'Vasaikar' in source17. Semantic Meaning: Score estimating epithelial and stromal cell composition in the sample.. Sample Values: [204.4352597, -1529.324638, 2008.197963]. Table Context: This ta...",
+    "content_length": 8847,
+    "created_at": "2026-03-05T16:50:06.695391+00:00",
+    "updated_at": "2026-03-06T04:04:58.986375",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260306_005006_f3feb328",
+    "metadata": {
+      "processing_start_time": 1772729406,
+      "processing_end_time": 1772741098
+    },
+    "chunks_list": []
+  }
+}
