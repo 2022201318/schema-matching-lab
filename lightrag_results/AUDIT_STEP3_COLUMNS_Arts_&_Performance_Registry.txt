@@ -1,0 +1,63 @@
+--- QUESTION ---
+DOMAIN: Arts & Performance Registry
+SUSPECTED LINKS:
+## Potential Table Pairs with Semantic Overlaps (Arts & Performance Registry)
+
+Based on the domain 'Arts & Performance Registry' and the provided sources ('source7', 'source8'), the following table pairs demonstrate semantic overlap, primarily in the representation of musicians and their biographical or professional attributes.
+
+| Table 1                 | Table 2                 | Overlap Description                                                                                                   |
+|-------------------------|-------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Artist_Encyclopedia.csv | Performer_Registry.csv  | Both tables cover musicians and their metadata, including personal attributes (names, birth dates), demographics, familial information, and professional details (website, genre/kind, residence, number of children, ethnicity). |
+
+**Justification:**  
+- Both tables are centered on musicians or performing artists, documenting metadata such as names, birth dates, familial relationships, demographic, professional, and web presence attributes.
+- They each use Wikidata IDs for unique identification of musicians, further reinforcing their semantic linkage.
+
+Given the instructions to avoid over-orphaning and to cluster when uncertain, this pair covers all evident overlaps in the specified sources.
+
+### References
+
+- [source7] Artist_Encyclopedia.csv
+- [source8] Performer_Registry.csv
+
+TASK: Deep-dive column mapping. If a match is possible, RETAIN IT.
+POLICY: 'Aggressive Preservation' (宁滥勿缺). Do not filter out low-confidence matches.
+OUTPUT: [TableA.Col] <-> [TableB.Col] | Confidence | Logic.
+
+--- AI RESPONSE ---
+## Deep-Dive Column Mapping: Artist_Encyclopedia.csv ↔ Performer_Registry.csv
+
+Below is a comprehensive column mapping between the two tables from source7 and source8, focused on musicians/performers. Matches are retained even when the semantic confidence is moderate, following the "Aggressive Preservation" (宁滥勿缺) approach.
+
+| Artist_Encyclopedia.csv (TableA) | Performer_Registry.csv (TableB) | Confidence    | Logic / Matching Rationale |
+|----------------------------------|---------------------------------|---------------|---------------------------|
+| musician                         | musicianID                      | High          | Both use Wikidata URLs/IDs as unique identifiers for musicians. |
+| birthDate                        | birthDate                       | High          | Exact match; both record the musician's date of birth. |
+| familyNameLabel                  | familyName                      | High          | Both store the family/surname of the musician. |
+| givenNameLabel                   | forename                        | High          | Both refer to the given/first name of the musician. |
+| numberOfChildren                 | NChildren                       | High          | Both track the number of children; numeric representation. |
+| websiteLabel                     | webpage                         | High          | Both store the musician's website URL. |
+| residenceLabel                   | city                            | Moderate      | Both capture location, though city is more granular; residence could refer to city or broader. |
+| ethnicityLabel                   | —                               | Moderate      | ethnicityLabel available in Artist_Encyclopedia, not directly in Performer_Registry; no mapped field found but conceptually relevant. |
+| religionLabel                    | —                               | Moderate      | religionLabel in Artist_Encyclopedia, not in Performer_Registry. |
+| activityStart                    | —                               | Moderate      | activityStart indicates career start in Artist_Encyclopedia; Performer_Registry lacks a direct equivalent. |
+| twitterNameLabel                 | —                               | Moderate      | twitterNameLabel is the Twitter handle in Artist_Encyclopedia; no social handles in Performer_Registry. |
+| geniusNameLabel                  | —                               | Moderate      | Genius artist alias; no mapped field in Performer_Registry. |
+| recordLabelLabel                 | —                               | Moderate      | Records label name (Artist_Encyclopedia); not represented in Performer_Registry. |
+| —                                | musicianName                    | High          | Performer_Registry has musicianName as the performer's display/professional name; Artist_Encyclopedia lacks an explicit display name, but it can be implied from names. |
+| —                                | genderType                      | High          | Gender of the performer is present in Performer_Registry; not found in Artist_Encyclopedia. |
+| —                                | fatherName                      | High          | Parental information (father) is detailed in Performer_Registry but only partially in Artist_Encyclopedia. |
+| —                                | motherName                      | High          | Parental information (mother) exists in Performer_Registry only. |
+| —                                | spouse                          | High          | Spousal information is present in Performer_Registry only. |
+| —                                | kind                            | High          | Professional genre/style (kind in Performer_Registry) roughly matches the idea of musical activity in Artist_Encyclopedia; no exact field but implied through other attributes. |
+
+### Summary of Mapping Patterns
+
+- **Exact Matches:** Wikidata ID, birth date, family/given name, number of children, website.
+- **Partial/Granular Overlap:** Residence (city), genre/kind, familial information.
+- **Unilateral Details:** Social media, labels, and ethnicity/religion in Artist_Encyclopedia; familial and gender details more explicit in Performer_Registry.
+
+### References
+
+- [source7] Artist_Encyclopedia.csv
+- [source8] Performer_Registry.csv

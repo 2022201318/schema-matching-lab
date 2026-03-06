@@ -1,0 +1,13 @@
+--- QUESTION ---
+FOCUS: Domain 'Consumer & Market Segmentation' (Sources: ['source5', 'source6']).
+TASK: Find ALL potential table pairs with semantic overlaps.
+POLICY: Rather less-cluster than over orphans. If uncertain, assume they are linked.
+OUTPUT: A structured Markdown table.
+
+--- AI RESPONSE ---
+## Table Pairs with Semantic Overlaps in 'Consumer & Market Segmentation' (Sources: source5, source6)
+
+| Table 1              | Source    | Table 2             | Source    | Basis for Overlap                                                                                                           |
+|----------------------|-----------|---------------------|-----------|----------------------------------------------------------------------------------------------------------------------------|
+| Consumer_Profiles.csv| source5   | Marketing_Leads.csv | source6   | Both tables include demographic and financial attributes (e.g., name, net worth, employer, address, marital status, gender, phone, number of children, age, country, number of cars). Both are used for profiling and segmentation of consumers/prospects for marketing and analysis; often, the same types of individuals are classified differently in each table (consumers vs. prospects). Field names may differ (abbreviated in Marketing_Leads), but semantics substantially overlap. |
+

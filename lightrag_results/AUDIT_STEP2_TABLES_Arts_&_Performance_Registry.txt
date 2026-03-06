@@ -1,0 +1,25 @@
+--- QUESTION ---
+FOCUS: Domain 'Arts & Performance Registry' (Sources: ['source7', 'source8']).
+TASK: Find ALL potential table pairs with semantic overlaps.
+POLICY: Rather less-cluster than over orphans. If uncertain, assume they are linked.
+OUTPUT: A structured Markdown table.
+
+--- AI RESPONSE ---
+## Potential Table Pairs with Semantic Overlaps (Arts & Performance Registry)
+
+Based on the domain 'Arts & Performance Registry' and the provided sources ('source7', 'source8'), the following table pairs demonstrate semantic overlap, primarily in the representation of musicians and their biographical or professional attributes.
+
+| Table 1                 | Table 2                 | Overlap Description                                                                                                   |
+|-------------------------|-------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Artist_Encyclopedia.csv | Performer_Registry.csv  | Both tables cover musicians and their metadata, including personal attributes (names, birth dates), demographics, familial information, and professional details (website, genre/kind, residence, number of children, ethnicity). |
+
+**Justification:**  
+- Both tables are centered on musicians or performing artists, documenting metadata such as names, birth dates, familial relationships, demographic, professional, and web presence attributes.
+- They each use Wikidata IDs for unique identification of musicians, further reinforcing their semantic linkage.
+
+Given the instructions to avoid over-orphaning and to cluster when uncertain, this pair covers all evident overlaps in the specified sources.
+
+### References
+
+- [source7] Artist_Encyclopedia.csv
+- [source8] Performer_Registry.csv

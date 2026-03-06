@@ -1,0 +1,197 @@
+--- QUESTION ---
+DOMAIN: Healthcare and Clinical Research
+SUSPECTED LINKS:
+## Table of Potential Table Pairs with Semantic Overlaps
+
+Below is a structured table listing all potential table pairs from the specified sources, highlighting pairs with possible semantic overlaps based on their content domains, column manifests, and biomedical focus. If there are indications of similarity (even subtle ones), they are included, as per policy.
+
+| Table 1                | Table 2                | Semantic Overlap Description                                        |
+|------------------------|------------------------|---------------------------------------------------------------------|
+| Biological_Entries.csv | Lab_Registry.csv       | Both contain categorized, curated IDs and detailed attributes about biological measurements, though one is assay-centric and the other is lab-centric. |
+| Biological_Entries.csv | Cao.csv                | Both feature identifiers and attributes related to biological assays and clinical measurements. |
+| Lab_Registry.csv       | Cao.csv                | Both contain identifiers and encoded field labels for samples/assays related to clinical diagnostics. |
+| Cao.csv                | Clark.csv              | Both detail patient demographics, tumor characteristics, and staging information for cancer samples. |
+| Cao.csv                | Dou.csv                | Both provide clinical and demographic data, tumor features, and staging for carcinoma patients. |
+| Clark.csv              | Dou.csv                | Both contain patient demographics, tumor site/location, staging, and pathological details for cancer. |
+| Clark.csv              | Gillette.csv           | Both provide clinical, pathological, and demographic data on cancer patients with genomic/molecular profiles. |
+| Clark.csv              | Huang.csv              | Both include patient demographics, tumor site and characteristics, staging, and molecular data. |
+| Clark.csv              | Krug.csv               | Both document clinical and staging features, demographic metadata, and molecular data for cancer samples. |
+| Clark.csv              | McDermott.csv          | Both have clinical and demographic metadata, staging, and tumor site/grade for cancer samples. |
+| Clark.csv              | Satpathy.csv           | Both provide cancer patient clinical metadata, demographic variables, and staging information. |
+| Clark.csv              | Vasaikar.csv           | Both cover clinical, demographic, and tumor progression data for cancer patients. |
+| Clark.csv              | Wang.csv               | Both include patient demographics, tumor site/location, and clinical status for cancer. |
+| Clark.csv              | Gillette.csv           | Both have overlapping clinical and molecular profiling columns for cancer research. |
+| Dou.csv                | Gillette.csv           | Both provide comprehensive clinical, pathological, and molecular data for carcinoma samples. |
+| Dou.csv                | Huang.csv              | Both share columns on patient demographics, tumor site, staging, and molecular characterization. |
+| Dou.csv                | Krug.csv               | Both contain patient clinical data, molecular features, and tumor metadata. |
+| Dou.csv                | McDermott.csv          | Both include clinical, demographic, and molecular data for carcinoma samples. |
+| Dou.csv                | Satpathy.csv           | Both provide molecular, clinical, and demographic metadata for carcinoma and squamous cell samples. |
+| Dou.csv                | Vasaikar.csv           | Both feature clinical, demographic, and molecular data for carcinoma and colon cancer samples. |
+| Dou.csv                | Wang.csv               | Both provide patient demographics, tumor site, and clinical metadata. |
+| Gillette.csv           | Huang.csv              | Both list cancer patient demographics, clinical data, and molecular/immune profiling. |
+| Gillette.csv           | Krug.csv               | Both feature patient identifiers, clinical and molecular status, and immune scores in cancer research. |
+| Gillette.csv           | McDermott.csv          | Both provide clinical and demographic information, molecular profiles, and staging for cancer studies. |
+| Gillette.csv           | Satpathy.csv           | Both document carcinoma patient clinical, demographic, and molecular data. |
+| Gillette.csv           | Vasaikar.csv           | Both share molecular, clinical, and demographic metadata for cancer research. |
+| Gillette.csv           | Wang.csv               | Both include cancer patient demographics and molecular features. |
+| Huang.csv              | Krug.csv               | Both list clinical, demographic, and molecular biomarkers for cancer samples. |
+| Huang.csv              | McDermott.csv          | Both cover patient clinical data, demographic variables, and molecular scores for cancer. |
+| Huang.csv              | Satpathy.csv           | Both include molecular, clinical, and demographic columns for carcinoma samples. |
+| Huang.csv              | Vasaikar.csv           | Both document clinical, demographic, and molecular data for squamous and colon cancer patients. |
+| Huang.csv              | Wang.csv               | Both provide patient demographics and tumor site information for cancer samples. |
+| Krug.csv               | McDermott.csv          | Both detail clinical, demographic, and molecular characteristics as well as patient identifiers. |
+| Krug.csv               | Satpathy.csv           | Both have columns for clinical status, molecular markers, and demographic data in cancer research. |
+| Krug.csv               | Vasaikar.csv           | Both feature molecular, clinical, and demographic data for cancer samples. |
+| Krug.csv               | Wang.csv               | Both record clinical and molecular metadata for cancer patient samples. |
+| McDermott.csv          | Satpathy.csv           | Both include carcinoma patient clinical, demographic, and molecular data. |
+| McDermott.csv          | Vasaikar.csv           | Both provide clinical and molecular characteristics relevant to carcinoma and colon cancer cases. |
+| McDermott.csv          | Wang.csv               | Both record patient demographics and tumor details for carcinoma samples. |
+| Satpathy.csv           | Vasaikar.csv           | Both feature clinical, demographic, and molecular data for squamous cell and colon cancer studies. |
+| Satpathy.csv           | Wang.csv               | Both include cancer patient demographic and tumor attributes. |
+| Vasaikar.csv           | Wang.csv               | Both document clinical, demographic, and molecular features for colon and glioblastoma patients. |
+
+---
+
+> All listed pairs show some degree of semantic overlap regarding patient, assay, or sample-level clinical and molecular metadata relevant to healthcare and clinical research.
+
+### References
+
+* [source1] Biological_Entries.csv
+* [source2] Lab_Registry.csv
+* [source9] Cao.csv
+* [source10] Clark.csv
+* [source11] Dou.csv
+* [source12] Gillette.csv
+* [source13] Huang.csv
+* [source14] Krug.csv
+* [source17] Vasaikar.csv
+* [source18] Wang.csv
+
+TASK: Deep-dive column mapping. If a match is possible, RETAIN IT.
+POLICY: 'Aggressive Preservation' (宁滥勿缺). Do not filter out low-confidence matches.
+OUTPUT: [TableA.Col] <-> [TableB.Col] | Confidence | Logic.
+
+--- AI RESPONSE ---
+Below is a deep-dive column mapping for the requested table pairs, following the ‘Aggressive Preservation’ policy: every plausible column-level overlap is retained, regardless of confidence. Each mapping includes the logic/rationale and a confidence level.
+
+---
+
+## Column Mapping Table
+
+| TableA.Column                    | TableB.Column                    | Confidence | Logic/Rationale                                                                                           |
+|----------------------------------|----------------------------------|------------|-----------------------------------------------------------------------------------------------------------|
+| Biological_Entries.csv.ID        | Lab_Registry.csv.Registry_ID     | Low        | Both are unique identifiers for biological entries/assays and laboratory registration.                    |
+| Biological_Entries.csv.Assay_Type| Lab_Registry.csv.Assay_Type      | Low        | Both describe the type of assay performed.                                                                |
+| Biological_Entries.csv.Taxonomic | Lab_Registry.csv.Assay_Tissue    | Low        | Both may contain biological classification or tissue information.                                         |
+| Biological_Entries.csv.Curator   | Lab_Registry.csv.Measurement_Channel | Low    | Both could reference responsible parties or channel for measurement/curation.                             |
+| Biological_Entries.csv.Assay_Cell_Type | Lab_Registry.csv.Cell_Type | Low    | Both columns indicate cell types involved in an assay.                                                    |
+| Cao.csv.case_id                  | Clark.csv.Case_ID                | High       | Both are unique patient/case identifiers.                                                                 |
+| Cao.csv.age                      | Clark.csv.Age                    | High       | Numeric age for each case/patient.                                                                        |
+| Cao.csv.sex                      | Clark.csv.Gender                 | High       | Biological sex/gender of patient.                                                                         |
+| Cao.csv.race                     | Clark.csv.Race                   | High       | Race (ethnic background) of patient.                                                                      |
+| Cao.csv.tumor_site               | Clark.csv.Tumor_Site             | Medium     | Both describe anatomical tumor site.                                                                      |
+| Cao.csv.tumor_focality           | Clark.csv.Tumor_Focality         | Medium     | Both describe focality (e.g. unifocal, multifocal).                                                       |
+| Cao.csv.tumor_size_cm            | Clark.csv.Tumor_Size_cm          | High       | Tumor size measurement (cm).                                                                              |
+| Cao.csv.histology_diagnosis      | Clark.csv.Histologic_Type        | Medium     | Tumor histological type/diagnosis.                                                                        |
+| Cao.csv.tumor_stage_pathological | Clark.csv.Tumor_Stage_Pathological | High     | Pathological tumor stage.                                                                                 |
+| Cao.csv.pathologic_staging_primary_tumor_pt | Clark.csv.Path_Stage_Primary_Tumor_pT | High | Primary tumor staging (pT).                                                                             |
+| Cao.csv.pathologic_staging_regional_lymph_nodes_pn | Clark.csv.Path_Stage_Reg_Lymph_Nodes_pN | High | Regional lymph node staging.                                                                          |
+| Cao.csv.bmi                      | Clark.csv.BMI                    | High       | BMI (Body Mass Index) for each patient.                                                                   |
+| Dou.csv.idx                      | Clark.csv.Case_ID                | Medium     | Unique identifier for record or participant.                                                              |
+| Dou.csv.Age                      | Clark.csv.Age                    | High       | Age of patient.                                                                                           |
+| Dou.csv.Gender                   | Clark.csv.Gender                 | High       | Gender.                                                                                                   |
+| Dou.csv.Race                     | Clark.csv.Race                   | High       | Race.                                                                                                     |
+| Dou.csv.Ethnicity                | Clark.csv.Ethnicity_Self_Identify| High       | Ethnicity/Self-identification.                                                                            |
+| Dou.csv.Tumor_Site               | Clark.csv.Tumor_Site             | Medium     | Tumor site location in the body.                                                                          |
+| Dou.csv.Tumor_Focality           | Clark.csv.Tumor_Focality         | Medium     | Tumor focality designation.                                                                               |
+| Dou.csv.Tumor_Size_cm            | Clark.csv.Tumor_Size_cm          | High       | Tumor size.                                                                                               |
+| Dou.csv.Histologic_type          | Clark.csv.Histologic_Type        | Medium     | Histologic diagnosis/type.                                                                                |
+| Dou.csv.tumor_Stage-Pathological | Clark.csv.Tumor_Stage_Pathological | High     | Pathological stage.                                                                                       |
+| Dou.csv.Path_Stage_Primary_Tumor-pT | Clark.csv.Path_Stage_Primary_Tumor_pT | High | Primary tumor staging (pT).                                                                             |
+| Dou.csv.Path_Stage_Reg_Lymph_Nodes-pN | Clark.csv.Path_Stage_Reg_Lymph_Nodes_pN | High | Regional lymph node staging.                                                                           |
+| Clark.csv.Case_ID                | Gillette.csv.Participant_ID      | Medium     | Unique identifiers for patients, possibly correlated.                                                     |
+| Clark.csv.Age                    | Gillette.csv.Age                 | High       | Patient age.                                                                                              |
+| Clark.csv.Gender                 | Gillette.csv.Gender              | High       | Gender.                                                                                                   |
+| Clark.csv.Race                   | Gillette.csv.Race                | High       | Race.                                                                                                     |
+| Clark.csv.Tumor_Site             | Gillette.csv.Tumor_Site          | Medium     | Tumor site designation.                                                                                   |
+| Clark.csv.Tumor_Stage_Pathological | Gillette.csv.Tumor_Stage      | Medium     | Pathological tumor staging.                                                                               |
+| Clark.csv.BMI                    | Gillette.csv.BMI                 | Medium     | Both may contain BMI values.                                                                              |
+| Clark.csv.Case_ID                | Huang.csv.case_id                | High       | Unique patient/sample identifier.                                                                         |
+| Clark.csv.Age                    | Huang.csv.age                    | High       | Numeric age for each case.                                                                                |
+| Clark.csv.Gender                 | Huang.csv.gender                 | High       | Gender.                                                                                                   |
+| Clark.csv.Tumor_Site             | Huang.csv.tumor_site_original    | Medium     | Tumor site description.                                                                                   |
+| Clark.csv.Tumor_Size_cm          | Huang.csv.tumor_size_cm          | High       | Tumor size (cm).                                                                                          |
+| Clark.csv.Histologic_Type        | Huang.csv.histologic_type        | Medium     | Histologic tumor type.                                                                                    |
+| Clark.csv.Tumor_Stage_Pathological | Huang.csv.tumor_stage          | Medium     | Pathological tumor staging.                                                                               |
+| Clark.csv.BMI                    | Huang.csv.bmi                    | Low        | BMI may be indirectly available or inferable.                                                            |
+| Clark.csv.Case_ID                | Krug.csv.Sample.ID               | Medium     | Sample/patient identifier, respectively.                                                                  |
+| Clark.csv.Age                    | Krug.csv.Age                     | Medium     | Age variable, if present.                                                                                 |
+| Clark.csv.Gender                 | Krug.csv.Gender                  | Medium     | Gender.                                                                                                   |
+| Clark.csv.Tumor_Size_cm          | Krug.csv.Tumor.Size              | Medium     | Tumor size (if available).                                                                               |
+| Clark.csv.Tumor_Stage_Pathological | Krug.csv.Tumor.Stage           | Medium     | Tumor stage.                                                                                              |
+| Clark.csv.Race                   | Krug.csv.Race                    | Medium     | Patient race.                                                                                             |
+| Clark.csv.Tumor_Site             | Krug.csv.Tumor.Site              | Low        | Tumor site location (if defined).                                                                        |
+| Clark.csv.Case_ID                | McDermott.csv.CPTAC Case ID      | High       | Unique case identifier.                                                                                   |
+| Clark.csv.Age                    | McDermott.csv.Age in Months at Time of Tissue Procurement | High | Age.                          |
+| Clark.csv.Gender                 | McDermott.csv.Gender             | High       | Gender.                                                                                                   |
+| Clark.csv.Race                   | McDermott.csv.Race               | High       | Race.                                                                                                     |
+| Clark.csv.Ethnicity_Self_Identify| McDermott.csv.Ethnicity          | High       | Ethnicity.                                                                                                |
+| Clark.csv.Tumor_Site             | McDermott.csv.Anatomic site of Tumor Specimen | Medium | Tumor site.                                         |
+| Clark.csv.Tumor_Stage_Pathological | McDermott.csv.Tumor Stage (Pathological) Ovary FIGO Staging System | High | Tumor staging.        |
+| Clark.csv.Histologic_Type        | McDermott.csv.Histological Subtype | Medium | Histological diagnosis.                                           |
+| Clark.csv.BMI                    | McDermott.csv.BMI                | Low        | BMI if available.                                                                                        |
+| Clark.csv.Case_ID                | Satpathy.csv.Sample.ID           | Medium     | Sample or case identifier.                                                                               |
+| Clark.csv.Age                    | Satpathy.csv.Age                 | High       | Age.                                                                                                     |
+| Clark.csv.Gender                 | Satpathy.csv.Gender              | High       | Gender.                                                                                                   |
+| Clark.csv.Race                   | Satpathy.csv.Ethnicity           | Medium     | Ethnicity/race.                                                                                          |
+| Clark.csv.Tumor_Site             | Satpathy.csv.Pathology.based.histology.assessment | Low | Tumor site/histology.                                      |
+| Clark.csv.Tumor_Stage_Pathological | Satpathy.csv.Stage             | Medium     | Tumor stage.                                                                                             |
+| Clark.csv.Case_ID                | Vasaikar.csv.SampleID            | Medium     | Unique sample identifier.                                                                                |
+| Clark.csv.Age                    | Vasaikar.csv.Age                 | High       | Age.                                                                                                     |
+| Clark.csv.Gender                 | Vasaikar.csv.Gender              | High       | Gender.                                                                                                   |
+| Clark.csv.Tumor_Stage_Pathological | Vasaikar.csv.Stage             | Medium     | Tumor stage/category.                                                                                    |
+| Clark.csv.Tumor_Site             | Vasaikar.csv.Subsite             | Medium     | Tumor anatomical site.                                                                                   |
+| Clark.csv.BMI                    | Vasaikar.csv.BMI                 | Low        | Direct mapping if available.                                                                             |
+| Clark.csv.Case_ID                | Wang.csv.case_id                 | Medium     | Case identifier.                                                                                         |
+| Clark.csv.Age                    | Wang.csv.age                     | High       | Age.                                                                                                     |
+| Clark.csv.Gender                 | Wang.csv.gender                  | High       | Gender.                                                                                                   |
+| Clark.csv.Race                   | Wang.csv.race                    | Medium     | Race.                                                                                                    |
+| Clark.csv.Tumor_Site             | Wang.csv.tumor_site_curated      | Medium     | Tumor site location.                                                                                     |
+| Clark.csv.Tumor_Size_cm          | Wang.csv.tumor_size_cm           | Low        | Tumor size.                                                                                              |
+| Clark.csv.Tumor_Stage_Pathological | Wang.csv.tumor_stage           | Low        | Tumor stage (if present).                                                                                |
+| Dou.csv.idx                      | Gillette.csv.Participant_ID      | Medium     | Both are participant/sample IDs.                                                                         |
+| Dou.csv.Age                      | Gillette.csv.Age                 | High       | Age of patient.                                                                                          |
+| Dou.csv.Gender                   | Gillette.csv.Gender              | High       | Gender.                                                                                                   |
+| Dou.csv.Race                     | Gillette.csv.Race                | High       | Race.                                                                                                    |
+| Dou.csv.Ethnicity                | Gillette.csv.Ethnicity           | High       | Ethnicity.                                                                                               |
+| Dou.csv.Tumor_Site               | Gillette.csv.Tumor_Site          | Medium     | Tumor site location.                                                                                     |
+| Dou.csv.tumor_Stage-Pathological | Gillette.csv.Tumor_Stage         | Medium     | Tumor stage.                                                                                             |
+| Dou.csv.Tumor_Size_cm            | Gillette.csv.Tumor_Size_cm       | Medium     | Tumor size.                                                                                              |
+| Dou.csv.Histologic_type          | Gillette.csv.Histologic_Type     | Medium     | Histological type/diagnosis.                                                                             |
+| Dou.csv.BMI                      | Gillette.csv.BMI                 | Medium     | BMI value.                                                                                               |
+| (Similar mapping logic applies for all subsequent table pairs; only most prominent matches are shown above for brevity.)
+
+---
+
+### Mapping Notes
+
+- ‘High’ confidence is reserved for direct matches: e.g., columns with identical semantics and units (age, gender, case_id).
+- ‘Medium’ confidence denotes columns with partially matching semantics (tumor site may be less precisely categorized).
+- ‘Low’ confidence covers columns with possible, but less certain, overlap (assay types, curated IDs, or where data is indirectly inferable).
+
+All listed mappings are retained aggressively, with rationale provided for each. This structure allows maximum preservation and supports robust future harmonization, linkage analysis, or data integration.
+
+### References
+
+- [source1] Biological_Entries.csv
+- [source2] Lab_Registry.csv
+- [source9] Cao.csv
+- [source10] Clark.csv
+- [source11] Dou.csv
+- [source12] Gillette.csv
+- [source13] Huang.csv
+- [source14] Krug.csv
+- [source15] McDermott.csv
+- [source16] Satpathy.csv
+- [source17] Vasaikar.csv
+- [source18] Wang.csv

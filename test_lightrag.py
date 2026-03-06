@@ -9,7 +9,7 @@ from lightrag.utils import EmbeddingFunc
 
 # --- 1. 配置参数 ---
 BASE_URL = "https://api2.aigcbest.top/v1" 
-
+API_KEY = "sk-YF5ia5p3v954rBNTJUlXQj000Bij8HsNnxzeiNihqe0bMJuF"
 MODEL_NAME = "gpt-4.1" 
 WORKING_DIR = "./lightrag_stratified_final"
 
@@ -62,8 +62,8 @@ async def run_stratified_analysis():
     
     q1 = (
         "TASK: Analyze all indexed Data Sources.\n"
-        "1. Categorize them into 5-8 distinct Business Domains.\n"
-        "2. POLICY: '宁滥勿缺' (Rather over-cluster than leave orphans). If uncertain, group them.\n"
+        "1. Categorize them into  distincts Business Domains.\n"
+        "2. POLICY: (Rather less-cluster than over orphans). If uncertain, group them.\n"
         "OUTPUT_FORMAT: Provide a strict JSON ONLY: "
         "{'domains': [{'name': '...', 'sources': [...], 'scope': '...'}]}"
     )
@@ -95,7 +95,7 @@ async def run_stratified_analysis():
         q2 = (
             f"FOCUS: Domain '{d_name}' (Sources: {d_sources}).\n"
             f"TASK: Find ALL potential table pairs with semantic overlaps.\n"
-            f"POLICY: '宁滥勿缺' (Recall over Precision). If uncertain, assume they are linked.\n"
+            f"POLICY: Rather less-cluster than over orphans. If uncertain, assume they are linked.\n"
             f"OUTPUT: A structured Markdown table."
         )
         r2 = await rag.aquery(q2, param=QueryParam(mode="global"))

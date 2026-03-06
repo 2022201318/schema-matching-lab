@@ -1,0 +1,80 @@
+--- QUESTION ---
+DOMAIN: Public Sector & International Development
+SUSPECTED LINKS:
+### Potential Table Pairs with Semantic Overlaps in 'Public Sector & International Development'
+
+| Table 1                | Table 2                | Primary Overlapping Concepts/Themes                                                          |
+|------------------------|------------------------|---------------------------------------------------------------------------------------------|
+| Project_Registry.csv   | Accounting_Snapshot.csv| International aid projects, fiscal/project year, sector/sector name, project status, budget/funding, region/continent, thematic/aid markers, organization type/class |
+
+#### Notes:
+- **Project_Registry.csv** and **Accounting_Snapshot.csv** both document information relating to international aid and development projects.
+- Overlapping attributes include: fiscal year, project status, sector/sector name, budget/allocation, region/continent classification, thematic/aid markers, and organization/organizational type.
+- Both sources (source3 and source4) focus on project tracking, finances, sector allocations, thematic development markers, and regional implementations—strongly semantically linking these tables.
+
+### References
+
+- [source3] (content as described in Document Chunks)
+- [source4] (content as described in Document Chunks)
+
+TASK: Deep-dive column mapping. If a match is possible, RETAIN IT.
+POLICY: 'Aggressive Preservation' (宁滥勿缺). Do not filter out low-confidence matches.
+OUTPUT: [TableA.Col] <-> [TableB.Col] | Confidence | Logic.
+
+--- AI RESPONSE ---
+### Deep-Dive Column Mapping Between Project_Registry.csv (source3) and Accounting_Snapshot.csv (source4)
+
+Below is an aggressive preservation mapping of columns between the two datasets, retaining even low-confidence matches based on observed semantic or technical overlaps:
+
+| Project_Registry.csv Column          | Accounting_Snapshot.csv Column         | Confidence     | Logic                                                                                                               |
+|--------------------------------------|----------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------|
+| Fiscal year                         | miller2_fsclr                         | High          | Both represent the fiscal/project year/date of activity for each project.                                           |
+| Programming process (new)           | miller2_prgrmmngprcss(nw)              | High          | Both describe the programming or project development stage/status.                                                  |
+| Status                              | miller2_stts                           | High          | Both indicate project/status completion (“Closed” present in both as an example value).                             |
+| Organisation class                  | -                                      | Low           | "Organisation class" (Project_Registry) has no direct unique column, but loosely relates to organization fields.    |
+| Sector name                         | miller2_sctrnm                         | High          | Both are human-readable names for the project’s sector or thematic area.                                            |
+| Project number                      | miller2_prjctnmbr                      | High          | Both are unique project identifiers.                                                                                |
+| Climate change adaptation (marker)  | miller2_clmtchngdpttn(mrkr)            | High          | Both are project-level binary indicators for climate change adaptation.                                             |
+| Organisation ID                     | -                                      | Low           | Organisation ID does not have a direct equivalent, some organizational linkage possible via project or region IDs.  |
+| Organisation name                   | -                                      | Low           | Organisation name not available in samples, but both tables track organization-related information.                 |
+| Desertification (marker)            | miller2_dsrtfctn(mrkr)                 | High          | Both are project-level binary indicators for desertification involvement/issues.                                     |
+| Bilateral aid (international marker)| miller2_bltrld(ntrntnlmrkr)            | Medium        | Both serve as binary markers for bilateral aid, though encoding and samples differ.                                 |
+| Division name                       | miller2_dvsnnm                         | Medium        | Both describe organizational division responsible for the project (examples: “OAD Asia Programming” vs “MID International Organizations”). |
+| Amount spent                        | miller2_mntspnt                        | High          | Both track the monetary amount spent or allocated to a project.                                                     |
+| Sector percent                      | miller2_sctrprcnt                      | High          | Both provide percentage allocation to a project’s sector.                                                           |
+| Section name                        | miller2_sctnnm                         | Medium        | Both describe organizational or programmatic section/category.                                                      |
+| Project Browser country ID           | -                                      | Low           | Potential region/country coding; no direct equivalent found.                                                        |
+| ICT as a tool for development (marker)| miller2_ctstlfrdvlpmnt(mrkr)           | Medium        | Both mark use of ICT as a development tool; naming differs but logic overlaps.                                      |
+| Continent name                      | miller2_cntnntnm                       | High          | Both fields store the continent of the project or activity.                                                         |
+| CountryRegion name                  | miller2_cntrrgnnm                      | High          | Both capture the name (or code) of country or region associated with the project.                                   |
+| Section ID                          | miller2_sctnd                           | High          | Both are unique string identifiers for managing sections.                                                           |
+| Indigenous issues (marker)          | miller2_ndgnssss(mrkr)                 | High          | Both are binary indicators for indigenous issues related to a project.                                              |
+| Youth issues (marker)               | miller2_thsss(mrkr)                    | High          | Both are binary indicators for youth involvement/issues.                                                            |
+| Sector ID                           | miller2_sctrd                           | Medium        | Both are likely numeric codes identifying the project’s sector.                                                     |
+| Branch ID                           | miller2_brnchd                          | Medium        | Both identify the branch managing or associated with the project.                                                   |
+| CIDA business delivery model (old)  | miller2_cdbsnssdlvrmdl(ld)             | Medium        | Both describe the business delivery model used in the project.                                                      |
+| Children issues (marker)            | miller2_chldrnsss(mrkr)                | High          | Both are binary child issues indicators.                                                                            |
+| Disability issues (marker)          | miller2_dsbltsss(mrkr)                 | High          | Both are binary disability issues indicators.                                                                       |
+| Organisation type                   | miller2_rgnstntp                        | Medium        | Both classify the type of organization, though naming and values may differ.                                        |
+| Biodiversity (marker)               | miller2_bdvrst(mrkr)                   | High          | Both are binary indicators for biodiversity involvement.                                                            |
+| CountryRegion percent               | miller2_cntrrgnprcnt                    | High          | Both are percentages of project focus or allocation to a specific country/region.                                   |
+| Untied amount(Project-level budget) | miller2_ntdmnt(prjct-lvlbdgt)           | High          | Both give project-level budget not tied to specific restrictions.                                                   |
+| CFLI (marker)                      | miller2_cfl(mrkr)                      | Medium        | Both are binary indicators/flags for CFLI funding.                                                                  |
+| Regional program (marker)           | miller2_rgnlprgrm(mrkr)                 | Medium        | Both indicate whether the project is a regional program.                                                            |
+| FSTC percent                        | miller2_fstcprcnt                       | High          | Both are FSTC percentages or funding allocations.                                                                   |
+| Participatory development and good governance | miller2_prtcptrdvlpmntndgdgvrnnc | High     | Both are indicators for participatory development and good governance engagement.                                   |
+| Maximum CIDA contribution (project-level) | -                             | Medium        | No direct, but both tables have funding/contribution fields.                                                        |
+| Branch name                         | -                                       | Low           | No clear match; relates to organizational structure as do several fields above.                                     |
+| Division ID                         | -                                       | Low           | No direct equivalent, but both tables track division/organizational IDs.                                            |
+| Fund centre ID                      | -                                       | Low           | No equivalent, though both track fund and allocation centers indirectly.                                            |
+| Fund centre name                    | -                                       | Low           | Similar logic as Fund centre ID.                                                                                    |
+| IRTC percent                        | -                                       | Low           | No match found; a unique percentage field.                                                                          |
+| PBA type                            | -                                       | Low           | No equivalent field; specific to project assessment.                                                                |
+| Enviromental sustainability (marker)| -                                       | Medium        | No explicit marker field in Accounting_Snapshot.csv, but similar markers may exist with alternate coding.           |
+
+**Note:** If no direct mapping could be confidently or loosely inferred, columns are listed with a Low confidence rating. All reasonably plausible matches have been retained per policy.
+
+### References
+
+- [source3] Project_Registry.csv Table and Field Catalog
+- [source4] Accounting_Snapshot.csv Table and Field Catalog
