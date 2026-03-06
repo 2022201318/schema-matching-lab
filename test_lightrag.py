@@ -9,7 +9,7 @@ from lightrag.utils import EmbeddingFunc
 
 # --- 1. 配置参数 ---
 BASE_URL = "https://api2.aigcbest.top/v1" 
-API_KEY = "sk-YF5ia5p3v954rBNTJUlXQj000Bij8HsNnxzeiNihqe0bMJuF"
+
 MODEL_NAME = "gpt-4.1" 
 WORKING_DIR = "./lightrag_stratified_final"
 

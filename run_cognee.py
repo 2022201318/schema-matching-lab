@@ -7,7 +7,7 @@ from cognee.api.v1.visualize import visualize_graph
 # --- 1. 严格按照文档要求的 Custom Provider 配置 ---
 os.environ["LLM_PROVIDER"] = "custom"
 os.environ["LLM_ENDPOINT"] = "https://api.aigcbest.com/v1"
-os.environ["LLM_API_KEY"] = "sk-JoM1NhxV2GRfAFaokDopuG6i5YFqwBh4j0gadLlPRZNHUCkC"
+
 
 # 关键：当 PROVIDER="custom" 时，模型名前必须加 openai/ 前缀
 os.environ["LLM_MODEL"] = "openai/qwen2.5-72b-instruct" 
@@ -16,7 +16,7 @@ os.environ["LLM_MODEL"] = "openai/qwen2.5-72b-instruct"
 # 我们让 Embedding 也复用中转站配置
 os.environ["EMBEDDING_PROVIDER"] = "custom"
 os.environ["EMBEDDING_ENDPOINT"] = "https://api.aigcbest.com/v1"
-os.environ["EMBEDDING_API_KEY"] = "sk-JoM1NhxV2GRfAFaokDopuG6i5YFqwBh4j0gadLlPRZNHUCkC"
+
 os.environ["EMBEDDING_MODEL"] = "openai/text-embedding-3-small"
 
 async def main():
