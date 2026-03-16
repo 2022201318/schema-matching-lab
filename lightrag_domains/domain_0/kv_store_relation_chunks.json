@@ -1,0 +1,4495 @@
+{
+  "EPIC Analysis<SEP>EPIC_CD4_Tcells": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645511,
+    "update_time": 1773645511,
+    "_id": "EPIC Analysis<SEP>EPIC_CD4_Tcells"
+  },
+  "CIBERSORT<SEP>CIBERSORT_B_cells_naive": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645511,
+    "update_time": 1773645511,
+    "_id": "CIBERSORT<SEP>CIBERSORT_B_cells_naive"
+  },
+  "CIBERSORT<SEP>CIBERSORT_B_cells_memory": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645512,
+    "update_time": 1773645512,
+    "_id": "CIBERSORT<SEP>CIBERSORT_B_cells_memory"
+  },
+  "EPIC Analysis<SEP>EPIC_CD8_Tcells": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645512,
+    "update_time": 1773645512,
+    "_id": "EPIC Analysis<SEP>EPIC_CD8_Tcells"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Plasma_cells": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645513,
+    "update_time": 1773645513,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Plasma_cells"
+  },
+  "EPIC Analysis<SEP>EPIC_Endothelial": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645513,
+    "update_time": 1773645513,
+    "_id": "EPIC Analysis<SEP>EPIC_Endothelial"
+  },
+  "EPIC Analysis<SEP>EPIC_Macrophages": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645514,
+    "update_time": 1773645514,
+    "_id": "EPIC Analysis<SEP>EPIC_Macrophages"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_CD8": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645514,
+    "update_time": 1773645514,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_CD8"
+  },
+  "EPIC Analysis<SEP>EPIC_NKcells": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645515,
+    "update_time": 1773645515,
+    "_id": "EPIC Analysis<SEP>EPIC_NKcells"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_naive": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645515,
+    "update_time": 1773645515,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_naive"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_memory_resting": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645516,
+    "update_time": 1773645516,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_memory_resting"
+  },
+  "EPIC Analysis<SEP>EPIC_otherCells": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645516,
+    "update_time": 1773645516,
+    "_id": "EPIC Analysis<SEP>EPIC_otherCells"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_memory_activated": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645517,
+    "update_time": 1773645517,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_CD4_memory_activated"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_follicular_helper": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645518,
+    "update_time": 1773645518,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_follicular_helper"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_regulatory_Tregs": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645519,
+    "update_time": 1773645519,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_regulatory_Tregs"
+  },
+  "CIBERSORT<SEP>CIBERSORT_T_cells_gamma_delta": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645520,
+    "update_time": 1773645520,
+    "_id": "CIBERSORT<SEP>CIBERSORT_T_cells_gamma_delta"
+  },
+  "CIBERSORT<SEP>CIBERSORT_NK_cells_resting": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645521,
+    "update_time": 1773645521,
+    "_id": "CIBERSORT<SEP>CIBERSORT_NK_cells_resting"
+  },
+  "CIBERSORT<SEP>CIBERSORT_NK_cells_activated": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645522,
+    "update_time": 1773645522,
+    "_id": "CIBERSORT<SEP>CIBERSORT_NK_cells_activated"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Monocytes": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645523,
+    "update_time": 1773645523,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Monocytes"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Macrophages_M0": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645524,
+    "update_time": 1773645524,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Macrophages_M0"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Macrophages_M1": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645525,
+    "update_time": 1773645525,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Macrophages_M1"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Macrophages_M2": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645526,
+    "update_time": 1773645526,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Macrophages_M2"
+  },
+  "Tumor Site Curated<SEP>Tumor Site Original": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645526,
+    "update_time": 1773645526,
+    "_id": "Tumor Site Curated<SEP>Tumor Site Original"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Dendritic_cells_resting": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645526,
+    "update_time": 1773645526,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Dendritic_cells_resting"
+  },
+  "Tumor Size Centimeters<SEP>Tumor Stage": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645526,
+    "update_time": 1773645526,
+    "_id": "Tumor Size Centimeters<SEP>Tumor Stage"
+  },
+  "Histologic Type<SEP>Tumor Pathology Review": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645527,
+    "update_time": 1773645527,
+    "_id": "Histologic Type<SEP>Tumor Pathology Review"
+  },
+  "HPV Inference<SEP>P16": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645527,
+    "update_time": 1773645527,
+    "_id": "HPV Inference<SEP>P16"
+  },
+  "ESTIMATE Immune Score<SEP>ESTIMATE Stromal Score": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645527,
+    "update_time": 1773645527,
+    "_id": "ESTIMATE Immune Score<SEP>ESTIMATE Stromal Score"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Dendritic_cells_activated": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Dendritic_cells_activated"
+  },
+  "Pack-Years Smoked<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "Pack-Years Smoked<SEP>Smoking History"
+  },
+  "Alcohol Consumption<SEP>Number Years Alcohol Consumed": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "Alcohol Consumption<SEP>Number Years Alcohol Consumed"
+  },
+  "Mutation Count<SEP>Neoantigen Count": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "Mutation Count<SEP>Neoantigen Count"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Mast_cells_resting": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Mast_cells_resting"
+  },
+  "Histologic Grade<SEP>Tumor Stage": {
+    "chunk_ids": [
+      "chunk-bbe66e89b3f065bc7b6433bb8037a740"
+    ],
+    "count": 1,
+    "create_time": 1773645528,
+    "update_time": 1773645528,
+    "_id": "Histologic Grade<SEP>Tumor Stage"
+  },
+  "CIBERSORT Algorithm<SEP>CIBERSORT Eosinophils": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645529,
+    "update_time": 1773645529,
+    "_id": "CIBERSORT Algorithm<SEP>CIBERSORT Eosinophils"
+  },
+  "ESTIMATE ImmuneScore<SEP>ESTIMATE StromalScore": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645529,
+    "update_time": 1773645529,
+    "_id": "ESTIMATE ImmuneScore<SEP>ESTIMATE StromalScore"
+  },
+  "CIBERSORT Algorithm<SEP>CIBERSORT Neutrophils": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645529,
+    "update_time": 1773645529,
+    "_id": "CIBERSORT Algorithm<SEP>CIBERSORT Neutrophils"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Mast_cells_activated": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645529,
+    "update_time": 1773645529,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Mast_cells_activated"
+  },
+  "CIBERSORT Absolute Score<SEP>CIBERSORT Algorithm": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645530,
+    "update_time": 1773645530,
+    "_id": "CIBERSORT Absolute Score<SEP>CIBERSORT Algorithm"
+  },
+  "EGFR Signaling Pathway<SEP>Pathway Activity EGFR": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645530,
+    "update_time": 1773645530,
+    "_id": "EGFR Signaling Pathway<SEP>Pathway Activity EGFR"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Eosinophils": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645530,
+    "update_time": 1773645530,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Eosinophils"
+  },
+  "Hypoxia Signaling Pathway<SEP>Pathway Activity Hypoxia": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645530,
+    "update_time": 1773645530,
+    "_id": "Hypoxia Signaling Pathway<SEP>Pathway Activity Hypoxia"
+  },
+  "ESTIMATE ESTIMATEScore<SEP>ESTIMATE StromalScore": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "ESTIMATE ESTIMATEScore<SEP>ESTIMATE StromalScore"
+  },
+  "JAK-STAT Signaling Pathway<SEP>Pathway Activity JAK-STAT": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "JAK-STAT Signaling Pathway<SEP>Pathway Activity JAK-STAT"
+  },
+  "MAPK Signaling Pathway<SEP>Pathway Activity MAPK": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "MAPK Signaling Pathway<SEP>Pathway Activity MAPK"
+  },
+  "CIBERSORT<SEP>CIBERSORT_Neutrophils": {
+    "chunk_ids": [
+      "chunk-4f5de3a6a4f82a307171eb7a4e881c7b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "CIBERSORT<SEP>CIBERSORT_Neutrophils"
+  },
+  "NF-kB Signaling Pathway<SEP>Pathway Activity NFkB": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "NF-kB Signaling Pathway<SEP>Pathway Activity NFkB"
+  },
+  "PI3K Signaling Pathway<SEP>Pathway Activity PI3K": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "PI3K Signaling Pathway<SEP>Pathway Activity PI3K"
+  },
+  "Pathway Activity TGFb<SEP>TGF-beta Signaling Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "Pathway Activity TGFb<SEP>TGF-beta Signaling Pathway"
+  },
+  "ESTIMATE ESTIMATEScore<SEP>ESTIMATE ImmuneScore": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "ESTIMATE ESTIMATEScore<SEP>ESTIMATE ImmuneScore"
+  },
+  "Pathway Activity TNFa<SEP>TNF-alpha Signaling Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645531,
+    "update_time": 1773645531,
+    "_id": "Pathway Activity TNFa<SEP>TNF-alpha Signaling Pathway"
+  },
+  "Pathway Activity Trail<SEP>Trail Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645532,
+    "update_time": 1773645532,
+    "_id": "Pathway Activity Trail<SEP>Trail Pathway"
+  },
+  "Pathway Activity VEGF<SEP>VEGF Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645532,
+    "update_time": 1773645532,
+    "_id": "Pathway Activity VEGF<SEP>VEGF Pathway"
+  },
+  "Pathway Activity p53<SEP>p53 Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645532,
+    "update_time": 1773645532,
+    "_id": "Pathway Activity p53<SEP>p53 Pathway"
+  },
+  "TP53<SEP>TP53 Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645532,
+    "update_time": 1773645532,
+    "_id": "TP53<SEP>TP53 Pathway"
+  },
+  "AKT1<SEP>PI3K Signaling Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645533,
+    "update_time": 1773645533,
+    "_id": "AKT1<SEP>PI3K Signaling Pathway"
+  },
+  "TP53 Pathway<SEP>TP53 Pathway Activation": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645533,
+    "update_time": 1773645533,
+    "_id": "TP53 Pathway<SEP>TP53 Pathway Activation"
+  },
+  "ATM<SEP>TP53": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645533,
+    "update_time": 1773645533,
+    "_id": "ATM<SEP>TP53"
+  },
+  "AKT2<SEP>PI3K Signaling Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645534,
+    "update_time": 1773645534,
+    "_id": "AKT2<SEP>PI3K Signaling Pathway"
+  },
+  "CHEK2<SEP>TP53": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645534,
+    "update_time": 1773645534,
+    "_id": "CHEK2<SEP>TP53"
+  },
+  "Case Id<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645534,
+    "update_time": 1773645534,
+    "_id": "Case Id<SEP>Table Source10.Clark"
+  },
+  "AKT3<SEP>PI3K Signaling Pathway": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645535,
+    "update_time": 1773645535,
+    "_id": "AKT3<SEP>PI3K Signaling Pathway"
+  },
+  "Table Source10.Clark<SEP>Tumor/Normal Status": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645535,
+    "update_time": 1773645535,
+    "_id": "Table Source10.Clark<SEP>Tumor/Normal Status"
+  },
+  "MDM4<SEP>TP53": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645535,
+    "update_time": 1773645535,
+    "_id": "MDM4<SEP>TP53"
+  },
+  "RPS6KA3<SEP>TP53": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645536,
+    "update_time": 1773645536,
+    "_id": "RPS6KA3<SEP>TP53"
+  },
+  "Gender<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645536,
+    "update_time": 1773645536,
+    "_id": "Gender<SEP>Table Source10.Clark"
+  },
+  "Age<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645537,
+    "update_time": 1773645537,
+    "_id": "Age<SEP>Table Source10.Clark"
+  },
+  "Additional Pathologic Findings<SEP>Pancreatic Intraepithelial Neoplasia": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645537,
+    "update_time": 1773645537,
+    "_id": "Additional Pathologic Findings<SEP>Pancreatic Intraepithelial Neoplasia"
+  },
+  "TP53<SEP>TP53 Pathway Activation": {
+    "chunk_ids": [
+      "chunk-e36baac3dbe2680da062f72ebc723f3b"
+    ],
+    "count": 1,
+    "create_time": 1773645537,
+    "update_time": 1773645537,
+    "_id": "TP53<SEP>TP53 Pathway Activation"
+  },
+  "Diabetes Mellitus Type II<SEP>Medical Condition": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645538,
+    "update_time": 1773645538,
+    "_id": "Diabetes Mellitus Type II<SEP>Medical Condition"
+  },
+  "Additional Pathologic Findings<SEP>Gastric GIST": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645538,
+    "update_time": 1773645538,
+    "_id": "Additional Pathologic Findings<SEP>Gastric GIST"
+  },
+  "Body Mass Index<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645538,
+    "update_time": 1773645538,
+    "_id": "Body Mass Index<SEP>Table Source10.Clark"
+  },
+  "Race<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645539,
+    "update_time": 1773645539,
+    "_id": "Race<SEP>Table Source10.Clark"
+  },
+  "Ethnicity Self Identify<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645540,
+    "update_time": 1773645540,
+    "_id": "Ethnicity Self Identify<SEP>Table Source10.Clark"
+  },
+  "Table Source10.Clark<SEP>Tumor Site": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645541,
+    "update_time": 1773645541,
+    "_id": "Table Source10.Clark<SEP>Tumor Site"
+  },
+  "Assay<SEP>Biological Entries Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645541,
+    "update_time": 1773645541,
+    "_id": "Assay<SEP>Biological Entries Table"
+  },
+  "Biological Entries Table<SEP>In Vitro Assay": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645542,
+    "update_time": 1773645542,
+    "_id": "Biological Entries Table<SEP>In Vitro Assay"
+  },
+  "Table Source10.Clark<SEP>Tumor Size Cm": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645542,
+    "update_time": 1773645542,
+    "_id": "Table Source10.Clark<SEP>Tumor Size Cm"
+  },
+  "Table Source10.Clark<SEP>Tumor Focality": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645543,
+    "update_time": 1773645543,
+    "_id": "Table Source10.Clark<SEP>Tumor Focality"
+  },
+  "Biological Entries Table<SEP>In Vivo Assay": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645543,
+    "update_time": 1773645543,
+    "_id": "Biological Entries Table<SEP>In Vivo Assay"
+  },
+  "Autocuration<SEP>Curator": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645543,
+    "update_time": 1773645543,
+    "_id": "Autocuration<SEP>Curator"
+  },
+  "Histologic Type<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645544,
+    "update_time": 1773645544,
+    "_id": "Histologic Type<SEP>Table Source10.Clark"
+  },
+  "Biological Entries Table<SEP>Curator": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645544,
+    "update_time": 1773645544,
+    "_id": "Biological Entries Table<SEP>Curator"
+  },
+  "Grade<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645544,
+    "update_time": 1773645544,
+    "_id": "Grade<SEP>Table Source10.Clark"
+  },
+  "Biological Entries Table<SEP>Chemical Identifier": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645545,
+    "update_time": 1773645545,
+    "_id": "Biological Entries Table<SEP>Chemical Identifier"
+  },
+  "143B Cell<SEP>Assay Cell Type": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645545,
+    "update_time": 1773645545,
+    "_id": "143B Cell<SEP>Assay Cell Type"
+  },
+  "Assay Organism<SEP>Biological Entries Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645545,
+    "update_time": 1773645545,
+    "_id": "Assay Organism<SEP>Biological Entries Table"
+  },
+  "Path Stage Primary Tumor<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645546,
+    "update_time": 1773645546,
+    "_id": "Path Stage Primary Tumor<SEP>Table Source10.Clark"
+  },
+  "Assay Type<SEP>Biological Entries Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645546,
+    "update_time": 1773645546,
+    "_id": "Assay Type<SEP>Biological Entries Table"
+  },
+  "Assay Organism<SEP>Bos taurus": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645546,
+    "update_time": 1773645546,
+    "_id": "Assay Organism<SEP>Bos taurus"
+  },
+  "Path Stage Reg Lymph Nodes<SEP>Table Source10.Clark": {
+    "chunk_ids": [
+      "chunk-d93ff191c30355303559507bb7484eca"
+    ],
+    "count": 1,
+    "create_time": 1773645546,
+    "update_time": 1773645546,
+    "_id": "Path Stage Reg Lymph Nodes<SEP>Table Source10.Clark"
+  },
+  "Lab Assay<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645546,
+    "update_time": 1773645546,
+    "_id": "Lab Assay<SEP>Lab Registry Table"
+  },
+  "Chemical Identifier<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645547,
+    "update_time": 1773645547,
+    "_id": "Chemical Identifier<SEP>Lab Registry Table"
+  },
+  "Assay Organism<SEP>Homo sapiens": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645547,
+    "update_time": 1773645547,
+    "_id": "Assay Organism<SEP>Homo sapiens"
+  },
+  "Biological Entries Table<SEP>ChEMBL": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645547,
+    "update_time": 1773645547,
+    "_id": "Biological Entries Table<SEP>ChEMBL"
+  },
+  "Assay Type<SEP>Binding Assay": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645547,
+    "update_time": 1773645547,
+    "_id": "Assay Type<SEP>Binding Assay"
+  },
+  "Lab Registry Table<SEP>Sample Designation Identifier": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645548,
+    "update_time": 1773645548,
+    "_id": "Lab Registry Table<SEP>Sample Designation Identifier"
+  },
+  "1321NI Cell<SEP>Assay": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645548,
+    "update_time": 1773645548,
+    "_id": "1321NI Cell<SEP>Assay"
+  },
+  "Assay Type<SEP>Functional Assay": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645549,
+    "update_time": 1773645549,
+    "_id": "Assay Type<SEP>Functional Assay"
+  },
+  "A2 Adenosine Receptor<SEP>Bovine Striatal Membrane": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645549,
+    "update_time": 1773645549,
+    "_id": "A2 Adenosine Receptor<SEP>Bovine Striatal Membrane"
+  },
+  "Designation Code Identifier<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645551,
+    "update_time": 1773645551,
+    "_id": "Designation Code Identifier<SEP>Lab Registry Table"
+  },
+  "Lab Assay<SEP>NAC Gd": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645551,
+    "update_time": 1773645551,
+    "_id": "Lab Assay<SEP>NAC Gd"
+  },
+  "Binding Affinity<SEP>Biological Entries Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645552,
+    "update_time": 1773645552,
+    "_id": "Binding Affinity<SEP>Biological Entries Table"
+  },
+  "Creation Batch<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645552,
+    "update_time": 1773645552,
+    "_id": "Creation Batch<SEP>Lab Registry Table"
+  },
+  "Krug.csv<SEP>Table Source14.Krug": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645552,
+    "update_time": 1773645552,
+    "_id": "Krug.csv<SEP>Table Source14.Krug"
+  },
+  "Confidence Score<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645553,
+    "update_time": 1773645553,
+    "_id": "Confidence Score<SEP>Lab Registry Table"
+  },
+  "Genomic Data<SEP>Krug.csv": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645553,
+    "update_time": 1773645553,
+    "_id": "Genomic Data<SEP>Krug.csv"
+  },
+  "Cancer Immunotherapy<SEP>Neoantigen_Count": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645553,
+    "update_time": 1773645553,
+    "_id": "Cancer Immunotherapy<SEP>Neoantigen_Count"
+  },
+  "Format Type<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645553,
+    "update_time": 1773645553,
+    "_id": "Format Type<SEP>Lab Registry Table"
+  },
+  "Clinical Data<SEP>Krug.csv": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645554,
+    "update_time": 1773645554,
+    "_id": "Clinical Data<SEP>Krug.csv"
+  },
+  "Genomic Data<SEP>Table Source14.Krug": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645554,
+    "update_time": 1773645554,
+    "_id": "Genomic Data<SEP>Table Source14.Krug"
+  },
+  "PI3K_PIK3CA<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645554,
+    "update_time": 1773645554,
+    "_id": "PI3K_PIK3CA<SEP>PI3K_pathway"
+  },
+  "Assay Description<SEP>Lab Registry Table": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645554,
+    "update_time": 1773645554,
+    "_id": "Assay Description<SEP>Lab Registry Table"
+  },
+  "Clinical Data<SEP>Table Source14.Krug": {
+    "chunk_ids": [
+      "chunk-000ceb112aba7a3e5075c9d239bba247"
+    ],
+    "count": 1,
+    "create_time": 1773645555,
+    "update_time": 1773645555,
+    "_id": "Clinical Data<SEP>Table Source14.Krug"
+  },
+  "PI3K_PPP2R1A<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645555,
+    "update_time": 1773645555,
+    "_id": "PI3K_PPP2R1A<SEP>PI3K_pathway"
+  },
+  "Assay<SEP>Assay Description": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645555,
+    "update_time": 1773645555,
+    "_id": "Assay<SEP>Assay Description"
+  },
+  "PI3K_PTEN<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645555,
+    "update_time": 1773645555,
+    "_id": "PI3K_PTEN<SEP>PI3K_pathway"
+  },
+  "Assay<SEP>Sample": {
+    "chunk_ids": [
+      "chunk-042db9dcb02dd3441bbae2b8dc234d1c"
+    ],
+    "count": 1,
+    "create_time": 1773645556,
+    "update_time": 1773645556,
+    "_id": "Assay<SEP>Sample"
+  },
+  "BRCA1<SEP>HRD_BRCA1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f",
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 2,
+    "create_time": 1773645556,
+    "update_time": 1773645556,
+    "_id": "BRCA1<SEP>HRD_BRCA1"
+  },
+  "PI3K_TSC1<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645556,
+    "update_time": 1773645556,
+    "_id": "PI3K_TSC1<SEP>PI3K_pathway"
+  },
+  "PI3K<SEP>PI3K_AKT2": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645556,
+    "update_time": 1773645556,
+    "_id": "PI3K<SEP>PI3K_AKT2"
+  },
+  "PI3K<SEP>PI3K_AKT3": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645557,
+    "update_time": 1773645557,
+    "_id": "PI3K<SEP>PI3K_AKT3"
+  },
+  "PI3K_RPS6KB1<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645557,
+    "update_time": 1773645557,
+    "_id": "PI3K_RPS6KB1<SEP>PI3K_pathway"
+  },
+  "PI3K<SEP>PI3K_DEPDC5": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645558,
+    "update_time": 1773645558,
+    "_id": "PI3K<SEP>PI3K_DEPDC5"
+  },
+  "PI3K_RPTOR<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645558,
+    "update_time": 1773645558,
+    "_id": "PI3K_RPTOR<SEP>PI3K_pathway"
+  },
+  "PI3K_STK11<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645559,
+    "update_time": 1773645559,
+    "_id": "PI3K_STK11<SEP>PI3K_pathway"
+  },
+  "PI3K<SEP>PI3K_DEPTOR": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645559,
+    "update_time": 1773645559,
+    "_id": "PI3K<SEP>PI3K_DEPTOR"
+  },
+  "PI3K_TSC2<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645560,
+    "update_time": 1773645560,
+    "_id": "PI3K_TSC2<SEP>PI3K_pathway"
+  },
+  "PI3K<SEP>PI3K_INPP4B": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645560,
+    "update_time": 1773645560,
+    "_id": "PI3K<SEP>PI3K_INPP4B"
+  },
+  "PI3K<SEP>PI3K_MAPKAP1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645561,
+    "update_time": 1773645561,
+    "_id": "PI3K<SEP>PI3K_MAPKAP1"
+  },
+  "PI3K<SEP>PI3K_MLST8": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645562,
+    "update_time": 1773645562,
+    "_id": "PI3K<SEP>PI3K_MLST8"
+  },
+  "PI3K<SEP>PI3K_MTOR": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645562,
+    "update_time": 1773645562,
+    "_id": "PI3K<SEP>PI3K_MTOR"
+  },
+  "PI3K<SEP>PI3K_NPRL2": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645563,
+    "update_time": 1773645563,
+    "_id": "PI3K<SEP>PI3K_NPRL2"
+  },
+  "PI3K<SEP>PI3K_NPRL3": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645564,
+    "update_time": 1773645564,
+    "_id": "PI3K<SEP>PI3K_NPRL3"
+  },
+  "PI3K<SEP>PI3K_PDK1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645565,
+    "update_time": 1773645565,
+    "_id": "PI3K<SEP>PI3K_PDK1"
+  },
+  "PI3K<SEP>PI3K_PIK3CA": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645566,
+    "update_time": 1773645566,
+    "_id": "PI3K<SEP>PI3K_PIK3CA"
+  },
+  "PI3K<SEP>PI3K_PIK3CB": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645567,
+    "update_time": 1773645567,
+    "_id": "PI3K<SEP>PI3K_PIK3CB"
+  },
+  "PI3K<SEP>PI3K_PIK3R1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645568,
+    "update_time": 1773645568,
+    "_id": "PI3K<SEP>PI3K_PIK3R1"
+  },
+  "PI3K<SEP>PI3K_PIK3R2": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645569,
+    "update_time": 1773645569,
+    "_id": "PI3K<SEP>PI3K_PIK3R2"
+  },
+  "PI3K<SEP>PI3K_PPP2R1A": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645570,
+    "update_time": 1773645570,
+    "_id": "PI3K<SEP>PI3K_PPP2R1A"
+  },
+  "PI3K<SEP>PI3K_PTEN": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645571,
+    "update_time": 1773645571,
+    "_id": "PI3K<SEP>PI3K_PTEN"
+  },
+  "PI3K<SEP>PI3K_RHEB": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645572,
+    "update_time": 1773645572,
+    "_id": "PI3K<SEP>PI3K_RHEB"
+  },
+  "PI3K<SEP>PI3K_RICTOR": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645573,
+    "update_time": 1773645573,
+    "_id": "PI3K<SEP>PI3K_RICTOR"
+  },
+  "PI3K<SEP>PI3K_RPS6": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645574,
+    "update_time": 1773645574,
+    "_id": "PI3K<SEP>PI3K_RPS6"
+  },
+  "Cigarettes Per Day<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645574,
+    "update_time": 1773645574,
+    "_id": "Cigarettes Per Day<SEP>Smoking History"
+  },
+  "PI3K<SEP>PI3K_RPS6KB1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645575,
+    "update_time": 1773645575,
+    "_id": "PI3K<SEP>PI3K_RPS6KB1"
+  },
+  "Pack Years Smoked<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645575,
+    "update_time": 1773645575,
+    "_id": "Pack Years Smoked<SEP>Smoking History"
+  },
+  "PI3K<SEP>PI3K_RPTOR": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645576,
+    "update_time": 1773645576,
+    "_id": "PI3K<SEP>PI3K_RPTOR"
+  },
+  "Secondhand Smoke<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645576,
+    "update_time": 1773645576,
+    "_id": "Secondhand Smoke<SEP>Smoking History"
+  },
+  "PI3K<SEP>PI3K_STK11": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645577,
+    "update_time": 1773645577,
+    "_id": "PI3K<SEP>PI3K_STK11"
+  },
+  "Dominant Signature Fraction WGS Not Smoking<SEP>Dominant Signature WGS Not Smoking 50perc": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645577,
+    "update_time": 1773645577,
+    "_id": "Dominant Signature Fraction WGS Not Smoking<SEP>Dominant Signature WGS Not Smoking 50perc"
+  },
+  "Smoking History<SEP>Smoking Score WGS": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645577,
+    "update_time": 1773645577,
+    "_id": "Smoking History<SEP>Smoking Score WGS"
+  },
+  "NMF Cluster Membership<SEP>NMF Consensus": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645577,
+    "update_time": 1773645577,
+    "_id": "NMF Cluster Membership<SEP>NMF Consensus"
+  },
+  "mRNA Expression Subtype TCGA<SEP>mRNA Stemness Index": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645578,
+    "update_time": 1773645578,
+    "_id": "mRNA Expression Subtype TCGA<SEP>mRNA Stemness Index"
+  },
+  "PI3K<SEP>PI3K_TSC1": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645578,
+    "update_time": 1773645578,
+    "_id": "PI3K<SEP>PI3K_TSC1"
+  },
+  "CIMP Status<SEP>Tumor Purity by ESTIMATE RNAseq": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645578,
+    "update_time": 1773645578,
+    "_id": "CIMP Status<SEP>Tumor Purity by ESTIMATE RNAseq"
+  },
+  "Smoking History<SEP>Smoking Signature Fraction WGS": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645578,
+    "update_time": 1773645578,
+    "_id": "Smoking History<SEP>Smoking Signature Fraction WGS"
+  },
+  "PI3K<SEP>PI3K_TSC2": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645579,
+    "update_time": 1773645579,
+    "_id": "PI3K<SEP>PI3K_TSC2"
+  },
+  "Any Other Data Field<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645579,
+    "update_time": 1773645579,
+    "_id": "Any Other Data Field<SEP>QC Status"
+  },
+  "ESTIMATE Score<SEP>Tumor Purity by ESTIMATE RNAseq": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645579,
+    "update_time": 1773645579,
+    "_id": "ESTIMATE Score<SEP>Tumor Purity by ESTIMATE RNAseq"
+  },
+  "Cancer Genomics<SEP>TP53 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645579,
+    "update_time": 1773645579,
+    "_id": "Cancer Genomics<SEP>TP53 Mutation"
+  },
+  "PI3K<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-7e573726dd4316eaaeb928d2f1d50e7f"
+    ],
+    "count": 1,
+    "create_time": 1773645580,
+    "update_time": 1773645580,
+    "_id": "PI3K<SEP>PI3K_pathway"
+  },
+  "TSNet Purity<SEP>Tumor Purity by ESTIMATE RNAseq": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645580,
+    "update_time": 1773645580,
+    "_id": "TSNet Purity<SEP>Tumor Purity by ESTIMATE RNAseq"
+  },
+  "ESTIMATE ImmuneScore<SEP>ESTIMATE Score": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645580,
+    "update_time": 1773645580,
+    "_id": "ESTIMATE ImmuneScore<SEP>ESTIMATE Score"
+  },
+  "Cancer Genomics<SEP>KRAS Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645580,
+    "update_time": 1773645580,
+    "_id": "Cancer Genomics<SEP>KRAS Mutation"
+  },
+  "ESTIMATE Score<SEP>ESTIMATE StromalScore": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645581,
+    "update_time": 1773645581,
+    "_id": "ESTIMATE Score<SEP>ESTIMATE StromalScore"
+  },
+  "Cancer Genomics<SEP>EGFR Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645581,
+    "update_time": 1773645581,
+    "_id": "Cancer Genomics<SEP>EGFR Mutation"
+  },
+  "Age<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645581,
+    "update_time": 1773645581,
+    "_id": "Age<SEP>QC Status"
+  },
+  "Cancer Genomics<SEP>STK11 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645582,
+    "update_time": 1773645582,
+    "_id": "Cancer Genomics<SEP>STK11 Mutation"
+  },
+  "Gender<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645582,
+    "update_time": 1773645582,
+    "_id": "Gender<SEP>QC Status"
+  },
+  "Ethnicity<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645583,
+    "update_time": 1773645583,
+    "_id": "Ethnicity<SEP>QC Status"
+  },
+  "Cancer Genomics<SEP>KEAP1 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645583,
+    "update_time": 1773645583,
+    "_id": "Cancer Genomics<SEP>KEAP1 Mutation"
+  },
+  "Cancer Genomics<SEP>RB1 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645584,
+    "update_time": 1773645584,
+    "_id": "Cancer Genomics<SEP>RB1 Mutation"
+  },
+  "Height (cm)<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645584,
+    "update_time": 1773645584,
+    "_id": "Height (cm)<SEP>QC Status"
+  },
+  "QC Status<SEP>Weight (kg)": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645586,
+    "update_time": 1773645586,
+    "_id": "QC Status<SEP>Weight (kg)"
+  },
+  "BRAF Mutation<SEP>Cancer Genomics": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645586,
+    "update_time": 1773645586,
+    "_id": "BRAF Mutation<SEP>Cancer Genomics"
+  },
+  "BMI<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645587,
+    "update_time": 1773645587,
+    "_id": "BMI<SEP>QC Status"
+  },
+  "Cigarettes Per Day<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645588,
+    "update_time": 1773645588,
+    "_id": "Cigarettes Per Day<SEP>QC Status"
+  },
+  "Pack Years Smoked<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645589,
+    "update_time": 1773645589,
+    "_id": "Pack Years Smoked<SEP>QC Status"
+  },
+  "QC Status<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645590,
+    "update_time": 1773645590,
+    "_id": "QC Status<SEP>Smoking History"
+  },
+  "QC Status<SEP>Secondhand Smoke": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645591,
+    "update_time": 1773645591,
+    "_id": "QC Status<SEP>Secondhand Smoke"
+  },
+  "QC Status<SEP>Smoking Score WGS": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645592,
+    "update_time": 1773645592,
+    "_id": "QC Status<SEP>Smoking Score WGS"
+  },
+  "QC Status<SEP>Smoking Signature Fraction WGS": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645593,
+    "update_time": 1773645593,
+    "_id": "QC Status<SEP>Smoking Signature Fraction WGS"
+  },
+  "Dominant Signature WGS Not Smoking 50perc<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645594,
+    "update_time": 1773645594,
+    "_id": "Dominant Signature WGS Not Smoking 50perc<SEP>QC Status"
+  },
+  "Dominant Signature Fraction WGS Not Smoking<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645595,
+    "update_time": 1773645595,
+    "_id": "Dominant Signature Fraction WGS Not Smoking<SEP>QC Status"
+  },
+  "DNP GG to TT or CC to AA Count WGS<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645595,
+    "update_time": 1773645595,
+    "_id": "DNP GG to TT or CC to AA Count WGS<SEP>QC Status"
+  },
+  "NMF Consensus<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645596,
+    "update_time": 1773645596,
+    "_id": "NMF Consensus<SEP>QC Status"
+  },
+  "NMF Cluster Membership<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645597,
+    "update_time": 1773645597,
+    "_id": "NMF Cluster Membership<SEP>QC Status"
+  },
+  "QC Status<SEP>mRNA Expression Subtype TCGA": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645598,
+    "update_time": 1773645598,
+    "_id": "QC Status<SEP>mRNA Expression Subtype TCGA"
+  },
+  "QC Status<SEP>mRNA Stemness Index": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645599,
+    "update_time": 1773645599,
+    "_id": "QC Status<SEP>mRNA Stemness Index"
+  },
+  "CIMP Status<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645600,
+    "update_time": 1773645600,
+    "_id": "CIMP Status<SEP>QC Status"
+  },
+  "QC Status<SEP>Tumor Purity by ESTIMATE RNAseq": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645601,
+    "update_time": 1773645601,
+    "_id": "QC Status<SEP>Tumor Purity by ESTIMATE RNAseq"
+  },
+  "QC Status<SEP>TSNet Purity": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645602,
+    "update_time": 1773645602,
+    "_id": "QC Status<SEP>TSNet Purity"
+  },
+  "ESTIMATE Score<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645603,
+    "update_time": 1773645603,
+    "_id": "ESTIMATE Score<SEP>QC Status"
+  },
+  "ESTIMATE ImmuneScore<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645604,
+    "update_time": 1773645604,
+    "_id": "ESTIMATE ImmuneScore<SEP>QC Status"
+  },
+  "ESTIMATE StromalScore<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645605,
+    "update_time": 1773645605,
+    "_id": "ESTIMATE StromalScore<SEP>QC Status"
+  },
+  "QC Status<SEP>TP53 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645606,
+    "update_time": 1773645606,
+    "_id": "QC Status<SEP>TP53 Mutation"
+  },
+  "CPTAC Case ID<SEP>CPTAC Database": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab",
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 2,
+    "create_time": 1773645606,
+    "update_time": 1773645606,
+    "_id": "CPTAC Case ID<SEP>CPTAC Database"
+  },
+  "KRAS Mutation<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645607,
+    "update_time": 1773645607,
+    "_id": "KRAS Mutation<SEP>QC Status"
+  },
+  "CPTAC Case ID<SEP>Tumor Analyzed": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645607,
+    "update_time": 1773645607,
+    "_id": "CPTAC Case ID<SEP>Tumor Analyzed"
+  },
+  "QC Status<SEP>STK11 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645608,
+    "update_time": 1773645608,
+    "_id": "QC Status<SEP>STK11 Mutation"
+  },
+  "Sample.ID<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645608,
+    "update_time": 1773645608,
+    "_id": "Sample.ID<SEP>Table Source16.Satpathy"
+  },
+  "CPTAC Case ID<SEP>Normal FT Analyzed": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645608,
+    "update_time": 1773645608,
+    "_id": "CPTAC Case ID<SEP>Normal FT Analyzed"
+  },
+  "EGFR Mutation<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645609,
+    "update_time": 1773645609,
+    "_id": "EGFR Mutation<SEP>QC Status"
+  },
+  "Smoking.History<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645609,
+    "update_time": 1773645609,
+    "_id": "Smoking.History<SEP>Table Source16.Satpathy"
+  },
+  "Participant<SEP>Sample.ID": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645609,
+    "update_time": 1773645609,
+    "_id": "Participant<SEP>Sample.ID"
+  },
+  "KEAP1 Mutation<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645610,
+    "update_time": 1773645610,
+    "_id": "KEAP1 Mutation<SEP>QC Status"
+  },
+  "Satpathy.csv Table<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645610,
+    "update_time": 1773645610,
+    "_id": "Satpathy.csv Table<SEP>Table Source16.Satpathy"
+  },
+  "Smoking.History<SEP>Smoking.History_modified": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645610,
+    "update_time": 1773645610,
+    "_id": "Smoking.History<SEP>Smoking.History_modified"
+  },
+  "Experiment<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645611,
+    "update_time": 1773645611,
+    "_id": "Experiment<SEP>Table Source16.Satpathy"
+  },
+  "ESTIMATE.ImmuneScore.rna<SEP>ESTIMATE.StromalScore.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645611,
+    "update_time": 1773645611,
+    "_id": "ESTIMATE.ImmuneScore.rna<SEP>ESTIMATE.StromalScore.rna"
+  },
+  "QC Status<SEP>RB1 Mutation": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645611,
+    "update_time": 1773645611,
+    "_id": "QC Status<SEP>RB1 Mutation"
+  },
+  "Participant<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645612,
+    "update_time": 1773645612,
+    "_id": "Participant<SEP>Table Source16.Satpathy"
+  },
+  "BRAF Mutation<SEP>QC Status": {
+    "chunk_ids": [
+      "chunk-c070819714b424f312df82bc574903ef"
+    ],
+    "count": 1,
+    "create_time": 1773645612,
+    "update_time": 1773645612,
+    "_id": "BRAF Mutation<SEP>QC Status"
+  },
+  "ESTIMATE.TumorPurity.rna<SEP>TSNet.Purity.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645612,
+    "update_time": 1773645612,
+    "_id": "ESTIMATE.TumorPurity.rna<SEP>TSNet.Purity.rna"
+  },
+  "xCell.ImmuneScore.rna<SEP>xCell.StromaScore.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645612,
+    "update_time": 1773645612,
+    "_id": "xCell.ImmuneScore.rna<SEP>xCell.StromaScore.rna"
+  },
+  "Channel<SEP>Table Source16.Satpathy": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645613,
+    "update_time": 1773645613,
+    "_id": "Channel<SEP>Table Source16.Satpathy"
+  },
+  "xCell.ImmuneScore.rna<SEP>xCell.MicroenvironmentScore.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645613,
+    "update_time": 1773645613,
+    "_id": "xCell.ImmuneScore.rna<SEP>xCell.MicroenvironmentScore.rna"
+  },
+  "CIBERSORT.AbsoluteScore.rna<SEP>RNA expression": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645613,
+    "update_time": 1773645613,
+    "_id": "CIBERSORT.AbsoluteScore.rna<SEP>RNA expression"
+  },
+  "ESTIMATE.StromalScore.rna<SEP>ESTIMATE.TumorPurity.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645613,
+    "update_time": 1773645613,
+    "_id": "ESTIMATE.StromalScore.rna<SEP>ESTIMATE.TumorPurity.rna"
+  },
+  "Smoking.Score.Category.wes<SEP>Smoking.score.wes": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645613,
+    "update_time": 1773645613,
+    "_id": "Smoking.Score.Category.wes<SEP>Smoking.score.wes"
+  },
+  "xCell.MicroenvironmentScore.rna<SEP>xCell.StromaScore.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "xCell.MicroenvironmentScore.rna<SEP>xCell.StromaScore.rna"
+  },
+  "Mutation.Count.Excluding.Silent.wes<SEP>Total.Mutation.Count.per.Mb.wes": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "Mutation.Count.Excluding.Silent.wes<SEP>Total.Mutation.Count.per.Mb.wes"
+  },
+  "Table Source16.Satpathy<SEP>Type": {
+    "chunk_ids": [
+      "chunk-d0da407a3f98015113502473422d73ab"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "Table Source16.Satpathy<SEP>Type"
+  },
+  "ImmuneCluster.rna<SEP>TCGA Pan-Can Immune Clustering": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "ImmuneCluster.rna<SEP>TCGA Pan-Can Immune Clustering"
+  },
+  "ESTIMATE.ImmuneScore.rna<SEP>ESTIMATE.TumorPurity.rna": {
+    "chunk_ids": [
+      "chunk-426fd820afc3c2c4367f373f3c326882"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "ESTIMATE.ImmuneScore.rna<SEP>ESTIMATE.TumorPurity.rna"
+  },
+  "Dou.csv<SEP>Endometrial Cancer": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "Dou.csv<SEP>Endometrial Cancer"
+  },
+  "Body Mass Index<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645614,
+    "update_time": 1773645614,
+    "_id": "Body Mass Index<SEP>Patient"
+  },
+  "Patient<SEP>Race": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645615,
+    "update_time": 1773645615,
+    "_id": "Patient<SEP>Race"
+  },
+  "Ethnicity Self Identify<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645616,
+    "update_time": 1773645616,
+    "_id": "Ethnicity Self Identify<SEP>Patient"
+  },
+  "Patient<SEP>Tumor Site": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645617,
+    "update_time": 1773645617,
+    "_id": "Patient<SEP>Tumor Site"
+  },
+  "Patient<SEP>Tumor Size (cm)": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645618,
+    "update_time": 1773645618,
+    "_id": "Patient<SEP>Tumor Size (cm)"
+  },
+  "Dou.csv<SEP>Proteomics Participant ID": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645618,
+    "update_time": 1773645618,
+    "_id": "Dou.csv<SEP>Proteomics Participant ID"
+  },
+  "Patient<SEP>Tumor Focality": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645619,
+    "update_time": 1773645619,
+    "_id": "Patient<SEP>Tumor Focality"
+  },
+  "Dou.csv<SEP>Proteomics TMT Batch": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645619,
+    "update_time": 1773645619,
+    "_id": "Dou.csv<SEP>Proteomics TMT Batch"
+  },
+  "Dou.csv<SEP>Proteomics TMT Plex": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645620,
+    "update_time": 1773645620,
+    "_id": "Dou.csv<SEP>Proteomics TMT Plex"
+  },
+  "Histologic Type<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645620,
+    "update_time": 1773645620,
+    "_id": "Histologic Type<SEP>Patient"
+  },
+  "Grade<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645621,
+    "update_time": 1773645621,
+    "_id": "Grade<SEP>Patient"
+  },
+  "Dou.csv<SEP>Proteomics TMT Channel": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645622,
+    "update_time": 1773645622,
+    "_id": "Dou.csv<SEP>Proteomics TMT Channel"
+  },
+  "Patient<SEP>Tumor Stage Pathological": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645622,
+    "update_time": 1773645622,
+    "_id": "Patient<SEP>Tumor Stage Pathological"
+  },
+  "Dou.csv<SEP>Proteomics Parent Sample IDs": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645622,
+    "update_time": 1773645622,
+    "_id": "Dou.csv<SEP>Proteomics Parent Sample IDs"
+  },
+  "Path Stage Primary Tumor pT<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645623,
+    "update_time": 1773645623,
+    "_id": "Path Stage Primary Tumor pT<SEP>Patient"
+  },
+  "Dou.csv<SEP>Proteomics Aliquot ID": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645623,
+    "update_time": 1773645623,
+    "_id": "Dou.csv<SEP>Proteomics Aliquot ID"
+  },
+  "Dou.csv<SEP>Proteomics Tumor Normal": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645624,
+    "update_time": 1773645624,
+    "_id": "Dou.csv<SEP>Proteomics Tumor Normal"
+  },
+  "Path Stage Regional Lymph Nodes pN<SEP>Patient": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645624,
+    "update_time": 1773645624,
+    "_id": "Path Stage Regional Lymph Nodes pN<SEP>Patient"
+  },
+  "Dou.csv<SEP>Proteomics OCT": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645625,
+    "update_time": 1773645625,
+    "_id": "Dou.csv<SEP>Proteomics OCT"
+  },
+  "Country<SEP>Dou.csv": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645626,
+    "update_time": 1773645626,
+    "_id": "Country<SEP>Dou.csv"
+  },
+  "Dou.csv<SEP>Histologic Grade FIGO": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645627,
+    "update_time": 1773645627,
+    "_id": "Dou.csv<SEP>Histologic Grade FIGO"
+  },
+  "Country<SEP>United States": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645627,
+    "update_time": 1773645627,
+    "_id": "Country<SEP>United States"
+  },
+  "Dou.csv<SEP>Myometrial Invasion Specify": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645628,
+    "update_time": 1773645628,
+    "_id": "Dou.csv<SEP>Myometrial Invasion Specify"
+  },
+  "Dou.csv<SEP>Histologic Type (Endometrial)": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645629,
+    "update_time": 1773645629,
+    "_id": "Dou.csv<SEP>Histologic Type (Endometrial)"
+  },
+  "Dou.csv<SEP>Treatment Naive": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645629,
+    "update_time": 1773645629,
+    "_id": "Dou.csv<SEP>Treatment Naive"
+  },
+  "FIGO System<SEP>FIGO_Stage": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645629,
+    "update_time": 1773645629,
+    "_id": "FIGO System<SEP>FIGO_Stage"
+  },
+  "Dou.csv<SEP>Tumor Purity": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645630,
+    "update_time": 1773645630,
+    "_id": "Dou.csv<SEP>Tumor Purity"
+  },
+  "FIGO System<SEP>Path_Stage_Reg_Lymph_Nodes-pN": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645630,
+    "update_time": 1773645630,
+    "_id": "FIGO System<SEP>Path_Stage_Reg_Lymph_Nodes-pN"
+  },
+  "Dou.csv<SEP>Path Stage Primary Tumor-pT FIGO": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645631,
+    "update_time": 1773645631,
+    "_id": "Dou.csv<SEP>Path Stage Primary Tumor-pT FIGO"
+  },
+  "Clin_Stage_Dist_Mets-cM<SEP>Path_Stage_Dist_Mets-pM": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645631,
+    "update_time": 1773645631,
+    "_id": "Clin_Stage_Dist_Mets-cM<SEP>Path_Stage_Dist_Mets-pM"
+  },
+  "FIGO System<SEP>Tumor_Stage-Pathological": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645632,
+    "update_time": 1773645632,
+    "_id": "FIGO System<SEP>Tumor_Stage-Pathological"
+  },
+  "Tumor_Site<SEP>Tumor_Site_Other": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645632,
+    "update_time": 1773645632,
+    "_id": "Tumor_Site<SEP>Tumor_Site_Other"
+  },
+  "Dou.csv<SEP>Path Stage Reg Lymph Nodes-pN FIGO": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645632,
+    "update_time": 1773645632,
+    "_id": "Dou.csv<SEP>Path Stage Reg Lymph Nodes-pN FIGO"
+  },
+  "Tumor_Focality<SEP>Tumor_Site": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645632,
+    "update_time": 1773645632,
+    "_id": "Tumor_Focality<SEP>Tumor_Site"
+  },
+  "Estrogen_Receptor<SEP>Estrogen_Receptor_%": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645632,
+    "update_time": 1773645632,
+    "_id": "Estrogen_Receptor<SEP>Estrogen_Receptor_%"
+  },
+  "Progesterone_Receptor<SEP>Progesterone_Receptor_%": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645633,
+    "update_time": 1773645633,
+    "_id": "Progesterone_Receptor<SEP>Progesterone_Receptor_%"
+  },
+  "MLH1<SEP>MLH1_Promoter_Hypermethylation": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645633,
+    "update_time": 1773645633,
+    "_id": "MLH1<SEP>MLH1_Promoter_Hypermethylation"
+  },
+  "Clinical Stage Distant Metastasis-cM<SEP>Dou.csv": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645633,
+    "update_time": 1773645633,
+    "_id": "Clinical Stage Distant Metastasis-cM<SEP>Dou.csv"
+  },
+  "Tumor_Site<SEP>Tumor_Size_cm": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645633,
+    "update_time": 1773645633,
+    "_id": "Tumor_Site<SEP>Tumor_Size_cm"
+  },
+  "MLH2<SEP>MSH6": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645633,
+    "update_time": 1773645633,
+    "_id": "MLH2<SEP>MSH6"
+  },
+  "Dou.csv<SEP>Idx": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645634,
+    "update_time": 1773645634,
+    "_id": "Dou.csv<SEP>Idx"
+  },
+  "MSH6<SEP>PMS2": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645634,
+    "update_time": 1773645634,
+    "_id": "MSH6<SEP>PMS2"
+  },
+  "MLH1<SEP>MLH2": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645634,
+    "update_time": 1773645634,
+    "_id": "MLH1<SEP>MLH2"
+  },
+  "EPIC_Bcells<SEP>EPIC_CAFs": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645634,
+    "update_time": 1773645634,
+    "_id": "EPIC_Bcells<SEP>EPIC_CAFs"
+  },
+  "EPIC_CD4_Tcells<SEP>EPIC_CD8_Tcells": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645635,
+    "update_time": 1773645635,
+    "_id": "EPIC_CD4_Tcells<SEP>EPIC_CD8_Tcells"
+  },
+  "Case Excluded<SEP>Dou.csv": {
+    "chunk_ids": [
+      "chunk-883b9c609201fa2ad1a44c5eeed0311a"
+    ],
+    "count": 1,
+    "create_time": 1773645635,
+    "update_time": 1773645635,
+    "_id": "Case Excluded<SEP>Dou.csv"
+  },
+  "CHEMBL618647<SEP>ChEMBL Database": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645635,
+    "update_time": 1773645635,
+    "_id": "CHEMBL618647<SEP>ChEMBL Database"
+  },
+  "MLH2<SEP>PMS2": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645636,
+    "update_time": 1773645636,
+    "_id": "MLH2<SEP>PMS2"
+  },
+  "MLH1<SEP>MSH6": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645636,
+    "update_time": 1773645636,
+    "_id": "MLH1<SEP>MSH6"
+  },
+  "CHEMBL618648<SEP>ChEMBL Database": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645636,
+    "update_time": 1773645636,
+    "_id": "CHEMBL618648<SEP>ChEMBL Database"
+  },
+  "CHEMBL618647<SEP>Rattus Norvegicus": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645636,
+    "update_time": 1773645636,
+    "_id": "CHEMBL618647<SEP>Rattus Norvegicus"
+  },
+  "MLH1<SEP>p53": {
+    "chunk_ids": [
+      "chunk-9f1001b101778726622dc1dc09f8e9a0"
+    ],
+    "count": 1,
+    "create_time": 1773645637,
+    "update_time": 1773645637,
+    "_id": "MLH1<SEP>p53"
+  },
+  "CHEMBL618649<SEP>ChEMBL Database": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645637,
+    "update_time": 1773645637,
+    "_id": "CHEMBL618649<SEP>ChEMBL Database"
+  },
+  "CHEMBL618648<SEP>Rattus Norvegicus": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645637,
+    "update_time": 1773645637,
+    "_id": "CHEMBL618648<SEP>Rattus Norvegicus"
+  },
+  "BAO_0000218<SEP>CHEMBL618647": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645637,
+    "update_time": 1773645637,
+    "_id": "BAO_0000218<SEP>CHEMBL618647"
+  },
+  "Cao.csv<SEP>Pancreatic Cancer Studies": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645637,
+    "update_time": 1773645637,
+    "_id": "Cao.csv<SEP>Pancreatic Cancer Studies"
+  },
+  "Cao.csv<SEP>PDAC (Pancreatic Ductal Adenocarcinoma)": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645638,
+    "update_time": 1773645638,
+    "_id": "Cao.csv<SEP>PDAC (Pancreatic Ductal Adenocarcinoma)"
+  },
+  "CHEMBL618649<SEP>Rattus Norvegicus": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645638,
+    "update_time": 1773645638,
+    "_id": "CHEMBL618649<SEP>Rattus Norvegicus"
+  },
+  "BAO_0000218<SEP>CHEMBL618648": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645639,
+    "update_time": 1773645639,
+    "_id": "BAO_0000218<SEP>CHEMBL618648"
+  },
+  "Demographic Details<SEP>United States": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645639,
+    "update_time": 1773645639,
+    "_id": "Demographic Details<SEP>United States"
+  },
+  "Cao.csv<SEP>Case Identifier": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645639,
+    "update_time": 1773645639,
+    "_id": "Cao.csv<SEP>Case Identifier"
+  },
+  "BAO_0000218<SEP>CHEMBL618649": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645639,
+    "update_time": 1773645639,
+    "_id": "BAO_0000218<SEP>CHEMBL618649"
+  },
+  "Lymph Vascular Invasion<SEP>Tumor Characteristics": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645639,
+    "update_time": 1773645639,
+    "_id": "Lymph Vascular Invasion<SEP>Tumor Characteristics"
+  },
+  "Canada<SEP>Demographic Details": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645640,
+    "update_time": 1773645640,
+    "_id": "Canada<SEP>Demographic Details"
+  },
+  "Perineural Invasion<SEP>Tumor Characteristics": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645640,
+    "update_time": 1773645640,
+    "_id": "Perineural Invasion<SEP>Tumor Characteristics"
+  },
+  "Pathologic Staging<SEP>Pathologic Staging Regional Lymph Nodes pN": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645641,
+    "update_time": 1773645641,
+    "_id": "Pathologic Staging<SEP>Pathologic Staging Regional Lymph Nodes pN"
+  },
+  "Cao.csv<SEP>Demographic Details": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645641,
+    "update_time": 1773645641,
+    "_id": "Cao.csv<SEP>Demographic Details"
+  },
+  "Pancreatic Tumor Site<SEP>Tumor Characteristics": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645641,
+    "update_time": 1773645641,
+    "_id": "Pancreatic Tumor Site<SEP>Tumor Characteristics"
+  },
+  "Pathologic Staging<SEP>Pathologic Staging Primary Tumor pT": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645642,
+    "update_time": 1773645642,
+    "_id": "Pathologic Staging<SEP>Pathologic Staging Primary Tumor pT"
+  },
+  "Clinical Staging<SEP>Clinical Staging Distant Metastasis cM": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645642,
+    "update_time": 1773645642,
+    "_id": "Clinical Staging<SEP>Clinical Staging Distant Metastasis cM"
+  },
+  "Cao.csv<SEP>Tumor Characteristics": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645642,
+    "update_time": 1773645642,
+    "_id": "Cao.csv<SEP>Tumor Characteristics"
+  },
+  "NAC Gd 0.01 M<SEP>Normal Rat Kidney": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645642,
+    "update_time": 1773645642,
+    "_id": "NAC Gd 0.01 M<SEP>Normal Rat Kidney"
+  },
+  "Pathologic Staging<SEP>Pathologic Staging Distant Metastasis pM": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645642,
+    "update_time": 1773645642,
+    "_id": "Pathologic Staging<SEP>Pathologic Staging Distant Metastasis pM"
+  },
+  "2 Hours<SEP>NAC Gd 0.01 M": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645643,
+    "update_time": 1773645643,
+    "_id": "2 Hours<SEP>NAC Gd 0.01 M"
+  },
+  "Smoking History<SEP>Smoking History Modified": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645643,
+    "update_time": 1773645643,
+    "_id": "Smoking History<SEP>Smoking History Modified"
+  },
+  "Cao.csv<SEP>Residual Tumor": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645643,
+    "update_time": 1773645643,
+    "_id": "Cao.csv<SEP>Residual Tumor"
+  },
+  "Stage<SEP>Stage Modified": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645643,
+    "update_time": 1773645643,
+    "_id": "Stage<SEP>Stage Modified"
+  },
+  "Ethnicity<SEP>Ethnicity Modified": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645643,
+    "update_time": 1773645643,
+    "_id": "Ethnicity<SEP>Ethnicity Modified"
+  },
+  "2 Hours<SEP>Normal Rat Kidney": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "2 Hours<SEP>Normal Rat Kidney"
+  },
+  "TP53 Mutation<SEP>TP53 Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "TP53 Mutation<SEP>TP53 Mutation Status"
+  },
+  "PTEN Mutation<SEP>PTEN Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "PTEN Mutation<SEP>PTEN Mutation Status"
+  },
+  "Cao.csv<SEP>Pathologic Staging": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "Cao.csv<SEP>Pathologic Staging"
+  },
+  "CDKN2A Mutation<SEP>CDKN2A Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "CDKN2A Mutation<SEP>CDKN2A Mutation Status"
+  },
+  "KMT2D Mutation<SEP>KMT2D Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "KMT2D Mutation<SEP>KMT2D Mutation Status"
+  },
+  "NFE2L2 Mutation<SEP>NFE2L2 Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645644,
+    "update_time": 1773645644,
+    "_id": "NFE2L2 Mutation<SEP>NFE2L2 Mutation Status"
+  },
+  "ARID1A Mutation<SEP>ARID1A Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645645,
+    "update_time": 1773645645,
+    "_id": "ARID1A Mutation<SEP>ARID1A Mutation Status"
+  },
+  "CUL3 Mutation<SEP>CUL3 Mutation Status": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645645,
+    "update_time": 1773645645,
+    "_id": "CUL3 Mutation<SEP>CUL3 Mutation Status"
+  },
+  "Cao.csv<SEP>Clinical Staging": {
+    "chunk_ids": [
+      "chunk-13c5fb1327b2cd9e01d7df117531a94e"
+    ],
+    "count": 1,
+    "create_time": 1773645645,
+    "update_time": 1773645645,
+    "_id": "Cao.csv<SEP>Clinical Staging"
+  },
+  "Country Of Origin<SEP>Natural Sample": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645645,
+    "update_time": 1773645645,
+    "_id": "Country Of Origin<SEP>Natural Sample"
+  },
+  "CIMP Status Meth<SEP>CIMP-High": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645645,
+    "update_time": 1773645645,
+    "_id": "CIMP Status Meth<SEP>CIMP-High"
+  },
+  "Classical SqCC<SEP>Pathology Based Histology Assessment": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "Classical SqCC<SEP>Pathology Based Histology Assessment"
+  },
+  "Gender<SEP>Natural Sample": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "Gender<SEP>Natural Sample"
+  },
+  "Country Of Origin<SEP>Tumor Sample": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "Country Of Origin<SEP>Tumor Sample"
+  },
+  "QC Status<SEP>QC.Pass": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "QC Status<SEP>QC.Pass"
+  },
+  "CIMP Status Meth<SEP>CIMP-Intermediate": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "CIMP Status Meth<SEP>CIMP-Intermediate"
+  },
+  "Missense_Mutation<SEP>TP53 Mutation": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645646,
+    "update_time": 1773645646,
+    "_id": "Missense_Mutation<SEP>TP53 Mutation"
+  },
+  "MD SqCC With Focal Basaloid Features<SEP>Pathology Based Histology Assessment": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645647,
+    "update_time": 1773645647,
+    "_id": "MD SqCC With Focal Basaloid Features<SEP>Pathology Based Histology Assessment"
+  },
+  "McDermott Csv Table<SEP>Ovarian Cancer": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645647,
+    "update_time": 1773645647,
+    "_id": "McDermott Csv Table<SEP>Ovarian Cancer"
+  },
+  "KEAP1 Mutation<SEP>Missense_Mutation": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645647,
+    "update_time": 1773645647,
+    "_id": "KEAP1 Mutation<SEP>Missense_Mutation"
+  },
+  "Gender<SEP>Tumor Sample": {
+    "chunk_ids": [
+      "chunk-cc55bd693439ef128fff799b563cbb84"
+    ],
+    "count": 1,
+    "create_time": 1773645647,
+    "update_time": 1773645647,
+    "_id": "Gender<SEP>Tumor Sample"
+  },
+  "CPTAC Case ID<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645648,
+    "update_time": 1773645648,
+    "_id": "CPTAC Case ID<SEP>McDermott Csv Table"
+  },
+  "McDermott Csv Table<SEP>Tumor Analyzed": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645649,
+    "update_time": 1773645649,
+    "_id": "McDermott Csv Table<SEP>Tumor Analyzed"
+  },
+  "McDermott Csv Table<SEP>Score": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645650,
+    "update_time": 1773645650,
+    "_id": "McDermott Csv Table<SEP>Score"
+  },
+  "McDermott Csv Table<SEP>xCell Stromal Score": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645651,
+    "update_time": 1773645651,
+    "_id": "McDermott Csv Table<SEP>xCell Stromal Score"
+  },
+  "CD3 TILS Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645652,
+    "update_time": 1773645652,
+    "_id": "CD3 TILS Status<SEP>McDermott Csv Table"
+  },
+  "CD3 TILS Counts<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645653,
+    "update_time": 1773645653,
+    "_id": "CD3 TILS Counts<SEP>McDermott Csv Table"
+  },
+  "McDermott Csv Table<SEP>Number Of Non Synonymous Mutations": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645654,
+    "update_time": 1773645654,
+    "_id": "McDermott Csv Table<SEP>Number Of Non Synonymous Mutations"
+  },
+  "APOBEC Signature<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645655,
+    "update_time": 1773645655,
+    "_id": "APOBEC Signature<SEP>McDermott Csv Table"
+  },
+  "Chromosome Instability Index CIN<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645656,
+    "update_time": 1773645656,
+    "_id": "Chromosome Instability Index CIN<SEP>McDermott Csv Table"
+  },
+  "McDermott Csv Table<SEP>Stemness Score": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645657,
+    "update_time": 1773645657,
+    "_id": "McDermott Csv Table<SEP>Stemness Score"
+  },
+  "McDermott Csv Table<SEP>TP53 Mutation Type": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645658,
+    "update_time": 1773645658,
+    "_id": "McDermott Csv Table<SEP>TP53 Mutation Type"
+  },
+  "McDermott Csv Table<SEP>PIK3CA Mutation Type": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645659,
+    "update_time": 1773645659,
+    "_id": "McDermott Csv Table<SEP>PIK3CA Mutation Type"
+  },
+  "McDermott Csv Table<SEP>PTEN Mutation Type": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645660,
+    "update_time": 1773645660,
+    "_id": "McDermott Csv Table<SEP>PTEN Mutation Type"
+  },
+  "MAP3K1 Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645661,
+    "update_time": 1773645661,
+    "_id": "MAP3K1 Mutation Type<SEP>McDermott Csv Table"
+  },
+  "AKT1 Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645662,
+    "update_time": 1773645662,
+    "_id": "AKT1 Mutation Type<SEP>McDermott Csv Table"
+  },
+  "GATA3 Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645662,
+    "update_time": 1773645662,
+    "_id": "GATA3 Mutation Type<SEP>McDermott Csv Table"
+  },
+  "CBFB Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645663,
+    "update_time": 1773645663,
+    "_id": "CBFB Mutation Type<SEP>McDermott Csv Table"
+  },
+  "KMT2C Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645664,
+    "update_time": 1773645664,
+    "_id": "KMT2C Mutation Type<SEP>McDermott Csv Table"
+  },
+  "McDermott Csv Table<SEP>SF3B1 Mutation Type": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645665,
+    "update_time": 1773645665,
+    "_id": "McDermott Csv Table<SEP>SF3B1 Mutation Type"
+  },
+  "ARID1A Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645666,
+    "update_time": 1773645666,
+    "_id": "ARID1A Mutation Type<SEP>McDermott Csv Table"
+  },
+  "MLLT4 Mutation Type<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645667,
+    "update_time": 1773645667,
+    "_id": "MLLT4 Mutation Type<SEP>McDermott Csv Table"
+  },
+  "McDermott Csv Table<SEP>TP53 Mutation Status": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645668,
+    "update_time": 1773645668,
+    "_id": "McDermott Csv Table<SEP>TP53 Mutation Status"
+  },
+  "McDermott Csv Table<SEP>PIK3CA Mutation Status": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645669,
+    "update_time": 1773645669,
+    "_id": "McDermott Csv Table<SEP>PIK3CA Mutation Status"
+  },
+  "McDermott Csv Table<SEP>PTEN Mutation Status": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645670,
+    "update_time": 1773645670,
+    "_id": "McDermott Csv Table<SEP>PTEN Mutation Status"
+  },
+  "MAP3K1 Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645671,
+    "update_time": 1773645671,
+    "_id": "MAP3K1 Mutation Status<SEP>McDermott Csv Table"
+  },
+  "AKT1 Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645672,
+    "update_time": 1773645672,
+    "_id": "AKT1 Mutation Status<SEP>McDermott Csv Table"
+  },
+  "K_TSC2<SEP>PI3K Pathway": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645672,
+    "update_time": 1773645672,
+    "_id": "K_TSC2<SEP>PI3K Pathway"
+  },
+  "K_TSC2<SEP>TSC2": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645672,
+    "update_time": 1773645672,
+    "_id": "K_TSC2<SEP>TSC2"
+  },
+  "GATA3 Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645673,
+    "update_time": 1773645673,
+    "_id": "GATA3 Mutation Status<SEP>McDermott Csv Table"
+  },
+  "PI3K Pathway<SEP>PI3K_pathway": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645673,
+    "update_time": 1773645673,
+    "_id": "PI3K Pathway<SEP>PI3K_pathway"
+  },
+  "CBFB Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645673,
+    "update_time": 1773645673,
+    "_id": "CBFB Mutation Status<SEP>McDermott Csv Table"
+  },
+  "BRCA2<SEP>HRD_BRCA2": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645673,
+    "update_time": 1773645673,
+    "_id": "BRCA2<SEP>HRD_BRCA2"
+  },
+  "BRCA1<SEP>HRD_BRCA1_or_BRCA2": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645674,
+    "update_time": 1773645674,
+    "_id": "BRCA1<SEP>HRD_BRCA1_or_BRCA2"
+  },
+  "JAK1<SEP>JAK1_MS_INDEL": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645674,
+    "update_time": 1773645674,
+    "_id": "JAK1<SEP>JAK1_MS_INDEL"
+  },
+  "KMT2C Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645674,
+    "update_time": 1773645674,
+    "_id": "KMT2C Mutation Status<SEP>McDermott Csv Table"
+  },
+  "BRCA2<SEP>HRD_BRCA1_or_BRCA2": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645674,
+    "update_time": 1773645674,
+    "_id": "BRCA2<SEP>HRD_BRCA1_or_BRCA2"
+  },
+  "Genomics_Subtype<SEP>Log2_SNP_Total": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645674,
+    "update_time": 1773645674,
+    "_id": "Genomics_Subtype<SEP>Log2_SNP_Total"
+  },
+  "McDermott Csv Table<SEP>SF3B1 Mutation Status": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645676,
+    "update_time": 1773645676,
+    "_id": "McDermott Csv Table<SEP>SF3B1 Mutation Status"
+  },
+  "ARID1A Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645677,
+    "update_time": 1773645677,
+    "_id": "ARID1A Mutation Status<SEP>McDermott Csv Table"
+  },
+  "JAK1<SEP>JAK1_Mutation": {
+    "chunk_ids": [
+      "chunk-523eab2c6757cd8f1129226b82d53a17"
+    ],
+    "count": 1,
+    "create_time": 1773645677,
+    "update_time": 1773645677,
+    "_id": "JAK1<SEP>JAK1_Mutation"
+  },
+  "Genomics_Subtype<SEP>Log2_INDEL_Total": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645677,
+    "update_time": 1773645677,
+    "_id": "Genomics_Subtype<SEP>Log2_INDEL_Total"
+  },
+  "MLLT4 Mutation Status<SEP>McDermott Csv Table": {
+    "chunk_ids": [
+      "chunk-f40eb36d95770e55a6516eabb993dcb6"
+    ],
+    "count": 1,
+    "create_time": 1773645678,
+    "update_time": 1773645678,
+    "_id": "MLLT4 Mutation Status<SEP>McDermott Csv Table"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_C>A": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645678,
+    "update_time": 1773645678,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_C>A"
+  },
+  "WXS_Normal_Filename<SEP>WXS_Normal_Sample_Type": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645678,
+    "update_time": 1773645678,
+    "_id": "WXS_Normal_Filename<SEP>WXS_Normal_Sample_Type"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_C>G": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645679,
+    "update_time": 1773645679,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_C>G"
+  },
+  "WXS_Tumor_Filename<SEP>WXS_Tumor_Sample_Type": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645679,
+    "update_time": 1773645679,
+    "_id": "WXS_Tumor_Filename<SEP>WXS_Tumor_Sample_Type"
+  },
+  "WXS_Normal_Sample_Type<SEP>WXS_Normal_UUID": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645679,
+    "update_time": 1773645679,
+    "_id": "WXS_Normal_Sample_Type<SEP>WXS_Normal_UUID"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_C>T": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645680,
+    "update_time": 1773645680,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_C>T"
+  },
+  "WGS_Normal_Sample_Type<SEP>WGS_Normal_UUID": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645680,
+    "update_time": 1773645680,
+    "_id": "WGS_Normal_Sample_Type<SEP>WGS_Normal_UUID"
+  },
+  "WGS_Tumor_Sample_Type<SEP>WGS_Tumor_UUID": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645680,
+    "update_time": 1773645680,
+    "_id": "WGS_Tumor_Sample_Type<SEP>WGS_Tumor_UUID"
+  },
+  "WXS_Tumor_Sample_Type<SEP>WXS_Tumor_UUID": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645680,
+    "update_time": 1773645680,
+    "_id": "WXS_Tumor_Sample_Type<SEP>WXS_Tumor_UUID"
+  },
+  "RNAseq_R1_Filename<SEP>RNAseq_R1_Sample_Type": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645680,
+    "update_time": 1773645680,
+    "_id": "RNAseq_R1_Filename<SEP>RNAseq_R1_Sample_Type"
+  },
+  "ALK-Fusion<SEP>Putative Driver Mutation": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645681,
+    "update_time": 1773645681,
+    "_id": "ALK-Fusion<SEP>Putative Driver Mutation"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_T>C": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645681,
+    "update_time": 1773645681,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_T>C"
+  },
+  "Case ID<SEP>Huang.csv Table": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645681,
+    "update_time": 1773645681,
+    "_id": "Case ID<SEP>Huang.csv Table"
+  },
+  "ALK<SEP>ALK-Fusion": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645681,
+    "update_time": 1773645681,
+    "_id": "ALK<SEP>ALK-Fusion"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_T>A": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645682,
+    "update_time": 1773645682,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_T>A"
+  },
+  "Country<SEP>Huang.csv Table": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645682,
+    "update_time": 1773645682,
+    "_id": "Country<SEP>Huang.csv Table"
+  },
+  "CUL3 Mutation Status<SEP>CUL3 NFE2L2 KEAP1 Mutation Status": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645682,
+    "update_time": 1773645682,
+    "_id": "CUL3 Mutation Status<SEP>CUL3 NFE2L2 KEAP1 Mutation Status"
+  },
+  "Genomics_Subtype<SEP>Mutation_Signature_T>G": {
+    "chunk_ids": [
+      "chunk-236d1b53d2a591a51b5807c2d1888b6f"
+    ],
+    "count": 1,
+    "create_time": 1773645683,
+    "update_time": 1773645683,
+    "_id": "Genomics_Subtype<SEP>Mutation_Signature_T>G"
+  },
+  "Huang.csv Table<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645683,
+    "update_time": 1773645683,
+    "_id": "Huang.csv Table<SEP>Smoking History"
+  },
+  "CUL3 NFE2L2 KEAP1 Mutation Status<SEP>NFE2L2 Mutation Status": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645683,
+    "update_time": 1773645683,
+    "_id": "CUL3 NFE2L2 KEAP1 Mutation Status<SEP>NFE2L2 Mutation Status"
+  },
+  "CDKN2A Pathway Alteration<SEP>CDKN2A Pathway Alteration Status": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645683,
+    "update_time": 1773645683,
+    "_id": "CDKN2A Pathway Alteration<SEP>CDKN2A Pathway Alteration Status"
+  },
+  "PIK3CA Pathway Alteration<SEP>PIK3CA Pathway Alteration Status": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645684,
+    "update_time": 1773645684,
+    "_id": "PIK3CA Pathway Alteration<SEP>PIK3CA Pathway Alteration Status"
+  },
+  "Alcohol Consumption<SEP>Huang.csv Table": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645684,
+    "update_time": 1773645684,
+    "_id": "Alcohol Consumption<SEP>Huang.csv Table"
+  },
+  "NMF Subtype<SEP>NMF Subtype Core": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645684,
+    "update_time": 1773645684,
+    "_id": "NMF Subtype<SEP>NMF Subtype Core"
+  },
+  "CUL3 NFE2L2 KEAP1 Mutation Status<SEP>KEAP1 Mutation Status": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645684,
+    "update_time": 1773645684,
+    "_id": "CUL3 NFE2L2 KEAP1 Mutation Status<SEP>KEAP1 Mutation Status"
+  },
+  "Smoking Score Category WES<SEP>Smoking Score WES": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645684,
+    "update_time": 1773645684,
+    "_id": "Smoking Score Category WES<SEP>Smoking Score WES"
+  },
+  "Huang.csv Table<SEP>Methylation QC": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645685,
+    "update_time": 1773645685,
+    "_id": "Huang.csv Table<SEP>Methylation QC"
+  },
+  "NMF Subtype<SEP>NMF Subtype Membership Score": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645685,
+    "update_time": 1773645685,
+    "_id": "NMF Subtype<SEP>NMF Subtype Membership Score"
+  },
+  "Mutation Count Excluding INDELs WES<SEP>Total Mutation Count WES": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645685,
+    "update_time": 1773645685,
+    "_id": "Mutation Count Excluding INDELs WES<SEP>Total Mutation Count WES"
+  },
+  "Smoking Score WES<SEP>Smoking Signature Fraction WES": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645685,
+    "update_time": 1773645685,
+    "_id": "Smoking Score WES<SEP>Smoking Signature Fraction WES"
+  },
+  "Classical<SEP>TCGA RNA Cluster": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645685,
+    "update_time": 1773645685,
+    "_id": "Classical<SEP>TCGA RNA Cluster"
+  },
+  "Dominant Histological Subtype<SEP>Huang.csv Table": {
+    "chunk_ids": [
+      "chunk-d629663704d99e27c2cced9123c5f942"
+    ],
+    "count": 1,
+    "create_time": 1773645686,
+    "update_time": 1773645686,
+    "_id": "Dominant Histological Subtype<SEP>Huang.csv Table"
+  },
+  "Basal Inclusive<SEP>NMF Subtype": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645686,
+    "update_time": 1773645686,
+    "_id": "Basal Inclusive<SEP>NMF Subtype"
+  },
+  "Smoking Score WES<SEP>Smoking Signature Count WES": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645686,
+    "update_time": 1773645686,
+    "_id": "Smoking Score WES<SEP>Smoking Signature Count WES"
+  },
+  "Basal<SEP>TCGA RNA Cluster": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645686,
+    "update_time": 1773645686,
+    "_id": "Basal<SEP>TCGA RNA Cluster"
+  },
+  "CCND1_amp<SEP>CDKN2A Pathway Alteration": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645687,
+    "update_time": 1773645687,
+    "_id": "CCND1_amp<SEP>CDKN2A Pathway Alteration"
+  },
+  "PIK3CA Pathway Alteration<SEP>PIK3CA_amp": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645687,
+    "update_time": 1773645687,
+    "_id": "PIK3CA Pathway Alteration<SEP>PIK3CA_amp"
+  },
+  "Classical<SEP>NMF Subtype": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645687,
+    "update_time": 1773645687,
+    "_id": "Classical<SEP>NMF Subtype"
+  },
+  "Basal Inclusive<SEP>NMF Subtype Core": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645687,
+    "update_time": 1773645687,
+    "_id": "Basal Inclusive<SEP>NMF Subtype Core"
+  },
+  "Gillette.csv<SEP>Table Source12.Gillette": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645687,
+    "update_time": 1773645687,
+    "_id": "Gillette.csv<SEP>Table Source12.Gillette"
+  },
+  "Participant<SEP>Sample ID": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645688,
+    "update_time": 1773645688,
+    "_id": "Participant<SEP>Sample ID"
+  },
+  "Basal<SEP>NMF Subtype": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645688,
+    "update_time": 1773645688,
+    "_id": "Basal<SEP>NMF Subtype"
+  },
+  "Classical<SEP>NMF Subtype Core": {
+    "chunk_ids": [
+      "chunk-144306f293caeac42c236d6305b6a9b5"
+    ],
+    "count": 1,
+    "create_time": 1773645688,
+    "update_time": 1773645688,
+    "_id": "Classical<SEP>NMF Subtype Core"
+  },
+  "Gillette.csv<SEP>Sample ID": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645689,
+    "update_time": 1773645689,
+    "_id": "Gillette.csv<SEP>Sample ID"
+  },
+  "Participant<SEP>Stage": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645689,
+    "update_time": 1773645689,
+    "_id": "Participant<SEP>Stage"
+  },
+  "Country of Origin<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645690,
+    "update_time": 1773645690,
+    "_id": "Country of Origin<SEP>Participant"
+  },
+  "Participant<SEP>Region of Origin": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645691,
+    "update_time": 1773645691,
+    "_id": "Participant<SEP>Region of Origin"
+  },
+  "Age<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645691,
+    "update_time": 1773645691,
+    "_id": "Age<SEP>Participant"
+  },
+  "Gender<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645692,
+    "update_time": 1773645692,
+    "_id": "Gender<SEP>Participant"
+  },
+  "Gillette.csv<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645693,
+    "update_time": 1773645693,
+    "_id": "Gillette.csv<SEP>Participant"
+  },
+  "Ethnicity<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645694,
+    "update_time": 1773645694,
+    "_id": "Ethnicity<SEP>Participant"
+  },
+  "Gillette.csv<SEP>Smoking Status": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645694,
+    "update_time": 1773645694,
+    "_id": "Gillette.csv<SEP>Smoking Status"
+  },
+  "Height Cm<SEP>Participant": {
+    "chunk_ids": [
+      "chunk-9986977e6e722690562d58f7ff1e7688"
+    ],
+    "count": 1,
+    "create_time": 1773645695,
+    "update_time": 1773645695,
+    "_id": "Height Cm<SEP>Participant"
+  },
+  "Colorectal Cancer<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645771,
+    "update_time": 1773645771,
+    "_id": "Colorectal Cancer<SEP>Vasaikar.csv Table"
+  },
+  "SampleID<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645772,
+    "update_time": 1773645772,
+    "_id": "SampleID<SEP>Vasaikar.csv Table"
+  },
+  "Clinical<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645773,
+    "update_time": 1773645773,
+    "_id": "Clinical<SEP>Vasaikar.csv Table"
+  },
+  "Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645774,
+    "update_time": 1773645774,
+    "_id": "Mutation<SEP>Vasaikar.csv Table"
+  },
+  "CNV<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645775,
+    "update_time": 1773645775,
+    "_id": "CNV<SEP>Vasaikar.csv Table"
+  },
+  "Vasaikar.csv Table<SEP>miRNA-seq": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645776,
+    "update_time": 1773645776,
+    "_id": "Vasaikar.csv Table<SEP>miRNA-seq"
+  },
+  "Vasaikar.csv Table<SEP>mRNA-seq": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645776,
+    "update_time": 1773645776,
+    "_id": "Vasaikar.csv Table<SEP>mRNA-seq"
+  },
+  "Label-Free Proteome<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645777,
+    "update_time": 1773645777,
+    "_id": "Label-Free Proteome<SEP>Vasaikar.csv Table"
+  },
+  "TMT Proteome<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645778,
+    "update_time": 1773645778,
+    "_id": "TMT Proteome<SEP>Vasaikar.csv Table"
+  },
+  "TMT Proteome (Normal)<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645779,
+    "update_time": 1773645779,
+    "_id": "TMT Proteome (Normal)<SEP>Vasaikar.csv Table"
+  },
+  "TMT Phosphoproteome<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645780,
+    "update_time": 1773645780,
+    "_id": "TMT Phosphoproteome<SEP>Vasaikar.csv Table"
+  },
+  "TMT Phosphoproteome (Normal)<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645781,
+    "update_time": 1773645781,
+    "_id": "TMT Phosphoproteome (Normal)<SEP>Vasaikar.csv Table"
+  },
+  "Age<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645782,
+    "update_time": 1773645782,
+    "_id": "Age<SEP>Vasaikar.csv Table"
+  },
+  "Gender<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645783,
+    "update_time": 1773645783,
+    "_id": "Gender<SEP>Vasaikar.csv Table"
+  },
+  "Mucinous<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645784,
+    "update_time": 1773645784,
+    "_id": "Mucinous<SEP>Vasaikar.csv Table"
+  },
+  "Subsite<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645785,
+    "update_time": 1773645785,
+    "_id": "Subsite<SEP>Vasaikar.csv Table"
+  },
+  "PT<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645786,
+    "update_time": 1773645786,
+    "_id": "PT<SEP>Vasaikar.csv Table"
+  },
+  "PN<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645787,
+    "update_time": 1773645787,
+    "_id": "PN<SEP>Vasaikar.csv Table"
+  },
+  "Stage<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645788,
+    "update_time": 1773645788,
+    "_id": "Stage<SEP>Vasaikar.csv Table"
+  },
+  "CEA<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645788,
+    "update_time": 1773645788,
+    "_id": "CEA<SEP>Vasaikar.csv Table"
+  },
+  "Vasaikar.csv Table<SEP>Vascular Invasion": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645789,
+    "update_time": 1773645789,
+    "_id": "Vasaikar.csv Table<SEP>Vascular Invasion"
+  },
+  "Lymphatic Invasion<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645790,
+    "update_time": 1773645790,
+    "_id": "Lymphatic Invasion<SEP>Vasaikar.csv Table"
+  },
+  "Perineural Invasion<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645791,
+    "update_time": 1773645791,
+    "_id": "Perineural Invasion<SEP>Vasaikar.csv Table"
+  },
+  "Synchronous Tumors<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645792,
+    "update_time": 1773645792,
+    "_id": "Synchronous Tumors<SEP>Vasaikar.csv Table"
+  },
+  "Polyps History<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645793,
+    "update_time": 1773645793,
+    "_id": "Polyps History<SEP>Vasaikar.csv Table"
+  },
+  "Polyps Present<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645794,
+    "update_time": 1773645794,
+    "_id": "Polyps Present<SEP>Vasaikar.csv Table"
+  },
+  "Vasaikar.csv Table<SEP>Vital Status": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645795,
+    "update_time": 1773645795,
+    "_id": "Vasaikar.csv Table<SEP>Vital Status"
+  },
+  "Tumor Status<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645795,
+    "update_time": 1773645795,
+    "_id": "Tumor Status<SEP>Vasaikar.csv Table"
+  },
+  "POLE Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645796,
+    "update_time": 1773645796,
+    "_id": "POLE Mutation<SEP>Vasaikar.csv Table"
+  },
+  "MSH2 Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645797,
+    "update_time": 1773645797,
+    "_id": "MSH2 Mutation<SEP>Vasaikar.csv Table"
+  },
+  "MSH6 Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645799,
+    "update_time": 1773645799,
+    "_id": "MSH6 Mutation<SEP>Vasaikar.csv Table"
+  },
+  "PMS2 Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645800,
+    "update_time": 1773645800,
+    "_id": "PMS2 Mutation<SEP>Vasaikar.csv Table"
+  },
+  "Patient Case<SEP>Wang.csv": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645800,
+    "update_time": 1773645800,
+    "_id": "Patient Case<SEP>Wang.csv"
+  },
+  "Demographics<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645801,
+    "update_time": 1773645801,
+    "_id": "Demographics<SEP>Patient Case"
+  },
+  "KRAS Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645801,
+    "update_time": 1773645801,
+    "_id": "KRAS Mutation<SEP>Vasaikar.csv Table"
+  },
+  "Health Behaviors<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645802,
+    "update_time": 1773645802,
+    "_id": "Health Behaviors<SEP>Patient Case"
+  },
+  "NRAS Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645802,
+    "update_time": 1773645802,
+    "_id": "NRAS Mutation<SEP>Vasaikar.csv Table"
+  },
+  "Medical Details<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645803,
+    "update_time": 1773645803,
+    "_id": "Medical Details<SEP>Patient Case"
+  },
+  "BRAF Mutation<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645803,
+    "update_time": 1773645803,
+    "_id": "BRAF Mutation<SEP>Vasaikar.csv Table"
+  },
+  "Expert Review Outcome<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645804,
+    "update_time": 1773645804,
+    "_id": "Expert Review Outcome<SEP>Patient Case"
+  },
+  "GBM<SEP>Medical Details": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645804,
+    "update_time": 1773645804,
+    "_id": "GBM<SEP>Medical Details"
+  },
+  "Mutation Rate<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645804,
+    "update_time": 1773645804,
+    "_id": "Mutation Rate<SEP>Vasaikar.csv Table"
+  },
+  "Case ID<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645804,
+    "update_time": 1773645804,
+    "_id": "Case ID<SEP>Patient Case"
+  },
+  "Medical Details<SEP>Tumor Laterality": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645805,
+    "update_time": 1773645805,
+    "_id": "Medical Details<SEP>Tumor Laterality"
+  },
+  "Hypermutation Status<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645805,
+    "update_time": 1773645805,
+    "_id": "Hypermutation Status<SEP>Vasaikar.csv Table"
+  },
+  "BMI<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645805,
+    "update_time": 1773645805,
+    "_id": "BMI<SEP>Patient Case"
+  },
+  "Medical Details<SEP>Tumor Site Curated": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645805,
+    "update_time": 1773645805,
+    "_id": "Medical Details<SEP>Tumor Site Curated"
+  },
+  "Table Source17.Vasaikar<SEP>Vasaikar.csv Table": {
+    "chunk_ids": [
+      "chunk-6bd4059606ed360a1522c0c55e971f0a"
+    ],
+    "count": 1,
+    "create_time": 1773645806,
+    "update_time": 1773645806,
+    "_id": "Table Source17.Vasaikar<SEP>Vasaikar.csv Table"
+  },
+  "Height<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645806,
+    "update_time": 1773645806,
+    "_id": "Height<SEP>Patient Case"
+  },
+  "Patient Case<SEP>Weight": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645807,
+    "update_time": 1773645807,
+    "_id": "Patient Case<SEP>Weight"
+  },
+  "Patient Case<SEP>Race": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645808,
+    "update_time": 1773645808,
+    "_id": "Patient Case<SEP>Race"
+  },
+  "Country Of Origin<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645809,
+    "update_time": 1773645809,
+    "_id": "Country Of Origin<SEP>Patient Case"
+  },
+  "Ethnicity Self-Identify<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645810,
+    "update_time": 1773645810,
+    "_id": "Ethnicity Self-Identify<SEP>Patient Case"
+  },
+  "Patient Case<SEP>Vital Status": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645811,
+    "update_time": 1773645811,
+    "_id": "Patient Case<SEP>Vital Status"
+  },
+  "Follow-Up Period<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645812,
+    "update_time": 1773645812,
+    "_id": "Follow-Up Period<SEP>Patient Case"
+  },
+  "Medical Details<SEP>Tumor Site Curation Notes": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645812,
+    "update_time": 1773645812,
+    "_id": "Medical Details<SEP>Tumor Site Curation Notes"
+  },
+  "Cause Of Death<SEP>GBM": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645812,
+    "update_time": 1773645812,
+    "_id": "Cause Of Death<SEP>GBM"
+  },
+  "Path Diagnosis to Last Contact Days<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645813,
+    "update_time": 1773645813,
+    "_id": "Path Diagnosis to Last Contact Days<SEP>Patient Case"
+  },
+  "Expert Path Review<SEP>Expert Path Review Num Segments": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645813,
+    "update_time": 1773645813,
+    "_id": "Expert Path Review<SEP>Expert Path Review Num Segments"
+  },
+  "Expert Path Review<SEP>Expert Path Review Details": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645813,
+    "update_time": 1773645813,
+    "_id": "Expert Path Review<SEP>Expert Path Review Details"
+  },
+  "Excluded In Downstream Analysis<SEP>Exclusion Reason": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645813,
+    "update_time": 1773645813,
+    "_id": "Excluded In Downstream Analysis<SEP>Exclusion Reason"
+  },
+  "Path Diagnosis to Death Days<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645814,
+    "update_time": 1773645814,
+    "_id": "Path Diagnosis to Death Days<SEP>Patient Case"
+  },
+  "Path Diag To Tumor Reoccur Days<SEP>Tumor Reoccur After Treatment": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645814,
+    "update_time": 1773645814,
+    "_id": "Path Diag To Tumor Reoccur Days<SEP>Tumor Reoccur After Treatment"
+  },
+  "Path Diag To Death Days<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645814,
+    "update_time": 1773645814,
+    "_id": "Path Diag To Death Days<SEP>Samples"
+  },
+  "Cause of Death<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645814,
+    "update_time": 1773645814,
+    "_id": "Cause of Death<SEP>Patient Case"
+  },
+  "Cause Of Death<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645815,
+    "update_time": 1773645815,
+    "_id": "Cause Of Death<SEP>Samples"
+  },
+  "Patient Case<SEP>Smoking History": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645815,
+    "update_time": 1773645815,
+    "_id": "Patient Case<SEP>Smoking History"
+  },
+  "Patient Case<SEP>Secondhand Smoke Exposure": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645816,
+    "update_time": 1773645816,
+    "_id": "Patient Case<SEP>Secondhand Smoke Exposure"
+  },
+  "Lost To Follow Up<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645816,
+    "update_time": 1773645816,
+    "_id": "Lost To Follow Up<SEP>Samples"
+  },
+  "Lost To Follow-Up<SEP>Patient Case": {
+    "chunk_ids": [
+      "chunk-cdddbf3c532197b450d40d40c3fe2bbf"
+    ],
+    "count": 1,
+    "create_time": 1773645817,
+    "update_time": 1773645817,
+    "_id": "Lost To Follow-Up<SEP>Patient Case"
+  },
+  "Samples<SEP>Tumor Reoccur After Treatment": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645817,
+    "update_time": 1773645817,
+    "_id": "Samples<SEP>Tumor Reoccur After Treatment"
+  },
+  "Path Diag To Tumor Reoccur Days<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645818,
+    "update_time": 1773645818,
+    "_id": "Path Diag To Tumor Reoccur Days<SEP>Samples"
+  },
+  "Expert Path Review<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645819,
+    "update_time": 1773645819,
+    "_id": "Expert Path Review<SEP>Samples"
+  },
+  "Expert Path Review Num Segments<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645820,
+    "update_time": 1773645820,
+    "_id": "Expert Path Review Num Segments<SEP>Samples"
+  },
+  "Expert Path Review Details<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645821,
+    "update_time": 1773645821,
+    "_id": "Expert Path Review Details<SEP>Samples"
+  },
+  "Excluded In Downstream Analysis<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645822,
+    "update_time": 1773645822,
+    "_id": "Excluded In Downstream Analysis<SEP>Samples"
+  },
+  "Exclusion Reason<SEP>Samples": {
+    "chunk_ids": [
+      "chunk-41e1d88421d7b4de7453c9795fb4cbdf"
+    ],
+    "count": 1,
+    "create_time": 1773645823,
+    "update_time": 1773645823,
+    "_id": "Exclusion Reason<SEP>Samples"
+  }
+}

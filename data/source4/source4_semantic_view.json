@@ -1,5 +1,5 @@
 {
-    "description": "Internal organizational records focusing on fiscal tracking, branch-level IDs, and project auditing, with field labels encoded for data consistency.",
+    "description": "An internal fiscal auditing and snapshot dataset for international development projects. Although fields are encoded (miller2_), it tracks identical project metrics including fiscal year (fsclr), sector classifications (sctrnm), and project-level spending (mntspnt) for organizational accountability.",
     "schema_inventory": [
         {
             "table_name": "Accounting_Snapshot.csv",

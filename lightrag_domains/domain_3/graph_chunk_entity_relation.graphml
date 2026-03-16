@@ -1,0 +1,2559 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="source3">
+      <data key="d0">source3</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source3</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry">
+      <data key="d0">source3.Project_Registry</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The Project_Registry.csv table contains information about various projects, including the fiscal year they were registered in, the programming process, project status, organization details such as class and type, sector and continent names, project spending amounts, and various markers indicating the presence or absence of specific themes or types of aid. Each project is associated with a unique project number, section, and branch ID, along with detailed division and fund center information.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Fiscal year">
+      <data key="d0">source3.Project_Registry.Fiscal year</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Fiscal period during which the project was active. Type: object, Samples: ['2009/2010', '2009/2010', '2009/2010']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Programming process (new)">
+      <data key="d0">source3.Project_Registry.Programming process (new)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Stage of project programming process. Type: object, Samples: ['Uncoded: Pre-APP', 'Uncoded: Pre-APP', 'Uncoded: Pre-APP']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Status">
+      <data key="d0">source3.Project_Registry.Status</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Current status of the project. Type: object, Samples: ['Closed', 'Closed', 'Closed']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Organisation class">
+      <data key="d0">source3.Project_Registry.Organisation class</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Classification of the organization involved in the project. Type: object, Samples: ['Individual', 'Individual', 'Individual']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Sector name">
+      <data key="d0">source3.Project_Registry.Sector name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector to which the project belongs. Type: object, Samples: ['Democratic participation and civil society', 'Informal/semi-formal financial intermediaries', 'Privatization']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Project number">
+      <data key="d0">source3.Project_Registry.Project number</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for the project. Type: object, Samples: ['A017716001', 'A017716001', 'A017716001']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Climate change adaptation (marker)">
+      <data key="d0">source3.Project_Registry.Climate change adaptation (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator showing if the project involves climate change adaptation. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Organisation ID">
+      <data key="d0">source3.Project_Registry.Organisation ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for the organization involved; data not available in samples. Type: object, Samples: ['Information not available', 'Information not available', 'Information not available']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Organisation name">
+      <data key="d0">source3.Project_Registry.Organisation name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the organization involved; data not available in samples. Type: object, Samples: ['Information not available', 'Information not available', 'Information not available']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Desertification (marker)">
+      <data key="d0">source3.Project_Registry.Desertification (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator showing if the project involves desertification efforts. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Bilateral aid (international marker)">
+      <data key="d0">source3.Project_Registry.Bilateral aid (international marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for bilateral aid (1 for yes, 0 for no). Type: int64, Samples: [1, 1, 1]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Division name">
+      <data key="d0">source3.Project_Registry.Division name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the division responsible for the project. Type: object, Samples: ['OAD Asia Programming', 'OAD Asia Programming', 'OAD Asia Programming']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Amount spent">
+      <data key="d0">source3.Project_Registry.Amount spent</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Total amount of money spent on the project. Type: float64, Samples: [3932.842, 5899.263000000001, 9832.105]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Sector percent">
+      <data key="d0">source3.Project_Registry.Sector percent</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Percentage of the project's budget allocated to a specific sector. Type: float64, Samples: [0.2, 0.3, 0.5]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Section name">
+      <data key="d0">source3.Project_Registry.Section name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the section associated with the project. Type: object, Samples: ['Bangladesh Section', 'Bangladesh Section', 'Bangladesh Section']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Project Browser country ID">
+      <data key="d0">source3.Project_Registry.Project Browser country ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Country identifier used in the project browser. Type: object, Samples: ['BD', 'BD', 'BD']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.ICT as a tool for development (marker)">
+      <data key="d0">source3.Project_Registry.ICT as a tool for development (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for ICT usage in development (1 for yes, 0 for no). Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Continent name">
+      <data key="d0">source3.Project_Registry.Continent name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the continent where the project is located. Type: object, Samples: ['Asia', 'Asia', 'Asia']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.CountryRegion name">
+      <data key="d0">source3.Project_Registry.CountryRegion name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the country or region where the project is located. Type: object, Samples: ['Bangladesh', 'Bangladesh', 'Bangladesh']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Section ID">
+      <data key="d0">source3.Project_Registry.Section ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for the section associated with the project. Type: object, Samples: ['S4122', 'S4122', 'S4122']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Indigenous issues (marker)">
+      <data key="d0">source3.Project_Registry.Indigenous issues (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Binary indicator for projects addressing indigenous issues. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Youth issues (marker)">
+      <data key="d0">source3.Project_Registry.Youth issues (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Binary indicator for projects addressing youth issues. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Sector ID">
+      <data key="d0">source3.Project_Registry.Sector ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for project sectors. Type: int64, Samples: [15150, 24040, 25020]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Branch ID">
+      <data key="d0">source3.Project_Registry.Branch ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for project branches. Type: object, Samples: ['B4100', 'B4100', 'B4100']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.CIDA business delivery model (old)">
+      <data key="d0">source3.Project_Registry.CIDA business delivery model (old)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Old CIDA business delivery model type. Type: object, Samples: ['Directive', 'Directive', 'Directive']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Children issues (marker)">
+      <data key="d0">source3.Project_Registry.Children issues (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Binary indicator for projects addressing children issues. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Disability issues (marker)">
+      <data key="d0">source3.Project_Registry.Disability issues (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Binary indicator for projects addressing disability issues. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Organisation type">
+      <data key="d0">source3.Project_Registry.Organisation type</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Type of organization involved in the project. Type: object, Samples: ['Canadian Profit Making', 'Canadian Profit Making', 'Canadian Profit Making']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Biodiversity (marker)">
+      <data key="d0">source3.Project_Registry.Biodiversity (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Binary indicator for projects addressing biodiversity issues. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.CountryRegion percent">
+      <data key="d0">source3.Project_Registry.CountryRegion percent</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Percentage of project focus on a specific country or region. Type: float64, Samples: [1.0, 1.0, 1.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Untied amount(Project-level budget)">
+      <data key="d0">source3.Project_Registry.Untied amount(Project-level budget)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Total budget amount for the project. Type: float64, Samples: [8500267.65, 8500267.65, 8500267.65]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.CFLI (marker)">
+      <data key="d0">source3.Project_Registry.CFLI (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for CFLI funding, always zero in samples. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Regional program (marker)">
+      <data key="d0">source3.Project_Registry.Regional program (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for regional program involvement, always zero in samples. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.FSTC percent">
+      <data key="d0">source3.Project_Registry.FSTC percent</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Percentage value related to FSTC, consistent at 1.0 in samples. Type: float64, Samples: [1.0, 1.0, 1.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Participatory development and good governance">
+      <data key="d0">source3.Project_Registry.Participatory development and good governance</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for participatory development, always zero in samples. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Maximum CIDA contribution (project-level)">
+      <data key="d0">source3.Project_Registry.Maximum CIDA contribution (project-level)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Maximum contribution by CIDA to the project. Type: float64, Samples: [8500267.65, 8500267.65, 8500267.65]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Branch name">
+      <data key="d0">source3.Project_Registry.Branch name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the branch handling the project. Type: object, Samples: ['OGM Asia Pacific', 'OGM Asia Pacific', 'OGM Asia Pacific']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Division ID">
+      <data key="d0">source3.Project_Registry.Division ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">ID of the division responsible for the project. Type: object, Samples: ['D4100', 'D4100', 'D4100']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Fund centre ID">
+      <data key="d0">source3.Project_Registry.Fund centre ID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">ID of the fund centre associated with the project. Type: int64, Samples: [4122, 4122, 4122]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Fund centre name">
+      <data key="d0">source3.Project_Registry.Fund centre name</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the fund centre associated with the project. Type: object, Samples: ['Bangladesh', 'Bangladesh', 'Bangladesh']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.IRTC percent">
+      <data key="d0">source3.Project_Registry.IRTC percent</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Percentage related to IRTC, likely indicating a proportion or rate. Type: float64, Samples: [0.0, 0.0, 0.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.PBA type">
+      <data key="d0">source3.Project_Registry.PBA type</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicates whether the project involves PBA (Preservation Building Assessment), with 'Not PBA' meaning it does not. Type: object, Samples: ['Not PBA', 'Not PBA', 'Not PBA']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source3.Project_Registry.Enviromental sustainability (marker)">
+      <data key="d0">source3.Project_Registry.Enviromental sustainability (marker)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Marker for environmental sustainability, with '0' possibly indicating no sustainability measures. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4">
+      <data key="d0">source4</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source4</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot">
+      <data key="d0">source4.Accounting_Snapshot</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The `Accounting_Snapshot.csv` table contains financial and project-related data for various international organizations, with columns such as fiscal year, programming pattern, status, region class, project number, and budget details. Each row represents a specific project or financial snapshot, including information on funding sources, development goals, and geographical regions.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_fsclr">
+      <data key="d0">source4.Accounting_Snapshot.miller2_fsclr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Fiscal year period Type: object, Samples: ['2009/2010', '2009/2010', '2009/2010']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_prgrmmngprcss(nw)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_prgrmmngprcss(nw)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Program processing status Type: object, Samples: ['Uncoded: Pre-APP', 'Uncoded: Pre-APP', 'Uncoded: Pre-APP']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_stts">
+      <data key="d0">source4.Accounting_Snapshot.miller2_stts</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Project status Type: object, Samples: ['Closed', 'Closed', 'Closed']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnstnclss">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnstnclss</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Regional classification Type: object, Samples: ['Multilateral', 'Multilateral', 'Multilateral']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_sctrnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_sctrnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector name or description Type: object, Samples: ['Multilateral trade negotiations', 'Sectors not specified', 'Medical services']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_prjctnmbr">
+      <data key="d0">source4.Accounting_Snapshot.miller2_prjctnmbr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Project number identifier Type: object, Samples: ['M013170001', 'M013170001', 'M013170001']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_clmtchngdpttn(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_clmtchngdpttn(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Climate change policy marker Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnstnd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnstnd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Regional standard code Type: int64, Samples: [1005967, 1005967, 1005967]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnstnnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnstnnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Regional standard name Type: object, Samples: ['IAEA - International Atomic Energy Agency Technical Cooperation Fund', 'IAEA - International Atomic Energy Agency Technical Cooperation Fund', 'IAEA - International Atomic Energy Agency Technical Cooperation Fund']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_dsrtfctn(mrkr)]:">
+      <data key="d0">source4.Accounting_Snapshot.miller2_dsrtfctn(mrkr)]:</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Desertification policy marker Type: unknown, Samples: []</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_bltrld(ntrntnlmrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_bltrld(ntrntnlmrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain due to ambiguous name and samples. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_dvsnnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_dvsnnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Division name, likely related to international organizations. Type: object, Samples: ['MID International Organizations', 'MID International Organizations', 'MID International Organizations']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_mntspnt">
+      <data key="d0">source4.Accounting_Snapshot.miller2_mntspnt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Maintenance or operational expenditure amount. Type: float64, Samples: [75768.0, 273306.0, 210969.6]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_sctrprcnt">
+      <data key="d0">source4.Accounting_Snapshot.miller2_sctrprcnt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector or division percentage value. Type: float64, Samples: [0.14, 0.505, 0.268]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_sctnnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_sctnnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector name, possibly related to international organizations. Type: object, Samples: ['MIO United Nations', 'MIO United Nations', 'MIO United Nations']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_prjctbrwsrcntrd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_prjctbrwsrcntrd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Project or division identifier code. Type: object, Samples: ['X3', 'X3', 'X4']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_ctstlfrdvlpmnt(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_ctstlfrdvlpmnt(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain due to ambiguous name and samples. Type: int64, Samples: [1, 1, 1]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cntnntnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cntnntnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Continent name where the data is relevant. Type: object, Samples: ['Asia', 'Asia', 'Europe']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cntrrgnnm">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cntrrgnnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Country or region name within a continent. Type: object, Samples: ['Asia MC', 'Asia MC', 'Europe MC']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_sctnd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_sctnd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector or division code. Type: object, Samples: ['S5602', 'S5602', 'S5602']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_ndgnssss(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_ndgnssss(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for non-differentiation status. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_thsss(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_thsss(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for threshold status. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_sctrd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_sctrd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Sector code or identifier. Type: int64, Samples: [33140, 99810, 12191]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_brnchd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_brnchd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Branch code identifier. Type: object, Samples: ['B5100', 'B5100', 'B5100']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cdbsnssdlvrmdl(ld)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cdbsnssdlvrmdl(ld)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Core business delivery model type. Type: object, Samples: ['Core Funding', 'Core Funding', 'Core Funding']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_chldrnsss(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_chldrnsss(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for children status. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_dsbltsss(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_dsbltsss(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for disability status. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnstntp">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnstntp</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Regional status or type. Type: object, Samples: ['Foreign Non-Profit Making', 'Foreign Non-Profit Making', 'Foreign Non-Profit Making']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_bdvrst(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_bdvrst(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for biodiversity status. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cntrrgnprcnt">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cntrrgnprcnt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Percentage contribution to region. Type: float64, Samples: [0.22, 0.22, 0.32]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_ntdmnt(prjct-lvlbdgt)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_ntdmnt(prjct-lvlbdgt)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Project level budget amount. Type: float64, Samples: [2460000.0, 2460000.0, 2460000.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cfl(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cfl(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for CFL (likely related to a flag or indicator). Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnlprgrm(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnlprgrm(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for regional program. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_fstcprcnt">
+      <data key="d0">source4.Accounting_Snapshot.miller2_fstcprcnt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">First cost percentage (always zero in sample). Type: float64, Samples: [0.0, 0.0, 0.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_prtcptrdvlpmntndgdgvrnnc">
+      <data key="d0">source4.Accounting_Snapshot.miller2_prtcptrdvlpmntndgdgvrnnc</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for partner development and governance involvement. Type: int64, Samples: [1, 1, 1]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_clmtchngmtgtn(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_clmtchngmtgtn(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for climate change mitigation. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_trddvlpmnt(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_trddvlpmnt(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for trade development. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rbnsss(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rbnsss(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for business resilience. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_knwldgfrdvlpmnt(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_knwldgfrdvlpmnt(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Indicator for knowledge for development involvement. Type: int64, Samples: [1, 1, 1]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_gndrqlt(mrkr)">
+      <data key="d0">source4.Accounting_Snapshot.miller2_gndrqlt(mrkr)</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain marker for gender equality. Type: int64, Samples: [0, 0, 0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_rgnstnsb-clss">
+      <data key="d0">source4.Accounting_Snapshot.miller2_rgnstnsb-clss</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Region or classification of the entry, likely indicating a specific entity or organization. Type: object, Samples: ['UNITED NATIONS', 'UNITED NATIONS', 'UNITED NATIONS']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cntnntd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cntnntd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Continued or additional count, possibly a secondary count or identifier. Type: int64, Samples: [3, 3, 5]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="source4.Accounting_Snapshot.miller2_cntrrgnd">
+      <data key="d0">source4.Accounting_Snapshot.miller2_cntrrgnd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Counter or identifier, likely a unique code for each record or entry. Type: object, Samples: ['X3', 'X3', 'X4']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645996</data>
+    </node>
+    <node id="Project_Registry.csv">
+      <data key="d0">Project_Registry.csv</data>
+      <data key="d1">data</data>
+      <data key="d2">Project_Registry.csv is a data table containing comprehensive information about various projects, including fiscal year, programming process, status, organization classification and type, sector and continent, project spending, thematic indicators, and unique identifiers for projects, sections, and branches.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Fiscal Year">
+      <data key="d0">Fiscal Year</data>
+      <data key="d1">concept</data>
+      <data key="d2">Fiscal Year refers to the fiscal period during which a project was active.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Programming Process">
+      <data key="d0">Programming Process</data>
+      <data key="d1">concept</data>
+      <data key="d2">Programming Process describes the stage of the project programming process, such as 'Uncoded: Pre-APP'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Status">
+      <data key="d0">Status</data>
+      <data key="d1">concept</data>
+      <data key="d2">Status indicates the current status of the project, such as 'Closed'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Organisation Class">
+      <data key="d0">Organisation Class</data>
+      <data key="d1">concept</data>
+      <data key="d2">Organisation Class is the classification of the organization involved in the project, including classes such as 'Individual'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Sector Name">
+      <data key="d0">Sector Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Sector Name or Description identifies the sector, with examples including 'Multilateral trade negotiations', 'Sectors not specified', and 'Medical services'.&lt;SEP&gt;Sector Name represents the sector to which the project belongs, such as democratic participation or privatization.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Project Number">
+      <data key="d0">Project Number</data>
+      <data key="d1">data</data>
+      <data key="d2">Project Number is a unique identifier for the project, such as 'M013170001'.&lt;SEP&gt;Project Number is the unique identifier for each project.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Climate Change Adaptation">
+      <data key="d0">Climate Change Adaptation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Climate Change Adaptation is a marker indicating whether a project addresses climate change adaptation.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646038</data>
+      <data key="d6" />
+    </node>
+    <node id="Organisation ID">
+      <data key="d0">Organisation ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Organisation ID is the unique identifier for the organization involved in the project; sometimes not available.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Organisation Name">
+      <data key="d0">Organisation Name</data>
+      <data key="d1">organization</data>
+      <data key="d2">Organisation Name represents the name of the organization involved in the project; sometimes not available.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Desertification">
+      <data key="d0">Desertification</data>
+      <data key="d1">concept</data>
+      <data key="d2">Desertification is a marker indicating whether the project involves anti-desertification efforts.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Bilateral Aid">
+      <data key="d0">Bilateral Aid</data>
+      <data key="d1">concept</data>
+      <data key="d2">Bilateral Aid is a binary marker indicating if a project involves bilateral aid.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Division Name">
+      <data key="d0">Division Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Division Name is the name of the division responsible for the project, such as 'OAD Asia Programming'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Amount Spent">
+      <data key="d0">Amount Spent</data>
+      <data key="d1">data</data>
+      <data key="d2">Amount Spent is the total expenditure on a project.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Sector Percent">
+      <data key="d0">Sector Percent</data>
+      <data key="d1">data</data>
+      <data key="d2">Sector Percent shows the percentage of the project's budget allocated to a specific sector.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646039</data>
+      <data key="d6" />
+    </node>
+    <node id="Section Name">
+      <data key="d0">Section Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Section Name is the name of the section associated with the project, such as 'Bangladesh Section'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="Project Browser Country ID">
+      <data key="d0">Project Browser Country ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Project Browser Country ID is the country identifier used in the project browser, such as 'BD'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="ICT as a Tool for Development">
+      <data key="d0">ICT as a Tool for Development</data>
+      <data key="d1">concept</data>
+      <data key="d2">ICT as a Tool for Development is a marker indicating information and communication technology use for development.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="Continent Name">
+      <data key="d0">Continent Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Continent Name refers to the continent associated with the data entry, such as 'Asia' or 'Europe'.&lt;SEP&gt;Continent Name refers to the continent in which the project is located, such as 'Asia'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="CountryRegion Name">
+      <data key="d0">CountryRegion Name</data>
+      <data key="d1">location</data>
+      <data key="d2">CountryRegion Name is the country or region where the project takes place, for example, Bangladesh.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="Section ID">
+      <data key="d0">Section ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Section ID is the unique identifier for the section associated with the project.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="Indigenous Issues">
+      <data key="d0">Indigenous Issues</data>
+      <data key="d1">concept</data>
+      <data key="d2">Indigenous Issues is a binary marker for projects addressing indigenous issues.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646040</data>
+      <data key="d6" />
+    </node>
+    <node id="Youth Issues">
+      <data key="d0">Youth Issues</data>
+      <data key="d1">concept</data>
+      <data key="d2">Youth Issues is a binary marker for projects addressing youth issues.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Sector ID">
+      <data key="d0">Sector ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Sector ID is the unique identifier for project sectors.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Branch ID">
+      <data key="d0">Branch ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Branch ID is the unique identifier for project branches.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="CIDA Business Delivery Model">
+      <data key="d0">CIDA Business Delivery Model</data>
+      <data key="d1">concept</data>
+      <data key="d2">CIDA Business Delivery Model (old) refers to the type of business delivery model used, such as 'Directive'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Children Issues">
+      <data key="d0">Children Issues</data>
+      <data key="d1">concept</data>
+      <data key="d2">Children Issues is a binary marker for projects addressing children issues.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Disability Issues">
+      <data key="d0">Disability Issues</data>
+      <data key="d1">concept</data>
+      <data key="d2">Disability Issues is a binary marker for projects addressing disability issues.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Organisation Type">
+      <data key="d0">Organisation Type</data>
+      <data key="d1">concept</data>
+      <data key="d2">Organisation Type is the type of organization involved, such as 'Canadian Profit Making'.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Biodiversity">
+      <data key="d0">Biodiversity</data>
+      <data key="d1">concept</data>
+      <data key="d2">Biodiversity is a binary marker for projects addressing biodiversity issues.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="CountryRegion Percent">
+      <data key="d0">CountryRegion Percent</data>
+      <data key="d1">data</data>
+      <data key="d2">CountryRegion Percent shows the percentage of project focus on a specific country or region.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646041</data>
+      <data key="d6" />
+    </node>
+    <node id="Untied Amount(Project-level Budget)">
+      <data key="d0">Untied Amount(Project-level Budget)</data>
+      <data key="d1">data</data>
+      <data key="d2">Untied Amount(Project-level Budget) is the total budget allocation for the project.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="CFLI">
+      <data key="d0">CFLI</data>
+      <data key="d1">concept</data>
+      <data key="d2">CFLI refers to a funding indicator tracked within the data, always zero in the samples provided.&lt;SEP&gt;CFLI is a marker indicating funding from the Canada Fund for Local Initiatives, always zero in samples.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="Regional Program">
+      <data key="d0">Regional Program</data>
+      <data key="d1">concept</data>
+      <data key="d2">Regional Program is an indicator for involvement in regional projects, with all sample values at zero.&lt;SEP&gt;Regional Program is a marker indicating involvement in a regional program, always zero in samples.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="FSTC Percent">
+      <data key="d0">FSTC Percent</data>
+      <data key="d1">data</data>
+      <data key="d2">FSTC Percent represents a percentage value related to FSTC, consistently 1.0 in the data samples.&lt;SEP&gt;FSTC Percent is a percentage value related to FSTC, consistent at 1.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c&lt;SEP&gt;chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="Aid">
+      <data key="d0">Aid</data>
+      <data key="d1">concept</data>
+      <data key="d2">Aid refers to the support provided, often financial or technical, to projects, including types such as bilateral aid as indicated in the Project_Registry.csv table.</data>
+      <data key="d3">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="Participatory Development And Good Governance">
+      <data key="d0">Participatory Development And Good Governance</data>
+      <data key="d1">concept</data>
+      <data key="d2">Participatory Development And Good Governance is an indicator for participatory development, always zero in the samples provided.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="Maximum CIDA Contribution">
+      <data key="d0">Maximum CIDA Contribution</data>
+      <data key="d1">data</data>
+      <data key="d2">Maximum CIDA Contribution is the highest financial contribution by CIDA to a project, with examples showing an amount of 8,500,267.65.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646042</data>
+      <data key="d6" />
+    </node>
+    <node id="CIDA">
+      <data key="d0">CIDA</data>
+      <data key="d1">organization</data>
+      <data key="d2">CIDA is the organization making maximum contributions to projects as represented in the data.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="OGM Asia Pacific">
+      <data key="d0">OGM Asia Pacific</data>
+      <data key="d1">organization</data>
+      <data key="d2">OGM Asia Pacific is listed as the branch handling the projects in the provided data samples.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="Division ID">
+      <data key="d0">Division ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Division ID is a unique identifier for the division responsible for project management, with examples such as 'D4100'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="Fund Centre ID">
+      <data key="d0">Fund Centre ID</data>
+      <data key="d1">data</data>
+      <data key="d2">Fund Centre ID is a code representing the fund centre associated with the project, e.g., 4122.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="Bangladesh">
+      <data key="d0">Bangladesh</data>
+      <data key="d1">location</data>
+      <data key="d2">Bangladesh is the name of the fund centre linked to the project in the samples.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="IRTC Percent">
+      <data key="d0">IRTC Percent</data>
+      <data key="d1">data</data>
+      <data key="d2">IRTC Percent is a percentage metric related to IRTC, with all examples showing 0.0.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="PBA Type">
+      <data key="d0">PBA Type</data>
+      <data key="d1">data</data>
+      <data key="d2">PBA Type indicates the presence or absence of Preservation Building Assessment; 'Not PBA' in samples means no involvement.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646043</data>
+      <data key="d6" />
+    </node>
+    <node id="Environmental Sustainability">
+      <data key="d0">Environmental Sustainability</data>
+      <data key="d1">concept</data>
+      <data key="d2">Environmental Sustainability is a marker indicating sustainability measures for the project, with sample values of zero.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Accounting_Snapshot.csv">
+      <data key="d0">Accounting_Snapshot.csv</data>
+      <data key="d1">content</data>
+      <data key="d2">Accounting_Snapshot.csv is a table containing financial and project-related data for various international organizations, including fiscal year, programming pattern, status, region class, and budget details.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Fiscal Year Period">
+      <data key="d0">Fiscal Year Period</data>
+      <data key="d1">data</data>
+      <data key="d2">Fiscal Year Period contains fiscal year information for each project, such as '2009/2010'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Program Processing Status">
+      <data key="d0">Program Processing Status</data>
+      <data key="d1">data</data>
+      <data key="d2">Program Processing Status gives the status of program processing, with samples like 'Uncoded: Pre-APP'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Project Status">
+      <data key="d0">Project Status</data>
+      <data key="d1">data</data>
+      <data key="d2">Project Status refers to the outcome or stage of the project, with sample value 'Closed'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Regional Classification">
+      <data key="d0">Regional Classification</data>
+      <data key="d1">data</data>
+      <data key="d2">Regional Classification categorizes the regional scope of the project, e.g., 'Multilateral'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Climate Change Policy Marker">
+      <data key="d0">Climate Change Policy Marker</data>
+      <data key="d1">concept</data>
+      <data key="d2">Climate Change Policy Marker is an indicator in the dataset, with all sample values at zero.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Regional Standard Code">
+      <data key="d0">Regional Standard Code</data>
+      <data key="d1">data</data>
+      <data key="d2">Regional Standard Code is a code representing the regional standard relevant to the project, e.g., 1005967.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="IAEA - International Atomic Energy Agency Technical Cooperation Fund">
+      <data key="d0">IAEA - International Atomic Energy Agency Technical Cooperation Fund</data>
+      <data key="d1">organization</data>
+      <data key="d2">IAEA - International Atomic Energy Agency Technical Cooperation Fund is listed as the regional standard name in the samples.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="MID International Organizations">
+      <data key="d0">MID International Organizations</data>
+      <data key="d1">organization</data>
+      <data key="d2">MID International Organizations is named as the division handling certain international projects.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646044</data>
+      <data key="d6" />
+    </node>
+    <node id="Maintenance Or Operational Expenditure Amount">
+      <data key="d0">Maintenance Or Operational Expenditure Amount</data>
+      <data key="d1">data</data>
+      <data key="d2">Maintenance Or Operational Expenditure Amount refers to the spending on maintenance or operational costs, with examples like 75768.0.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Sector Or Division Percentage Value">
+      <data key="d0">Sector Or Division Percentage Value</data>
+      <data key="d1">data</data>
+      <data key="d2">Sector Or Division Percentage Value represents a percentage, with samples like 0.14, 0.505, and 0.268.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="MIO United Nations">
+      <data key="d0">MIO United Nations</data>
+      <data key="d1">organization</data>
+      <data key="d2">MIO United Nations is a sector or division associated with United Nations activities in the data.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Project Or Division Identifier Code">
+      <data key="d0">Project Or Division Identifier Code</data>
+      <data key="d1">data</data>
+      <data key="d2">Project Or Division Identifier Code identifies a project or division, with examples like 'X3' and 'X4'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Country Or Region Name">
+      <data key="d0">Country Or Region Name</data>
+      <data key="d1">data</data>
+      <data key="d2">Country Or Region Name describes the specific country or region within a continent, with samples like 'Asia MC'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Fund Centre Name">
+      <data key="d0">Fund Centre Name</data>
+      <data key="d1">data</data>
+      <data key="d2">Fund Centre Name is the name of the fund centre associated with the project, with sample values like 'Bangladesh'.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Miller2_Features">
+      <data key="d0">Miller2_Features</data>
+      <data key="d1">data</data>
+      <data key="d2">Miller2_Features collectively refer to the various columns or attributes in the Accounting_Snapshot.csv table, such as program processing status, project status, regional classification, and sector name.</data>
+      <data key="d3">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Asia">
+      <data key="d0">Asia</data>
+      <data key="d1">location</data>
+      <data key="d2">Asia is a continent referenced as the location where the data is relevant.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646045</data>
+      <data key="d6" />
+    </node>
+    <node id="Europe">
+      <data key="d0">Europe</data>
+      <data key="d1">location</data>
+      <data key="d2">Europe is a continent referenced as the location where the data is relevant.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="Asia MC">
+      <data key="d0">Asia MC</data>
+      <data key="d1">location</data>
+      <data key="d2">Asia MC is a country or region within the continent of Asia.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="Europe MC">
+      <data key="d0">Europe MC</data>
+      <data key="d1">location</data>
+      <data key="d2">Europe MC is a country or region within the continent of Europe.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="S5602">
+      <data key="d0">S5602</data>
+      <data key="d1">concept</data>
+      <data key="d2">S5602 is a sector or division code used to categorize or identify sectors in the dataset.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="B5100">
+      <data key="d0">B5100</data>
+      <data key="d1">concept</data>
+      <data key="d2">B5100 is a branch code identifier used in the dataset.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="Core Funding">
+      <data key="d0">Core Funding</data>
+      <data key="d1">concept</data>
+      <data key="d2">Core Funding is a core business delivery model type referenced in the dataset.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="Foreign Non-Profit Making">
+      <data key="d0">Foreign Non-Profit Making</data>
+      <data key="d1">concept</data>
+      <data key="d2">Foreign Non-Profit Making is a regional status or type associated with the entries.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="UNITED NATIONS">
+      <data key="d0">UNITED NATIONS</data>
+      <data key="d1">organization</data>
+      <data key="d2">UNITED NATIONS is an organization referenced as the region or classification of the entry.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646046</data>
+      <data key="d6" />
+    </node>
+    <node id="Partner Development And Governance Involvement">
+      <data key="d0">Partner Development And Governance Involvement</data>
+      <data key="d1">concept</data>
+      <data key="d2">Partner Development And Governance Involvement is an indicator for the involvement in partner development and governance activities.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="Knowledge For Development Involvement">
+      <data key="d0">Knowledge For Development Involvement</data>
+      <data key="d1">concept</data>
+      <data key="d2">Knowledge For Development Involvement is an indicator of participation in knowledge for development initiatives.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="Project Level Budget Amount">
+      <data key="d0">Project Level Budget Amount</data>
+      <data key="d1">data</data>
+      <data key="d2">Project Level Budget Amount represents financial figures for project-level budgets, with sample values in the millions.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="S5602 Sector Code">
+      <data key="d0">S5602 Sector Code</data>
+      <data key="d1">concept</data>
+      <data key="d2">S5602 Sector Code is an identifier for a particular sector or division as used in the dataset.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="B5100 Branch Code">
+      <data key="d0">B5100 Branch Code</data>
+      <data key="d1">concept</data>
+      <data key="d2">B5100 Branch Code is an identifier for a particular branch as used in the dataset.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="Country Or Region Code">
+      <data key="d0">Country Or Region Code</data>
+      <data key="d1">data</data>
+      <data key="d2">Country Or Region Code refers to a code or identifier representing specific countries or regions in the dataset, such as 'X3' or 'X4'.</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646047</data>
+      <data key="d6" />
+    </node>
+    <node id="United Nations">
+      <data key="d0">United Nations</data>
+      <data key="d3">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d2">UNITED NATIONS is classified as or associated with the regional status of Foreign Non-Profit Making.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773646075</data>
+      <data key="d6" />
+    </node>
+    <edge source="source3" target="source3.Project_Registry">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Project_Registry belongs to data source source3</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Fiscal year">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Fiscal year belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Programming process (new)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Programming process (new) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Status">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Status belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Organisation class">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Organisation class belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Sector name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Sector name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Project number">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Project number belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Climate change adaptation (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Climate change adaptation (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Organisation ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Organisation ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Organisation name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Organisation name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Desertification (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Desertification (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Bilateral aid (international marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Bilateral aid (international marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Division name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Division name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Amount spent">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Amount spent belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Sector percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Sector percent belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Section name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Section name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Project Browser country ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Project Browser country ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.ICT as a tool for development (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column ICT as a tool for development (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Continent name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Continent name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.CountryRegion name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column CountryRegion name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Section ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Section ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Indigenous issues (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Indigenous issues (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Youth issues (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Youth issues (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Sector ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Sector ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Branch ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Branch ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.CIDA business delivery model (old)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column CIDA business delivery model (old) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Children issues (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Children issues (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Disability issues (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Disability issues (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Organisation type">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Organisation type belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Biodiversity (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Biodiversity (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.CountryRegion percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Column CountryRegion percent belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Untied amount(Project-level budget)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Untied amount(Project-level budget) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.CFLI (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column CFLI (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Regional program (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Regional program (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.FSTC percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Column FSTC percent belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Participatory development and good governance">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Participatory development and good governance belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Maximum CIDA contribution (project-level)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Maximum CIDA contribution (project-level) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Branch name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Branch name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Division ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Division ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Fund centre ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Fund centre ID belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Fund centre name">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Fund centre name belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.IRTC percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Column IRTC percent belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.PBA type">
+      <data key="d7">1.0</data>
+      <data key="d8">Column PBA type belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source3.Project_Registry" target="source3.Project_Registry.Enviromental sustainability (marker)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Enviromental sustainability (marker) belongs to table Project_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4" target="source4.Accounting_Snapshot">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Accounting_Snapshot belongs to data source source4</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_fsclr">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_fsclr belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_prgrmmngprcss(nw)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_prgrmmngprcss(nw) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_stts">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_stts belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnstnclss">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnstnclss belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_sctrnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_sctrnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_prjctnmbr">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_prjctnmbr belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_clmtchngdpttn(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_clmtchngdpttn(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnstnd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnstnd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnstnnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnstnnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_dsrtfctn(mrkr)]:">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_dsrtfctn(mrkr)]: belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_bltrld(ntrntnlmrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_bltrld(ntrntnlmrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_dvsnnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_dvsnnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_mntspnt">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_mntspnt belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_sctrprcnt">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_sctrprcnt belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_sctnnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_sctnnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_prjctbrwsrcntrd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_prjctbrwsrcntrd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_ctstlfrdvlpmnt(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_ctstlfrdvlpmnt(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cntnntnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cntnntnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cntrrgnnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cntrrgnnm belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_sctnd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_sctnd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_ndgnssss(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_ndgnssss(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_thsss(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_thsss(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_sctrd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_sctrd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_brnchd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_brnchd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cdbsnssdlvrmdl(ld)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cdbsnssdlvrmdl(ld) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_chldrnsss(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_chldrnsss(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_dsbltsss(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_dsbltsss(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnstntp">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnstntp belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_bdvrst(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_bdvrst(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cntrrgnprcnt">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cntrrgnprcnt belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_ntdmnt(prjct-lvlbdgt)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_ntdmnt(prjct-lvlbdgt) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cfl(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cfl(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnlprgrm(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnlprgrm(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_fstcprcnt">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_fstcprcnt belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_prtcptrdvlpmntndgdgvrnnc">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_prtcptrdvlpmntndgdgvrnnc belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_clmtchngmtgtn(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_clmtchngmtgtn(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_trddvlpmnt(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_trddvlpmnt(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rbnsss(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rbnsss(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_knwldgfrdvlpmnt(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_knwldgfrdvlpmnt(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_gndrqlt(mrkr)">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_gndrqlt(mrkr) belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_rgnstnsb-clss">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_rgnstnsb-clss belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cntnntd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cntnntd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="source4.Accounting_Snapshot" target="source4.Accounting_Snapshot.miller2_cntrrgnd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column miller2_cntrrgnd belongs to table Accounting_Snapshot</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645996</data>
+    </edge>
+    <edge source="Project_Registry.csv" target="Fiscal Year">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the fiscal year data for each project.</data>
+      <data key="d9">data structure,project information</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646048</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Programming Process">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the programming process data for each project.</data>
+      <data key="d9">data structure,project information</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646049</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Status">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv indicates the status of each project.</data>
+      <data key="d9">data structure,project status</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646050</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Organisation Class">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the classification of organizations involved in projects.</data>
+      <data key="d9">data structure,organization classification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646051</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Sector Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains information on the sector names for each project.</data>
+      <data key="d9">data structure,sector classification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646052</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Project Number">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv assigns a unique project number to each project.</data>
+      <data key="d9">data structure,unique identifier</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646053</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Climate Change Adaptation">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv tracks whether projects address climate change adaptation.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646054</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Organisation ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the organization ID for each project.</data>
+      <data key="d9">data structure,organization identification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646055</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Organisation Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the organization name for each project.</data>
+      <data key="d9">data structure,organization involved</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Desertification">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv tracks whether projects involve anti-desertification efforts.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646056</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Bilateral Aid">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv indicates if the project is classified as bilateral aid.</data>
+      <data key="d9">aid classification,data structure</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646057</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Division Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the name of the division responsible for each project.</data>
+      <data key="d9">data structure,project division</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646058</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Amount Spent">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv provides the total amount of money spent on each project.</data>
+      <data key="d9">data structure,financial data</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646059</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Sector Percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv reports the budget percentage allocated to each sector.</data>
+      <data key="d9">data structure,sector allocation</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646060</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Section Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the section name for every project.</data>
+      <data key="d9">data structure,section information</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646061</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Project Browser Country ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the project browser country ID for each project.</data>
+      <data key="d9">data structure,location identification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="ICT as a Tool for Development">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv marks projects using information and communication technology for development purposes.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646063</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Continent Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the continent information for all projects.</data>
+      <data key="d9">data structure,location classification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646064</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="CountryRegion Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv lists the country or region for each project.</data>
+      <data key="d9">data structure,location identification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646065</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Section ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the section ID data for each project.</data>
+      <data key="d9">data structure,section identification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646066</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Indigenous Issues">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv identifies projects addressing indigenous issues.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646067</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Youth Issues">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv tracks projects targeting youth issues.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646068</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Sector ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains sector ID information for all projects.</data>
+      <data key="d9">data structure,sector identification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646068</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Branch ID">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes the branch ID for each project.</data>
+      <data key="d9">branch identification,data structure</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646069</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="CIDA Business Delivery Model">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv records the CIDA business delivery model used for projects.</data>
+      <data key="d9">data structure,project delivery model</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646070</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Children Issues">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv tracks projects that address children issues.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Disability Issues">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes markers for disability issues in projects.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646072</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Organisation Type">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv lists the types of organizations involved in projects.</data>
+      <data key="d9">data structure,organization classification</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646073</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Biodiversity">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv includes markers for biodiversity involvement in projects.</data>
+      <data key="d9">data structure,thematic marker</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="CountryRegion Percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv provides the percentage of project focus on each country or region.</data>
+      <data key="d9">data structure,location focus</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646075</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Untied Amount(Project-level Budget)">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains the project budget at the project level.</data>
+      <data key="d9">data structure,financial data</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646076</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="CFLI">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv keeps track of CFLI funding for projects.</data>
+      <data key="d9">data structure,funding source</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646077</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="Regional Program">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv identifies projects as part of a regional program.</data>
+      <data key="d9">data structure,regional involvement</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646078</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project_Registry.csv" target="FSTC Percent">
+      <data key="d7">1.0</data>
+      <data key="d8">Project_Registry.csv contains FSTC percentage information for projects.</data>
+      <data key="d9">data structure,project attribute</data>
+      <data key="d10">chunk-f1429fda71864e79d20fd0eb1fba290c</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646079</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Maximum CIDA Contribution" target="CIDA">
+      <data key="d7">1.0</data>
+      <data key="d8">Maximum CIDA Contribution refers to the financial contribution made by CIDA to a project.</data>
+      <data key="d9">funding,organizational involvement</data>
+      <data key="d10">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646073</data>
+      <data key="d13" />
+    </edge>
+    <edge source="OGM Asia Pacific" target="Bangladesh">
+      <data key="d7">1.0</data>
+      <data key="d8">OGM Asia Pacific is the branch managing the fund centre located in Bangladesh.</data>
+      <data key="d9">organizational responsibility,project management</data>
+      <data key="d10">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Accounting_Snapshot.csv" target="IAEA - International Atomic Energy Agency Technical Cooperation Fund">
+      <data key="d7">1.0</data>
+      <data key="d8">Accounting_Snapshot.csv contains data involving the IAEA - International Atomic Energy Agency Technical Cooperation Fund as a regional standard.</data>
+      <data key="d9">data inclusion,regional funding</data>
+      <data key="d10">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646074</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Accounting_Snapshot.csv" target="MID International Organizations">
+      <data key="d7">1.0</data>
+      <data key="d8">Accounting_Snapshot.csv includes information on projects managed by MID International Organizations.</data>
+      <data key="d9">data inclusion,organization management</data>
+      <data key="d10">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646075</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Accounting_Snapshot.csv" target="MIO United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">Data from Accounting_Snapshot.csv includes sectors or divisions named MIO United Nations related to project classification.</data>
+      <data key="d9">United Nations involvement,sectoral data</data>
+      <data key="d10">chunk-3a0a36834ad865ed58d796dd6028391f</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646077</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Asia" target="Asia MC">
+      <data key="d7">1.0</data>
+      <data key="d8">Asia MC is a country or region located within the continent of Asia.</data>
+      <data key="d9">geographical inclusion,regional affiliation</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646076</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Europe" target="Europe MC">
+      <data key="d7">1.0</data>
+      <data key="d8">Europe MC is a country or region located within the continent of Europe.</data>
+      <data key="d9">geographical inclusion,regional affiliation</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646077</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Core Funding" target="United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">UNITED NATIONS utilizes Core Funding as its business delivery model in the context of the dataset.</data>
+      <data key="d9">funding model,organizational structure</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646077</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Foreign Non-Profit Making" target="United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">UNITED NATIONS is classified as or associated with the regional status of Foreign Non-Profit Making.</data>
+      <data key="d9">classification,organizational status</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646076</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Partner Development And Governance Involvement" target="United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">UNITED NATIONS is involved in partner development and governance activities according to the dataset.</data>
+      <data key="d9">governance,organizational activity</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646078</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Knowledge For Development Involvement" target="United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">UNITED NATIONS participates in knowledge for development initiatives according to the indicators in the dataset.</data>
+      <data key="d9">knowledge sharing,organizational activity</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646079</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Project Level Budget Amount" target="United Nations">
+      <data key="d7">1.0</data>
+      <data key="d8">UNITED NATIONS has associated project-level budget amounts as referenced in the dataset.</data>
+      <data key="d9">budget allocation,funding data</data>
+      <data key="d10">chunk-de994b65f0652a9425f1bf8b160f34a3</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773646080</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

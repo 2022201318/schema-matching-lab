@@ -1,0 +1,28 @@
+{
+  "domain_0": [
+    "source1",
+    "source2",
+    "source9",
+    "source10",
+    "source11",
+    "source12",
+    "source13",
+    "source14",
+    "source15",
+    "source16",
+    "source17",
+    "source18"
+  ],
+  "domain_1": [
+    "source7",
+    "source8"
+  ],
+  "domain_2": [
+    "source5",
+    "source6"
+  ],
+  "domain_3": [
+    "source3",
+    "source4"
+  ]
+}

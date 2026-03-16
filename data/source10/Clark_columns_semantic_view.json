@@ -1,1 +1,18 @@
-{}
+{
+    "Case_ID": "Unique identifier for each case.",
+    "Tumor/Normal": "Indicates if the sample is from tumor or normal tissue.",
+    "Gender": "Biological gender of the patient.",
+    "Age": "Age of the patient in years.",
+    "BMI": "Body Mass Index of the patient.",
+    "Race": "Race of the patient.",
+    "Ethnicity_Self_Identify": "Ethnicity as self-identified by the patient.",
+    "Tumor_Site": "Primary location of the tumor within the organ.",
+    "Tumor_Site_Other": "Additional description of the tumor location.",
+    "Tumor_Size_cm": "Size of the tumor in centimeters.",
+    "Tumor_Focality": "Describes the tumor's presence as unifocal or multifocal.",
+    "Histologic_Type": "Identifies the type of renal cell carcinoma, primarily clear cell.",
+    "Grade": "Indicates the grade of the tumor, ranging from G1 to G4.",
+    "Tumor_Stage_Pathological": "Represents the stage of cancer progression, from I to IV.",
+    "Path_Stage_Primary_Tumor_pT": "Describes the extent of the primary tumor.",
+    "Path_Stage_Reg_Lymph_Nodes_pN": "Indicates the involvement of regional lymph nodes."
+}

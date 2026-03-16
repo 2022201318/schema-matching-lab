@@ -1,0 +1,1408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="source5">
+      <data key="d0">source5</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source5</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles">
+      <data key="d0">source5.Consumer_Profiles</data>
+      <data key="d1">data</data>
+      <data key="d2">The Consumer_Profiles.csv table contains personal and financial details of consumers, including unique AgencyID, names, net worth, employer, number of credit cards, marital status, gender, phone number, number of children, age, address, country, number of cars, middle initial, and postal code. Numeric fields are stored as strings or floats.&lt;SEP&gt;source5.Consumer_Profiles is a CSV table containing personal and financial details of consumers, as described in the input text, with columns for identifiers, demographics, financial information, and contact details.</data>
+      <data key="d3">UNKNOWN&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">custom_kg&lt;SEP&gt;unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="source5.Consumer_Profiles.AgencyID">
+      <data key="d0">source5.Consumer_Profiles.AgencyID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Identifier for the agency or organization managing the consumer profile. Type: object, Samples: ['PEL0', 'LED1', 'lat2']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.FirstName">
+      <data key="d0">source5.Consumer_Profiles.FirstName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">First name of the consumer, possibly inconsistently capitalized. Type: object, Samples: ['Netti', 'TRUDY', 'ireland']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NetWorth">
+      <data key="d0">source5.Consumer_Profiles.NetWorth</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Financial net worth of the consumer, measured in dollars. Type: float64, Samples: [1058868.0, 1988185.0, 3673128.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Employer">
+      <data key="d0">source5.Consumer_Profiles.Employer</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the consumer's employer. Type: object, Samples: ["Brink's", 'Air Products &amp; Chemicals', 'Oshkosh']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberCreditCards">
+      <data key="d0">source5.Consumer_Profiles.NumberCreditCards</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of credit cards the consumer possesses. Type: float64, Samples: [6.0, 6.0, 3.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.LastName">
+      <data key="d0">source5.Consumer_Profiles.LastName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Last name of the consumer, possibly inconsistently capitalized. Type: object, Samples: ['PELLAND', 'LEDUC', 'latif']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.AddressLine2">
+      <data key="d0">source5.Consumer_Profiles.AddressLine2</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Secondary address line, typically for apartment or suite numbers. Type: object, Samples: ['APT. 624', 'Apt. 619']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.MaritalStatus">
+      <data key="d0">source5.Consumer_Profiles.MaritalStatus</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Marital status code of the consumer (W: Married, U: Unmarried, S: Separated). Type: object, Samples: ['W', 'U', 'S']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Gender">
+      <data key="d0">source5.Consumer_Profiles.Gender</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Gender of the consumer (f: Female, F: Female). Type: object, Samples: ['f', 'F', 'f']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Phone">
+      <data key="d0">source5.Consumer_Profiles.Phone</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Phone number of the consumer. Type: object, Samples: ['1-712-522-6088', '1-626-426-4298', '1-524-787-8784']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberChildren">
+      <data key="d0">source5.Consumer_Profiles.NumberChildren</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of children in the household. Type: float64, Samples: [3.0, 1.0, 1.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Age">
+      <data key="d0">source5.Consumer_Profiles.Age</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Age of the consumer. Type: float64, Samples: [20.0, 3.0, 77.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.City">
+      <data key="d0">source5.Consumer_Profiles.City</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">City of residence. Type: object, Samples: ['Fairbanks', 'Quebec', 'Henderson']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Country">
+      <data key="d0">source5.Consumer_Profiles.Country</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Country of residence. Type: object, Samples: ['United States of America', 'United States of America', 'United States of America']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberCars">
+      <data key="d0">source5.Consumer_Profiles.NumberCars</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of cars owned. Type: float64, Samples: [5.0, 2.0, 2.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.MiddleInitial">
+      <data key="d0">source5.Consumer_Profiles.MiddleInitial</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Middle initial of the consumer. Type: object, Samples: ['M']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.AddressLine1">
+      <data key="d0">source5.Consumer_Profiles.AddressLine1</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Primary address line of the consumer. Type: object, Samples: ['21847 olympia street', '245 congress court', '6517 frailing west']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source5.Consumer_Profiles.PostalCode">
+      <data key="d0">source5.Consumer_Profiles.PostalCode</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Postal code of the consumer's address. Type: object, Samples: ['T6b 1i1', '77281', '91355']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6">
+      <data key="d0">source6</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source6</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads">
+      <data key="d0">source6.Marketing_Leads</data>
+      <data key="d1">data</data>
+      <data key="d2">The Marketing_Leads.csv table contains marketing prospects with identifiers, personal details, financial metrics, and contact information. Columns include unique codes, names, network worth, employer, credit card count, address lines, marital status, gender, phone numbers, children count, age, city, country, courses, state, income, credit rating, and rental flag.&lt;SEP&gt;source6.Marketing_Leads is a CSV table containing marketing prospects with personal, financial, and contact information, as described in the input text.</data>
+      <data key="d3">UNKNOWN&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">custom_kg&lt;SEP&gt;unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="source6.Marketing_Leads.prospect_gncd">
+      <data key="d0">source6.Marketing_Leads.prospect_gncd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Unique identifier for each prospect. Type: object, Samples: ['Iok7501', 'tia7502', 'AOI7503']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_frstnm">
+      <data key="d0">source6.Marketing_Leads.prospect_frstnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain; likely first name but samples appear encrypted or obfuscated. Type: object, Samples: ['wbwsqgtaa', 'QGJWCPAPZMWHYHZTNOYSSOQBI', 'BHGXDDPUMBESLQMNEPREPTZNNKM']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ntwrth">
+      <data key="d0">source6.Marketing_Leads.prospect_ntwrth</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Net worth of the prospect in dollars. Type: float64, Samples: [321776.0, 2292324.0, 969707.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_mplr">
+      <data key="d0">source6.Marketing_Leads.prospect_mplr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Multiplexer or possibly a company associated with the prospect. Type: object, Samples: ['FM Global', 'MGIC Investment', 'Ross Stores']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrcrdtcrds">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrcrdtcrds</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of credit cards held by the prospect. Type: float64, Samples: [2.0, 2.0, 9.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_lstnm">
+      <data key="d0">source6.Marketing_Leads.prospect_lstnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain; likely last name but samples appear encrypted or obfuscated. Type: object, Samples: ['Iokwiqojocjanndatkdzgymym', 'tiabxgseasiibxakctfzhfwotp', 'AOIWIWTIHIXOJ']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ddrssln2">
+      <data key="d0">source6.Marketing_Leads.prospect_ddrssln2</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Uncertain; possibly a second address line but samples appear encrypted or obfuscated. Type: object, Samples: ['GKOIKEZZMQTPQUQZLSAUUMVBDPAXTWNWSXTYJYQ', 'ocmgcvnexhqhgoyrwpkgaopthdvandlzaaleqccjpjkbirtcqvorobgskhtlgndvn', 'Cdrxeolwrrxmwmhgexvcstvzz']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_mrtlstts">
+      <data key="d0">source6.Marketing_Leads.prospect_mrtlstts</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Marital status of the prospect (U=Unknown, S=Single, M=Married). Type: object, Samples: ['U', 'S', 'M']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_gndr">
+      <data key="d0">source6.Marketing_Leads.prospect_gndr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Gender of the prospect (M=Male, F=Female). Type: object, Samples: ['M', 'm']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_phn">
+      <data key="d0">source6.Marketing_Leads.prospect_phn</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Phone number of the prospect. Type: object, Samples: ['1-637-119-9996', '1-560-405-0048', '1-261-306-5079']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrchldrn">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrchldrn</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of children the prospect has. Type: float64, Samples: [4.0, 5.0, 5.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_g">
+      <data key="d0">source6.Marketing_Leads.prospect_g</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Age of the prospect. Type: float64, Samples: [7.0, 48.0, 14.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ct">
+      <data key="d0">source6.Marketing_Leads.prospect_ct</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">City where the prospect resides. Type: object, Samples: ['Baltimore', 'Kitchener', 'Saint John']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_cntr">
+      <data key="d0">source6.Marketing_Leads.prospect_cntr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Country of residence for the prospect. Type: object, Samples: ['United States of America', 'Canada', 'United States of America']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrcrs">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrcrs</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of cars owned by the prospect. Type: float64, Samples: [3.0, 4.0, 1.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_stt">
+      <data key="d0">source6.Marketing_Leads.prospect_stt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">State where the prospect resides. Type: object, Samples: ['MO', 'TX', 'CT']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ncm">
+      <data key="d0">source6.Marketing_Leads.prospect_ncm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Postal or zip code of the prospect's residence. Type: float64, Samples: [94490.0, 7037.0, 419269.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_crdtrtng">
+      <data key="d0">source6.Marketing_Leads.prospect_crdtrtng</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Credit rating score of the prospect. Type: float64, Samples: [580.0, 683.0, 411.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_wnrrntflg">
+      <data key="d0">source6.Marketing_Leads.prospect_wnrrntflg</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Ownership or rental status flag of the prospect. Type: object, Samples: ['U', 'R', 'O']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645919</data>
+    </node>
+    <node id="Consumer_Profiles">
+      <data key="d0">Consumer_Profiles</data>
+      <data key="d1">data</data>
+      <data key="d2">Consumer_Profiles is a CSV table containing personal and financial details of consumers, including identification, demographics, contact information, and financial data, with some numeric fields stored as strings or floats.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="AgencyID">
+      <data key="d0">AgencyID</data>
+      <data key="d1">data</data>
+      <data key="d2">AgencyID is the identifier for the agency or organization managing the consumer profile, with examples such as 'PEL0', 'LED1', and 'lat2'.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="FirstName">
+      <data key="d0">FirstName</data>
+      <data key="d1">data</data>
+      <data key="d2">FirstName captures the first name of the consumer, which may be inconsistently capitalized.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="NetWorth">
+      <data key="d0">NetWorth</data>
+      <data key="d1">data</data>
+      <data key="d2">NetWorth is a column representing the consumer's financial net worth, measured in dollars and stored as a floating-point value.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="Employer">
+      <data key="d0">Employer</data>
+      <data key="d1">data</data>
+      <data key="d2">Employer records the name of the consumer's employer.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="NumberCreditCards">
+      <data key="d0">NumberCreditCards</data>
+      <data key="d1">data</data>
+      <data key="d2">NumberCreditCards represents the number of credit cards possessed by the consumer and is stored as a float value.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="LastName">
+      <data key="d0">LastName</data>
+      <data key="d1">data</data>
+      <data key="d2">LastName stores the last name of the consumer, which may be inconsistently capitalized.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645953</data>
+      <data key="d6" />
+    </node>
+    <node id="AddressLine2">
+      <data key="d0">AddressLine2</data>
+      <data key="d1">data</data>
+      <data key="d2">AddressLine2 is a secondary address line for the consumer, typically containing apartment or suite numbers.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645954</data>
+      <data key="d6" />
+    </node>
+    <node id="MaritalStatus">
+      <data key="d0">MaritalStatus</data>
+      <data key="d1">data</data>
+      <data key="d2">MaritalStatus encodes the consumer's marital status with codes W (Married), U (Unmarried), or S (Separated).</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645954</data>
+      <data key="d6" />
+    </node>
+    <node id="Gender">
+      <data key="d0">Gender</data>
+      <data key="d1">data</data>
+      <data key="d2">Gender refers to the sex or gender identification of the prospect, indicated as Male (M, m) or Female (F).&lt;SEP&gt;Gender reflects the consumer's gender, coded as 'f' or 'F' for female.</data>
+      <data key="d3">chunk-bbe66e89b3f065bc7b6433bb8037a740&lt;SEP&gt;chunk-d93ff191c30355303559507bb7484eca&lt;SEP&gt;chunk-000ceb112aba7a3e5075c9d239bba247&lt;SEP&gt;chunk-c070819714b424f312df82bc574903ef&lt;SEP&gt;chunk-d0da407a3f98015113502473422d73ab&lt;SEP&gt;chunk-9f1001b101778726622dc1dc09f8e9a0&lt;SEP&gt;chunk-cc55bd693439ef128fff799b563cbb84&lt;SEP&gt;chunk-9986977e6e722690562d58f7ff1e7688&lt;SEP&gt;chunk-6bd4059606ed360a1522c0c55e971f0a&lt;SEP&gt;chunk-2609d28a699c4fb0f3d8f329ec8865c4&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a&lt;SEP&gt;chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645954</data>
+      <data key="d6" />
+    </node>
+    <node id="Phone">
+      <data key="d0">Phone</data>
+      <data key="d1">data</data>
+      <data key="d2">Phone contains the consumer's phone number.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645954</data>
+      <data key="d6" />
+    </node>
+    <node id="NumberChildren">
+      <data key="d0">NumberChildren</data>
+      <data key="d1">data</data>
+      <data key="d2">NumberChildren specifies the number of children in the consumer's household.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645954</data>
+      <data key="d6" />
+    </node>
+    <node id="Age">
+      <data key="d0">Age</data>
+      <data key="d1">data</data>
+      <data key="d2">Age refers to the prospect's number of years as a numeric value.&lt;SEP&gt;Age records the consumer's age in years.</data>
+      <data key="d3">chunk-bbe66e89b3f065bc7b6433bb8037a740&lt;SEP&gt;chunk-d93ff191c30355303559507bb7484eca&lt;SEP&gt;chunk-c070819714b424f312df82bc574903ef&lt;SEP&gt;chunk-9f1001b101778726622dc1dc09f8e9a0&lt;SEP&gt;chunk-cc55bd693439ef128fff799b563cbb84&lt;SEP&gt;chunk-9986977e6e722690562d58f7ff1e7688&lt;SEP&gt;chunk-6bd4059606ed360a1522c0c55e971f0a&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a&lt;SEP&gt;chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="City">
+      <data key="d0">City</data>
+      <data key="d1">data</data>
+      <data key="d2">City is the urban area where the prospect resides, with examples including Baltimore, Kitchener, and Saint John.&lt;SEP&gt;City is the consumer's city of residence.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a&lt;SEP&gt;chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="Country">
+      <data key="d0">Country</data>
+      <data key="d1">data</data>
+      <data key="d2">Country indicates the nation of residence for the prospect, with example values such as United States of America and Canada.&lt;SEP&gt;Country is the consumer's country of residence, such as 'United States of America'.</data>
+      <data key="d3">chunk-bbe66e89b3f065bc7b6433bb8037a740&lt;SEP&gt;chunk-883b9c609201fa2ad1a44c5eeed0311a&lt;SEP&gt;chunk-d629663704d99e27c2cced9123c5f942&lt;SEP&gt;chunk-9d99fcfa305043f1d3abc4621acb675a&lt;SEP&gt;chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="NumberCars">
+      <data key="d0">NumberCars</data>
+      <data key="d1">data</data>
+      <data key="d2">NumberCars indicates the number of cars owned by the consumer.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="MiddleInitial">
+      <data key="d0">MiddleInitial</data>
+      <data key="d1">data</data>
+      <data key="d2">MiddleInitial is the middle initial of the consumer.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="AddressLine1">
+      <data key="d0">AddressLine1</data>
+      <data key="d1">data</data>
+      <data key="d2">AddressLine1 is the primary address line of the consumer.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645955</data>
+      <data key="d6" />
+    </node>
+    <node id="PostalCode">
+      <data key="d0">PostalCode</data>
+      <data key="d1">data</data>
+      <data key="d2">PostalCode contains the postal code of the consumer's address.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="Marketing_Leads">
+      <data key="d0">Marketing_Leads</data>
+      <data key="d1">data</data>
+      <data key="d2">Marketing_Leads is a CSV table containing marketing prospects with personal details, financial metrics, and contact information for use in marketing purposes.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_gncd">
+      <data key="d0">prospect_gncd</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_gncd is a unique identifier for each marketing prospect, with values such as 'Iok7501' or 'tia7502'.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_frstnm">
+      <data key="d0">prospect_frstnm</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_frstnm likely represents the first name of the prospect but contains potentially encrypted or obfuscated values.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_ntwrth">
+      <data key="d0">prospect_ntwrth</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_ntwrth is the net worth of the prospect, measured in dollars and stored as a floating-point value.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_mplr">
+      <data key="d0">prospect_mplr</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_mplr refers to a multiplexer or a company associated with the prospect.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_nmbrcrdtcrds">
+      <data key="d0">prospect_nmbrcrdtcrds</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_nmbrcrdtcrds indicates the number of credit cards held by the prospect.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_lstnm">
+      <data key="d0">prospect_lstnm</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_lstnm likely represents the last name of the prospect but contains potentially encrypted or obfuscated values.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_ddrssln2">
+      <data key="d0">prospect_ddrssln2</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_ddrssln2 is possibly the second address line for the prospect, with encrypted or obfuscated content.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645956</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_mrtlstts">
+      <data key="d0">prospect_mrtlstts</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_mrtlstts records the marital status of the prospect with possible values U (Unknown), S (Single), or M (Married).</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_gndr">
+      <data key="d0">prospect_gndr</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_gndr reflects the gender of the prospect, coded as 'M' or 'F'.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="prospect_phn">
+      <data key="d0">prospect_phn</data>
+      <data key="d1">data</data>
+      <data key="d2">prospect_phn contains the phone number for the prospect.</data>
+      <data key="d3">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="Prospect">
+      <data key="d0">Prospect</data>
+      <data key="d1">person</data>
+      <data key="d2">Prospect refers to an individual whose demographic, financial, and contact information is being collected for assessment, including details such as marital status, gender, phone number, age, number of children, number of cars, city, state, country, zip code, credit rating, and ownership or rental status.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="Marital Status">
+      <data key="d0">Marital Status</data>
+      <data key="d1">concept</data>
+      <data key="d2">Marital Status indicates the prospect's current relationship state, with possible values including Unknown (U), Single (S), or Married (M).</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="Phone Number">
+      <data key="d0">Phone Number</data>
+      <data key="d1">data</data>
+      <data key="d2">Phone Number contains the contact telephone number of the prospect.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="Number Of Children">
+      <data key="d0">Number Of Children</data>
+      <data key="d1">data</data>
+      <data key="d2">Number Of Children refers to the count of the prospect's children as a numeric value.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4&lt;SEP&gt;chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="Number Of Cars">
+      <data key="d0">Number Of Cars</data>
+      <data key="d1">data</data>
+      <data key="d2">Number Of Cars represents the count of vehicles owned by the prospect.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645957</data>
+      <data key="d6" />
+    </node>
+    <node id="State">
+      <data key="d0">State</data>
+      <data key="d1">location</data>
+      <data key="d2">State is the administrative subdivision where the prospect resides, with examples including MO, TX, and CT.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <node id="Postal Code">
+      <data key="d0">Postal Code</data>
+      <data key="d1">data</data>
+      <data key="d2">Postal Code refers to the postal or zip code for the prospect's residence as a numeric value.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <node id="Credit Rating">
+      <data key="d0">Credit Rating</data>
+      <data key="d1">data</data>
+      <data key="d2">Credit Rating is the numeric score representing the prospect's creditworthiness.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <node id="Ownership Or Rental Status">
+      <data key="d0">Ownership Or Rental Status</data>
+      <data key="d1">concept</data>
+      <data key="d2">Ownership Or Rental Status denotes whether the prospect owns, rents, or has an unknown property status, represented by codes such as U (Unknown), R (Rent), and O (Own).</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <node id="Obgskhtlgndvn">
+      <data key="d0">Obgskhtlgndvn</data>
+      <data key="d1">other</data>
+      <data key="d2">Obgskhtlgndvn is a sample value presented in the input text, likely representing an encoded or anonymized entity or information.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <node id="Cdrxeolwrrxmwmhgexvcstvzz">
+      <data key="d0">Cdrxeolwrrxmwmhgexvcstvzz</data>
+      <data key="d1">other</data>
+      <data key="d2">Cdrxeolwrrxmwmhgexvcstvzz is a sample value provided in the input text, probably denoting an encoded or anonymized entity or data.</data>
+      <data key="d3">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645958</data>
+      <data key="d6" />
+    </node>
+    <edge source="source5" target="source5.Consumer_Profiles">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Consumer_Profiles belongs to data source source5</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AgencyID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column AgencyID belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.FirstName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column FirstName belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NetWorth">
+      <data key="d7">1.0</data>
+      <data key="d8">Column NetWorth belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Employer">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Employer belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberCreditCards">
+      <data key="d7">1.0</data>
+      <data key="d8">Column NumberCreditCards belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.LastName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column LastName belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AddressLine2">
+      <data key="d7">1.0</data>
+      <data key="d8">Column AddressLine2 belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.MaritalStatus">
+      <data key="d7">1.0</data>
+      <data key="d8">Column MaritalStatus belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Gender">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Gender belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Phone">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Phone belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberChildren">
+      <data key="d7">1.0</data>
+      <data key="d8">Column NumberChildren belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Age">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Age belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.City">
+      <data key="d7">1.0</data>
+      <data key="d8">Column City belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Country">
+      <data key="d7">1.0</data>
+      <data key="d8">Column Country belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberCars">
+      <data key="d7">1.0</data>
+      <data key="d8">Column NumberCars belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.MiddleInitial">
+      <data key="d7">1.0</data>
+      <data key="d8">Column MiddleInitial belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AddressLine1">
+      <data key="d7">1.0</data>
+      <data key="d8">Column AddressLine1 belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.PostalCode">
+      <data key="d7">1.0</data>
+      <data key="d8">Column PostalCode belongs to table Consumer_Profiles</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="Consumer_Profiles">
+      <data key="d7">1.0</data>
+      <data key="d8">source5.Consumer_Profiles is referred to as Consumer_Profiles.</data>
+      <data key="d9">alias,table name</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645978</data>
+      <data key="d13" />
+    </edge>
+    <edge source="source6" target="source6.Marketing_Leads">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Marketing_Leads belongs to data source source6</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_gncd">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_gncd belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_frstnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_frstnm belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ntwrth">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_ntwrth belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_mplr">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_mplr belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrcrdtcrds">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_nmbrcrdtcrds belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_lstnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_lstnm belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ddrssln2">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_ddrssln2 belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_mrtlstts">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_mrtlstts belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_gndr">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_gndr belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_phn">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_phn belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrchldrn">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_nmbrchldrn belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_g">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_g belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ct">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_ct belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_cntr">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_cntr belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrcrs">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_nmbrcrs belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_stt">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_stt belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ncm">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_ncm belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_crdtrtng">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_crdtrtng belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_wnrrntflg">
+      <data key="d7">1.0</data>
+      <data key="d8">Column prospect_wnrrntflg belongs to table Marketing_Leads</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645919</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="Marketing_Leads">
+      <data key="d7">1.0</data>
+      <data key="d8">source6.Marketing_Leads is referred to as Marketing_Leads.</data>
+      <data key="d9">alias,table name</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645981</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="AgencyID">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes the AgencyID as the identifier for the managing agency or organization.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645961</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="FirstName">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes FirstName to capture the first name of each consumer.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645962</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="NetWorth">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes the NetWorth column to record consumers' financial net worth.</data>
+      <data key="d9">attribute,financial</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645963</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="Employer">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains the Employer column for the employer's name.</data>
+      <data key="d9">attribute,employment</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645964</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="NumberCreditCards">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles records the number of credit cards held by the consumer in the NumberCreditCards column.</data>
+      <data key="d9">attribute,financial</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645965</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="LastName">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles stores the last name of the consumer in the LastName column.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645966</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="AddressLine2">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes AddressLine2 for apartment or suite numbers.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645967</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="MaritalStatus">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles records marital status in the MaritalStatus column.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645968</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="Gender">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes Gender to record consumer gender.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645969</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="Phone">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains the Phone column for consumer phone numbers.</data>
+      <data key="d9">attribute,contact</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645970</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="NumberChildren">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles records the number of children in the consumer's household.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645971</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="Age">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains Age to specify the consumer's age.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645972</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="City">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles includes the City of residence for each consumer.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645973</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="Country">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains the country of residence in the Country column.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645974</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="NumberCars">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles records the number of cars owned by the consumer.</data>
+      <data key="d9">assets,attribute</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645975</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="MiddleInitial">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains the MiddleInitial of each consumer.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645976</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="AddressLine1">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles records the primary address line in AddressLine1.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645977</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Consumer_Profiles" target="PostalCode">
+      <data key="d7">1.0</data>
+      <data key="d8">Consumer_Profiles contains the PostalCode for each consumer's address.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645977</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Gender" target="Prospect">
+      <data key="d7">1.0</data>
+      <data key="d8">Gender is a demographic attribute associated with the Prospect.</data>
+      <data key="d9">demographic information,identity attribute</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645979</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Age" target="Prospect">
+      <data key="d7">1.0</data>
+      <data key="d8">Age identifies the Prospect's age in years.</data>
+      <data key="d9">demographic information,personal data</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645981</data>
+      <data key="d13" />
+    </edge>
+    <edge source="City" target="Prospect">
+      <data key="d7">1.0</data>
+      <data key="d8">City specifies where the Prospect resides.</data>
+      <data key="d9">location,residence</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645982</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Country" target="Prospect">
+      <data key="d7">1.0</data>
+      <data key="d8">Country indicates the nation in which the Prospect resides.</data>
+      <data key="d9">location,residence</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645983</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_gncd">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads uses prospect_gncd as the unique identifier for each prospect.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645972</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_frstnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads contains prospect_frstnm, likely representing the first name.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645973</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_ntwrth">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads includes prospect_ntwrth to indicate each prospect's net worth.</data>
+      <data key="d9">attribute,financial</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645974</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_mplr">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads records the company or associating entity for each prospect in prospect_mplr.</data>
+      <data key="d9">attribute,employment</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645975</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_nmbrcrdtcrds">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads contains prospect_nmbrcrdtcrds for the number of credit cards held.</data>
+      <data key="d9">attribute,financial</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645976</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_lstnm">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads has prospect_lstnm, likely representing the last name.</data>
+      <data key="d9">attribute,identification</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645977</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_ddrssln2">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads includes a potential address field in prospect_ddrssln2.</data>
+      <data key="d9">attribute,location</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645978</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_mrtlstts">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads contains the marital status code in prospect_mrtlstts.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645979</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_gndr">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads records gender of the prospect in prospect_gndr.</data>
+      <data key="d9">attribute,demographic</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645980</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Marketing_Leads" target="prospect_phn">
+      <data key="d7">1.0</data>
+      <data key="d8">Marketing_Leads includes the phone number for each prospect in prospect_phn.</data>
+      <data key="d9">attribute,contact</data>
+      <data key="d10">chunk-9d99fcfa305043f1d3abc4621acb675a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645980</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Marital Status">
+      <data key="d7">1.0</data>
+      <data key="d8">The Marital Status is an identity attribute providing information about the Prospect's relationship status.</data>
+      <data key="d9">identity attribute,personal information</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645978</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Phone Number">
+      <data key="d7">1.0</data>
+      <data key="d8">Phone Number is a contact detail listed for the Prospect.</data>
+      <data key="d9">communication,contact information</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645980</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Number Of Children">
+      <data key="d7">1.0</data>
+      <data key="d8">Number Of Children indicates the family status of the Prospect.</data>
+      <data key="d9">demographic information,family status</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645980</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Number Of Cars">
+      <data key="d7">1.0</data>
+      <data key="d8">Number Of Cars represents a measure of the Prospect's vehicle ownership.</data>
+      <data key="d9">financial status,personal assets</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645984</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="State">
+      <data key="d7">1.0</data>
+      <data key="d8">State further refines the Prospect's location within a country.</data>
+      <data key="d9">location,residence</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645985</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Postal Code">
+      <data key="d7">1.0</data>
+      <data key="d8">Postal Code provides the zip code for the Prospect's place of residence.</data>
+      <data key="d9">location,residence</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645986</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Credit Rating">
+      <data key="d7">1.0</data>
+      <data key="d8">Credit Rating gives information on the Prospect's creditworthiness.</data>
+      <data key="d9">creditworthiness,financial status</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645987</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Prospect" target="Ownership Or Rental Status">
+      <data key="d7">1.0</data>
+      <data key="d8">Ownership Or Rental Status describes whether the Prospect owns or rents their place of residence.</data>
+      <data key="d9">housing status,property information</data>
+      <data key="d10">chunk-21ac7c5b3100d606b6b9a92fc1f4fc4a</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645988</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

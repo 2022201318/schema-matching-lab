@@ -1,0 +1,1712 @@
+[
+  {
+    "col_a": "source1.Biological_Entries.assay_test_type",
+    "col_b": "source2.Lab_Registry.assays_ss_tst_tp",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.src_id",
+    "col_b": "source2.Lab_Registry.assays_src_d",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.cell_id",
+    "col_b": "source2.Lab_Registry.assays_cll_d",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.src_assay_id",
+    "col_b": "source2.Lab_Registry.assays_src_d",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.src_assay_id",
+    "col_b": "source2.Lab_Registry.assays_src_ss_d",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.chembl_id",
+    "col_b": "source2.Lab_Registry.assays_chmbl_d",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.assay_id",
+    "col_b": "source10.Clark.Case_ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source1.Biological_Entries.tid",
+    "col_b": "source16.Satpathy.Experiment",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source9.Cao.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source10.Clark.Case_ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source11.Dou.Country",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source12.Gillette.Experiment",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source13.Huang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source14.Krug.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source15.McDermott.CPTAC Case ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source16.Satpathy.Experiment",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_src_d",
+    "col_b": "source18.Wang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source2.Lab_Registry.assays_ss_tst_tp",
+    "col_b": "source18.Wang.expert_path_review",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.case_id",
+    "col_b": "source10.Clark.Case_ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source10.Clark.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.bmi",
+    "col_b": "source10.Clark.BMI",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source10.Clark.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_site",
+    "col_b": "source10.Clark.Tumor_Site",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_focality",
+    "col_b": "source10.Clark.Tumor_Focality",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_size_cm",
+    "col_b": "source10.Clark.Tumor_Size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.histology_diagnosis",
+    "col_b": "source10.Clark.Histologic_Type",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_stage_pathological",
+    "col_b": "source10.Clark.Tumor_Stage_Pathological",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.pathologic_staging_primary_tumor_pt",
+    "col_b": "source10.Clark.Path_Stage_Primary_Tumor_pT",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.pathologic_staging_regional_lymph_nodes_pn",
+    "col_b": "source10.Clark.Path_Stage_Reg_Lymph_Nodes_pN",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source11.Dou.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source11.Dou.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_size_cm",
+    "col_b": "source11.Dou.Tumor_Size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source12.Gillette.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.sex",
+    "col_b": "source12.Gillette.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source12.Gillette.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.participant_country",
+    "col_b": "source12.Gillette.Country.of.Origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.bmi",
+    "col_b": "source12.Gillette.BMI",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tobacco_smoking_history",
+    "col_b": "source12.Gillette.Smoking.History",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.case_id",
+    "col_b": "source13.Huang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source13.Huang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source13.Huang.country",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_site",
+    "col_b": "source13.Huang.tumor_site_original",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_focality",
+    "col_b": "source13.Huang.tumor_focality",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_size_cm",
+    "col_b": "source13.Huang.tumor_size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_necrosis",
+    "col_b": "source13.Huang.tumor_necrosis",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.case_id",
+    "col_b": "source14.Krug.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.sex",
+    "col_b": "source14.Krug.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source14.Krug.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tumor_stage_pathological",
+    "col_b": "source14.Krug.Tumor.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source15.McDermott.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source16.Satpathy.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.sex",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.participant_country",
+    "col_b": "source16.Satpathy.Country.of.Origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tobacco_smoking_history",
+    "col_b": "source16.Satpathy.Smoking.History",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.sex",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.vital_status",
+    "col_b": "source17.Vasaikar.Vital.Status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.perineural_invasion",
+    "col_b": "source17.Vasaikar.Perineural_Invasion",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.case_id",
+    "col_b": "source18.Wang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.race",
+    "col_b": "source18.Wang.race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.bmi",
+    "col_b": "source18.Wang.bmi",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.participant_country",
+    "col_b": "source18.Wang.country_of_origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.vital_status",
+    "col_b": "source18.Wang.vital_status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.cause_of_death",
+    "col_b": "source18.Wang.cause_of_death",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source9.Cao.tobacco_smoking_history",
+    "col_b": "source18.Wang.smoking_history",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source11.Dou.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source11.Dou.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.BMI",
+    "col_b": "source11.Dou.BMI",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source11.Dou.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Site",
+    "col_b": "source11.Dou.Tumor_Site",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Site_Other",
+    "col_b": "source11.Dou.Tumor_Site_Other",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Size_cm",
+    "col_b": "source11.Dou.Tumor_Size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Focality",
+    "col_b": "source11.Dou.Tumor_Focality",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Histologic_Type",
+    "col_b": "source11.Dou.Histologic_type",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Grade",
+    "col_b": "source11.Dou.Histologic_Grade_FIGO",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Stage_Pathological",
+    "col_b": "source11.Dou.tumor_Stage-Pathological",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Path_Stage_Primary_Tumor_pT",
+    "col_b": "source11.Dou.Path_Stage_Primary_Tumor-pT",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Path_Stage_Reg_Lymph_Nodes_pN",
+    "col_b": "source11.Dou.Path_Stage_Reg_Lymph_Nodes-pN",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Case_ID",
+    "col_b": "source12.Gillette.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source12.Gillette.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source12.Gillette.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.BMI",
+    "col_b": "source12.Gillette.BMI",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Ethnicity_Self_Identify",
+    "col_b": "source12.Gillette.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Case_ID",
+    "col_b": "source13.Huang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source13.Huang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source13.Huang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source13.Huang.country",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Size_cm",
+    "col_b": "source13.Huang.tumor_size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Tumor_Focality",
+    "col_b": "source13.Huang.tumor_focality",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Histologic_Type",
+    "col_b": "source13.Huang.histologic_type",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source14.Krug.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source14.Krug.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Case_ID",
+    "col_b": "source15.McDermott.CPTAC Case ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source15.McDermott.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source15.McDermott.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Grade",
+    "col_b": "source15.McDermott.Tumor Grade",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source16.Satpathy.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Ethnicity_Self_Identify",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Case_ID",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Case_ID",
+    "col_b": "source18.Wang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.BMI",
+    "col_b": "source18.Wang.bmi",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Race",
+    "col_b": "source18.Wang.race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source10.Clark.Ethnicity_Self_Identify",
+    "col_b": "source18.Wang.ethnicity_self_identify",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source12.Gillette.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Ethnicity",
+    "col_b": "source12.Gillette.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Age",
+    "col_b": "source12.Gillette.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.BMI",
+    "col_b": "source12.Gillette.BMI",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Methylation_quality",
+    "col_b": "source12.Gillette.Methylation.QC",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_ImmuneScore",
+    "col_b": "source12.Gillette.ESTIMATE ImmuneScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_StromalScore",
+    "col_b": "source12.Gillette.ESTIMATE StromalScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_ESTIMATEScore",
+    "col_b": "source12.Gillette.ESTIMATEScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Stemness_score",
+    "col_b": "source12.Gillette.mRNA.stemness.index",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source12.Gillette.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Age",
+    "col_b": "source13.Huang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source13.Huang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Country",
+    "col_b": "source13.Huang.country",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Histologic_type",
+    "col_b": "source13.Huang.histologic_type",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Histologic_Grade_FIGO",
+    "col_b": "source13.Huang.histologic_grade",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Tumor_Size_cm",
+    "col_b": "source13.Huang.tumor_size_cm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Path_Stage_Primary_Tumor-pT",
+    "col_b": "source13.Huang.patho_staging_pt",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Path_Stage_Reg_Lymph_Nodes-pN",
+    "col_b": "source13.Huang.patho_staging_pn",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Clin_Stage_Dist_Mets-cM",
+    "col_b": "source13.Huang.clinic_staging_dist_metas",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source13.Huang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Genomics_subtype",
+    "col_b": "source13.Huang.integrated_subtype",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source14.Krug.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Ethnicity",
+    "col_b": "source14.Krug.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source14.Krug.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Tumor_purity",
+    "col_b": "source14.Krug.ESTIMATE.TumorPurity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_StromalScore",
+    "col_b": "source14.Krug.ESTIMATE.Stromal.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Stemness_score",
+    "col_b": "source14.Krug.Stemness.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source15.McDermott.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source15.McDermott.Race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source15.McDermott.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Ethnicity",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Ethnicity",
+    "col_b": "source16.Satpathy.Ethnicity_mod",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Age",
+    "col_b": "source16.Satpathy.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Tumor_purity",
+    "col_b": "source17.Vasaikar.TumorPurity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Path_Stage_Primary_Tumor-pT",
+    "col_b": "source17.Vasaikar.PT",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Path_Stage_Reg_Lymph_Nodes-pN",
+    "col_b": "source17.Vasaikar.PN",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.tumor_Stage-Pathological",
+    "col_b": "source17.Vasaikar.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.MSH6",
+    "col_b": "source17.Vasaikar.MSH6_mutation",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.PMS2",
+    "col_b": "source17.Vasaikar.PMS2_mutation",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_StromalScore",
+    "col_b": "source17.Vasaikar.StromalScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_ImmuneScore",
+    "col_b": "source17.Vasaikar.ImmuneScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.ESTIMATE_ESTIMATEScore",
+    "col_b": "source17.Vasaikar.ESTIMATEScore",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.BMI",
+    "col_b": "source18.Wang.bmi",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Country",
+    "col_b": "source18.Wang.country_of_origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Race",
+    "col_b": "source18.Wang.race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source11.Dou.Ethnicity",
+    "col_b": "source18.Wang.ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Sample.ID",
+    "col_b": "source13.Huang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Age",
+    "col_b": "source13.Huang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source13.Huang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Country.of.Origin",
+    "col_b": "source13.Huang.country",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.History",
+    "col_b": "source13.Huang.smoking_history",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Cigarettes.per.Day",
+    "col_b": "source13.Huang.num_smoke_per_day",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Pack.Years.Smoked",
+    "col_b": "source13.Huang.num_pack_years_sm",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Secondhand.Smoke",
+    "col_b": "source13.Huang.smoking_second_hand",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Stage",
+    "col_b": "source13.Huang.tumor_stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.mRNA.stemness.index",
+    "col_b": "source13.Huang.stemness_score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.ESTIMATE StromalScore",
+    "col_b": "source13.Huang.ESTIMATE_stromal_score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Sample.ID",
+    "col_b": "source14.Krug.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Sample.ID",
+    "col_b": "source14.Krug.Sample.IDs",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Channel",
+    "col_b": "source14.Krug.TMT.Channel",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Stage",
+    "col_b": "source14.Krug.Tumor.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Age",
+    "col_b": "source14.Krug.Age.in.Month",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source14.Krug.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Ethnicity",
+    "col_b": "source14.Krug.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.NMF.cluster.membership",
+    "col_b": "source14.Krug.NMF.Cluster",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Tumor.Purity.byESTIMATE.RNAseq",
+    "col_b": "source14.Krug.ESTIMATE.TumorPurity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.ESTIMATE ImmuneScore",
+    "col_b": "source14.Krug.ESTIMATE.Immune.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.ESTIMATE StromalScore",
+    "col_b": "source14.Krug.ESTIMATE.Stromal.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source15.McDermott.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Ethnicity",
+    "col_b": "source15.McDermott.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Sample.ID",
+    "col_b": "source16.Satpathy.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Participant",
+    "col_b": "source16.Satpathy.Participant",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Experiment",
+    "col_b": "source16.Satpathy.Experiment",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Channel",
+    "col_b": "source16.Satpathy.Channel",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Type",
+    "col_b": "source16.Satpathy.Type",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.History",
+    "col_b": "source16.Satpathy.Smoking.History",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Stage",
+    "col_b": "source16.Satpathy.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Country.of.Origin",
+    "col_b": "source16.Satpathy.Country.of.Origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Age",
+    "col_b": "source16.Satpathy.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Ethnicity",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Cigarettes.per.Day",
+    "col_b": "source16.Satpathy.Cigarettes.per.Day",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Pack.Years.Smoked",
+    "col_b": "source16.Satpathy.Pack.Years.Smoked",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Secondhand.Smoke",
+    "col_b": "source16.Satpathy.Secondhand.Smoke",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.QC.status",
+    "col_b": "source16.Satpathy.QC.status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.TP53.mutation",
+    "col_b": "source16.Satpathy.TP53.mutation",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.KEAP1.mutation",
+    "col_b": "source16.Satpathy.KEAP1.mutation",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.TP53.mutation.status",
+    "col_b": "source16.Satpathy.TP53.mutation.status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.KEAP1.mutation.status",
+    "col_b": "source16.Satpathy.KEAP1.mutation.status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.CIMP.status",
+    "col_b": "source16.Satpathy.CIMP.status.meth",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.Score.WGS",
+    "col_b": "source16.Satpathy.Smoking.score.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.Score.WGS",
+    "col_b": "source16.Satpathy.Smoking.Score.Category.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.Signature.Fraction.WGS",
+    "col_b": "source16.Satpathy.Smoking.Signature.Fraction.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.DNP.GG.to.TT.or.CC.to.AA.Count.WGS",
+    "col_b": "source16.Satpathy.DNP.Count.GG.to.TT.or.CC.to.AA.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Total.Mutation.Count.WGS",
+    "col_b": "source16.Satpathy.Total.Mutation.Count.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Mutation.Count.ExcludingINDELs.WGS",
+    "col_b": "source16.Satpathy.Mutation.Count.ExcludingINDELs.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Sample.ID",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Stage",
+    "col_b": "source17.Vasaikar.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Height.cm",
+    "col_b": "source18.Wang.height",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Weight.kg",
+    "col_b": "source18.Wang.weight",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.BMI",
+    "col_b": "source18.Wang.bmi",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Country.of.Origin",
+    "col_b": "source18.Wang.country_of_origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Ethnicity",
+    "col_b": "source18.Wang.ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source12.Gillette.Smoking.History",
+    "col_b": "source18.Wang.smoking_history",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.case_id",
+    "col_b": "source14.Krug.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.gender",
+    "col_b": "source14.Krug.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.ESTIMATE_immune_score",
+    "col_b": "source14.Krug.ESTIMATE.Immune.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.ESTIMATE_stromal_score",
+    "col_b": "source14.Krug.ESTIMATE.Stromal.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.stemness_score",
+    "col_b": "source14.Krug.Stemness.Score",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.mutation_count",
+    "col_b": "source14.Krug.Number.of.non.synonymous.Mutations",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.chr_instability_idx",
+    "col_b": "source14.Krug.Chromosome.INstability.index.CIN.",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.tumor_stage",
+    "col_b": "source14.Krug.Tumor.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.gender",
+    "col_b": "source15.McDermott.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.age",
+    "col_b": "source16.Satpathy.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.country",
+    "col_b": "source16.Satpathy.Country.of.Origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.smoking_history",
+    "col_b": "source16.Satpathy.Smoking.History",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.num_smoke_per_day",
+    "col_b": "source16.Satpathy.Cigarettes.per.Day",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.num_pack_years_sm",
+    "col_b": "source16.Satpathy.Pack.Years.Smoked",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.smoking_second_hand",
+    "col_b": "source16.Satpathy.Secondhand.Smoke",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.ESTIMATE_stromal_score",
+    "col_b": "source16.Satpathy.ESTIMATE.StromalScore.rna",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.ESTIMATE_immune_score",
+    "col_b": "source16.Satpathy.ESTIMATE.ImmuneScore.rna",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.stemness_score",
+    "col_b": "source16.Satpathy.TSNet.Purity.rna",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.mutation_count",
+    "col_b": "source16.Satpathy.Total.Mutation.Count.wes",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.integrated_subtype",
+    "col_b": "source16.Satpathy.NMF.subtype",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.case_id",
+    "col_b": "source18.Wang.case_id",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.country",
+    "col_b": "source18.Wang.country_of_origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.smoking_history",
+    "col_b": "source18.Wang.smoking_history",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.smoking_second_hand",
+    "col_b": "source18.Wang.secondhand_smoke_exposure",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source13.Huang.tumor_site_curated",
+    "col_b": "source18.Wang.tumor_site_curated",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Age.in.Month",
+    "col_b": "source15.McDermott.Age in Months at Time of Tissue Procurement",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Gender",
+    "col_b": "source15.McDermott.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Ethnicity",
+    "col_b": "source15.McDermott.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Tumor.Stage",
+    "col_b": "source15.McDermott.Tumor Stage (Pathological) Ovary FIGO Staging System",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Ischemia.Time.in.Minutes",
+    "col_b": "source15.McDermott.Ischemia Time for Tumor Tissue",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Sample.ID",
+    "col_b": "source16.Satpathy.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Sample.IDs",
+    "col_b": "source16.Satpathy.Sample.ID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Ethnicity",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Tumor.Stage",
+    "col_b": "source16.Satpathy.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Sample.ID",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Sample.IDs",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Tumor.Stage",
+    "col_b": "source17.Vasaikar.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.ESTIMATE.TumorPurity",
+    "col_b": "source17.Vasaikar.TumorPurity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source14.Krug.Ethnicity",
+    "col_b": "source18.Wang.ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Gender",
+    "col_b": "source16.Satpathy.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Race",
+    "col_b": "source16.Satpathy.Ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Ethnicity",
+    "col_b": "source16.Satpathy.Ethnicity_mod",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Race",
+    "col_b": "source18.Wang.race",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source15.McDermott.Ethnicity",
+    "col_b": "source18.Wang.ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Sample.ID",
+    "col_b": "source17.Vasaikar.SampleID",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Age",
+    "col_b": "source17.Vasaikar.Age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Gender",
+    "col_b": "source17.Vasaikar.Gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Stage",
+    "col_b": "source17.Vasaikar.Stage",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Country.of.Origin",
+    "col_b": "source18.Wang.country_of_origin",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Ethnicity",
+    "col_b": "source18.Wang.ethnicity",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source16.Satpathy.Smoking.History",
+    "col_b": "source18.Wang.smoking_history",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source17.Vasaikar.Age",
+    "col_b": "source18.Wang.age",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source17.Vasaikar.Gender",
+    "col_b": "source18.Wang.gender",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source17.Vasaikar.Vital.Status",
+    "col_b": "source18.Wang.vital_status",
+    "domain": "domain_0"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.musician",
+    "col_b": "source8.Performer_Registry.musicianID",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.birthDate",
+    "col_b": "source8.Performer_Registry.birthDate",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.familyNameLabel",
+    "col_b": "source8.Performer_Registry.familyName",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.givenNameLabel",
+    "col_b": "source8.Performer_Registry.forename",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.numberOfChildren",
+    "col_b": "source8.Performer_Registry.NChildren",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.websiteLabel",
+    "col_b": "source8.Performer_Registry.webpage",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source7.Artist_Encyclopedia.residenceLabel",
+    "col_b": "source8.Performer_Registry.city",
+    "domain": "domain_1"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.FirstName",
+    "col_b": "source6.Marketing_Leads.prospect_frstnm",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.LastName",
+    "col_b": "source6.Marketing_Leads.prospect_lstnm",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.NetWorth",
+    "col_b": "source6.Marketing_Leads.prospect_ntwrth",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.Employer",
+    "col_b": "source6.Marketing_Leads.prospect_mplr",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.NumberCreditCards",
+    "col_b": "source6.Marketing_Leads.prospect_nmbrcrdtcrds",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.MaritalStatus",
+    "col_b": "source6.Marketing_Leads.prospect_mrtlstts",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.Gender",
+    "col_b": "source6.Marketing_Leads.prospect_gndr",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.Phone",
+    "col_b": "source6.Marketing_Leads.prospect_phn",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.NumberChildren",
+    "col_b": "source6.Marketing_Leads.prospect_nmbrchldrn",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.Age",
+    "col_b": "source6.Marketing_Leads.prospect_g",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.City",
+    "col_b": "source6.Marketing_Leads.prospect_ct",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.Country",
+    "col_b": "source6.Marketing_Leads.prospect_cntr",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.NumberCars",
+    "col_b": "source6.Marketing_Leads.prospect_nmbrcrs",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source5.Consumer_Profiles.PostalCode",
+    "col_b": "source6.Marketing_Leads.prospect_ncm",
+    "domain": "domain_2"
+  },
+  {
+    "col_a": "source3.Project_Registry.Fiscal year",
+    "col_b": "source4.Accounting_Snapshot.miller2_fsclr",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Programming process (new)",
+    "col_b": "source4.Accounting_Snapshot.miller2_prgrmmngprcss(nw)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Status",
+    "col_b": "source4.Accounting_Snapshot.miller2_stts",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Sector name",
+    "col_b": "source4.Accounting_Snapshot.miller2_sctrnm",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Project number",
+    "col_b": "source4.Accounting_Snapshot.miller2_prjctnmbr",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Desertification (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_dsrtfctn(mrkr)]:",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Bilateral aid (international marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_bltrld(ntrntnlmrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Division name",
+    "col_b": "source4.Accounting_Snapshot.miller2_dvsnnm",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Amount spent",
+    "col_b": "source4.Accounting_Snapshot.miller2_mntspnt",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Sector percent",
+    "col_b": "source4.Accounting_Snapshot.miller2_sctrprcnt",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Section name",
+    "col_b": "source4.Accounting_Snapshot.miller2_sctnnm",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Project Browser country ID",
+    "col_b": "source4.Accounting_Snapshot.miller2_prjctbrwsrcntrd",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Continent name",
+    "col_b": "source4.Accounting_Snapshot.miller2_cntnntnm",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.CountryRegion name",
+    "col_b": "source4.Accounting_Snapshot.miller2_cntrrgnnm",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Section ID",
+    "col_b": "source4.Accounting_Snapshot.miller2_sctnd",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Indigenous issues (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_ndgnssss(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Sector ID",
+    "col_b": "source4.Accounting_Snapshot.miller2_sctrd",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Branch ID",
+    "col_b": "source4.Accounting_Snapshot.miller2_brnchd",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.CIDA business delivery model (old)",
+    "col_b": "source4.Accounting_Snapshot.miller2_cdbsnssdlvrmdl(ld)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Children issues (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_chldrnsss(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Disability issues (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_dsbltsss(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Biodiversity (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_bdvrst(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.CountryRegion percent",
+    "col_b": "source4.Accounting_Snapshot.miller2_cntrrgnprcnt",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Untied amount(Project-level budget)",
+    "col_b": "source4.Accounting_Snapshot.miller2_ntdmnt(prjct-lvlbdgt)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.CFLI (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_cfl(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Regional program (marker)",
+    "col_b": "source4.Accounting_Snapshot.miller2_rgnlprgrm(mrkr)",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.FSTC percent",
+    "col_b": "source4.Accounting_Snapshot.miller2_fstcprcnt",
+    "domain": "domain_3"
+  },
+  {
+    "col_a": "source3.Project_Registry.Participatory development and good governance",
+    "col_b": "source4.Accounting_Snapshot.miller2_prtcptrdvlpmntndgdgvrnnc",
+    "domain": "domain_3"
+  }
+]

@@ -1,0 +1,2382 @@
+{
+  "doc-dd03a1834f780ed3ce2eb08efcbfa179": {
+    "relation_pairs": [
+      [
+        "Age",
+        "Table Source10.Clark"
+      ],
+      [
+        "AKT1 Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "Alcohol Consumption",
+        "Number Years Alcohol Consumed"
+      ],
+      [
+        "PTEN Mutation",
+        "PTEN Mutation Status"
+      ],
+      [
+        "QC Status",
+        "Tumor Purity by ESTIMATE RNAseq"
+      ],
+      [
+        "Gender",
+        "QC Status"
+      ],
+      [
+        "Table Source10.Clark",
+        "Tumor Focality"
+      ],
+      [
+        "Participant",
+        "Region of Origin"
+      ],
+      [
+        "PI3K_PIK3CA",
+        "PI3K_pathway"
+      ],
+      [
+        "TP53",
+        "TP53 Pathway Activation"
+      ],
+      [
+        "Lab Assay",
+        "NAC Gd"
+      ],
+      [
+        "Smoking Score WES",
+        "Smoking Signature Count WES"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_CD4_naive"
+      ],
+      [
+        "Histologic Type",
+        "Patient"
+      ],
+      [
+        "Tumor_Focality",
+        "Tumor_Site"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics Tumor Normal"
+      ],
+      [
+        "CD3 TILS Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "Diabetes Mellitus Type II",
+        "Medical Condition"
+      ],
+      [
+        "CDKN2A Mutation",
+        "CDKN2A Mutation Status"
+      ],
+      [
+        "Participant",
+        "Sample ID"
+      ],
+      [
+        "Format Type",
+        "Lab Registry Table"
+      ],
+      [
+        "Histologic Type",
+        "Table Source10.Clark"
+      ],
+      [
+        "KEAP1 Mutation",
+        "QC Status"
+      ],
+      [
+        "ESTIMATE ImmuneScore",
+        "QC Status"
+      ],
+      [
+        "Assay",
+        "Biological Entries Table"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_C>T"
+      ],
+      [
+        "Demographic Details",
+        "United States"
+      ],
+      [
+        "PI3K",
+        "PI3K_MTOR"
+      ],
+      [
+        "Assay",
+        "Assay Description"
+      ],
+      [
+        "MLLT4 Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "MAPK Signaling Pathway",
+        "Pathway Activity MAPK"
+      ],
+      [
+        "PI3K",
+        "PI3K_DEPDC5"
+      ],
+      [
+        "Assay Description",
+        "Lab Registry Table"
+      ],
+      [
+        "Path Stage Reg Lymph Nodes",
+        "Table Source10.Clark"
+      ],
+      [
+        "Huang.csv Table",
+        "Methylation QC"
+      ],
+      [
+        "PI3K_PPP2R1A",
+        "PI3K_pathway"
+      ],
+      [
+        "Cancer Genomics",
+        "RB1 Mutation"
+      ],
+      [
+        "McDermott Csv Table",
+        "xCell Stromal Score"
+      ],
+      [
+        "PI3K",
+        "PI3K_AKT3"
+      ],
+      [
+        "Tumor Size Centimeters",
+        "Tumor Stage"
+      ],
+      [
+        "BAO_0000218",
+        "CHEMBL618648"
+      ],
+      [
+        "ESTIMATE.StromalScore.rna",
+        "ESTIMATE.TumorPurity.rna"
+      ],
+      [
+        "Cao.csv",
+        "Case Identifier"
+      ],
+      [
+        "Histologic Type",
+        "Tumor Pathology Review"
+      ],
+      [
+        "QC Status",
+        "mRNA Expression Subtype TCGA"
+      ],
+      [
+        "McDermott Csv Table",
+        "TP53 Mutation Type"
+      ],
+      [
+        "CCND1_amp",
+        "CDKN2A Pathway Alteration"
+      ],
+      [
+        "Smoking History",
+        "Smoking Score WGS"
+      ],
+      [
+        "Gender",
+        "Table Source10.Clark"
+      ],
+      [
+        "Table Source10.Clark",
+        "Tumor Site"
+      ],
+      [
+        "PIK3CA Pathway Alteration",
+        "PIK3CA Pathway Alteration Status"
+      ],
+      [
+        "Ethnicity Self Identify",
+        "Patient"
+      ],
+      [
+        "CUL3 NFE2L2 KEAP1 Mutation Status",
+        "NFE2L2 Mutation Status"
+      ],
+      [
+        "Path Stage Primary Tumor",
+        "Table Source10.Clark"
+      ],
+      [
+        "PI3K",
+        "PI3K_MAPKAP1"
+      ],
+      [
+        "ARID1A Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "Genomics_Subtype",
+        "Log2_INDEL_Total"
+      ],
+      [
+        "ESTIMATE.ImmuneScore.rna",
+        "ESTIMATE.StromalScore.rna"
+      ],
+      [
+        "PI3K",
+        "PI3K_PIK3R2"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics OCT"
+      ],
+      [
+        "RPS6KA3",
+        "TP53"
+      ],
+      [
+        "Assay Type",
+        "Binding Assay"
+      ],
+      [
+        "PI3K",
+        "PI3K_PIK3CA"
+      ],
+      [
+        "ESTIMATE ESTIMATEScore",
+        "ESTIMATE StromalScore"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_Endothelial"
+      ],
+      [
+        "Ethnicity Self Identify",
+        "Table Source10.Clark"
+      ],
+      [
+        "1321NI Cell",
+        "Assay"
+      ],
+      [
+        "Path Stage Primary Tumor pT",
+        "Patient"
+      ],
+      [
+        "Table Source16.Satpathy",
+        "Type"
+      ],
+      [
+        "PI3K",
+        "PI3K_RICTOR"
+      ],
+      [
+        "CIMP Status Meth",
+        "CIMP-Intermediate"
+      ],
+      [
+        "CDKN2A Pathway Alteration",
+        "CDKN2A Pathway Alteration Status"
+      ],
+      [
+        "McDermott Csv Table",
+        "PTEN Mutation Status"
+      ],
+      [
+        "Basal Inclusive",
+        "NMF Subtype"
+      ],
+      [
+        "Dominant Signature WGS Not Smoking 50perc",
+        "QC Status"
+      ],
+      [
+        "xCell.MicroenvironmentScore.rna",
+        "xCell.StromaScore.rna"
+      ],
+      [
+        "CUL3 Mutation Status",
+        "CUL3 NFE2L2 KEAP1 Mutation Status"
+      ],
+      [
+        "Stage",
+        "Stage Modified"
+      ],
+      [
+        "McDermott Csv Table",
+        "Tumor Analyzed"
+      ],
+      [
+        "WGS_Tumor_Sample_Type",
+        "WGS_Tumor_UUID"
+      ],
+      [
+        "Assay Organism",
+        "Bos taurus"
+      ],
+      [
+        "BRAF Mutation",
+        "Cancer Genomics"
+      ],
+      [
+        "Patient",
+        "Tumor Size (cm)"
+      ],
+      [
+        "Smoking History",
+        "Smoking History Modified"
+      ],
+      [
+        "Tumor_Site",
+        "Tumor_Site_Other"
+      ],
+      [
+        "MDM4",
+        "TP53"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics Aliquot ID"
+      ],
+      [
+        "Classical SqCC",
+        "Pathology Based Histology Assessment"
+      ],
+      [
+        "2 Hours",
+        "NAC Gd 0.01 M"
+      ],
+      [
+        "Cancer Genomics",
+        "KEAP1 Mutation"
+      ],
+      [
+        "Pack Years Smoked",
+        "Smoking History"
+      ],
+      [
+        "BAO_0000218",
+        "CHEMBL618647"
+      ],
+      [
+        "QC Status",
+        "Weight (kg)"
+      ],
+      [
+        "CHEMBL618647",
+        "Rattus Norvegicus"
+      ],
+      [
+        "NMF Consensus",
+        "QC Status"
+      ],
+      [
+        "Body Mass Index",
+        "Patient"
+      ],
+      [
+        "Mutation Count",
+        "Neoantigen Count"
+      ],
+      [
+        "PI3K_TSC1",
+        "PI3K_pathway"
+      ],
+      [
+        "Cancer Genomics",
+        "KRAS Mutation"
+      ],
+      [
+        "Autocuration",
+        "Curator"
+      ],
+      [
+        "MLH1",
+        "MLH1_Promoter_Hypermethylation"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_C>G"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_follicular_helper"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics Participant ID"
+      ],
+      [
+        "Body Mass Index",
+        "Table Source10.Clark"
+      ],
+      [
+        "QC Status",
+        "mRNA Stemness Index"
+      ],
+      [
+        "Dou.csv",
+        "Myometrial Invasion Specify"
+      ],
+      [
+        "KRAS Mutation",
+        "QC Status"
+      ],
+      [
+        "Cancer Genomics",
+        "STK11 Mutation"
+      ],
+      [
+        "Country of Origin",
+        "Participant"
+      ],
+      [
+        "McDermott Csv Table",
+        "Stemness Score"
+      ],
+      [
+        "Smoking.History",
+        "Smoking.History_modified"
+      ],
+      [
+        "Path Stage Regional Lymph Nodes pN",
+        "Patient"
+      ],
+      [
+        "Case Excluded",
+        "Dou.csv"
+      ],
+      [
+        "ESTIMATE ESTIMATEScore",
+        "ESTIMATE ImmuneScore"
+      ],
+      [
+        "KEAP1 Mutation",
+        "Missense_Mutation"
+      ],
+      [
+        "McDermott Csv Table",
+        "PTEN Mutation Type"
+      ],
+      [
+        "Pancreatic Tumor Site",
+        "Tumor Characteristics"
+      ],
+      [
+        "Chemical Identifier",
+        "Lab Registry Table"
+      ],
+      [
+        "Dou.csv",
+        "Endometrial Cancer"
+      ],
+      [
+        "Patient",
+        "Tumor Focality"
+      ],
+      [
+        "MLH2",
+        "PMS2"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_CD8"
+      ],
+      [
+        "NFE2L2 Mutation",
+        "NFE2L2 Mutation Status"
+      ],
+      [
+        "FIGO System",
+        "Tumor_Stage-Pathological"
+      ],
+      [
+        "ESTIMATE.ImmuneScore.rna",
+        "ESTIMATE.TumorPurity.rna"
+      ],
+      [
+        "Biological Entries Table",
+        "In Vitro Assay"
+      ],
+      [
+        "Smoking.History",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "CIBERSORT Absolute Score",
+        "CIBERSORT Algorithm"
+      ],
+      [
+        "JAK1",
+        "JAK1_Mutation"
+      ],
+      [
+        "Dou.csv",
+        "Tumor Purity"
+      ],
+      [
+        "Cancer Genomics",
+        "TP53 Mutation"
+      ],
+      [
+        "CHEMBL618647",
+        "ChEMBL Database"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_NKcells"
+      ],
+      [
+        "KMT2C Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "Pathway Activity TNFa",
+        "TNF-alpha Signaling Pathway"
+      ],
+      [
+        "Pack Years Smoked",
+        "QC Status"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Macrophages_M0"
+      ],
+      [
+        "CPTAC Case ID",
+        "McDermott Csv Table"
+      ],
+      [
+        "Channel",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "CHEK2",
+        "TP53"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_NK_cells_activated"
+      ],
+      [
+        "MLH1",
+        "p53"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics TMT Batch"
+      ],
+      [
+        "PI3K",
+        "PI3K_PTEN"
+      ],
+      [
+        "McDermott Csv Table",
+        "Ovarian Cancer"
+      ],
+      [
+        "PI3K",
+        "PI3K_PDK1"
+      ],
+      [
+        "Huang.csv Table",
+        "Smoking History"
+      ],
+      [
+        "MAP3K1 Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "McDermott Csv Table",
+        "Number Of Non Synonymous Mutations"
+      ],
+      [
+        "CHEMBL618649",
+        "ChEMBL Database"
+      ],
+      [
+        "FIGO System",
+        "Path_Stage_Reg_Lymph_Nodes-pN"
+      ],
+      [
+        "BRCA2",
+        "HRD_BRCA1_or_BRCA2"
+      ],
+      [
+        "McDermott Csv Table",
+        "Score"
+      ],
+      [
+        "NMF Cluster Membership",
+        "NMF Consensus"
+      ],
+      [
+        "PI3K Signaling Pathway",
+        "Pathway Activity PI3K"
+      ],
+      [
+        "Mutation Count Excluding INDELs WES",
+        "Total Mutation Count WES"
+      ],
+      [
+        "Ethnicity",
+        "QC Status"
+      ],
+      [
+        "Genomics_Subtype",
+        "Log2_SNP_Total"
+      ],
+      [
+        "Basal",
+        "TCGA RNA Cluster"
+      ],
+      [
+        "CIBERSORT Algorithm",
+        "CIBERSORT Neutrophils"
+      ],
+      [
+        "Classical",
+        "NMF Subtype"
+      ],
+      [
+        "MAP3K1 Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "Classical",
+        "TCGA RNA Cluster"
+      ],
+      [
+        "QC Status",
+        "TSNet Purity"
+      ],
+      [
+        "ARID1A Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "BRAF Mutation",
+        "QC Status"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_T>C"
+      ],
+      [
+        "Histologic Grade",
+        "Tumor Stage"
+      ],
+      [
+        "Cao.csv",
+        "PDAC (Pancreatic Ductal Adenocarcinoma)"
+      ],
+      [
+        "McDermott Csv Table",
+        "SF3B1 Mutation Status"
+      ],
+      [
+        "Patient",
+        "Tumor Site"
+      ],
+      [
+        "Height (cm)",
+        "QC Status"
+      ],
+      [
+        "Cao.csv",
+        "Clinical Staging"
+      ],
+      [
+        "Ethnicity",
+        "Ethnicity Modified"
+      ],
+      [
+        "CBFB Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "EGFR Signaling Pathway",
+        "Pathway Activity EGFR"
+      ],
+      [
+        "BMI",
+        "QC Status"
+      ],
+      [
+        "Dou.csv",
+        "Histologic Grade FIGO"
+      ],
+      [
+        "CD3 TILS Counts",
+        "McDermott Csv Table"
+      ],
+      [
+        "AKT3",
+        "PI3K Signaling Pathway"
+      ],
+      [
+        "PI3K Pathway",
+        "PI3K_pathway"
+      ],
+      [
+        "MLLT4 Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "QC Status",
+        "TP53 Mutation"
+      ],
+      [
+        "Cao.csv",
+        "Tumor Characteristics"
+      ],
+      [
+        "Grade",
+        "Patient"
+      ],
+      [
+        "Gillette.csv",
+        "Table Source12.Gillette"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics TMT Channel"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Macrophages_M2"
+      ],
+      [
+        "Clinical Stage Distant Metastasis-cM",
+        "Dou.csv"
+      ],
+      [
+        "Case Id",
+        "Table Source10.Clark"
+      ],
+      [
+        "NMF Subtype",
+        "NMF Subtype Core"
+      ],
+      [
+        "Grade",
+        "Table Source10.Clark"
+      ],
+      [
+        "Table Source10.Clark",
+        "Tumor Size Cm"
+      ],
+      [
+        "KMT2D Mutation",
+        "KMT2D Mutation Status"
+      ],
+      [
+        "QC Status",
+        "QC.Pass"
+      ],
+      [
+        "GATA3 Mutation Status",
+        "McDermott Csv Table"
+      ],
+      [
+        "Pathway Activity Trail",
+        "Trail Pathway"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Plasma_cells"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_T>G"
+      ],
+      [
+        "AKT1 Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "A2 Adenosine Receptor",
+        "Bovine Striatal Membrane"
+      ],
+      [
+        "Biological Entries Table",
+        "In Vivo Assay"
+      ],
+      [
+        "PI3K_STK11",
+        "PI3K_pathway"
+      ],
+      [
+        "Lab Assay",
+        "Lab Registry Table"
+      ],
+      [
+        "Tumor_Site",
+        "Tumor_Size_cm"
+      ],
+      [
+        "Hypoxia Signaling Pathway",
+        "Pathway Activity Hypoxia"
+      ],
+      [
+        "EGFR Mutation",
+        "QC Status"
+      ],
+      [
+        "Designation Code Identifier",
+        "Lab Registry Table"
+      ],
+      [
+        "McDermott Csv Table",
+        "TP53 Mutation Status"
+      ],
+      [
+        "PI3K",
+        "PI3K_AKT2"
+      ],
+      [
+        "ESTIMATE Score",
+        "QC Status"
+      ],
+      [
+        "Additional Pathologic Findings",
+        "Pancreatic Intraepithelial Neoplasia"
+      ],
+      [
+        "PI3K",
+        "PI3K_PIK3R1"
+      ],
+      [
+        "ImmuneCluster.rna",
+        "TCGA Pan-Can Immune Clustering"
+      ],
+      [
+        "ATM",
+        "TP53"
+      ],
+      [
+        "Smoking History",
+        "Smoking Signature Fraction WGS"
+      ],
+      [
+        "Clin_Stage_Dist_Mets-cM",
+        "Path_Stage_Dist_Mets-pM"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_CD4_memory_resting"
+      ],
+      [
+        "Secondhand Smoke",
+        "Smoking History"
+      ],
+      [
+        "QC Status",
+        "RB1 Mutation"
+      ],
+      [
+        "Cao.csv",
+        "Residual Tumor"
+      ],
+      [
+        "mRNA Expression Subtype TCGA",
+        "mRNA Stemness Index"
+      ],
+      [
+        "Confidence Score",
+        "Lab Registry Table"
+      ],
+      [
+        "Dou.csv",
+        "Path Stage Reg Lymph Nodes-pN FIGO"
+      ],
+      [
+        "K_TSC2",
+        "TSC2"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics TMT Plex"
+      ],
+      [
+        "Classical",
+        "NMF Subtype Core"
+      ],
+      [
+        "EPIC_Bcells",
+        "EPIC_CAFs"
+      ],
+      [
+        "Lab Registry Table",
+        "Sample Designation Identifier"
+      ],
+      [
+        "Cao.csv",
+        "Demographic Details"
+      ],
+      [
+        "WXS_Tumor_Sample_Type",
+        "WXS_Tumor_UUID"
+      ],
+      [
+        "NF-kB Signaling Pathway",
+        "Pathway Activity NFkB"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_otherCells"
+      ],
+      [
+        "NAC Gd 0.01 M",
+        "Normal Rat Kidney"
+      ],
+      [
+        "PI3K_RPS6KB1",
+        "PI3K_pathway"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Macrophages_M1"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_C>A"
+      ],
+      [
+        "ESTIMATE Immune Score",
+        "ESTIMATE Stromal Score"
+      ],
+      [
+        "TP53 Mutation",
+        "TP53 Mutation Status"
+      ],
+      [
+        "Table Source10.Clark",
+        "Tumor/Normal Status"
+      ],
+      [
+        "Smoking.Score.Category.wes",
+        "Smoking.score.wes"
+      ],
+      [
+        "PI3K",
+        "PI3K_RHEB"
+      ],
+      [
+        "MSH6",
+        "PMS2"
+      ],
+      [
+        "JAK-STAT Signaling Pathway",
+        "Pathway Activity JAK-STAT"
+      ],
+      [
+        "CHEMBL618648",
+        "ChEMBL Database"
+      ],
+      [
+        "ESTIMATE.TumorPurity.rna",
+        "TSNet.Purity.rna"
+      ],
+      [
+        "MLH2",
+        "MSH6"
+      ],
+      [
+        "Binding Affinity",
+        "Biological Entries Table"
+      ],
+      [
+        "Assay Organism",
+        "Biological Entries Table"
+      ],
+      [
+        "CHEMBL618649",
+        "Rattus Norvegicus"
+      ],
+      [
+        "Cigarettes Per Day",
+        "Smoking History"
+      ],
+      [
+        "Cancer Genomics",
+        "EGFR Mutation"
+      ],
+      [
+        "Pathologic Staging",
+        "Pathologic Staging Regional Lymph Nodes pN"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Monocytes"
+      ],
+      [
+        "Canada",
+        "Demographic Details"
+      ],
+      [
+        "Dou.csv",
+        "Idx"
+      ],
+      [
+        "Height Cm",
+        "Participant"
+      ],
+      [
+        "Pathologic Staging",
+        "Pathologic Staging Distant Metastasis pM"
+      ],
+      [
+        "Cancer Immunotherapy",
+        "Neoantigen_Count"
+      ],
+      [
+        "Race",
+        "Table Source10.Clark"
+      ],
+      [
+        "APOBEC Signature",
+        "McDermott Csv Table"
+      ],
+      [
+        "McDermott Csv Table",
+        "PIK3CA Mutation Status"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Mast_cells_resting"
+      ],
+      [
+        "MD SqCC With Focal Basaloid Features",
+        "Pathology Based Histology Assessment"
+      ],
+      [
+        "xCell.ImmuneScore.rna",
+        "xCell.MicroenvironmentScore.rna"
+      ],
+      [
+        "ALK",
+        "ALK-Fusion"
+      ],
+      [
+        "GATA3 Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "QC Status",
+        "Smoking Signature Fraction WGS"
+      ],
+      [
+        "Dou.csv",
+        "Histologic Type (Endometrial)"
+      ],
+      [
+        "Ethnicity",
+        "Participant"
+      ],
+      [
+        "Satpathy.csv Table",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "Missense_Mutation",
+        "TP53 Mutation"
+      ],
+      [
+        "PI3K",
+        "PI3K_TSC1"
+      ],
+      [
+        "ESTIMATE ImmuneScore",
+        "ESTIMATE Score"
+      ],
+      [
+        "PI3K",
+        "PI3K_PPP2R1A"
+      ],
+      [
+        "Perineural Invasion",
+        "Tumor Characteristics"
+      ],
+      [
+        "ESTIMATE Score",
+        "Tumor Purity by ESTIMATE RNAseq"
+      ],
+      [
+        "WXS_Normal_Sample_Type",
+        "WXS_Normal_UUID"
+      ],
+      [
+        "Patient",
+        "Race"
+      ],
+      [
+        "PI3K",
+        "PI3K_RPS6KB1"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_Macrophages"
+      ],
+      [
+        "CUL3 NFE2L2 KEAP1 Mutation Status",
+        "KEAP1 Mutation Status"
+      ],
+      [
+        "Krug.csv",
+        "Table Source14.Krug"
+      ],
+      [
+        "QC Status",
+        "Secondhand Smoke"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_CD4_Tcells"
+      ],
+      [
+        "Chromosome Instability Index CIN",
+        "McDermott Csv Table"
+      ],
+      [
+        "PI3K",
+        "PI3K_PIK3CB"
+      ],
+      [
+        "K_TSC2",
+        "PI3K Pathway"
+      ],
+      [
+        "PI3K",
+        "PI3K_INPP4B"
+      ],
+      [
+        "CPTAC Case ID",
+        "Normal FT Analyzed"
+      ],
+      [
+        "Cigarettes Per Day",
+        "QC Status"
+      ],
+      [
+        "CIMP Status",
+        "Tumor Purity by ESTIMATE RNAseq"
+      ],
+      [
+        "Basal",
+        "NMF Subtype"
+      ],
+      [
+        "McDermott Csv Table",
+        "SF3B1 Mutation Type"
+      ],
+      [
+        "PIK3CA Pathway Alteration",
+        "PIK3CA_amp"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_CD4_memory_activated"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Mast_cells_activated"
+      ],
+      [
+        "QC Status",
+        "STK11 Mutation"
+      ],
+      [
+        "QC Status",
+        "Smoking History"
+      ],
+      [
+        "JAK1",
+        "JAK1_MS_INDEL"
+      ],
+      [
+        "Assay Type",
+        "Biological Entries Table"
+      ],
+      [
+        "Gender",
+        "Natural Sample"
+      ],
+      [
+        "Progesterone_Receptor",
+        "Progesterone_Receptor_%"
+      ],
+      [
+        "PI3K",
+        "PI3K_MLST8"
+      ],
+      [
+        "Case ID",
+        "Huang.csv Table"
+      ],
+      [
+        "TP53",
+        "TP53 Pathway"
+      ],
+      [
+        "ESTIMATE Score",
+        "ESTIMATE StromalScore"
+      ],
+      [
+        "Participant",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "PI3K",
+        "PI3K_NPRL2"
+      ],
+      [
+        "NMF Cluster Membership",
+        "QC Status"
+      ],
+      [
+        "Dominant Signature Fraction WGS Not Smoking",
+        "QC Status"
+      ],
+      [
+        "143B Cell",
+        "Assay Cell Type"
+      ],
+      [
+        "Pathologic Staging",
+        "Pathologic Staging Primary Tumor pT"
+      ],
+      [
+        "Dou.csv",
+        "Treatment Naive"
+      ],
+      [
+        "PI3K",
+        "PI3K_TSC2"
+      ],
+      [
+        "Dominant Signature Fraction WGS Not Smoking",
+        "Dominant Signature WGS Not Smoking 50perc"
+      ],
+      [
+        "Pathway Activity p53",
+        "p53 Pathway"
+      ],
+      [
+        "WXS_Tumor_Filename",
+        "WXS_Tumor_Sample_Type"
+      ],
+      [
+        "BAO_0000218",
+        "CHEMBL618649"
+      ],
+      [
+        "Any Other Data Field",
+        "QC Status"
+      ],
+      [
+        "Additional Pathologic Findings",
+        "Gastric GIST"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_NK_cells_resting"
+      ],
+      [
+        "Biological Entries Table",
+        "Curator"
+      ],
+      [
+        "Alcohol Consumption",
+        "Huang.csv Table"
+      ],
+      [
+        "CHEMBL618648",
+        "Rattus Norvegicus"
+      ],
+      [
+        "CPTAC Case ID",
+        "Tumor Analyzed"
+      ],
+      [
+        "PI3K",
+        "PI3K_NPRL3"
+      ],
+      [
+        "PI3K_TSC2",
+        "PI3K_pathway"
+      ],
+      [
+        "Gillette.csv",
+        "Smoking Status"
+      ],
+      [
+        "Participant",
+        "Sample.ID"
+      ],
+      [
+        "Country",
+        "United States"
+      ],
+      [
+        "Cao.csv",
+        "Pathologic Staging"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Eosinophils"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Neutrophils"
+      ],
+      [
+        "McDermott Csv Table",
+        "PIK3CA Mutation Type"
+      ],
+      [
+        "TSNet Purity",
+        "Tumor Purity by ESTIMATE RNAseq"
+      ],
+      [
+        "PI3K",
+        "PI3K_DEPTOR"
+      ],
+      [
+        "BRCA1",
+        "HRD_BRCA1_or_BRCA2"
+      ],
+      [
+        "BRCA1",
+        "HRD_BRCA1"
+      ],
+      [
+        "Country",
+        "Dou.csv"
+      ],
+      [
+        "CPTAC Case ID",
+        "CPTAC Database"
+      ],
+      [
+        "Lymph Vascular Invasion",
+        "Tumor Characteristics"
+      ],
+      [
+        "Assay",
+        "Sample"
+      ],
+      [
+        "Country Of Origin",
+        "Natural Sample"
+      ],
+      [
+        "EPIC Analysis",
+        "EPIC_CD8_Tcells"
+      ],
+      [
+        "CBFB Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "CUL3 Mutation",
+        "CUL3 Mutation Status"
+      ],
+      [
+        "Country",
+        "Huang.csv Table"
+      ],
+      [
+        "CIBERSORT.AbsoluteScore.rna",
+        "RNA expression"
+      ],
+      [
+        "Gillette.csv",
+        "Sample ID"
+      ],
+      [
+        "PI3K_PTEN",
+        "PI3K_pathway"
+      ],
+      [
+        "Participant",
+        "Stage"
+      ],
+      [
+        "WGS_Normal_Sample_Type",
+        "WGS_Normal_UUID"
+      ],
+      [
+        "Age",
+        "Participant"
+      ],
+      [
+        "CIMP Status",
+        "QC Status"
+      ],
+      [
+        "WXS_Normal_Filename",
+        "WXS_Normal_Sample_Type"
+      ],
+      [
+        "Genomics_Subtype",
+        "Mutation_Signature_T>A"
+      ],
+      [
+        "Biological Entries Table",
+        "Chemical Identifier"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_B_cells_memory"
+      ],
+      [
+        "Pathway Activity TGFb",
+        "TGF-beta Signaling Pathway"
+      ],
+      [
+        "Dou.csv",
+        "Proteomics Parent Sample IDs"
+      ],
+      [
+        "ALK-Fusion",
+        "Putative Driver Mutation"
+      ],
+      [
+        "Smoking Score WES",
+        "Smoking Signature Fraction WES"
+      ],
+      [
+        "Dominant Histological Subtype",
+        "Huang.csv Table"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Dendritic_cells_resting"
+      ],
+      [
+        "PI3K",
+        "PI3K_RPS6"
+      ],
+      [
+        "AKT2",
+        "PI3K Signaling Pathway"
+      ],
+      [
+        "Clinical Data",
+        "Krug.csv"
+      ],
+      [
+        "Experiment",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "Gillette.csv",
+        "Participant"
+      ],
+      [
+        "MLH1",
+        "MLH2"
+      ],
+      [
+        "Age",
+        "QC Status"
+      ],
+      [
+        "Clinical Data",
+        "Table Source14.Krug"
+      ],
+      [
+        "Pack-Years Smoked",
+        "Smoking History"
+      ],
+      [
+        "Mutation.Count.Excluding.Silent.wes",
+        "Total.Mutation.Count.per.Mb.wes"
+      ],
+      [
+        "2 Hours",
+        "Normal Rat Kidney"
+      ],
+      [
+        "Gender",
+        "Tumor Sample"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_B_cells_naive"
+      ],
+      [
+        "NMF Subtype",
+        "NMF Subtype Membership Score"
+      ],
+      [
+        "PI3K",
+        "PI3K_pathway"
+      ],
+      [
+        "Tumor Site Curated",
+        "Tumor Site Original"
+      ],
+      [
+        "KMT2C Mutation Type",
+        "McDermott Csv Table"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_regulatory_Tregs"
+      ],
+      [
+        "RNAseq_R1_Filename",
+        "RNAseq_R1_Sample_Type"
+      ],
+      [
+        "DNP GG to TT or CC to AA Count WGS",
+        "QC Status"
+      ],
+      [
+        "Creation Batch",
+        "Lab Registry Table"
+      ],
+      [
+        "CIMP Status Meth",
+        "CIMP-High"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_T_cells_gamma_delta"
+      ],
+      [
+        "Cao.csv",
+        "Pancreatic Cancer Studies"
+      ],
+      [
+        "MLH1",
+        "MSH6"
+      ],
+      [
+        "PI3K",
+        "PI3K_RPTOR"
+      ],
+      [
+        "PI3K_RPTOR",
+        "PI3K_pathway"
+      ],
+      [
+        "Sample.ID",
+        "Table Source16.Satpathy"
+      ],
+      [
+        "xCell.ImmuneScore.rna",
+        "xCell.StromaScore.rna"
+      ],
+      [
+        "CIBERSORT Algorithm",
+        "CIBERSORT Eosinophils"
+      ],
+      [
+        "Estrogen_Receptor",
+        "Estrogen_Receptor_%"
+      ],
+      [
+        "ESTIMATE StromalScore",
+        "QC Status"
+      ],
+      [
+        "QC Status",
+        "Smoking Score WGS"
+      ],
+      [
+        "Biological Entries Table",
+        "ChEMBL"
+      ],
+      [
+        "Genomic Data",
+        "Krug.csv"
+      ],
+      [
+        "Patient",
+        "Tumor Stage Pathological"
+      ],
+      [
+        "Dou.csv",
+        "Path Stage Primary Tumor-pT FIGO"
+      ],
+      [
+        "FIGO System",
+        "FIGO_Stage"
+      ],
+      [
+        "Genomic Data",
+        "Table Source14.Krug"
+      ],
+      [
+        "Smoking Score Category WES",
+        "Smoking Score WES"
+      ],
+      [
+        "TP53 Pathway",
+        "TP53 Pathway Activation"
+      ],
+      [
+        "AKT1",
+        "PI3K Signaling Pathway"
+      ],
+      [
+        "Clinical Staging",
+        "Clinical Staging Distant Metastasis cM"
+      ],
+      [
+        "BRCA2",
+        "HRD_BRCA2"
+      ],
+      [
+        "ARID1A Mutation",
+        "ARID1A Mutation Status"
+      ],
+      [
+        "ESTIMATE ImmuneScore",
+        "ESTIMATE StromalScore"
+      ],
+      [
+        "Pathway Activity VEGF",
+        "VEGF Pathway"
+      ],
+      [
+        "Gender",
+        "Participant"
+      ],
+      [
+        "CIBERSORT",
+        "CIBERSORT_Dendritic_cells_activated"
+      ],
+      [
+        "PI3K",
+        "PI3K_STK11"
+      ],
+      [
+        "EPIC_CD4_Tcells",
+        "EPIC_CD8_Tcells"
+      ],
+      [
+        "Assay Type",
+        "Functional Assay"
+      ],
+      [
+        "Assay Organism",
+        "Homo sapiens"
+      ],
+      [
+        "Basal Inclusive",
+        "NMF Subtype Core"
+      ],
+      [
+        "Country Of Origin",
+        "Tumor Sample"
+      ],
+      [
+        "HPV Inference",
+        "P16"
+      ]
+    ],
+    "count": 422,
+    "create_time": 1773645696,
+    "update_time": 1773645696,
+    "_id": "doc-dd03a1834f780ed3ce2eb08efcbfa179"
+  },
+  "doc-cddc43753e8def390c595bbd282dafbd": {
+    "relation_pairs": [
+      [
+        "Patient Case",
+        "Race"
+      ],
+      [
+        "MSH6 Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "TMT Phosphoproteome (Normal)",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Mucinous",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Gender",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Table Source17.Vasaikar",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Demographics",
+        "Patient Case"
+      ],
+      [
+        "Samples",
+        "Tumor Reoccur After Treatment"
+      ],
+      [
+        "Expert Review Outcome",
+        "Patient Case"
+      ],
+      [
+        "Expert Path Review",
+        "Expert Path Review Num Segments"
+      ],
+      [
+        "Cause of Death",
+        "Patient Case"
+      ],
+      [
+        "Vasaikar.csv Table",
+        "mRNA-seq"
+      ],
+      [
+        "Cause Of Death",
+        "GBM"
+      ],
+      [
+        "Cause Of Death",
+        "Samples"
+      ],
+      [
+        "TMT Phosphoproteome",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Lost To Follow-Up",
+        "Patient Case"
+      ],
+      [
+        "Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Vasaikar.csv Table",
+        "Vital Status"
+      ],
+      [
+        "Exclusion Reason",
+        "Samples"
+      ],
+      [
+        "PMS2 Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "BMI",
+        "Patient Case"
+      ],
+      [
+        "Excluded In Downstream Analysis",
+        "Samples"
+      ],
+      [
+        "Patient Case",
+        "Secondhand Smoke Exposure"
+      ],
+      [
+        "Patient Case",
+        "Weight"
+      ],
+      [
+        "Subsite",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "KRAS Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Synchronous Tumors",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "TMT Proteome (Normal)",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Path Diag To Death Days",
+        "Samples"
+      ],
+      [
+        "Patient Case",
+        "Wang.csv"
+      ],
+      [
+        "GBM",
+        "Medical Details"
+      ],
+      [
+        "Hypermutation Status",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Stage",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Expert Path Review Num Segments",
+        "Samples"
+      ],
+      [
+        "Patient Case",
+        "Smoking History"
+      ],
+      [
+        "CEA",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "MSH2 Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Path Diag To Tumor Reoccur Days",
+        "Tumor Reoccur After Treatment"
+      ],
+      [
+        "Lost To Follow Up",
+        "Samples"
+      ],
+      [
+        "POLE Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Case ID",
+        "Patient Case"
+      ],
+      [
+        "Polyps Present",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Path Diag To Tumor Reoccur Days",
+        "Samples"
+      ],
+      [
+        "Age",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Mutation Rate",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Expert Path Review Details",
+        "Samples"
+      ],
+      [
+        "Health Behaviors",
+        "Patient Case"
+      ],
+      [
+        "Polyps History",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Patient Case",
+        "Vital Status"
+      ],
+      [
+        "Country Of Origin",
+        "Patient Case"
+      ],
+      [
+        "Height",
+        "Patient Case"
+      ],
+      [
+        "Medical Details",
+        "Tumor Laterality"
+      ],
+      [
+        "Medical Details",
+        "Tumor Site Curated"
+      ],
+      [
+        "PT",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Medical Details",
+        "Patient Case"
+      ],
+      [
+        "Excluded In Downstream Analysis",
+        "Exclusion Reason"
+      ],
+      [
+        "Follow-Up Period",
+        "Patient Case"
+      ],
+      [
+        "Label-Free Proteome",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Perineural Invasion",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "SampleID",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Vasaikar.csv Table",
+        "miRNA-seq"
+      ],
+      [
+        "Vasaikar.csv Table",
+        "Vascular Invasion"
+      ],
+      [
+        "Medical Details",
+        "Tumor Site Curation Notes"
+      ],
+      [
+        "PN",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Ethnicity Self-Identify",
+        "Patient Case"
+      ],
+      [
+        "Lymphatic Invasion",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "CNV",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "TMT Proteome",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Clinical",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Path Diagnosis to Last Contact Days",
+        "Patient Case"
+      ],
+      [
+        "Tumor Status",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Expert Path Review",
+        "Samples"
+      ],
+      [
+        "Expert Path Review",
+        "Expert Path Review Details"
+      ],
+      [
+        "Path Diagnosis to Death Days",
+        "Patient Case"
+      ],
+      [
+        "BRAF Mutation",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "Colorectal Cancer",
+        "Vasaikar.csv Table"
+      ],
+      [
+        "NRAS Mutation",
+        "Vasaikar.csv Table"
+      ]
+    ],
+    "count": 77,
+    "create_time": 1773645824,
+    "update_time": 1773645824,
+    "_id": "doc-cddc43753e8def390c595bbd282dafbd"
+  },
+  "doc-2609d28a699c4fb0f3d8f329ec8865c4": {
+    "relation_pairs": [
+      [
+        "Musician",
+        "Official Website"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Religion"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Number Of Children"
+      ],
+      [
+        "Activity Start",
+        "Musician"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Genius Artist Name"
+      ],
+      [
+        "Musical Kind",
+        "Musician"
+      ],
+      [
+        "Musician Profile",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Family Name"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Musician Profile"
+      ],
+      [
+        "Musical Kind",
+        "Performer_Registry.csv"
+      ],
+      [
+        "City",
+        "Musician"
+      ],
+      [
+        "Musician",
+        "Record Label"
+      ],
+      [
+        "Musician Name",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Official Website"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Ethnicity"
+      ],
+      [
+        "Mother Name",
+        "Musician"
+      ],
+      [
+        "Mother Name",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Ethnicity",
+        "Musician"
+      ],
+      [
+        "Musician",
+        "Twitter Username"
+      ],
+      [
+        "Genius Artist Name",
+        "Musician"
+      ],
+      [
+        "Musician",
+        "Wikidata Identifier"
+      ],
+      [
+        "Activity Start",
+        "Artist_Encyclopedia.csv"
+      ],
+      [
+        "Gender",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Performer_Registry.csv",
+        "Wikidata Identifier"
+      ],
+      [
+        "Number Of Children",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Birth City",
+        "Performer_Registry.csv"
+      ],
+      [
+        "IPI Number",
+        "Musician Name"
+      ],
+      [
+        "Musician",
+        "Spouse Name"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Residence"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Record Label"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Birth Date"
+      ],
+      [
+        "Family Name",
+        "Musician"
+      ],
+      [
+        "Performer_Registry.csv",
+        "Spouse Name"
+      ],
+      [
+        "Family Name",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Birth Date",
+        "Musician"
+      ],
+      [
+        "Musician",
+        "Number Of Children"
+      ],
+      [
+        "Birth Date",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Performer_Registry.csv",
+        "Webpage"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Twitter Username"
+      ],
+      [
+        "Musician",
+        "Religion"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Wikidata Identifier"
+      ],
+      [
+        "Father Name",
+        "Musician"
+      ],
+      [
+        "Given Name",
+        "Musician"
+      ],
+      [
+        "Father Name",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Given Name",
+        "Performer_Registry.csv"
+      ],
+      [
+        "Artist_Encyclopedia.csv",
+        "Given Name"
+      ]
+    ],
+    "count": 46,
+    "create_time": 1773645909,
+    "update_time": 1773645909,
+    "_id": "doc-2609d28a699c4fb0f3d8f329ec8865c4"
+  },
+  "doc-adf926b68ab4ff38a1373e9613a1d9c6": {
+    "relation_pairs": [
+      [
+        "Marketing_Leads",
+        "prospect_nmbrcrdtcrds"
+      ],
+      [
+        "Number Of Cars",
+        "Prospect"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_frstnm"
+      ],
+      [
+        "Consumer_Profiles",
+        "NumberCars"
+      ],
+      [
+        "Consumer_Profiles",
+        "LastName"
+      ],
+      [
+        "Consumer_Profiles",
+        "Phone"
+      ],
+      [
+        "Consumer_Profiles",
+        "Country"
+      ],
+      [
+        "Prospect",
+        "State"
+      ],
+      [
+        "Age",
+        "Consumer_Profiles"
+      ],
+      [
+        "AgencyID",
+        "Consumer_Profiles"
+      ],
+      [
+        "Country",
+        "Prospect"
+      ],
+      [
+        "AddressLine2",
+        "Consumer_Profiles"
+      ],
+      [
+        "Ownership Or Rental Status",
+        "Prospect"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_ntwrth"
+      ],
+      [
+        "Consumer_Profiles",
+        "PostalCode"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_mrtlstts"
+      ],
+      [
+        "Credit Rating",
+        "Prospect"
+      ],
+      [
+        "Consumer_Profiles",
+        "source5.Consumer_Profiles"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_mplr"
+      ],
+      [
+        "Marketing_Leads",
+        "source6.Marketing_Leads"
+      ],
+      [
+        "Consumer_Profiles",
+        "NumberChildren"
+      ],
+      [
+        "Postal Code",
+        "Prospect"
+      ],
+      [
+        "Consumer_Profiles",
+        "FirstName"
+      ],
+      [
+        "Consumer_Profiles",
+        "MaritalStatus"
+      ],
+      [
+        "AddressLine1",
+        "Consumer_Profiles"
+      ],
+      [
+        "City",
+        "Prospect"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_gndr"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_lstnm"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_ddrssln2"
+      ],
+      [
+        "Phone Number",
+        "Prospect"
+      ],
+      [
+        "Consumer_Profiles",
+        "NumberCreditCards"
+      ],
+      [
+        "Consumer_Profiles",
+        "Gender"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_gncd"
+      ],
+      [
+        "Marital Status",
+        "Prospect"
+      ],
+      [
+        "Consumer_Profiles",
+        "NetWorth"
+      ],
+      [
+        "Marketing_Leads",
+        "prospect_phn"
+      ],
+      [
+        "Consumer_Profiles",
+        "MiddleInitial"
+      ],
+      [
+        "Gender",
+        "Prospect"
+      ],
+      [
+        "Consumer_Profiles",
+        "Employer"
+      ],
+      [
+        "Age",
+        "Prospect"
+      ],
+      [
+        "City",
+        "Consumer_Profiles"
+      ],
+      [
+        "Number Of Children",
+        "Prospect"
+      ]
+    ],
+    "count": 42,
+    "create_time": 1773645989,
+    "update_time": 1773645989,
+    "_id": "doc-adf926b68ab4ff38a1373e9613a1d9c6"
+  }
+}

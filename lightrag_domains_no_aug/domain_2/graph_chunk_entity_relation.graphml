@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="source5">
+      <data key="d0">source5</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source5</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles">
+      <data key="d0">source5.Consumer_Profiles</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The Consumer_Profiles.csv table contains personal and financial details of consumers, including unique AgencyID, names, net worth, employer, number of credit cards, marital status, gender, phone number, number of children, age, address, country, number of cars, middle initial, and postal code. Numeric fields are stored as strings or floats.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.AgencyID">
+      <data key="d0">source5.Consumer_Profiles.AgencyID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column AgencyID with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.FirstName">
+      <data key="d0">source5.Consumer_Profiles.FirstName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column FirstName with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NetWorth">
+      <data key="d0">source5.Consumer_Profiles.NetWorth</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column NetWorth with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Employer">
+      <data key="d0">source5.Consumer_Profiles.Employer</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column Employer with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberCreditCards">
+      <data key="d0">source5.Consumer_Profiles.NumberCreditCards</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column NumberCreditCards with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.LastName">
+      <data key="d0">source5.Consumer_Profiles.LastName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column LastName with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.AddressLine2">
+      <data key="d0">source5.Consumer_Profiles.AddressLine2</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column AddressLine2 with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.MaritalStatus">
+      <data key="d0">source5.Consumer_Profiles.MaritalStatus</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column MaritalStatus with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Gender">
+      <data key="d0">source5.Consumer_Profiles.Gender</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column Gender with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Phone">
+      <data key="d0">source5.Consumer_Profiles.Phone</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column Phone with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberChildren">
+      <data key="d0">source5.Consumer_Profiles.NumberChildren</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column NumberChildren with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Age">
+      <data key="d0">source5.Consumer_Profiles.Age</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column Age with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.City">
+      <data key="d0">source5.Consumer_Profiles.City</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column City with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.Country">
+      <data key="d0">source5.Consumer_Profiles.Country</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column Country with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.NumberCars">
+      <data key="d0">source5.Consumer_Profiles.NumberCars</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column NumberCars with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.MiddleInitial">
+      <data key="d0">source5.Consumer_Profiles.MiddleInitial</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column MiddleInitial with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.AddressLine1">
+      <data key="d0">source5.Consumer_Profiles.AddressLine1</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column AddressLine1 with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source5.Consumer_Profiles.PostalCode">
+      <data key="d0">source5.Consumer_Profiles.PostalCode</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column PostalCode with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6">
+      <data key="d0">source6</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source6</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads">
+      <data key="d0">source6.Marketing_Leads</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The Marketing_Leads.csv table contains marketing prospects with identifiers, personal details, financial metrics, and contact information. Columns include unique codes, names, network worth, employer, credit card count, address lines, marital status, gender, phone numbers, children count, age, city, country, courses, state, income, credit rating, and rental flag.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_gncd">
+      <data key="d0">source6.Marketing_Leads.prospect_gncd</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_gncd with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_frstnm">
+      <data key="d0">source6.Marketing_Leads.prospect_frstnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_frstnm with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ntwrth">
+      <data key="d0">source6.Marketing_Leads.prospect_ntwrth</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_ntwrth with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_mplr">
+      <data key="d0">source6.Marketing_Leads.prospect_mplr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_mplr with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrcrdtcrds">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrcrdtcrds</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_nmbrcrdtcrds with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_lstnm">
+      <data key="d0">source6.Marketing_Leads.prospect_lstnm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_lstnm with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ddrssln2">
+      <data key="d0">source6.Marketing_Leads.prospect_ddrssln2</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_ddrssln2 with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_mrtlstts">
+      <data key="d0">source6.Marketing_Leads.prospect_mrtlstts</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_mrtlstts with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_gndr">
+      <data key="d0">source6.Marketing_Leads.prospect_gndr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_gndr with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_phn">
+      <data key="d0">source6.Marketing_Leads.prospect_phn</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_phn with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrchldrn">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrchldrn</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_nmbrchldrn with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_g">
+      <data key="d0">source6.Marketing_Leads.prospect_g</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_g with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ct">
+      <data key="d0">source6.Marketing_Leads.prospect_ct</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_ct with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_cntr">
+      <data key="d0">source6.Marketing_Leads.prospect_cntr</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_cntr with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_nmbrcrs">
+      <data key="d0">source6.Marketing_Leads.prospect_nmbrcrs</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_nmbrcrs with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_stt">
+      <data key="d0">source6.Marketing_Leads.prospect_stt</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_stt with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_ncm">
+      <data key="d0">source6.Marketing_Leads.prospect_ncm</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_ncm with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_crdtrtng">
+      <data key="d0">source6.Marketing_Leads.prospect_crdtrtng</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_crdtrtng with type float64</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <node id="source6.Marketing_Leads.prospect_wnrrntflg">
+      <data key="d0">source6.Marketing_Leads.prospect_wnrrntflg</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Column prospect_wnrrntflg with type object</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773650773</data>
+    </node>
+    <edge source="source5" target="source5.Consumer_Profiles">
+      <data key="d6">1.0</data>
+      <data key="d7">Table Consumer_Profiles belongs to data source source5</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AgencyID">
+      <data key="d6">1.0</data>
+      <data key="d7">Column AgencyID belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.FirstName">
+      <data key="d6">1.0</data>
+      <data key="d7">Column FirstName belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NetWorth">
+      <data key="d6">1.0</data>
+      <data key="d7">Column NetWorth belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Employer">
+      <data key="d6">1.0</data>
+      <data key="d7">Column Employer belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberCreditCards">
+      <data key="d6">1.0</data>
+      <data key="d7">Column NumberCreditCards belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.LastName">
+      <data key="d6">1.0</data>
+      <data key="d7">Column LastName belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AddressLine2">
+      <data key="d6">1.0</data>
+      <data key="d7">Column AddressLine2 belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.MaritalStatus">
+      <data key="d6">1.0</data>
+      <data key="d7">Column MaritalStatus belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Gender">
+      <data key="d6">1.0</data>
+      <data key="d7">Column Gender belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Phone">
+      <data key="d6">1.0</data>
+      <data key="d7">Column Phone belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberChildren">
+      <data key="d6">1.0</data>
+      <data key="d7">Column NumberChildren belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Age">
+      <data key="d6">1.0</data>
+      <data key="d7">Column Age belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.City">
+      <data key="d6">1.0</data>
+      <data key="d7">Column City belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.Country">
+      <data key="d6">1.0</data>
+      <data key="d7">Column Country belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.NumberCars">
+      <data key="d6">1.0</data>
+      <data key="d7">Column NumberCars belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.MiddleInitial">
+      <data key="d6">1.0</data>
+      <data key="d7">Column MiddleInitial belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.AddressLine1">
+      <data key="d6">1.0</data>
+      <data key="d7">Column AddressLine1 belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source5.Consumer_Profiles" target="source5.Consumer_Profiles.PostalCode">
+      <data key="d6">1.0</data>
+      <data key="d7">Column PostalCode belongs to table Consumer_Profiles</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6" target="source6.Marketing_Leads">
+      <data key="d6">1.0</data>
+      <data key="d7">Table Marketing_Leads belongs to data source source6</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_gncd">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_gncd belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_frstnm">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_frstnm belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ntwrth">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_ntwrth belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_mplr">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_mplr belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrcrdtcrds">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_nmbrcrdtcrds belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_lstnm">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_lstnm belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ddrssln2">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_ddrssln2 belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_mrtlstts">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_mrtlstts belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_gndr">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_gndr belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_phn">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_phn belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrchldrn">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_nmbrchldrn belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_g">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_g belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ct">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_ct belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_cntr">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_cntr belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_nmbrcrs">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_nmbrcrs belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_stt">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_stt belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_ncm">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_ncm belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_crdtrtng">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_crdtrtng belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+    <edge source="source6.Marketing_Leads" target="source6.Marketing_Leads.prospect_wnrrntflg">
+      <data key="d6">1.0</data>
+      <data key="d7">Column prospect_wnrrntflg belongs to table Marketing_Leads</data>
+      <data key="d8">belongs_to</data>
+      <data key="d9">UNKNOWN</data>
+      <data key="d10">custom_kg</data>
+      <data key="d11">1773650773</data>
+    </edge>
+  </graph>
+</graphml>

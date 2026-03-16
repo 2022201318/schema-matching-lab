@@ -1,0 +1,1228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="source7">
+      <data key="d0">source7</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source7</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia">
+      <data key="d0">source7.Artist_Encyclopedia</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The Artist_Encyclopedia.csv table contains musician profiles with Wikidata identifiers, birth dates, names, number of children, websites, residences, ethnicities, religions, start of activity dates, Twitter and Genius names, and record labels.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.musician">
+      <data key="d0">source7.Artist_Encyclopedia.musician</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Wikidata entity identifier for the musician. Type: object, Samples: ['http://www.wikidata.org/entity/Q6096', 'http://www.wikidata.org/entity/Q5977', 'http://www.wikidata.org/entity/Q8349']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.birthDate">
+      <data key="d0">source7.Artist_Encyclopedia.birthDate</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Date of birth of the musician. Type: object, Samples: ['1971-10-20T00:00:00Z', '1936-09-07T00:00:00Z', '1959-10-23T00:00:00Z']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.familyNameLabel">
+      <data key="d0">source7.Artist_Encyclopedia.familyNameLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Family name of the musician. Type: object, Samples: ['Broadus', 'Holley', 'Yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.givenNameLabel">
+      <data key="d0">source7.Artist_Encyclopedia.givenNameLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Given name of the musician. Type: object, Samples: ['Cordozar', 'Hardin', 'Alfred']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.numberOfChildren">
+      <data key="d0">source7.Artist_Encyclopedia.numberOfChildren</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of children the musician has. Type: float64, Samples: [4.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.websiteLabel">
+      <data key="d0">source7.Artist_Encyclopedia.websiteLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Official website of the musician. Type: object, Samples: ['http://snoopdogg.com/', 'http://www.buddyholly.com', 'http://weirdal.com/']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.residenceLabel">
+      <data key="d0">source7.Artist_Encyclopedia.residenceLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">City where the musician resides. Type: object, Samples: ['Del Mar']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.ethnicityLabel">
+      <data key="d0">source7.Artist_Encyclopedia.ethnicityLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Ethnicity of the musician. Type: object, Samples: ['African Americans', 'African Americans']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.religionLabel">
+      <data key="d0">source7.Artist_Encyclopedia.religionLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Religion of the musician. Type: object, Samples: ['Islam', 'Baptists', 'Christianity']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.activityStart">
+      <data key="d0">source7.Artist_Encyclopedia.activityStart</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Year the musician started their career. Type: object, Samples: ['1991-01-01T00:00:00Z', '1952-01-01T00:00:00Z', '1976-01-01T00:00:00Z']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.twitterNameLabel">
+      <data key="d0">source7.Artist_Encyclopedia.twitterNameLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Twitter username of the artist. Type: object, Samples: ['snoopdogg', 'alyankovic', 'tomdelonge']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.geniusNameLabel">
+      <data key="d0">source7.Artist_Encyclopedia.geniusNameLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Artist name formatted for Genius platform. Type: object, Samples: ['Snoop-dogg', 'Buddy-holly', 'Weird-al-yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source7.Artist_Encyclopedia.recordLabelLabel">
+      <data key="d0">source7.Artist_Encyclopedia.recordLabelLabel</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Record label of the artist. Type: object, Samples: ['Death Row Records', 'Brunswick', 'Volcano Entertainment']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8">
+      <data key="d0">source8</data>
+      <data key="d1">SOURCE</data>
+      <data key="d2">Data source source8</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry">
+      <data key="d0">source8.Performer_Registry</data>
+      <data key="d1">TABLE</data>
+      <data key="d2">The Performer_Registry.csv table contains musician details including unique Wikidata IDs, names, gender, birth dates, cities, and family information. It also includes parents' names, spouse, number of children, musical kind, and personal webpages.</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.musicianID">
+      <data key="d0">source8.Performer_Registry.musicianID</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Wikidata entity identifier for the musician. Type: object, Samples: ['http://www.wikidata.org/entity/Q6096', 'http://www.wikidata.org/entity/Q5977', 'http://www.wikidata.org/entity/Q8349']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.musicianName">
+      <data key="d0">source8.Performer_Registry.musicianName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the musician, possibly including IPI numbers. Type: object, Samples: ['Bigg Snoop Dogg', '00085469927 IPI', 'Al Yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.genderType">
+      <data key="d0">source8.Performer_Registry.genderType</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Gender of the musician (m for male). Type: object, Samples: ['m', 'm', 'm']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.birthDate">
+      <data key="d0">source8.Performer_Registry.birthDate</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Date of birth of the musician. Type: object, Samples: ['1971-10-20T00:00:00Z', '1936-09-07T00:00:00Z', '1959-10-23T00:00:00Z']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.city">
+      <data key="d0">source8.Performer_Registry.city</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">City where the musician was born. Type: object, Samples: ['Long Beach', 'Lubbock', 'Downey']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.familyName">
+      <data key="d0">source8.Performer_Registry.familyName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Last name of the musician. Type: object, Samples: ['Broadus', 'Holley', 'Yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.forename">
+      <data key="d0">source8.Performer_Registry.forename</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">First name of the musician. Type: object, Samples: ['Cordozar', 'Hardin', 'Alfred']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.fatherName">
+      <data key="d0">source8.Performer_Registry.fatherName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the musician's father. Type: object, Samples: ['Nick Louis Yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.motherName">
+      <data key="d0">source8.Performer_Registry.motherName</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the musician's mother. Type: object, Samples: ['Mary Yankovic']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.spouse">
+      <data key="d0">source8.Performer_Registry.spouse</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Name of the musician's spouse. Type: object, Samples: ['Maria Elena Holly', 'Suzanne Yankovic', 'Lil Hardin Armstrong']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.NChildren">
+      <data key="d0">source8.Performer_Registry.NChildren</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Number of children the performer has. Type: float64, Samples: [4.0]</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.kind">
+      <data key="d0">source8.Performer_Registry.kind</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Type of performance or genre associated with the performer. Type: object, Samples: ['African-American music', 'rock and roll', 'humor']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="source8.Performer_Registry.webpage">
+      <data key="d0">source8.Performer_Registry.webpage</data>
+      <data key="d1">COLUMN</data>
+      <data key="d2">Official website URL of the performer. Type: object, Samples: ['http://snoopdogg.com/', 'http://www.buddyholly.com', 'http://weirdal.com/']</data>
+      <data key="d3">UNKNOWN</data>
+      <data key="d4">custom_kg</data>
+      <data key="d5">1773645843</data>
+    </node>
+    <node id="Artist_Encyclopedia.csv">
+      <data key="d0">Artist_Encyclopedia.csv</data>
+      <data key="d1">data</data>
+      <data key="d2">Artist_Encyclopedia.csv is a data table containing musician profiles with Wikidata identifiers and details such as birth dates, names, number of children, websites, residence cities, ethnicities, religions, career start dates, Twitter and Genius usernames, and record labels.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Performer_Registry.csv">
+      <data key="d0">Performer_Registry.csv</data>
+      <data key="d1">data</data>
+      <data key="d2">Performer_Registry.csv is a data table containing details about musicians, including Wikidata IDs, names, gender, birth dates, birth cities, family information, number of children, musical genre, and official webpages.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Wikidata Identifier">
+      <data key="d0">Wikidata Identifier</data>
+      <data key="d1">concept</data>
+      <data key="d2">A Wikidata Identifier is a unique URI used to identify musicians in both Artist_Encyclopedia.csv and Performer_Registry.csv tables.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Musician">
+      <data key="d0">Musician</data>
+      <data key="d1">concept</data>
+      <data key="d2">A musician is an individual whose profile is recorded in the data tables, with various attributes such as name, birth information, family, and career details.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Musician Profile">
+      <data key="d0">Musician Profile</data>
+      <data key="d1">concept</data>
+      <data key="d2">A musician profile is a set of information about an individual musician, including name, birth date, ethnicity, religion, and additional biographical data.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Birth Date">
+      <data key="d0">Birth Date</data>
+      <data key="d1">concept</data>
+      <data key="d2">Birth Date indicates the date of birth for a musician, present in both Artist_Encyclopedia.csv and Performer_Registry.csv.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Family Name">
+      <data key="d0">Family Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Family Name refers to the last name of a musician, with examples such as Broadus, Holley, and Yankovic.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Given Name">
+      <data key="d0">Given Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Given Name refers to the first name of a musician, with examples such as Cordozar, Hardin, and Alfred.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645880</data>
+      <data key="d6" />
+    </node>
+    <node id="Number Of Children">
+      <data key="d0">Number Of Children</data>
+      <data key="d1">concept</data>
+      <data key="d2">Number Of Children indicates how many children a musician has, stored as a numerical value.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Official Website">
+      <data key="d0">Official Website</data>
+      <data key="d1">concept</data>
+      <data key="d2">Official Website stores the URL of a musician’s main web page.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Residence">
+      <data key="d0">Residence</data>
+      <data key="d1">location</data>
+      <data key="d2">Residence refers to the city where the musician currently lives.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Ethnicity">
+      <data key="d0">Ethnicity</data>
+      <data key="d1">concept</data>
+      <data key="d2">Ethnicity refers to the identified group or ancestry of the musician, such as African Americans.</data>
+      <data key="d3">chunk-000ceb112aba7a3e5075c9d239bba247&lt;SEP&gt;chunk-c070819714b424f312df82bc574903ef&lt;SEP&gt;chunk-d0da407a3f98015113502473422d73ab&lt;SEP&gt;chunk-9f1001b101778726622dc1dc09f8e9a0&lt;SEP&gt;chunk-cc55bd693439ef128fff799b563cbb84&lt;SEP&gt;chunk-9986977e6e722690562d58f7ff1e7688&lt;SEP&gt;chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Religion">
+      <data key="d0">Religion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Religion records the faith or spiritual belief associated with the musician.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Activity Start">
+      <data key="d0">Activity Start</data>
+      <data key="d1">concept</data>
+      <data key="d2">Activity Start records the year a musician began their career.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Twitter Username">
+      <data key="d0">Twitter Username</data>
+      <data key="d1">concept</data>
+      <data key="d2">Twitter Username contains the musician’s Twitter handle.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Genius Artist Name">
+      <data key="d0">Genius Artist Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Genius Artist Name is the musician’s formatted name for the Genius music platform.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645881</data>
+      <data key="d6" />
+    </node>
+    <node id="Record Label">
+      <data key="d0">Record Label</data>
+      <data key="d1">organization</data>
+      <data key="d2">Record Label is the music company associated with the artist.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Musician Name">
+      <data key="d0">Musician Name</data>
+      <data key="d1">concept</data>
+      <data key="d2">Musician Name refers to the full name, sometimes including IPI number, of the musician.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Gender">
+      <data key="d0">Gender</data>
+      <data key="d1">concept</data>
+      <data key="d2">Gender specifies a musician’s gender.</data>
+      <data key="d3">chunk-bbe66e89b3f065bc7b6433bb8037a740&lt;SEP&gt;chunk-d93ff191c30355303559507bb7484eca&lt;SEP&gt;chunk-000ceb112aba7a3e5075c9d239bba247&lt;SEP&gt;chunk-c070819714b424f312df82bc574903ef&lt;SEP&gt;chunk-d0da407a3f98015113502473422d73ab&lt;SEP&gt;chunk-9f1001b101778726622dc1dc09f8e9a0&lt;SEP&gt;chunk-cc55bd693439ef128fff799b563cbb84&lt;SEP&gt;chunk-9986977e6e722690562d58f7ff1e7688&lt;SEP&gt;chunk-6bd4059606ed360a1522c0c55e971f0a&lt;SEP&gt;chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Birth City">
+      <data key="d0">Birth City</data>
+      <data key="d1">location</data>
+      <data key="d2">Birth City is the city where the musician was born.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Father Name">
+      <data key="d0">Father Name</data>
+      <data key="d1">person</data>
+      <data key="d2">Father Name is the name of the musician’s father.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Mother Name">
+      <data key="d0">Mother Name</data>
+      <data key="d1">person</data>
+      <data key="d2">Mother Name is the name of the musician’s mother.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Spouse Name">
+      <data key="d0">Spouse Name</data>
+      <data key="d1">person</data>
+      <data key="d2">Spouse Name is the name of the musician’s spouse.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Musical Kind">
+      <data key="d0">Musical Kind</data>
+      <data key="d1">concept</data>
+      <data key="d2">Musical Kind refers to the performance style or genre of the musician, such as African-American music, rock and roll, or humor.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645882</data>
+      <data key="d6" />
+    </node>
+    <node id="Webpage">
+      <data key="d0">Webpage</data>
+      <data key="d1">concept</data>
+      <data key="d2">Webpage refers to the musician’s personal official website URL.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645883</data>
+      <data key="d6" />
+    </node>
+    <node id="City">
+      <data key="d0">City</data>
+      <data key="d1">location</data>
+      <data key="d2">City is used as a term for the place where a musician is born or resides, as recorded in the data tables.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645883</data>
+      <data key="d6" />
+    </node>
+    <node id="IPI Number">
+      <data key="d0">IPI Number</data>
+      <data key="d1">concept</data>
+      <data key="d2">IPI Number refers to the identification number included with some musician names in the Performer_Registry.csv data table.</data>
+      <data key="d3">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1773645883</data>
+      <data key="d6" />
+    </node>
+    <edge source="source7" target="source7.Artist_Encyclopedia">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Artist_Encyclopedia belongs to data source source7</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.musician">
+      <data key="d7">1.0</data>
+      <data key="d8">Column musician belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.birthDate">
+      <data key="d7">1.0</data>
+      <data key="d8">Column birthDate belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.familyNameLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column familyNameLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.givenNameLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column givenNameLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.numberOfChildren">
+      <data key="d7">1.0</data>
+      <data key="d8">Column numberOfChildren belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.websiteLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column websiteLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.residenceLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column residenceLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.ethnicityLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column ethnicityLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.religionLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column religionLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.activityStart">
+      <data key="d7">1.0</data>
+      <data key="d8">Column activityStart belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.twitterNameLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column twitterNameLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.geniusNameLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column geniusNameLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia" target="source7.Artist_Encyclopedia.recordLabelLabel">
+      <data key="d7">1.0</data>
+      <data key="d8">Column recordLabelLabel belongs to table Artist_Encyclopedia</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.musician" target="source8.Performer_Registry.musicianID">
+      <data key="d7">0.9733635187149048</data>
+      <data key="d8">source7.Artist_Encyclopedia.musician and source8.Performer_Registry.musicianID are semantically similar columns (embedding similarity: 0.973). Both appear to represent similar concepts: Wikidata entity identifier for the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.birthDate" target="source8.Performer_Registry.birthDate">
+      <data key="d7">1.000000238418579</data>
+      <data key="d8">source7.Artist_Encyclopedia.birthDate and source8.Performer_Registry.birthDate are semantically similar columns (embedding similarity: 1.000). Both appear to represent similar concepts: Date of birth of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.familyNameLabel" target="source8.Performer_Registry.familyName">
+      <data key="d7">0.9454773664474487</data>
+      <data key="d8">source7.Artist_Encyclopedia.familyNameLabel and source8.Performer_Registry.familyName are semantically similar columns (embedding similarity: 0.945). Both appear to represent similar concepts: Family name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.familyNameLabel" target="source8.Performer_Registry.forename">
+      <data key="d7">0.7954233884811401</data>
+      <data key="d8">source7.Artist_Encyclopedia.familyNameLabel and source8.Performer_Registry.forename are semantically similar columns (embedding similarity: 0.795). Both appear to represent similar concepts: Family name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.familyNameLabel" target="source8.Performer_Registry.fatherName">
+      <data key="d7">0.8789141178131104</data>
+      <data key="d8">source7.Artist_Encyclopedia.familyNameLabel and source8.Performer_Registry.fatherName are semantically similar columns (embedding similarity: 0.879). Both appear to represent similar concepts: Family name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.familyNameLabel" target="source8.Performer_Registry.motherName">
+      <data key="d7">0.8249201774597168</data>
+      <data key="d8">source7.Artist_Encyclopedia.familyNameLabel and source8.Performer_Registry.motherName are semantically similar columns (embedding similarity: 0.825). Both appear to represent similar concepts: Family name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.familyNameLabel" target="source8.Performer_Registry.spouse">
+      <data key="d7">0.7663367986679077</data>
+      <data key="d8">source7.Artist_Encyclopedia.familyNameLabel and source8.Performer_Registry.spouse are semantically similar columns (embedding similarity: 0.766). Both appear to represent similar concepts: Family name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.givenNameLabel" target="source8.Performer_Registry.forename">
+      <data key="d7">0.8110350370407104</data>
+      <data key="d8">source7.Artist_Encyclopedia.givenNameLabel and source8.Performer_Registry.forename are semantically similar columns (embedding similarity: 0.811). Both appear to represent similar concepts: Given name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.givenNameLabel" target="source8.Performer_Registry.fatherName">
+      <data key="d7">0.758206844329834</data>
+      <data key="d8">source7.Artist_Encyclopedia.givenNameLabel and source8.Performer_Registry.fatherName are semantically similar columns (embedding similarity: 0.758). Both appear to represent similar concepts: Given name of the musician.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.residenceLabel" target="source8.Performer_Registry.city">
+      <data key="d7">0.7755829095840454</data>
+      <data key="d8">source7.Artist_Encyclopedia.residenceLabel and source8.Performer_Registry.city are semantically similar columns (embedding similarity: 0.776). Both appear to represent similar concepts: City where the musician resides.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source7.Artist_Encyclopedia.activityStart" target="source8.Performer_Registry.birthDate">
+      <data key="d7">0.7664644718170166</data>
+      <data key="d8">source7.Artist_Encyclopedia.activityStart and source8.Performer_Registry.birthDate are semantically similar columns (embedding similarity: 0.766). Both appear to represent similar concepts: Year the musician started their career.</data>
+      <data key="d9">similar_to, semantic_match</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645917</data>
+    </edge>
+    <edge source="source8" target="source8.Performer_Registry">
+      <data key="d7">1.0</data>
+      <data key="d8">Table Performer_Registry belongs to data source source8</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.musicianID">
+      <data key="d7">1.0</data>
+      <data key="d8">Column musicianID belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.musicianName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column musicianName belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.genderType">
+      <data key="d7">1.0</data>
+      <data key="d8">Column genderType belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.birthDate">
+      <data key="d7">1.0</data>
+      <data key="d8">Column birthDate belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.city">
+      <data key="d7">1.0</data>
+      <data key="d8">Column city belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.familyName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column familyName belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.forename">
+      <data key="d7">1.0</data>
+      <data key="d8">Column forename belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.fatherName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column fatherName belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.motherName">
+      <data key="d7">1.0</data>
+      <data key="d8">Column motherName belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.spouse">
+      <data key="d7">1.0</data>
+      <data key="d8">Column spouse belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.NChildren">
+      <data key="d7">1.0</data>
+      <data key="d8">Column NChildren belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.kind">
+      <data key="d7">1.0</data>
+      <data key="d8">Column kind belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="source8.Performer_Registry" target="source8.Performer_Registry.webpage">
+      <data key="d7">1.0</data>
+      <data key="d8">Column webpage belongs to table Performer_Registry</data>
+      <data key="d9">belongs_to</data>
+      <data key="d10">UNKNOWN</data>
+      <data key="d11">custom_kg</data>
+      <data key="d12">1773645843</data>
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Musician Profile">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv consists of musician profiles, each containing detailed attributes about musicians.</data>
+      <data key="d9">content structure,data organization</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645884</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Wikidata Identifier">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv uses Wikidata Identifiers to uniquely identify musicians.</data>
+      <data key="d9">data linkage,unique identifier</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645885</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Birth Date">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv contains musicians’ birth dates as a core data attribute.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645886</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Family Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv stores musicians’ family names.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645887</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Given Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv includes given names (first names) for each musician.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645888</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Number Of Children">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv reports the number of children each musician has.</data>
+      <data key="d9">biographical data,family details</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645889</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Official Website">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv contains the official website URLs for musicians.</data>
+      <data key="d9">external link,personal webpage</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Residence">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv identifies the residence city for each musician.</data>
+      <data key="d9">biography,location</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645891</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Ethnicity">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv specifies each musician's ethnicity.</data>
+      <data key="d9">cultural group,personal background</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Religion">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv includes data on the religion of each musician.</data>
+      <data key="d9">personal background,spiritual belief</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Activity Start">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv indicates the year that each musician began their professional activity.</data>
+      <data key="d9">career,chronology</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Twitter Username">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv lists the Twitter usernames for musicians.</data>
+      <data key="d9">profile data,social media</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Genius Artist Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv records the formatted Genius artist names for each musician.</data>
+      <data key="d9">music platform,profile data</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Artist_Encyclopedia.csv" target="Record Label">
+      <data key="d7">1.0</data>
+      <data key="d8">Artist_Encyclopedia.csv provides the name of the record label associated with each musician.</data>
+      <data key="d9">affiliation,music industry</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Wikidata Identifier">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv uses Wikidata Identifiers to uniquely identify musicians.</data>
+      <data key="d9">data linkage,unique identifier</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645884</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Birth Date">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv provides the birth dates for musicians.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645885</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Family Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records family names for each musician.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645886</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Musician Profile">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv contains musician profiles with family and career information.</data>
+      <data key="d9">content structure,data organization</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645887</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Given Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records forenames (given names) for each musician.</data>
+      <data key="d9">data attribute,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645888</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Number Of Children">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records the number of children for each musician as NChildren.</data>
+      <data key="d9">biographical data,family details</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645888</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Webpage">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv lists the musician’s personal official webpages.</data>
+      <data key="d9">external link,personal webpage</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645889</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Birth City">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records the birth city for each musician.</data>
+      <data key="d9">biography,location</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645890</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Musician Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records musician names, which may include IPI numbers.</data>
+      <data key="d9">personal identification,profile data</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645891</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Gender">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv provides information on the gender of each musician.</data>
+      <data key="d9">demographics,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645892</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Father Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv lists the names of musicians’ fathers.</data>
+      <data key="d9">biographical data,family</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645893</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Mother Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv lists the names of musicians’ mothers.</data>
+      <data key="d9">biographical data,family</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Spouse Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv records the names of musicians’ spouses.</data>
+      <data key="d9">biographical data,family</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Performer_Registry.csv" target="Musical Kind">
+      <data key="d7">1.0</data>
+      <data key="d8">Performer_Registry.csv includes the musical kind or genre associated with the musician.</data>
+      <data key="d9">genre,performance style</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Wikidata Identifier" target="Musician">
+      <data key="d7">1.0</data>
+      <data key="d8">Each musician is uniquely identified by a Wikidata identifier in both data tables.</data>
+      <data key="d9">identification,unique linkage</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645909</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Record Label">
+      <data key="d7">1.0</data>
+      <data key="d8">Musicians are affiliated with record labels, as documented in the Artist_Encyclopedia.csv.</data>
+      <data key="d9">artist affiliation,music industry</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645894</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Religion">
+      <data key="d7">1.0</data>
+      <data key="d8">A musician's religion is included as part of their profile information in Artist_Encyclopedia.csv.</data>
+      <data key="d9">biographical data,personal beliefs</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645895</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Ethnicity">
+      <data key="d7">1.0</data>
+      <data key="d8">Ethnicity information is associated with each musician in the Artist_Encyclopedia.csv.</data>
+      <data key="d9">biographical data,cultural background</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645896</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Twitter Username">
+      <data key="d7">1.0</data>
+      <data key="d8">Each musician has an associated Twitter username recorded in Artist_Encyclopedia.csv.</data>
+      <data key="d9">digital presence,social media</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645897</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Official Website">
+      <data key="d7">1.0</data>
+      <data key="d8">A musician's official website is recorded as part of their profile in both data tables.</data>
+      <data key="d9">digital presence,personal website</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645898</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="City">
+      <data key="d7">1.0</data>
+      <data key="d8">City is recorded as the place of birth or residence for musicians in both data tables.</data>
+      <data key="d9">biographical information,location</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645899</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Spouse Name">
+      <data key="d7">1.0</data>
+      <data key="d8">The name of a musician’s spouse is included in their profile in the Performer_Registry.csv.</data>
+      <data key="d9">family,personal relationship</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645900</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Father Name">
+      <data key="d7">1.0</data>
+      <data key="d8">The Performer_Registry.csv records the name of a musician’s father in their profile.</data>
+      <data key="d9">family relationship,parent</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645901</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Mother Name">
+      <data key="d7">1.0</data>
+      <data key="d8">The Performer_Registry.csv records the name of a musician’s mother in their profile.</data>
+      <data key="d9">family relationship,parent</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645902</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Musical Kind">
+      <data key="d7">1.0</data>
+      <data key="d8">Musical kind or genre is associated with each musician in the Performer_Registry.csv.</data>
+      <data key="d9">artistic style,music genre</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645903</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Activity Start">
+      <data key="d7">1.0</data>
+      <data key="d8">Activity start indicates when each musician began their professional activity as documented in Artist_Encyclopedia.csv.</data>
+      <data key="d9">career,chronology</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Number Of Children">
+      <data key="d7">1.0</data>
+      <data key="d8">The number of children for each musician is recorded in both tables.</data>
+      <data key="d9">family,offspring</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Genius Artist Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Each musician has a corresponding Genius artist name in Artist_Encyclopedia.csv.</data>
+      <data key="d9">identification,music platform</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645905</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Birth Date">
+      <data key="d7">1.0</data>
+      <data key="d8">Musicians' birth dates are specified in both data tables as a key part of their profile.</data>
+      <data key="d9">date of birth,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645906</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Family Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Each musician has a listed family name in both data tables.</data>
+      <data key="d9">personal information,surname</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645907</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician" target="Given Name">
+      <data key="d7">1.0</data>
+      <data key="d8">Each musician has a listed given name or forename in both data tables.</data>
+      <data key="d9">first name,personal information</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645908</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Musician Name" target="IPI Number">
+      <data key="d7">1.0</data>
+      <data key="d8">Some musician names in Performer_Registry.csv include an IPI identification number as part of their entry.</data>
+      <data key="d9">identifier,professional registration</data>
+      <data key="d10">chunk-2609d28a699c4fb0f3d8f329ec8865c4</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1773645904</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

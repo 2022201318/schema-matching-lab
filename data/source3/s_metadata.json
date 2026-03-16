@@ -1,6 +1,6 @@
 {
   "datasource_id": "source3",
   "scope": "International Development Project Repository",
-  "description": "A public dataset tracking international aid projects, funding allocations, and thematic markers related to socio-economic development goals.",
+  "description": "A comprehensive tracking system for international aid and development projects. It captures the full lifecycle of socio-economic initiatives, focusing on fiscal year budgets, sectoral allocations (Sector name), and specific thematic markers such as climate change, biodiversity, and gender equality.",
   "status": "Public Reference Data"
 }

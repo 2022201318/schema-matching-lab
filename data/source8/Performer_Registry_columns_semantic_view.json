@@ -1,1 +1,15 @@
-{}
+{
+    "musicianID": "Wikidata entity identifier for the musician.",
+    "musicianName": "Name of the musician, possibly including IPI numbers.",
+    "genderType": "Gender of the musician (m for male).",
+    "birthDate": "Date of birth of the musician.",
+    "city": "City where the musician was born.",
+    "familyName": "Last name of the musician.",
+    "forename": "First name of the musician.",
+    "fatherName": "Name of the musician's father.",
+    "motherName": "Name of the musician's mother.",
+    "spouse": "Name of the musician's spouse.",
+    "NChildren": "Number of children the performer has.",
+    "kind": "Type of performance or genre associated with the performer.",
+    "webpage": "Official website URL of the performer."
+}

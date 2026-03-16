@@ -1,1 +1,21 @@
-{}
+{
+    "prospect_gncd": "Unique identifier for each prospect.",
+    "prospect_frstnm": "Uncertain; likely first name but samples appear encrypted or obfuscated.",
+    "prospect_ntwrth": "Net worth of the prospect in dollars.",
+    "prospect_mplr": "Multiplexer or possibly a company associated with the prospect.",
+    "prospect_nmbrcrdtcrds": "Number of credit cards held by the prospect.",
+    "prospect_lstnm": "Uncertain; likely last name but samples appear encrypted or obfuscated.",
+    "prospect_ddrssln2": "Uncertain; possibly a second address line but samples appear encrypted or obfuscated.",
+    "prospect_mrtlstts": "Marital status of the prospect (U=Unknown, S=Single, M=Married).",
+    "prospect_gndr": "Gender of the prospect (M=Male, F=Female).",
+    "prospect_phn": "Phone number of the prospect.",
+    "prospect_nmbrchldrn": "Number of children the prospect has.",
+    "prospect_g": "Age of the prospect.",
+    "prospect_ct": "City where the prospect resides.",
+    "prospect_cntr": "Country of residence for the prospect.",
+    "prospect_nmbrcrs": "Number of cars owned by the prospect.",
+    "prospect_stt": "State where the prospect resides.",
+    "prospect_ncm": "Postal or zip code of the prospect's residence.",
+    "prospect_crdtrtng": "Credit rating score of the prospect.",
+    "prospect_wnrrntflg": "Ownership or rental status flag of the prospect."
+}

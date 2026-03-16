@@ -1,1 +1,15 @@
-{}
+{
+    "musician": "Wikidata entity identifier for the musician.",
+    "birthDate": "Date of birth of the musician.",
+    "familyNameLabel": "Family name of the musician.",
+    "givenNameLabel": "Given name of the musician.",
+    "numberOfChildren": "Number of children the musician has.",
+    "websiteLabel": "Official website of the musician.",
+    "residenceLabel": "City where the musician resides.",
+    "ethnicityLabel": "Ethnicity of the musician.",
+    "religionLabel": "Religion of the musician.",
+    "activityStart": "Year the musician started their career.",
+    "twitterNameLabel": "Twitter username of the artist.",
+    "geniusNameLabel": "Artist name formatted for Genius platform.",
+    "recordLabelLabel": "Record label of the artist."
+}
